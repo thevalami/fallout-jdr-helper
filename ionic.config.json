@@ -1,0 +1,7 @@
+{
+  "name": "FalloutJDRTools",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
