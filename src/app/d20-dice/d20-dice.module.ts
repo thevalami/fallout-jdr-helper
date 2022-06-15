@@ -2,18 +2,18 @@ import {IonicModule} from '@ionic/angular';
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {FormsModule} from '@angular/forms';
+import {D20DicePage} from './d20-dice-page.component';
 
-import {TabsPageRoutingModule} from './tabs-routing.module';
-
-import {TabsPage} from './tabs.page';
+import {D20DicePageRoutingModule} from './d20-dice-routing.module';
 
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
-    TabsPageRoutingModule
+    D20DicePageRoutingModule
   ],
-  declarations: [TabsPage]
+  declarations: [D20DicePage]
 })
-export class TabsPageModule {}
+export class D20DicePageModule {
+}
