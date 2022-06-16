@@ -4,7 +4,7 @@ import {FormsModule} from '@angular/forms';
 import {IonicModule} from '@ionic/angular';
 import {RouterModule} from '@angular/router';
 
-import {ItemDetailsExpandablePage} from './item-details-expandable.page';
+import {DicesPages} from './dices.pages';
 import {CombatDiceComponent} from "./combat-dice/combat-dice.component";
 import {D20DiceComponent} from "./d20-dice/d20-dice.component";
 import {DiceDetailsPipe} from "../../pipes/dice-details.pipe";
@@ -17,13 +17,13 @@ import {DiceDetailsPipe} from "../../pipes/dice-details.pipe";
     RouterModule.forChild([
       {
         path: '',
-        component: ItemDetailsExpandablePage
+        component: DicesPages
       }
     ])
   ],
-  declarations: [ItemDetailsExpandablePage, CombatDiceComponent, D20DiceComponent, DiceDetailsPipe],
-  exports: [ItemDetailsExpandablePage],
+  declarations: [DicesPages, CombatDiceComponent, D20DiceComponent, DiceDetailsPipe],
+  exports: [DicesPages],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class ItemDetailsExpandablePageModule {
+export class DicesPageModule {
 }

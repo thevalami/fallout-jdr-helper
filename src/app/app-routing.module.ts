@@ -9,11 +9,11 @@ const routes: Routes = [
   },
   {
     path: 'home',
-    loadChildren: () => import('./folder/folder.module').then(m => m.FolderPageModule)
+    loadChildren: () => import('./folder/folder.module').then(m => m.HomePageModule)
   },
   {
-    path: 'expandable',
-    loadChildren: () => import('./pages/item-details-expandable/item-details-expandable.module').then(m => m.ItemDetailsExpandablePageModule)
+    path: 'dices',
+    loadChildren: () => import('./pages/dices/dices.module').then(m => m.DicesPageModule)
   }
 ];
 

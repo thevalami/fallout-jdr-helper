@@ -1,12 +1,11 @@
 import {Component} from '@angular/core';
 import {NavController} from '@ionic/angular';
-import {Dice, ExpressionNode} from "dice-typescript";
 
 @Component({
-  templateUrl: 'item-details-expandable.page.html',
-  styleUrls: ['item-details-expandable.page.scss'],
+  templateUrl: 'dices.page.html',
+  styleUrls: ['dices.page.scss'],
 })
-export class ItemDetailsExpandablePage {
+export class DicesPages {
 
   sections = [
     {

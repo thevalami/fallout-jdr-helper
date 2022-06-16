@@ -17,5 +17,5 @@ import {HomePage} from './home-page.component';
   ],
   declarations: [HomePage]
 })
-export class FolderPageModule {
+export class HomePageModule {
 }

@@ -2,19 +2,17 @@
   <ion-card-content>
     <ion-item>
       <ion-label>Nombre de dès</ion-label>
-      <ion-input type="number" name="combatDiceCount" [(ngModel)]="combatDiceCount">
+      <ion-input type="number" name="combatDiceCount" [(ngModel)]="d20DiceCount">
       </ion-input>
     </ion-item>
 
-    <ion-button color="primary" expand="block" (click)="rollCombat()">Lancer</ion-button>
+    <ion-button color="primary" expand="block" (click)="rollD20()">Lancer</ion-button>
 
-    <ion-list *ngIf="combatDiceChildren.length > 0">
-      <ion-thumbnail class="dices" *ngFor="let child of combatDiceChildren; let i = index"
-                     [attr.data-index]="i">
-        <img [src]="'/assets/fallout-dice/side' + child.getAttribute('value') + '.png'"
-             [alt]="child.getAttribute('value')"/>
-
-      </ion-thumbnail>
-    </ion-list>
+    <ion-item *ngIf="d20DiceResult != null">
+      <h1>{{this.d20DiceResult.total}}</h1>
+    </ion-item>
+    <ion-item *ngIf="d20DiceChildren.length > 0">
+      ( <p class="dices">{{d20DiceChildren | diceDetails}}</p> )
+    </ion-item>
   </ion-card-content>
 </ion-card>

@@ -1,26 +1,29 @@
-import { Component, OnInit } from '@angular/core';
-import {Dice, ExpressionNode} from "dice-typescript";
+import {Component, OnInit} from '@angular/core';
+import {Dice, DiceResult, ExpressionNode} from "dice-typescript";
 
 @Component({
-  selector: 'app-combat-dice',
-  templateUrl: './combat-dice.component.html',
-  styleUrls: ['./combat-dice.component.scss'],
+  selector: 'app-d20-dice',
+  templateUrl: './d20-dice.component.html',
+  styleUrls: ['./d20-dice.component.scss'],
 })
-export class CombatDiceComponent implements OnInit {
+export class D20DiceComponent implements OnInit {
 
-  combatDiceCount = 1;
-  combatDiceChildren: ExpressionNode[] = [];
+  d20DiceCount = 2;
+  d20DiceResult: DiceResult | null;
+  d20DiceChildren: ExpressionNode[] = [];
 
-  constructor() { }
+  constructor() {
+  }
 
-  ngOnInit() {}
+  ngOnInit() {
+  }
 
-  public rollCombat(): void {
+  public rollD20(): void {
     const dice = new Dice();
-    const combatDiceResults = dice.roll(String(this.combatDiceCount) + 'd6');
-    this.combatDiceChildren = [];
-    combatDiceResults.reducedExpression.forEachChild(child => {
-      this.combatDiceChildren.push(child);
+    this.d20DiceResult = dice.roll(String(this.d20DiceCount) + 'd20');
+    this.d20DiceChildren = [];
+    this.d20DiceResult.reducedExpression.forEachChild(child => {
+      this.d20DiceChildren.push(child);
     });
   }
 

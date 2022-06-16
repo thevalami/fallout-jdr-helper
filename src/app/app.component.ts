@@ -16,15 +16,11 @@ export class AppComponent implements OnInit {
       url: '/folder/Inbox',
       icon: 'home'
     },
+
     {
-      title: 'Parallax',
-      url: '/parallax',
-      icon: 'play-circle-outline'
-    },
-    {
-      title: 'Expandable',
-      url: '/expandable',
-      icon: 'play-circle-outline'
+      title: 'Dès',
+      url: '/dices',
+      icon: 'dice'
     }
   ];
 
