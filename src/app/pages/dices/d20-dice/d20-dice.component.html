@@ -1,0 +1,18 @@
+<ion-card>
+  <ion-card-content>
+    <ion-item>
+      <ion-label>Nombre de dès</ion-label>
+      <ion-input type="number" name="combatDiceCount" [(ngModel)]="d20DiceCount">
+      </ion-input>
+    </ion-item>
+
+    <ion-button color="primary" expand="block" (click)="rollD20()">Lancer</ion-button>
+
+    <ion-item *ngIf="d20DiceResult != null">
+      <h1>{{this.d20DiceResult.total}}</h1>
+    </ion-item>
+    <ion-item *ngIf="d20DiceChildren.length > 0">
+      ( <p class="dices">{{d20DiceChildren | diceDetails}}</p> )
+    </ion-item>
+  </ion-card-content>
+</ion-card>

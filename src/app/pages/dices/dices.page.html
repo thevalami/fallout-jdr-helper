@@ -1,0 +1,42 @@
+<ion-app>
+
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/"></ion-back-button>
+      </ion-buttons>
+      <ion-title class="ion-text-capitalize">Lancer de dès</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-grid class="ion-no-padding">
+      <ion-row>
+        <ion-col size="12" class="ion-no-padding">
+          <ion-list class="ion-padding-horizontal">
+            <ul class="collapsible ion-no-padding">
+              <li class="ion-margin-top border border-radius" *ngFor="let section of sections">
+                <div class="collapsible-header" (click)="toggleGroup(section)">
+                  <ion-item lines="none" class="default-item">
+                    <ion-label>
+                      <h2 class="text-color-primary text-size-md ion-text-wrap">{{section.label}}</h2>
+                    </ion-label>
+                    <ion-icon *ngIf="!section.opened" class="icon-color-accent"
+                              name="chevron-forward-circle"></ion-icon>
+                    <ion-icon *ngIf="section.opened" class="icon-color-primary" name="chevron-down-circle"></ion-icon>
+                  </ion-item>
+                </div>
+                <div class="item-accordion" [ngClass]="{'active': section.opened }" [hidden]="!section.opened">
+                  <ng-container [ngSwitch]="section.type">
+                    <app-combat-dice *ngSwitchCase="'COMBATDICE'"></app-combat-dice>
+                    <app-d20-dice *ngSwitchCase="'D20DICE'"></app-d20-dice>
+                  </ng-container>
+                </div>
+              </li>
+            </ul>
+          </ion-list>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+</ion-app>
