@@ -8,6 +8,7 @@ import {DicesPages} from './dices.pages';
 import {CombatDiceComponent} from "./combat-dice/combat-dice.component";
 import {D20DiceComponent} from "./d20-dice/d20-dice.component";
 import {DiceDetailsPipe} from "../../pipes/dice-details.pipe";
+import {TargetDiceComponent} from "./target-dice/target-dice.component";
 
 @NgModule({
   imports: [
@@ -21,7 +22,7 @@ import {DiceDetailsPipe} from "../../pipes/dice-details.pipe";
       }
     ])
   ],
-  declarations: [DicesPages, CombatDiceComponent, D20DiceComponent, DiceDetailsPipe],
+  declarations: [DicesPages, CombatDiceComponent, D20DiceComponent, DiceDetailsPipe, TargetDiceComponent],
   exports: [DicesPages],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })

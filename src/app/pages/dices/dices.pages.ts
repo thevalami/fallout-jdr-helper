@@ -17,6 +17,11 @@ export class DicesPages {
       'label': "D20",
       'opened': false,
       type: 'D20DICE'
+    },
+    {
+      'label': "Localisation dégâts",
+      'opened': false,
+      type: 'TARGETDICE'
     }
   ];
 

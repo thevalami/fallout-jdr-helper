@@ -8,11 +8,13 @@
 
     <ion-button color="primary" expand="block" (click)="rollD20()">Lancer</ion-button>
 
-    <ion-item *ngIf="d20DiceResult != null">
-      <h1>{{this.d20DiceResult.total}}</h1>
-    </ion-item>
-    <ion-item *ngIf="d20DiceChildren.length > 0">
-      ( <p class="dices">{{d20DiceChildren | diceDetails}}</p> )
-    </ion-item>
+    <ion-list *ngIf="d20DiceResult != null">
+      <ion-list-header>
+        <small>Total : {{d20DiceResult.total}}</small>
+      </ion-list-header>
+      <ion-item *ngFor="let child of d20DiceChildren">
+        {{child.getAttribute('value')}}
+      </ion-item>
+    </ion-list>
   </ion-card-content>
 </ion-card>

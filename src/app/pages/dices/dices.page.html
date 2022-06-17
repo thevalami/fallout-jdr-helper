@@ -19,7 +19,7 @@
                 <div class="collapsible-header" (click)="toggleGroup(section)">
                   <ion-item lines="none" class="default-item">
                     <ion-label>
-                      <h2 class="text-color-primary text-size-md ion-text-wrap">{{section.label}}</h2>
+                      <h1 class="text-color-primary text-size-lg ion-text-wrap">{{section.label}}</h1>
                     </ion-label>
                     <ion-icon *ngIf="!section.opened" class="icon-color-accent"
                               name="chevron-forward-circle"></ion-icon>
@@ -30,6 +30,7 @@
                   <ng-container [ngSwitch]="section.type">
                     <app-combat-dice *ngSwitchCase="'COMBATDICE'"></app-combat-dice>
                     <app-d20-dice *ngSwitchCase="'D20DICE'"></app-d20-dice>
+                    <app-target-dice *ngSwitchCase="'TARGETDICE'"></app-target-dice>
                   </ng-container>
                 </div>
               </li>
