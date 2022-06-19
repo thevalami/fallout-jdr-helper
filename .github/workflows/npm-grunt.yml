@@ -35,28 +35,14 @@ jobs:
      # with:
      #   name: www
      #   path: www
-        
-    - name: Init SSH 
-      run:  |
-        mkdir /home/runner/.ssh/
-        
-    - name: Init known hosts
-      run:
-        ssh-keyscan -H kyne.ovh > /home/runner/.ssh/known_hosts
-        
-    - name: Create SSH key
-      run:
-        touch /home/runner/.ssh/private_key.pem
-        
-    - name: Write SSH key
-      run:
-        'echo "$SSH_KEY" > /home/runner/.ssh/private_key.pem'
-      env:
-          SSH_KEY: ${{secrets.SSH_PRIVATE_KEY}}
-        
-    - name: Chown SSH key
-      run:
-        chmod 400 /home/runner/.ssh/private_key.pem   
           
-    - name: Deploy to production 
-      run: rsync -Pav -e "ssh -i /home/runner/.ssh/private_key.pem" kyne@kyne.ovh:/www/ /home/kyne/fallout-www/
+    - name: SFTP Deploy
+      uses: wlixcc/SFTP-Deploy-Action@v1.2.2
+      with:
+        username: kyne
+        server: kyne.ovh
+        ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+        # will put all file under this path
+        local_path: ./www
+        # files will copy to under remote_path
+        remote_path: /home/kyne/fallout-www
