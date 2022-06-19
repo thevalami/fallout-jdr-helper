@@ -30,11 +30,11 @@ jobs:
         npm install
         ionic build
         
-    - name: Archive production artifacts
-      uses: actions/upload-artifact@v3
-      with:
-        name: www
-        path: www
+     #- name: Archive production artifacts
+     # uses: actions/upload-artifact@v3
+     # with:
+     #   name: www
+     #   path: www
         
     - name: Deploy to production 
       uses: wlixcc/SFTP-Deploy-Action@v1.0
@@ -45,3 +45,16 @@ jobs:
           local_path: './www/*'
           remote_path: '/home/kyne/fallout-www'
           args: '-o ConnectTimeout=5'
+          
+    - name: Init SSH
+      run:  |
+        mkdir /home/runner/.ssh/
+        ssh-keyscan -H kyne.ovh > /home/runner/.ssh/known_hosts
+        touch /home/runner/.ssh/private_key.pem
+        'echo "$SSH_KEY" > /home/runner/.ssh/private_key.pem'
+        chmod 400 /home/runner/.ssh/private_key.pem
+        env:
+          SSH_KEY: ${{secrets.SSH_PRIVATE_KEY}}
+          
+    - name: Deploy to production 
+      run: rsync -Pav -e "ssh -i /home/runner/.ssh/private_key.pem" kyne@kyne.ovh:/www/ /fallout-www/
