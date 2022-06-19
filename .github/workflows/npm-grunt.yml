@@ -35,3 +35,13 @@ jobs:
       with:
         name: www
         path: www
+        
+    - name: Deploy to production 
+      uses: wlixcc/SFTP-Deploy-Action@v1.0
+      with:
+          username: 'kyne'
+          server: 'kyne.ovh'
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} 
+          local_path: './www/*'
+          remote_path: '/home/kyne/fallout-www'
+          args: '-o ConnectTimeout=5'
