@@ -152,7 +152,7 @@
     \************************************************************/
   /***/ ((module) => {
 
-    module.exports = "<ion-header [translucent]=\"true\">\r\n  <ion-toolbar>\r\n    <ion-buttons slot=\"start\">\r\n      <ion-menu-button></ion-menu-button>\r\n    </ion-buttons>\r\n    <ion-title>Fallout JDR</ion-title>\r\n  </ion-toolbar>\r\n</ion-header>\r\n\r\n<ion-content [fullscreen]=\"true\">\r\n  <div id=\"container\">\r\n    <strong class=\"capitalize ion-padding\">Bienvenue sur l'utilitaire Fallout JDR</strong>\r\n    <p class=\"ion-padding\">\r\n      Utilisez le menu de gauche pour accéder aux fonctionnalités\r\n      <img src=\"/assets/imgs/fallout-the-series_k1pz.jpg\" alt=\"fallout-logo\"/>\r\n    </p>\r\n  </div>\r\n</ion-content>\r\n";
+    module.exports = "<ion-header [translucent]=\"true\">\r\n  <ion-toolbar>\r\n    <ion-buttons slot=\"start\">\r\n      <ion-menu-button></ion-menu-button>\r\n    </ion-buttons>\r\n    <ion-title>Fallout JDR</ion-title>\r\n  </ion-toolbar>\r\n</ion-header>\r\n\r\n<ion-content [fullscreen]=\"true\">\r\n  <div id=\"container\">\r\n    <strong class=\"capitalize ion-padding\">Bienvenue sur l'utilitaire Fallout JDR</strong>\r\n    <p class=\"ion-padding\">\r\n      Utilisez le menu de gauche pour accéder aux fonctionnalités\r\n      <img src=\"/assets/imgs/fallout-the-series_k1pz.png\" alt=\"fallout-logo\"/>\r\n    </p>\r\n  </div>\r\n</ion-content>\r\n";
 
     /***/
   })

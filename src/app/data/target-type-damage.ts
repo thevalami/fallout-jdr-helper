@@ -1,6 +1,6 @@
 export type EnemyType = 'HUMAN' | 'QUADRUPEDE' | 'FLYINGINSECT' | 'ROBOT';
 
-export const TARGET_TYPE_TADA = {
+export const TARGET_TYPE_DATA = {
   'HUMAN': {
     '1-2': 'Tête',
     '3-8': 'Torse',

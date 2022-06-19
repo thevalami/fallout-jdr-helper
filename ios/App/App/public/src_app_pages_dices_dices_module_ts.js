@@ -1,5 +1,56 @@
 (self["webpackChunkapp"] = self["webpackChunkapp"] || []).push([["src_app_pages_dices_dices_module_ts"], {
 
+  /***/ 5769:
+  /*!********************************************!*\
+  !*** ./src/app/data/target-type-damage.ts ***!
+  \********************************************/
+  /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+    "use strict";
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export */
+    __webpack_require__.d(__webpack_exports__, {
+      /* harmony export */   "TARGET_TYPE_DATA": () => (/* binding */ TARGET_TYPE_DATA)
+      /* harmony export */
+    });
+    const TARGET_TYPE_DATA = {
+      'HUMAN': {
+        '1-2': 'Tête',
+        '3-8': 'Torse',
+        '9-11': 'Bras gauche',
+        '12-14': 'Bras droit',
+        '15-17': 'Jambe gauche',
+        '18-20': 'Jambe droite'
+      },
+      'QUADRUPEDE': {
+        '1-2': 'Tête',
+        '3-8': 'Torse',
+        '9-11': 'Patte avant gauche',
+        '12-14': 'Patte avant droit',
+        '15-17': 'Patte arrière gauche',
+        '18-20': 'Patte arrière droite'
+      },
+      'FLYINGINSECT': {
+        "1-2": 'Tête',
+        "3-8": 'Torse',
+        '9-11': 'Aîle gauche',
+        '12-14': 'Aîle droite',
+        '15-20': 'Pattes',
+      },
+      'ROBOT': {
+        "1-2": 'Optique',
+        "3-8": 'Corps',
+        '9-11': 'Bras 1',
+        '12-14': 'Bras 2',
+        '15-17': 'Bras 3',
+        '18-20': 'Bras 4',
+      }
+    };
+
+
+    /***/
+  }),
+
   /***/ 7206:
   /*!******************************************************************!*\
   !*** ./src/app/pages/dices/combat-dice/combat-dice.component.ts ***!
@@ -130,17 +181,17 @@
       /* harmony export */
     });
     /* harmony import */
-    var tslib__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! tslib */ 4929);
+    var tslib__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! tslib */ 4929);
     /* harmony import */
-    var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 2560);
+    var _angular_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core */ 2560);
     /* harmony import */
-    var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common */ 4666);
+    var _angular_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/common */ 4666);
     /* harmony import */
-    var _angular_forms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/forms */ 2508);
+    var _angular_forms__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/forms */ 2508);
     /* harmony import */
-    var _ionic_angular__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @ionic/angular */ 3819);
+    var _ionic_angular__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @ionic/angular */ 3819);
     /* harmony import */
-    var _angular_router__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/router */ 124);
+    var _angular_router__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/router */ 124);
     /* harmony import */
     var _dices_pages__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./dices.pages */ 9878);
     /* harmony import */
@@ -149,26 +200,28 @@
     var _d20_dice_d20_dice_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./d20-dice/d20-dice.component */ 3464);
     /* harmony import */
     var _pipes_dice_details_pipe__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../pipes/dice-details.pipe */ 4887);
+    /* harmony import */
+    var _target_dice_target_dice_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./target-dice/target-dice.component */ 2511);
 
 
     let DicesPageModule = class DicesPageModule {
     };
-    DicesPageModule = (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__decorate)([
-      (0, _angular_core__WEBPACK_IMPORTED_MODULE_5__.NgModule)({
+    DicesPageModule = (0, tslib__WEBPACK_IMPORTED_MODULE_5__.__decorate)([
+      (0, _angular_core__WEBPACK_IMPORTED_MODULE_6__.NgModule)({
         imports: [
-          _angular_common__WEBPACK_IMPORTED_MODULE_6__.CommonModule,
-          _angular_forms__WEBPACK_IMPORTED_MODULE_7__.FormsModule,
-          _ionic_angular__WEBPACK_IMPORTED_MODULE_8__.IonicModule,
-          _angular_router__WEBPACK_IMPORTED_MODULE_9__.RouterModule.forChild([
+          _angular_common__WEBPACK_IMPORTED_MODULE_7__.CommonModule,
+          _angular_forms__WEBPACK_IMPORTED_MODULE_8__.FormsModule,
+          _ionic_angular__WEBPACK_IMPORTED_MODULE_9__.IonicModule,
+          _angular_router__WEBPACK_IMPORTED_MODULE_10__.RouterModule.forChild([
             {
               path: '',
               component: _dices_pages__WEBPACK_IMPORTED_MODULE_0__.DicesPages
             }
           ])
         ],
-        declarations: [_dices_pages__WEBPACK_IMPORTED_MODULE_0__.DicesPages, _combat_dice_combat_dice_component__WEBPACK_IMPORTED_MODULE_1__.CombatDiceComponent, _d20_dice_d20_dice_component__WEBPACK_IMPORTED_MODULE_2__.D20DiceComponent, _pipes_dice_details_pipe__WEBPACK_IMPORTED_MODULE_3__.DiceDetailsPipe],
+        declarations: [_dices_pages__WEBPACK_IMPORTED_MODULE_0__.DicesPages, _combat_dice_combat_dice_component__WEBPACK_IMPORTED_MODULE_1__.CombatDiceComponent, _d20_dice_d20_dice_component__WEBPACK_IMPORTED_MODULE_2__.D20DiceComponent, _pipes_dice_details_pipe__WEBPACK_IMPORTED_MODULE_3__.DiceDetailsPipe, _target_dice_target_dice_component__WEBPACK_IMPORTED_MODULE_4__.TargetDiceComponent],
         exports: [_dices_pages__WEBPACK_IMPORTED_MODULE_0__.DicesPages],
-        schemas: [_angular_core__WEBPACK_IMPORTED_MODULE_5__.CUSTOM_ELEMENTS_SCHEMA],
+        schemas: [_angular_core__WEBPACK_IMPORTED_MODULE_6__.CUSTOM_ELEMENTS_SCHEMA],
       })
     ], DicesPageModule);
 
@@ -214,6 +267,11 @@
             'label': "D20",
             'opened': false,
             type: 'D20DICE'
+          },
+          {
+            'label': "Localisation dégâts",
+            'opened': false,
+            type: 'TARGETDICE'
           }
         ];
       }
@@ -231,6 +289,76 @@
         styles: [_dices_page_scss_ngResource__WEBPACK_IMPORTED_MODULE_1__]
       })
     ], DicesPages);
+
+
+    /***/
+  }),
+
+  /***/ 2511:
+  /*!******************************************************************!*\
+  !*** ./src/app/pages/dices/target-dice/target-dice.component.ts ***!
+  \******************************************************************/
+  /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+    "use strict";
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export */
+    __webpack_require__.d(__webpack_exports__, {
+      /* harmony export */   "TargetDiceComponent": () => (/* binding */ TargetDiceComponent)
+      /* harmony export */
+    });
+    /* harmony import */
+    var tslib__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! tslib */ 4929);
+    /* harmony import */
+    var _target_dice_component_html_ngResource__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./target-dice.component.html?ngResource */ 7468);
+    /* harmony import */
+    var _target_dice_component_scss_ngResource__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./target-dice.component.scss?ngResource */ 7760);
+    /* harmony import */
+    var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 2560);
+    /* harmony import */
+    var dice_typescript__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dice-typescript */ 4238);
+    /* harmony import */
+    var dice_typescript__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(dice_typescript__WEBPACK_IMPORTED_MODULE_2__);
+    /* harmony import */
+    var _data_target_type_damage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../data/target-type-damage */ 5769);
+
+
+    let TargetDiceComponent = class TargetDiceComponent {
+      constructor() {
+        this.ennemyType = "HUMAN";
+        this.target = '';
+      }
+
+      ngOnInit() {
+      }
+
+      rollTarget() {
+        const dice = new dice_typescript__WEBPACK_IMPORTED_MODULE_2__.Dice();
+        this.targetDiceResult = dice.roll('1d20');
+        const targetDataType = _data_target_type_damage__WEBPACK_IMPORTED_MODULE_3__.TARGET_TYPE_DATA[this.ennemyType];
+        for (let key of Object.keys(targetDataType)) {
+          const min = Number(key.split('-')[0]);
+          const max = Number(key.split('-')[1]);
+          if (this.targetDiceResult.total >= min && this.targetDiceResult.total <= max) {
+            this.target = targetDataType[key];
+            break;
+          }
+        }
+      }
+
+      segmentChanged($event) {
+        this.ennemyType = $event.detail.value;
+        this.targetDiceResult = null;
+      }
+    };
+    TargetDiceComponent.ctorParameters = () => [];
+    TargetDiceComponent = (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__decorate)([
+      (0, _angular_core__WEBPACK_IMPORTED_MODULE_5__.Component)({
+        selector: 'app-target-dice',
+        template: _target_dice_component_html_ngResource__WEBPACK_IMPORTED_MODULE_0__,
+        styles: [_target_dice_component_scss_ngResource__WEBPACK_IMPORTED_MODULE_1__]
+      })
+    ], TargetDiceComponent);
 
 
     /***/
@@ -4073,6 +4201,18 @@
     /***/
   }),
 
+  /***/ 7760:
+  /*!*******************************************************************************!*\
+  !*** ./src/app/pages/dices/target-dice/target-dice.component.scss?ngResource ***!
+  \*******************************************************************************/
+  /***/ ((module) => {
+
+    "use strict";
+    module.exports = "ion-thumbnail.dices {\n  display: inline-block;\n  margin-right: 15px;\n  margin-top: 10px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRhcmdldC1kaWNlLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNBO0VBQ0UscUJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0FBQUYiLCJmaWxlIjoidGFyZ2V0LWRpY2UuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuaW9uLXRodW1ibmFpbC5kaWNlcyB7XHJcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gIG1hcmdpbi1yaWdodDogMTVweDtcclxuICBtYXJnaW4tdG9wOiAxMHB4O1xyXG59XHJcbiJdfQ== */";
+
+    /***/
+  }),
+
   /***/ 2977:
   /*!*******************************************************************************!*\
   !*** ./src/app/pages/dices/combat-dice/combat-dice.component.html?ngResource ***!
@@ -4080,7 +4220,7 @@
   /***/ ((module) => {
 
     "use strict";
-    module.exports = "<ion-card>\n  <ion-card-content>\n    <ion-item>\n      <ion-label>Nombre de dès</ion-label>\n      <ion-input type=\"number\" name=\"combatDiceCount\" [(ngModel)]=\"combatDiceCount\">\n      </ion-input>\n    </ion-item>\n\n    <ion-button color=\"primary\" expand=\"block\" (click)=\"rollCombat()\">Lancer</ion-button>\n\n    <ion-list *ngIf=\"combatDiceChildren.length > 0\">\n      <ion-thumbnail class=\"dices\" *ngFor=\"let child of combatDiceChildren; let i = index\"\n                     [attr.data-index]=\"i\">\n        <img [src]=\"'/assets/fallout-dice/side' + child.getAttribute('value') + '.png'\"\n             [alt]=\"child.getAttribute('value')\"/>\n\n      </ion-thumbnail>\n    </ion-list>\n  </ion-card-content>\n</ion-card>\n";
+    module.exports = "<ion-card>\r\n  <ion-card-content>\r\n    <ion-item>\r\n      <ion-label>Nombre de dès</ion-label>\r\n      <ion-input type=\"number\" name=\"combatDiceCount\" [(ngModel)]=\"combatDiceCount\">\r\n      </ion-input>\r\n    </ion-item>\r\n\r\n    <ion-button color=\"primary\" expand=\"block\" (click)=\"rollCombat()\">Lancer</ion-button>\r\n\r\n    <ion-list *ngIf=\"combatDiceChildren.length > 0\">\r\n      <ion-thumbnail class=\"dices\" *ngFor=\"let child of combatDiceChildren; let i = index\"\r\n                     [attr.data-index]=\"i\">\r\n        <img [src]=\"'/assets/fallout-dice/side' + child.getAttribute('value') + '.png'\"\r\n             [alt]=\"child.getAttribute('value')\"/>\r\n\r\n      </ion-thumbnail>\r\n    </ion-list>\r\n  </ion-card-content>\r\n</ion-card>\r\n";
 
     /***/
   }),
@@ -4092,7 +4232,7 @@
   /***/ ((module) => {
 
     "use strict";
-    module.exports = "<ion-card>\n  <ion-card-content>\n    <ion-item>\n      <ion-label>Nombre de dès</ion-label>\n      <ion-input type=\"number\" name=\"combatDiceCount\" [(ngModel)]=\"d20DiceCount\">\n      </ion-input>\n    </ion-item>\n\n    <ion-button color=\"primary\" expand=\"block\" (click)=\"rollD20()\">Lancer</ion-button>\n\n    <ion-item *ngIf=\"d20DiceResult != null\">\n      <h1>{{this.d20DiceResult.total}}</h1>\n    </ion-item>\n    <ion-item *ngIf=\"d20DiceChildren.length > 0\">\n     ( <p class=\"dices\">{{d20DiceChildren | diceDetails}}</p> )\n    </ion-item>\n  </ion-card-content>\n</ion-card>\n";
+    module.exports = "<ion-card>\r\n  <ion-card-content>\r\n    <ion-item>\r\n      <ion-label>Nombre de dès</ion-label>\r\n      <ion-input type=\"number\" name=\"combatDiceCount\" [(ngModel)]=\"d20DiceCount\">\r\n      </ion-input>\r\n    </ion-item>\r\n\r\n    <ion-button color=\"primary\" expand=\"block\" (click)=\"rollD20()\">Lancer</ion-button>\r\n\r\n    <ion-list *ngIf=\"d20DiceResult != null\">\r\n      <ion-list-header>\r\n        <small>Total : {{d20DiceResult.total}}</small>\r\n      </ion-list-header>\r\n      <ion-item *ngFor=\"let child of d20DiceChildren\">\r\n        {{child.getAttribute('value')}}\r\n      </ion-item>\r\n    </ion-list>\r\n  </ion-card-content>\r\n</ion-card>\r\n";
 
     /***/
   }),
@@ -4104,7 +4244,19 @@
   /***/ ((module) => {
 
     "use strict";
-    module.exports = "<ion-app>\r\n\r\n  <ion-header>\r\n    <ion-toolbar>\r\n      <ion-buttons slot=\"start\">\r\n        <ion-back-button defaultHref=\"/\"></ion-back-button>\r\n      </ion-buttons>\r\n      <ion-title class=\"ion-text-capitalize\">Lancer de dès</ion-title>\r\n    </ion-toolbar>\r\n  </ion-header>\r\n\r\n  <ion-content>\r\n    <ion-grid class=\"ion-no-padding\">\r\n      <ion-row>\r\n        <ion-col size=\"12\" class=\"ion-no-padding\">\r\n          <ion-list class=\"ion-padding-horizontal\">\r\n            <ul class=\"collapsible ion-no-padding\">\r\n              <li class=\"ion-margin-top border border-radius\" *ngFor=\"let section of sections\">\r\n                <div class=\"collapsible-header\" (click)=\"toggleGroup(section)\">\r\n                  <ion-item lines=\"none\" class=\"default-item\">\r\n                    <ion-label>\r\n                      <h2 class=\"text-color-primary text-size-md ion-text-wrap\">{{section.label}}</h2>\r\n                    </ion-label>\r\n                    <ion-icon *ngIf=\"!section.opened\" class=\"icon-color-accent\"\r\n                              name=\"chevron-forward-circle\"></ion-icon>\r\n                    <ion-icon *ngIf=\"section.opened\" class=\"icon-color-primary\" name=\"chevron-down-circle\"></ion-icon>\r\n                  </ion-item>\r\n                </div>\r\n                <div class=\"item-accordion\" [ngClass]=\"{'active': section.opened }\" [hidden]=\"!section.opened\">\r\n                  <ng-container [ngSwitch]=\"section.type\">\r\n                    <app-combat-dice *ngSwitchCase=\"'COMBATDICE'\"></app-combat-dice>\r\n                    <app-d20-dice *ngSwitchCase=\"'D20DICE'\"></app-d20-dice>\r\n                  </ng-container>\r\n                </div>\r\n              </li>\r\n            </ul>\r\n          </ion-list>\r\n        </ion-col>\r\n      </ion-row>\r\n    </ion-grid>\r\n  </ion-content>\r\n</ion-app>\r\n";
+    module.exports = "<ion-app>\r\n\r\n  <ion-header>\r\n    <ion-toolbar>\r\n      <ion-buttons slot=\"start\">\r\n        <ion-back-button defaultHref=\"/\"></ion-back-button>\r\n      </ion-buttons>\r\n      <ion-title class=\"ion-text-capitalize\">Lancer de dès</ion-title>\r\n    </ion-toolbar>\r\n  </ion-header>\r\n\r\n  <ion-content>\r\n    <ion-grid class=\"ion-no-padding\">\r\n      <ion-row>\r\n        <ion-col size=\"12\" class=\"ion-no-padding\">\r\n          <ion-list class=\"ion-padding-horizontal\">\r\n            <ul class=\"collapsible ion-no-padding\">\r\n              <li class=\"ion-margin-top border border-radius\" *ngFor=\"let section of sections\">\r\n                <div class=\"collapsible-header\" (click)=\"toggleGroup(section)\">\r\n                  <ion-item lines=\"none\" class=\"default-item\">\r\n                    <ion-label>\r\n                      <h1 class=\"text-color-primary text-size-lg ion-text-wrap\">{{section.label}}</h1>\r\n                    </ion-label>\r\n                    <ion-icon *ngIf=\"!section.opened\" class=\"icon-color-accent\"\r\n                              name=\"chevron-forward-circle\"></ion-icon>\r\n                    <ion-icon *ngIf=\"section.opened\" class=\"icon-color-primary\" name=\"chevron-down-circle\"></ion-icon>\r\n                  </ion-item>\r\n                </div>\r\n                <div class=\"item-accordion\" [ngClass]=\"{'active': section.opened }\" [hidden]=\"!section.opened\">\r\n                  <ng-container [ngSwitch]=\"section.type\">\r\n                    <app-combat-dice *ngSwitchCase=\"'COMBATDICE'\"></app-combat-dice>\r\n                    <app-d20-dice *ngSwitchCase=\"'D20DICE'\"></app-d20-dice>\r\n                    <app-target-dice *ngSwitchCase=\"'TARGETDICE'\"></app-target-dice>\r\n                  </ng-container>\r\n                </div>\r\n              </li>\r\n            </ul>\r\n          </ion-list>\r\n        </ion-col>\r\n      </ion-row>\r\n    </ion-grid>\r\n  </ion-content>\r\n</ion-app>\r\n";
+
+    /***/
+  }),
+
+  /***/ 7468:
+  /*!*******************************************************************************!*\
+  !*** ./src/app/pages/dices/target-dice/target-dice.component.html?ngResource ***!
+  \*******************************************************************************/
+  /***/ ((module) => {
+
+    "use strict";
+    module.exports = "<ion-card>\r\n  <ion-card-content>\r\n    <ion-segment (ionChange)=\"segmentChanged($event)\" value=\"HUMAN\">\r\n      <ion-segment-button value=\"HUMAN\">\r\n        <ion-label>Humain</ion-label>\r\n      </ion-segment-button>\r\n      <ion-segment-button value=\"QUADRUPEDE\">\r\n        <ion-label>Quadrupède</ion-label>\r\n      </ion-segment-button>\r\n      <ion-segment-button value=\"FLYINGINSECT\">\r\n        <ion-label>Insecte volant</ion-label>\r\n      </ion-segment-button>\r\n      <ion-segment-button value=\"ROBOT\">\r\n        <ion-label>Robot</ion-label>\r\n      </ion-segment-button>\r\n    </ion-segment>\r\n\r\n    <ion-button color=\"primary\" expand=\"block\" (click)=\"rollTarget()\">Lancer</ion-button>\r\n\r\n    <ion-item *ngIf=\"targetDiceResult != null\">\r\n      {{target}} &nbsp; <small>({{this.targetDiceResult.total}})</small>\r\n    </ion-item>\r\n\r\n  </ion-card-content>\r\n</ion-card>\r\n";
 
     /***/
   })

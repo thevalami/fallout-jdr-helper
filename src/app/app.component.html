@@ -16,11 +16,12 @@
         <ion-list id="inbox-list">
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
             <ion-item lines="none" class="transparent" (click)="selectedIndex = i" routerDirection="root"
-                      [routerLink]="[p.url]" detail="false" [class.selected]="selectedIndex == i">
+                      [routerLink]="p.url" detail="false" [class.selected]="selectedIndex == i">
               <ion-label>
                 <p class="text-size-md font-regular text-color-light">{{ p.title }}</p>
               </ion-label>
-              <ion-icon slot="end" class="icon-color-light" [name]="p.icon"></ion-icon>
+              <ion-icon *ngIf="p.icon" slot="end" class="icon-color-light" [name]="p.icon"></ion-icon>
+              <img [src]="'assets/icon/' + p.img" *ngIf="!p.icon" class="img-icon" slot="end"/>
             </ion-item>
           </ion-menu-toggle>
         </ion-list>

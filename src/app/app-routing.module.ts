@@ -14,7 +14,12 @@ const routes: Routes = [
   {
     path: 'dices',
     loadChildren: () => import('./pages/dices/dices.module').then(m => m.DicesPageModule)
+  },
+  {
+    path: 'generic-data/:type',
+    loadChildren: () => import('./generic-data/generic-data.module').then(m => m.GenericDataPageModule)
   }
+
 ];
 
 @NgModule({

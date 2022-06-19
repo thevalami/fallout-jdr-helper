@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {Dice, DiceResult} from "dice-typescript";
-import {EnemyType, TARGET_TYPE_TADA} from "../../../data/target-type-damage";
+import {EnemyType, TARGET_TYPE_DATA} from "../../../data/target-type-damage";
 
 @Component({
   selector: 'app-target-dice',
@@ -22,7 +22,7 @@ export class TargetDiceComponent implements OnInit {
   public rollTarget(): void {
     const dice = new Dice();
     this.targetDiceResult = dice.roll('1d20');
-    const targetDataType = TARGET_TYPE_TADA[this.ennemyType];
+    const targetDataType = TARGET_TYPE_DATA[this.ennemyType];
     for (let key of Object.keys(targetDataType)) {
       const min = Number(key.split('-')[0]);
       const max = Number(key.split('-')[1]);

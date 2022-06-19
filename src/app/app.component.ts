@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 
 import {Platform} from '@ionic/angular';
 import {SplashScreen} from '@capacitor/splash-screen';
+import {REGISTERED_DATA} from "./data/generic-data";
 
 @Component({
   selector: 'app-root',
@@ -13,20 +14,27 @@ export class AppComponent implements OnInit {
   public appPages = [
     {
       title: 'Accueil',
-      url: '/folder/Inbox',
-      icon: 'home'
+      url: ['/home'],
+      icon: 'home',
+      img: null,
     },
-
     {
       title: 'Dès',
-      url: '/dices',
-      icon: 'dice'
+      url: ['/dices'],
+      icon: 'dice',
+      img: null,
     }
   ];
 
-  constructor(
-    private platform: Platform
-  ) {
+  constructor(private platform: Platform) {
+    for (let data of REGISTERED_DATA) {
+      this.appPages.push({
+        icon: null,
+        img: data.img,
+        url: ['/generic-data', data.type],
+        title: data.label
+      })
+    }
     this.initializeApp();
   }
 
