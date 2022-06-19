@@ -59,4 +59,4 @@ jobs:
         chmod 400 /home/runner/.ssh/private_key.pem   
           
     - name: Deploy to production 
-      run: rsync -Pav -e "ssh -i /home/runner/.ssh/private_key.pem" kyne@kyne.ovh:/www/ /fallout-www/
+      run: rsync -Pav -e "ssh -i /home/runner/.ssh/private_key.pem" kyne@kyne.ovh:/www/ /home/kyne/fallout-www/
