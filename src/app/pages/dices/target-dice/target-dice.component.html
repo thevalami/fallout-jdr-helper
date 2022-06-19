@@ -1,25 +1,20 @@
-<ion-card>
-  <ion-card-content>
-    <ion-segment (ionChange)="segmentChanged($event)" value="HUMAN">
-      <ion-segment-button value="HUMAN">
-        <ion-label>Humain</ion-label>
-      </ion-segment-button>
-      <ion-segment-button value="QUADRUPEDE">
-        <ion-label>Quadrupède</ion-label>
-      </ion-segment-button>
-      <ion-segment-button value="FLYINGINSECT">
-        <ion-label>Insecte volant</ion-label>
-      </ion-segment-button>
-      <ion-segment-button value="ROBOT">
-        <ion-label>Robot</ion-label>
-      </ion-segment-button>
-    </ion-segment>
+<ion-segment (ionChange)="segmentChanged($event)" value="HUMAN">
+  <ion-segment-button value="HUMAN">
+    <ion-label>Humain</ion-label>
+  </ion-segment-button>
+  <ion-segment-button value="QUADRUPEDE">
+    <ion-label>Quadrupède</ion-label>
+  </ion-segment-button>
+  <ion-segment-button value="FLYINGINSECT">
+    <ion-label>Insecte volant</ion-label>
+  </ion-segment-button>
+  <ion-segment-button value="ROBOT">
+    <ion-label>Robot</ion-label>
+  </ion-segment-button>
+</ion-segment>
 
-    <ion-button color="primary" expand="block" (click)="rollTarget()">Lancer</ion-button>
+<ion-button color="primary" expand="block" (click)="rollTarget()">Lancer</ion-button>
 
-    <ion-item *ngIf="targetDiceResult != null">
-      {{target}} &nbsp; <small>({{this.targetDiceResult.total}})</small>
-    </ion-item>
-
-  </ion-card-content>
-</ion-card>
+<ion-item *ngIf="targetDiceResult != null">
+  {{target}} &nbsp; <small>({{this.targetDiceResult.total}})</small>
+</ion-item>

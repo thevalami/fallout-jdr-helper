@@ -1,20 +1,16 @@
-<ion-card>
-  <ion-card-content>
-    <ion-item>
-      <ion-label>Nombre de dès</ion-label>
-      <ion-input type="number" name="combatDiceCount" [(ngModel)]="d20DiceCount">
-      </ion-input>
-    </ion-item>
+<ion-item>
+  <ion-label>Nombre de dès</ion-label>
+  <ion-input type="number" name="combatDiceCount" [(ngModel)]="d20DiceCount">
+  </ion-input>
+</ion-item>
 
-    <ion-button color="primary" expand="block" (click)="rollD20()">Lancer</ion-button>
+<ion-button color="primary" expand="block" (click)="rollD20()">Lancer</ion-button>
 
-    <ion-list *ngIf="d20DiceResult != null">
-      <ion-list-header>
-        <small>Total : {{d20DiceResult.total}}</small>
-      </ion-list-header>
-      <ion-item *ngFor="let child of d20DiceChildren">
-        {{child.getAttribute('value')}}
-      </ion-item>
-    </ion-list>
-  </ion-card-content>
-</ion-card>
+<ion-list *ngIf="d20DiceResult != null">
+  <ion-list-header>
+    <small>Total : {{d20DiceResult.total}}</small>
+  </ion-list-header>
+  <ion-item *ngFor="let child of d20DiceChildren">
+    {{child.getAttribute('value')}}
+  </ion-item>
+</ion-list>

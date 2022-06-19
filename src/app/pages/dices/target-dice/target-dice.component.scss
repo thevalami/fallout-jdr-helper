@@ -1,6 +1,14 @@
-
 ion-thumbnail.dices {
   display: inline-block;
   margin-right: 15px;
   margin-top: 10px;
+}
+
+ion-segment {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ion-segment-button {
+  min-width: 33%;
 }
