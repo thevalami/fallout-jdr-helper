@@ -36,8 +36,8 @@ jobs:
      #   name: www
      #   path: www
         
-    - name: Init SSH folder
-      run:
+    - name: Init SSH 
+      run:  |
         mkdir /home/runner/.ssh/
         
     - name: Init known hosts
