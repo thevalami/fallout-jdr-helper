@@ -4,6 +4,8 @@ import {DRINK_LOOT_DATA, DRINK_LOOT_DEF} from "./drink-loot";
 import {TOOLS_LOOT_DATA, TOOLS_LOOT_DEF} from "./tools-loot";
 import {FOOD_LOOT_DATA, FOOD_LOOT_DEF} from "./food-loot";
 import {CHEMS_LOOT_DATA, CHEMS_LOOT_DEF} from "./chems-loot";
+import {LIGHTWEAPONS_LOOT_DATA, LIGHTWEAPONS_LOOT_DEF} from "./lightweapons-loot";
+import {ENERGYWEAPONS_LOOT_DATA, ENERGYWEAPONS_LOOT_DEF} from "./energyweapons-loot";
 
 export interface DataTableDefinition {
   column: string,
@@ -60,5 +62,19 @@ export const REGISTERED_DATA: DataId[] = [
     img: 'item_psycho_gr.ico',
     definition: CHEMS_LOOT_DEF,
     data: CHEMS_LOOT_DATA
+  },
+  {
+    type: 'light-weapons',
+    label: 'Armes légères',
+    img: 'item_44_rounds_gr.ico',
+    definition: LIGHTWEAPONS_LOOT_DEF,
+    data: LIGHTWEAPONS_LOOT_DATA
+  },
+  {
+    type: 'energy-weapons',
+    label: 'Armes à energie',
+    img: 'item_flamerfuel_gr.ico',
+    definition: ENERGYWEAPONS_LOOT_DEF,
+    data: ENERGYWEAPONS_LOOT_DATA
   }
 ];
