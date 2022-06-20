@@ -42,7 +42,5 @@ jobs:
         username: kyne
         server: kyne.ovh
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-        # will put all file under this path
-        local_path: ./www
-        # files will copy to under remote_path
+        local_path: ./www/
         remote_path: /home/kyne/fallout-www
