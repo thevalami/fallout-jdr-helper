@@ -3,6 +3,7 @@ import {SYRINGE_TYPE_DATA, SYRINGE_TYPE_DEF} from "./syringe-type";
 import {DRINK_LOOT_DATA, DRINK_LOOT_DEF} from "./drink-loot";
 import {TOOLS_LOOT_DATA, TOOLS_LOOT_DEF} from "./tools-loot";
 import {FOOD_LOOT_DATA, FOOD_LOOT_DEF} from "./food-loot";
+import {CHEMS_LOOT_DATA, CHEMS_LOOT_DEF} from "./chems-loot";
 
 export interface DataTableDefinition {
   column: string,
@@ -52,5 +53,12 @@ export const REGISTERED_DATA: DataId[] = [
     img: 'item_passkey_gr.ico',
     definition: TOOLS_LOOT_DEF,
     data: TOOLS_LOOT_DATA
+  },
+  {
+    type: 'chems',
+    label: 'Drogues',
+    img: 'item_psycho_gr.ico',
+    definition: CHEMS_LOOT_DEF,
+    data: CHEMS_LOOT_DATA
   }
 ];
