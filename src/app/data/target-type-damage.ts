@@ -30,6 +30,6 @@ export const TARGET_TYPE_DATA = {
     '9-11': 'Bras 1',
     '12-14': 'Bras 2',
     '15-17': 'Bras 3',
-    '18-20': 'Bras 4',
+    '18-20': 'Propulseur',
   }
 }
