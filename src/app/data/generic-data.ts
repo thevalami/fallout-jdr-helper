@@ -6,6 +6,20 @@ import {FOOD_LOOT_DATA, FOOD_LOOT_DEF} from "./food-loot";
 import {CHEMS_LOOT_DATA, CHEMS_LOOT_DEF} from "./chems-loot";
 import {LIGHTWEAPONS_LOOT_DATA, LIGHTWEAPONS_LOOT_DEF} from "./lightweapons-loot";
 import {ENERGYWEAPONS_LOOT_DATA, ENERGYWEAPONS_LOOT_DEF} from "./energyweapons-loot";
+import {MELEEWEAPONS_LOOT_DATA, MELEEWEAPONS_LOOT_DEF} from "./meleeweapons-loot";
+import {HEAVYWEAPONS_LOOT_DATA, HEAVYWEAPONS_LOOT_DEF} from "./heavyweapons-loot";
+import {EXPLOSIVES_LOOT_DATA, EXPLOSIVES_LOOT_DEF} from "./explosives-loot";
+import {PROJECTILES_LOOT_DATA, PROJECTILES_LOOT_DEF} from "./projectiles-loot";
+import {OUTFITS_LOOT_DATA, OUTFITS_LOOT_DEF} from "./outfits-loot";
+import {HATS_LOOT_DATA, HATS_LOOT_DEF} from "./hats-loot";
+import {LEATHERARMOR_LOOT_DATA, LEATHERARMOR_LOOT_DEF} from "./leatherarmor-loot";
+import {SYNTHARMOR_LOOT_DATA, SYNTHARMOR_LOOT_DEF} from "./syntharmor-loot";
+import {VAULTSEC_LOOT_DEF, VAULTSECARMOR_LOOT_DATA} from "./vaultsecurity-armor-loot";
+import {LOOTERARMOR_LOOT_DATA, LOOTERARMOR_LOOT_DEF} from "./looterarmor-loot";
+import {METALARMOR_LOOT_DATA, METALARMOR_LOOT_DEF} from "./metal-armor-loot";
+import {COMBATARMOR_LOOT_DATA, COMBATARMOR_LOOT_DEF} from "./combat-armor-loot";
+import {DOGARMOR_LOOT_DATA, DOGARMOR_LOOT_DEF} from "./dogarmor-loot";
+import {POWERARMOR_LOOT_DATA, POWERRMOR_LOOT_DEF} from "./power-armor-loot";
 
 export interface DataTableDefinition {
   column: string,
@@ -24,57 +38,155 @@ export const REGISTERED_DATA: DataId[] = [
   {
     type: 'ammunitions',
     label: 'Munitions',
-    img: 'item_22rounds_gr.ico',
+    img: 'radioactive.png',
     definition: AMMUNITION_LOOT_DEF,
     data: AMMUNITION_LOOT_DATA
   },
   {
     type: 'syringes',
     label: 'Seringues',
-    img: 'item_stimpack_gr.ico',
+    img: 'chems.png',
     definition: SYRINGE_TYPE_DEF,
     data: SYRINGE_TYPE_DATA
   },
   {
     type: 'drinks',
     label: 'Boissons',
-    img: 'item_drink_gr.ico',
+    img: 'drink.png',
     definition: DRINK_LOOT_DEF,
     data: DRINK_LOOT_DATA
   },
   {
     type: 'foods',
     label: 'Nourritures',
-    img: 'item_iguana_bits_gr.ico',
+    img: 'food.png',
     definition: FOOD_LOOT_DEF,
     data: FOOD_LOOT_DATA
   },
   {
     type: 'tools',
     label: 'Outils & divers',
-    img: 'item_passkey_gr.ico',
+    img: 'tools.png',
     definition: TOOLS_LOOT_DEF,
     data: TOOLS_LOOT_DATA
   },
   {
     type: 'chems',
     label: 'Drogues',
-    img: 'item_psycho_gr.ico',
+    img: 'chems2.png',
     definition: CHEMS_LOOT_DEF,
     data: CHEMS_LOOT_DATA
   },
   {
     type: 'light-weapons',
     label: 'Armes légères',
-    img: 'item_44_rounds_gr.ico',
+    img: 'smallgun.png',
     definition: LIGHTWEAPONS_LOOT_DEF,
     data: LIGHTWEAPONS_LOOT_DATA
   },
   {
     type: 'energy-weapons',
     label: 'Armes à energie',
-    img: 'item_flamerfuel_gr.ico',
+    img: 'energyweapon.png',
     definition: ENERGYWEAPONS_LOOT_DEF,
     data: ENERGYWEAPONS_LOOT_DATA
+  },
+  {
+    type: 'melee-weapons',
+    label: 'Armes de mêlée',
+    img: 'melee.png',
+    definition: MELEEWEAPONS_LOOT_DEF,
+    data: MELEEWEAPONS_LOOT_DATA
+  },
+  {
+    type: 'heavy-weapons',
+    label: 'Armes lourdes',
+    img: 'heavyguns.png',
+    definition: HEAVYWEAPONS_LOOT_DEF,
+    data: HEAVYWEAPONS_LOOT_DATA
+  },
+  {
+    type: 'explosives',
+    label: 'Explosifs',
+    img: 'explosives.png',
+    definition: EXPLOSIVES_LOOT_DEF,
+    data: EXPLOSIVES_LOOT_DATA
+  },
+  {
+    type: 'projectiles',
+    label: 'Projectiles',
+    img: 'projectile.png',
+    definition: PROJECTILES_LOOT_DEF,
+    data: PROJECTILES_LOOT_DATA
+  },
+  {
+    type: 'outfits',
+    label: 'Tenues et vêtements',
+    img: 'outfits.png',
+    definition: OUTFITS_LOOT_DEF,
+    data: OUTFITS_LOOT_DATA
+  },
+  {
+    type: 'hats',
+    label: 'Couvre-chefs',
+    img: 'hats.png',
+    definition: HATS_LOOT_DEF,
+    data: HATS_LOOT_DATA
+  },
+  {
+    type: 'leather-armor',
+    label: 'Armures de cuir',
+    img: 'leather.png',
+    definition: LEATHERARMOR_LOOT_DEF,
+    data: LEATHERARMOR_LOOT_DATA
+  },
+  {
+    type: 'synth-armor',
+    label: 'Armures de synthétique',
+    img: 'synth.png',
+    definition: SYNTHARMOR_LOOT_DEF,
+    data: SYNTHARMOR_LOOT_DATA
+  },
+  {
+    type: 'vaultsec-armor',
+    label: 'Armures de securité Vault-Tec',
+    img: 'security.png',
+    definition: VAULTSEC_LOOT_DEF,
+    data: VAULTSECARMOR_LOOT_DATA
+  },
+  {
+    type: 'lootersec-armor',
+    label: 'Armures de pillard',
+    img: 'raider.png',
+    definition: LOOTERARMOR_LOOT_DEF,
+    data: LOOTERARMOR_LOOT_DATA
+  },
+  {
+    type: 'metal-armor',
+    label: 'Armures de métal',
+    img: 'metal.png',
+    definition: METALARMOR_LOOT_DEF,
+    data: METALARMOR_LOOT_DATA
+  },
+  {
+    type: 'combat-armor',
+    label: 'Armures de combat',
+    img: 'combat.png',
+    definition: COMBATARMOR_LOOT_DEF,
+    data: COMBATARMOR_LOOT_DATA
+  },
+  {
+    type: 'dog-armor',
+    label: 'Armures de chien',
+    img: 'dog.png',
+    definition: DOGARMOR_LOOT_DEF,
+    data: DOGARMOR_LOOT_DATA
+  },
+  {
+    type: 'power-armor',
+    label: 'Armures assistées',
+    img: 'powerarmor.png',
+    definition: POWERRMOR_LOOT_DEF,
+    data: POWERARMOR_LOOT_DATA
   }
 ];
