@@ -17,8 +17,13 @@ const routes: Routes = [
   },
   {
     path: 'generic-data/:type',
-    loadChildren: () => import('./generic-data/generic-data.module').then(m => m.GenericDataPageModule)
+    loadChildren: () => import('./pages/generic-data/generic-data.module').then(m => m.GenericDataPageModule)
+  },
+  {
+    path: 'quick-search',
+    loadChildren: () => import('./pages/quick-search/quick-search.module').then(m => m.QuickSearchPageModule)
   }
+
 
 ];
 

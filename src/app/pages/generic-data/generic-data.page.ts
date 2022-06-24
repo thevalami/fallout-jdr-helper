@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute} from "@angular/router";
-import {DataId, DataTableDefinition, REGISTERED_DATA} from "../data/generic-data";
+import {DataId, DataTableDefinition, REGISTERED_DATA} from "../../data/generic-data";
 
 @Component({
   selector: 'app-generic-data',

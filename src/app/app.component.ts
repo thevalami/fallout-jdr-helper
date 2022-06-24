@@ -23,6 +23,12 @@ export class AppComponent implements OnInit {
       url: ['/dices'],
       icon: 'dice',
       img: null,
+    },
+    {
+      title: 'Recherche rapide',
+      url: ['/quick-search'],
+      icon: 'search',
+      img: null,
     }
   ];
 

@@ -22,3 +22,24 @@ export class GenericDataSearchPipe implements PipeTransform {
   }
 
 }
+
+@Pipe({
+  name: 'genericTitleSearch'
+})
+export class GenericTitleSearchPipe implements PipeTransform {
+
+  transform(data: any[], searchtext: string): any[] {
+    if (searchtext === '') {
+      return data;
+    } else {
+      const filteredData = [];
+      for (let candidateData of data) {
+        if (String(candidateData['Name']).toLowerCase().includes(searchtext.toLowerCase())) {
+          filteredData.push(candidateData);
+        }
+      }
+      return filteredData;
+    }
+  }
+
+}

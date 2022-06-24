@@ -20,7 +20,7 @@
           <p *ngIf="i>0"><strong>{{column.label}}</strong> :
             <ng-container *ngFor="let word of ('' + data[column.column]).split(' ')">
               <ng-container *ngIf="word === '$CD$'">
-                <img alt="CombatDice" class="text-cd" src="/assets/fallout-dice/side6.png"/>&nbsp;
+                <img alt="CombatDice" class="text-cd" src="/src/assets/fallout-dice/side6.png"/>&nbsp;
               </ng-container>
               <ng-container *ngIf="word !== '$CD$'">{{word + ' '}}</ng-container>
             </ng-container>
