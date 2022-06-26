@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute} from "@angular/router";
-import {DataId, DataTableDefinition, REGISTERED_DATA} from "../../data/generic-data";
+import {DataId, DataTableDefinition, REGISTERED_DATA_SECTIONS, Section} from "../../data/generic-data";
 
 @Component({
   selector: 'app-generic-data',
@@ -21,7 +21,7 @@ export class GenericDataPage implements OnInit {
   ngOnInit() {
     this.activatedRoute.params.subscribe(params => {
       const dataType = params['type'];
-      const dataId = GenericDataPage.findDefinitions(REGISTERED_DATA, dataType);
+      const dataId = GenericDataPage.findDefinitions(REGISTERED_DATA_SECTIONS, dataType);
       this.tableDefinitions = dataId.definition;
       this.genericData = dataId.data;
       this.title = dataId.label;
@@ -29,10 +29,12 @@ export class GenericDataPage implements OnInit {
     });
   }
 
-  private static findDefinitions(REGISTERED_DATA: DataId[], dataType: any): DataId {
-    for (let registereddatum of REGISTERED_DATA) {
-      if (registereddatum.type === dataType) {
-        return registereddatum;
+  private static findDefinitions(sections: Section[], dataType: any): DataId {
+    for (let section of sections) {
+      for (let data of section.data) {
+        if (data.type === dataType) {
+          return data;
+        }
       }
     }
   }

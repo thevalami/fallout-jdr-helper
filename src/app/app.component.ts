@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 
 import {Platform} from '@ionic/angular';
 import {SplashScreen} from '@capacitor/splash-screen';
-import {REGISTERED_DATA} from "./data/generic-data";
+import {REGISTERED_DATA_SECTIONS, Section} from "./data/generic-data";
 
 @Component({
   selector: 'app-root',
@@ -11,36 +11,39 @@ import {REGISTERED_DATA} from "./data/generic-data";
 })
 export class AppComponent implements OnInit {
   public selectedIndex = 0;
-  public appPages = [
-    {
-      title: 'Accueil',
-      url: ['/home'],
-      icon: 'home',
-      img: null,
-    },
-    {
-      title: 'Dès',
-      url: ['/dices'],
-      icon: 'dice',
-      img: null,
-    },
-    {
-      title: 'Recherche rapide',
-      url: ['/quick-search'],
-      icon: 'search',
-      img: null,
-    }
-  ];
+  public sections: Section[] = [];
 
   constructor(private platform: Platform) {
-    for (let data of REGISTERED_DATA) {
-      this.appPages.push({
-        icon: null,
-        img: data.img,
-        url: ['/generic-data', data.type],
-        title: data.label
-      })
-    }
+    this.sections.push({
+      label: "Aides de jeu",
+      data: [
+        {
+          label: 'Accueil',
+          type: 'home',
+          icon: 'home',
+          data: [],
+          definition: [],
+          generic: false
+        },
+        {
+          label: 'Dès',
+          type: 'dices',
+          icon: 'dice',
+          data: [],
+          definition: [],
+          generic: false
+        },
+        {
+          label: 'Recherche rapide',
+          type: 'quick-search',
+          icon: 'search',
+          data: [],
+          definition: [],
+          generic: false
+        }
+      ]
+    });
+    this.sections = [...this.sections, ...REGISTERED_DATA_SECTIONS];
     this.initializeApp();
   }
 
@@ -51,9 +54,6 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    const path = window.location.pathname.split('folder/')[1];
-    if (path !== undefined) {
-      this.selectedIndex = this.appPages.findIndex(page => page.title.toLowerCase() === path.toLowerCase());
-    }
+
   }
 }
