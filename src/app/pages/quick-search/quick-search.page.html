@@ -15,21 +15,8 @@
   <ion-list>
     <ng-container *ngFor="let dataId of definitions; let idx = index">
       <ion-list-header><h1>{{dataId.label}}</h1></ion-list-header>
-      <ion-item *ngFor="let data of itemTypes[idx]">
-        <ion-label text-wrap>
-          <ng-container *ngFor="let column of dataId.definition; let i = index">
-            <h1 *ngIf="i==0">{{data[column.column]}}</h1>
-            <p *ngIf="i>0"><strong>{{column.label}}</strong> :
-              <ng-container *ngFor="let word of ('' + data[column.column]).split(' ')">
-                <ng-container *ngIf="word === '$CD$'">
-                  <img alt="CombatDice" class="text-cd" src="/assets/fallout-dice/side6.png"/>&nbsp;
-                </ng-container>
-                <ng-container *ngIf="word !== '$CD$'">{{word + ' '}}</ng-container>
-              </ng-container>
-            </p>
-          </ng-container>
-        </ion-label>
-      </ion-item>
+      <app-generic-data-display [genericItems]="itemTypes[idx]"
+                                [definitions]="dataId.definition"></app-generic-data-display>
     </ng-container>
   </ion-list>
 

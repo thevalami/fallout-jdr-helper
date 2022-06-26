@@ -8,6 +8,7 @@ import {QuickSearchPageRoutingModule} from './quick-search-routing.module';
 
 import {QuickSearchPage} from './quick-search.page';
 import {GenericTitleSearchPipe} from "../../pipes/generic-data-search.pipe";
+import {GenericDataDisplayComponent} from "../generic-data-display/generic-data-display.component";
 
 @NgModule({
   imports: [
@@ -17,7 +18,10 @@ import {GenericTitleSearchPipe} from "../../pipes/generic-data-search.pipe";
     QuickSearchPageRoutingModule
   ],
   providers: [GenericTitleSearchPipe],
-  declarations: [QuickSearchPage]
+  exports: [
+    GenericDataDisplayComponent
+  ],
+  declarations: [QuickSearchPage, GenericDataDisplayComponent]
 })
 export class QuickSearchPageModule {
 }
