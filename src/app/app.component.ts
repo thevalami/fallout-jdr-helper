@@ -40,6 +40,14 @@ export class AppComponent implements OnInit {
           data: [],
           definition: [],
           generic: false
+        },
+        {
+          label: 'Livre aléatoire',
+          type: 'books',
+          icon: 'book',
+          data: [],
+          definition: [],
+          generic: false
         }
       ]
     });

@@ -22,6 +22,10 @@ const routes: Routes = [
   {
     path: 'quick-search',
     loadChildren: () => import('./pages/quick-search/quick-search.module').then(m => m.QuickSearchPageModule)
+  },
+  {
+    path: 'books',
+    loadChildren: () => import('./pages/books/books.module').then(m => m.BooksPageModule)
   }
 
 

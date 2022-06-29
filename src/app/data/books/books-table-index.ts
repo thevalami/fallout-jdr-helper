@@ -9,7 +9,20 @@ import {BOOK_MANUEL_ARMEE_USA} from "./book-manuel-armee-usa";
 import {BOOK_SCIENCE_TESLA} from "./book-science-tesla";
 import {BOOK_VIE_AMOUR} from "./book-vie-amour";
 
-export const BOOK_TABLE_INDEX = [
+export interface BookType {
+  "Dice": number,
+  "Loot": string,
+  "Description": string,
+  "Data"?: BookVolume[];
+}
+
+export interface BookVolume {
+  "Dice": string,
+  "Loot": string,
+  "Effet": string
+}
+
+export const BOOK_TABLE_INDEX: BookType[] = [
   {
     "Dice": 1,
     "Loot": "A couvert !",

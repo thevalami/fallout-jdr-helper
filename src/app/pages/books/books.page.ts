@@ -1,0 +1,49 @@
+import {Component, OnInit} from '@angular/core';
+import {Dice} from "dice-typescript";
+import {BOOK_TABLE_INDEX, BookType, BookVolume} from "../../data/books/books-table-index";
+
+@Component({
+  selector: 'app-books',
+  templateUrl: './books.page.html',
+  styleUrls: ['./books.page.scss'],
+})
+export class BooksPage implements OnInit {
+
+  constructor() {
+  }
+
+  bookType: BookType;
+  bookVolume: BookVolume;
+  bookTypeResult: number;
+  bookVolumeResult: number;
+
+  ngOnInit() {
+  }
+
+  generateRandomBook() {
+    this.bookType = null;
+    this.bookVolume = null;
+
+    const dice = new Dice();
+    this.bookTypeResult = dice.roll('1d20').total;
+    this.bookType = BOOK_TABLE_INDEX[this.bookTypeResult];
+    if (this.bookType.Data) { // Lancer de dès pour le volume exact
+      this.bookVolumeResult = dice.roll('1d20').total;
+      for (let volume of this.bookType.Data) {
+        let minDice: number;
+        let maxDice: number;
+        if (volume.Dice.includes("-")) {
+          minDice = Number(volume.Dice.split("-")[0]);
+          maxDice = Number(volume.Dice.split("-")[1]);
+        } else {
+          minDice = Number(volume.Dice);
+          maxDice = Number(volume.Dice);
+        }
+        if (this.bookVolumeResult >= minDice && this.bookVolumeResult <= maxDice) {
+          this.bookVolume = volume;
+          break;
+        }
+      }
+    }
+  }
+}
