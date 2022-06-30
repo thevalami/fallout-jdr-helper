@@ -9,7 +9,7 @@ const routes: Routes = [
   },
   {
     path: 'home',
-    loadChildren: () => import('./folder/folder.module').then(m => m.HomePageModule)
+    loadChildren: () => import('./pages/home/home.module').then(m => m.HomePageModule)
   },
   {
     path: 'dices',
@@ -26,6 +26,10 @@ const routes: Routes = [
   {
     path: 'books',
     loadChildren: () => import('./pages/books/books.module').then(m => m.BooksPageModule)
+  },
+  {
+    path: 'random-loot',
+    loadChildren: () => import('./pages/random-loot/random-loot.module').then(m => m.RandomLootPageModule)
   }
 
 

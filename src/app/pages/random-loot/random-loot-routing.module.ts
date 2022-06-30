@@ -1,12 +1,12 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 
-import {HomePage} from './home-page.component';
+import {RandomLootPage} from './random-loot.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: HomePage
+    component: RandomLootPage
   }
 ];
 
@@ -14,5 +14,5 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class FolderPageRoutingModule {
+export class RandomLootPageRoutingModule {
 }

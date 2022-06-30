@@ -8,10 +8,11 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content class="ion-padding">
+  <ion-note>Cherchez parmis tous les objets connus du jeu en indiquant leur nom</ion-note>
+
   <ion-searchbar #searchBar [(ngModel)]="searchText" placeholder="Recherche rapide..." debounce="200"
                  (ionChange)="searchItems()"></ion-searchbar>
-
   <ion-list>
     <ng-container *ngFor="let dataId of definitions; let idx = index">
       <ion-list-header><h1>{{dataId.label}}</h1></ion-list-header>

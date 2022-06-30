@@ -1,0 +1,23 @@
+<ion-row *ngIf="lootDiceResult.length > 0 && loots.length > 0">
+  <ion-col size="12" class="ion-no-padding">
+    <ion-list>
+      <ion-item *ngFor="let loot of loots; index as i">
+        <ion-label text-wrap>
+          <h1>
+            <app-rich-text-display [propertyText]="loot.Loot"></app-rich-text-display>
+            <small class="smaller">(Résultat dès : {{ lootDiceResult[i] }})</small>
+          </h1>
+          <ng-container *ngIf="loot.Quantity">
+            <p><strong>Quantité : </strong>
+              <app-rich-text-display [propertyText]="loot.Quantity"></app-rich-text-display>
+            </p>
+          </ng-container>
+          <p *ngIf="loot.Special"><strong>Special :</strong> {{ loot.Special }}</p>
+          <ion-item *ngIf="lootType == 'Bric-à-brac'">
+            Vous obtenez {{lootDiceResult[i]}} objets !
+          </ion-item>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+  </ion-col>
+</ion-row>

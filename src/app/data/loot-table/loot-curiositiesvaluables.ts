@@ -17,15 +17,18 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 7,
-    "Loot": "5D20 Capsules"
+    "Loot": "Capsules",
+    "Quantity": "5D20"
   },
   {
     "Dice": 8,
-    "Loot": "5D20 Capsules"
+    "Loot": "Capsules",
+    "Quantity": "5D20"
   },
   {
     "Dice": 9,
-    "Loot": "5D20 Capsules"
+    "Loot": "Capsules",
+    "Quantity": "5D20"
   },
   {
     "Dice": 10,
@@ -89,7 +92,8 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 25,
-    "Loot": "3D20 Capsules"
+    "Loot": "Capsules",
+    "Quantity": "3D20"
   },
   {
     "Dice": 26,
@@ -97,7 +101,8 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 27,
-    "Loot": "1 + 2D Fusées de Détresse"
+    "Loot": "Fusées de Détresse",
+    "Quantity": "1 + 2 $CD$"
   },
   {
     "Dice": 28,
@@ -105,15 +110,18 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 29,
-    "Loot": "2D20 Capsules"
+    "Loot": "Capsules",
+    "Quantity": "2D20"
   },
   {
     "Dice": 30,
-    "Loot": "2 + 1D Epingle à Cheveux"
+    "Loot": "Epingle à Cheveux",
+    "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 31,
-    "Loot": "1D20 Capsules"
+    "Loot": "Capsules",
+    "Quantity": "1D20"
   },
   {
     "Dice": 32,
@@ -121,7 +129,8 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 33,
-    "Loot": "4 + 2D Epingle à Cheveux"
+    "Loot": "Epingle à Cheveux",
+    "Quantity": "4 + 2 $CD$"
   },
   {
     "Dice": 34,
@@ -137,7 +146,8 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 37,
-    "Loot": "6 + 3D Epingle à Cheveux"
+    "Loot": "Epingle à Cheveux",
+    "Quantity": "6 + 3 $CD$"
   },
   {
     "Dice": 38,
@@ -169,7 +179,8 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 45,
-    "Loot": "8 + 4D Epingle à Cheveux"
+    "Loot": "Epingle à Cheveux",
+    "Quantity": "8 + 4 $CD$"
   },
   {
     "Dice": 46,
@@ -209,15 +220,18 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 55,
-    "Loot": "10 + 5D Epingle à Cheveux"
+    "Loot": "Epingle à Cheveux",
+    "Quantity": "10 + 5 $CD$"
   },
   {
     "Dice": 56,
-    "Loot": "10 + 5D Epingle à Cheveux"
+    "Loot": "Epingle à Cheveux",
+    "Quantity": "10 + 5 $CD$"
   },
   {
     "Dice": 57,
-    "Loot": "10 + 5D Epingle à Cheveux"
+    "Loot": "Epingle à Cheveux",
+    "Quantity": "10 + 5 $CD$"
   },
   {
     "Dice": 58,

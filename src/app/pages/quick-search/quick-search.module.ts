@@ -8,20 +8,18 @@ import {QuickSearchPageRoutingModule} from './quick-search-routing.module';
 
 import {QuickSearchPage} from './quick-search.page';
 import {GenericTitleSearchPipe} from "../../pipes/generic-data-search.pipe";
-import {GenericDataDisplayComponent} from "../generic-data-display/generic-data-display.component";
+import {SharedModule} from "../../shared/shared.module";
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    QuickSearchPageRoutingModule
+    QuickSearchPageRoutingModule,
+    SharedModule
   ],
   providers: [GenericTitleSearchPipe],
-  exports: [
-    GenericDataDisplayComponent
-  ],
-  declarations: [QuickSearchPage, GenericDataDisplayComponent]
+  declarations: [QuickSearchPage]
 })
 export class QuickSearchPageModule {
 }

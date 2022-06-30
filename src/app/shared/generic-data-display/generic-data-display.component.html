@@ -1,0 +1,10 @@
+<ion-item *ngFor="let data of genericItems">
+  <ion-label text-wrap>
+    <ng-container *ngFor="let column of definitions; let i = index">
+      <h1 *ngIf="i==0">{{data[column.column]}}</h1>
+      <p *ngIf="i>0"><strong>{{column.label}}</strong> :
+        <app-rich-text-display [propertyText]="('' + data[column.column])"></app-rich-text-display>
+      </p>
+    </ng-container>
+  </ion-label>
+</ion-item>

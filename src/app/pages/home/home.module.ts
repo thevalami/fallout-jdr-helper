@@ -4,7 +4,7 @@ import {FormsModule} from '@angular/forms';
 
 import {IonicModule} from '@ionic/angular';
 
-import {FolderPageRoutingModule} from './folder-routing.module';
+import {HomePageRoutingModule} from './home-routing.module';
 import {HomePage} from './home-page.component';
 
 @NgModule({
@@ -12,7 +12,7 @@ import {HomePage} from './home-page.component';
     CommonModule,
     FormsModule,
     IonicModule,
-    FolderPageRoutingModule
+    HomePageRoutingModule
   ],
     declarations: [HomePage]
 })

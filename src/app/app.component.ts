@@ -48,6 +48,14 @@ export class AppComponent implements OnInit {
           data: [],
           definition: [],
           generic: false
+        },
+        {
+          label: 'Loot aléatoire',
+          type: 'random-loot',
+          icon: 'shuffle',
+          data: [],
+          definition: [],
+          generic: false
         }
       ]
     });

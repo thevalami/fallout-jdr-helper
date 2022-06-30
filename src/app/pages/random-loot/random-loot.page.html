@@ -1,0 +1,45 @@
+<ion-app>
+
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title class="ion-text-capitalize">Loot aléatoire</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="ion-padding">
+    <ion-note>Lancer les dès pour calculer automatiquement le(s) loots que vous trouvez dans la catégorie choisie
+    </ion-note>
+    <ion-grid class="ion-no-padding">
+      <ion-row>
+        <ion-col size="12" class="ion-no-padding">
+          <ion-item>
+            <ion-label>Type de loot :</ion-label>
+            <ion-select placeholder="..." [value]="lootTypes[0].label" interface="popover"
+                        (ionChange)="lootTypeChanged($event)">
+              <ion-select-option [value]="lootTypeDef.label"
+                                 *ngFor="let lootTypeDef of lootTypes">{{lootTypeDef.label}}</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="6" class="ion-no-padding">
+          <ion-item>
+            <ion-label>Nombre de loots</ion-label>
+            <ion-input type="number" [(ngModel)]="diceCount"></ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col size="6" class="ion-no-padding">
+          <ion-button color="primary" expand="block" (click)="generateRandomLoot()">Lancer les dès ({{diceDefinition}}
+            )
+          </ion-button>
+        </ion-col>
+      </ion-row>
+
+      <app-loots-display [lootDiceResult]="lootDiceResult" [loots]="loots" [lootType]="lootType"></app-loots-display>
+    </ion-grid>
+  </ion-content>
+</ion-app>

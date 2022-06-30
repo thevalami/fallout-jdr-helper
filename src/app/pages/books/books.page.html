@@ -9,31 +9,44 @@
     </ion-toolbar>
   </ion-header>
 
-  <ion-content>
+  <ion-content class="ion-padding">
+    <ion-note>Lancer les dès pour calculer automatiquement le livre que vous trouvez</ion-note>
     <ion-grid class="ion-no-padding">
       <ion-row>
         <ion-col size="12" class="ion-no-padding">
           <ion-button color="primary" expand="block" (click)="generateRandomBook()">Lancer le dès</ion-button>
         </ion-col>
-        <ion-list *ngIf="bookType">
-          <ion-item>
-            <ion-label text-wrap>
-              <h1>{{ bookType.Loot }} &nbsp;<small>({{ bookTypeResult }})</small></h1>
-              <p><strong>Description :</strong> {{ bookType.Description }}</p>
-            </ion-label>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12" class="ion-no-padding">
+          <ion-list *ngIf="bookType">
+            <ion-item>
+              <ion-label text-wrap>
+                <h1>{{ bookType.Loot }} &nbsp;<small>({{ bookTypeResult }})</small></h1>
+                <p><strong>Description :</strong> {{ bookType.Description }}</p>
+              </ion-label>
+            </ion-item>
+          </ion-list>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12" class="ion-no-padding">
+          <ion-item *ngIf="bookVolume">
+            Vous trouvez le volume suivant ...
           </ion-item>
-        </ion-list>
-        <ion-item *ngIf="bookVolume">
-          Vous trouvez le volume suivant ...
-        </ion-item>
-        <ion-list *ngIf="bookVolume">
-          <ion-item>
-            <ion-label text-wrap>
-              <h1>{{ bookVolume.Loot }}&nbsp;<small>({{ bookVolumeResult }})</small></h1>
-              <p><strong>Effet :</strong> {{ bookVolume.Effet }}</p>
-            </ion-label>
-          </ion-item>
-        </ion-list>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12" class="ion-no-padding">
+          <ion-list *ngIf="bookVolume">
+            <ion-item>
+              <ion-label text-wrap>
+                <h1>{{ bookVolume.Loot }}&nbsp;<small>({{ bookVolumeResult }})</small></h1>
+                <p><strong>Effet :</strong> {{ bookVolume.Effet }}</p>
+              </ion-label>
+            </ion-item>
+          </ion-list>
+        </ion-col>
       </ion-row>
     </ion-grid>
   </ion-content>

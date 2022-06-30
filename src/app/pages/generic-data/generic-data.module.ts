@@ -10,6 +10,7 @@ import {GenericDataPage} from './generic-data.page';
 import {GenericDataSearchPipe} from "../../pipes/generic-data-search.pipe";
 import {CleanDataPipe} from "../../pipes/clean-data.pipe";
 import {QuickSearchPageModule} from "../quick-search/quick-search.module";
+import {SharedModule} from "../../shared/shared.module";
 
 @NgModule({
   imports: [
@@ -17,7 +18,8 @@ import {QuickSearchPageModule} from "../quick-search/quick-search.module";
     FormsModule,
     IonicModule,
     GenericDataPageRoutingModule,
-    QuickSearchPageModule
+    QuickSearchPageModule,
+    SharedModule
   ],
   declarations: [GenericDataPage, GenericDataSearchPipe, CleanDataPipe]
 })

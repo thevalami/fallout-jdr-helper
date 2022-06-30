@@ -5,7 +5,8 @@ export const LOOT_NUKACOLA = [
   },
   {
     "Dice": "9-12",
-    "Loot": "1 + 2D bouteilles en verre (bric à brac, 2 Matériaux Fréquent/bouteille)"
+    "Loot": "Bouteilles en verre (bric à brac, 2 Matériaux Fréquent/bouteille)",
+    "Quantity": "1 + 2 $CD$"
   },
   {
     "Dice": "13-15",

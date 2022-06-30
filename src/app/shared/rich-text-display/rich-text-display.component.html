@@ -1,0 +1,6 @@
+<ng-container *ngFor="let word of propertyText.split(' ')">
+  <ng-container *ngIf="word === '$CD$'">
+    <img alt="CombatDice" class="text-cd" src="assets/fallout-dice/side6.png"/>&nbsp;
+  </ng-container>
+  <ng-container *ngIf="word !== '$CD$'">{{word + ' '}}</ng-container>
+</ng-container>

@@ -7,27 +7,27 @@ export const LOOT_AMMO = [
   {
     "Dice": 3,
     "Loot": "2 mm EC",
-    "Quantity": "6 + 3$CD$"
+    "Quantity": "6 + 3 $CD$"
   },
   {
     "Dice": 4,
     "Loot": "2 mm EC",
-    "Quantity": "6 + 3$CD$"
+    "Quantity": "6 + 3 $CD$"
   },
   {
     "Dice": 5,
     "Loot": "Cartouche au Plasma",
-    "Quantity": "10 + 5$CD$"
+    "Quantity": "10 + 5 $CD$"
   },
   {
     "Dice": 6,
     "Loot": "Missile",
-    "Quantity": "2 + 1$CD$"
+    "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 7,
     "Loot": "Réacteur à Fusion",
-    "Quantity": 1
+    "Quantity": "1"
   },
   {
     "Dice": 8,
@@ -172,7 +172,7 @@ export const LOOT_AMMO = [
   {
     "Dice": 36,
     "Loot": "Réacteur à Fusion",
-    "Quantity": 1
+    "Quantity": "1"
   },
   {
     "Dice": 37,

@@ -10,6 +10,20 @@ import {LOOT_MELEE_WEAPONS} from "./loot-melee-weapons";
 import {LOOT_NUKACOLA} from "./loot-nukacoka";
 import {LOOT_RANGE_WEAPONS} from "./loot-range-weapons";
 import {LOOT_THROWEXPLOSIVES} from "./loot-throwexplosives-weapons";
+import {LOOT_CUEILLETTE} from "./loot-cueillette";
+
+export interface LootDef {
+  label: string;
+  data: Loot[];
+  dices: string;
+}
+
+export interface Loot {
+  Dice: string | number;
+  Loot: string;
+  Quantity?: string;
+  Special?: string;
+}
 
 export const LOOT_TABLE_INDEX = [
   {
@@ -34,7 +48,7 @@ export const LOOT_TABLE_INDEX = [
   },
   {
     "label": "Cueillette",
-    "data": LOOT_CLOTHES,
+    "data": LOOT_CUEILLETTE,
     "dices": "1d20"
   },
   {
@@ -50,12 +64,12 @@ export const LOOT_TABLE_INDEX = [
   {
     "label": "Nourritures",
     "data": LOOT_FOODS,
-    "dices": "3d20"
+    "dices": "2d20"
   },
   {
     "label": "Bric-à-brac",
     "data": LOOT_JUNK,
-    "dices": "2D20"
+    "dices": "2d20"
   },
   {
     "label": "Armes de mêlée",
