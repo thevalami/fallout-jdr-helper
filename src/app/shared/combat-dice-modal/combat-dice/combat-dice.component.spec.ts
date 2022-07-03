@@ -1,7 +1,7 @@
-import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-import { IonicModule } from '@ionic/angular';
+import {ComponentFixture, TestBed, waitForAsync} from '@angular/core/testing';
+import {IonicModule} from '@ionic/angular';
 
-import { CombatDiceComponent } from './combat-dice.component';
+import {CombatDiceComponent} from './combat-dice.component';
 
 describe('CombatDiceComponent', () => {
   let component: CombatDiceComponent;
@@ -9,7 +9,7 @@ describe('CombatDiceComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ CombatDiceComponent ],
+      declarations: [CombatDiceComponent],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 

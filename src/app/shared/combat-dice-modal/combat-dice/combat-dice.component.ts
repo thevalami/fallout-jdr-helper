@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Dice, ExpressionNode} from "dice-typescript";
 
 @Component({
@@ -11,9 +11,11 @@ export class CombatDiceComponent implements OnInit {
   combatDiceCount = 1;
   combatDiceChildren: ExpressionNode[] = [];
 
-  constructor() { }
+  constructor() {
+  }
 
-  ngOnInit() {}
+  ngOnInit() {
+  }
 
   public rollCombat(): void {
     const dice = new Dice();

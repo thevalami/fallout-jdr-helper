@@ -8,16 +8,17 @@ import {RandomLootPageRoutingModule} from './random-loot-routing.module';
 
 import {RandomLootPage} from './random-loot.page';
 import {LootsDisplayComponent} from "./loots-display/loots-display.component";
-import {RichTextDisplayComponent} from "../../shared/rich-text-display/rich-text-display.component";
+import {SharedModule} from "../../shared/shared.module";
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    RandomLootPageRoutingModule
+    RandomLootPageRoutingModule,
+    SharedModule
   ],
-  declarations: [RandomLootPage, LootsDisplayComponent, RichTextDisplayComponent]
+  declarations: [RandomLootPage, LootsDisplayComponent]
 })
 export class RandomLootPageModule {
 }

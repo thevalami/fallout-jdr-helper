@@ -20,10 +20,6 @@ import {METALARMOR_LOOT_DATA, METALARMOR_LOOT_DEF} from "./metal-armor-loot";
 import {COMBATARMOR_LOOT_DATA, COMBATARMOR_LOOT_DEF} from "./combat-armor-loot";
 import {DOGARMOR_LOOT_DATA, DOGARMOR_LOOT_DEF} from "./dogarmor-loot";
 import {POWERARMOR_LOOT_DATA, POWERRMOR_LOOT_DEF} from "./power-armor-loot";
-import {MOD_HEAVY_WEAPON_DATA, MOD_HEAVY_WEAPON_DEF} from "./mod-heavy-weapon";
-import {MOD_LIGHT_WEAPON_DATA, MOD_LIGHT_WEAPON_DEF} from "./mod-light-weapon";
-import {MOD_ENERGY_WEAPON_DATA, MOD_ENERGY_WEAPON_DEF} from "./mod-energy-weapon";
-import {MOD_MELEE_WEAPON_DATA, MOD_MELEE_WEAPON_DEF} from "./mod-melee-weapon";
 
 export interface DataTableDefinition {
   column: string,
@@ -245,43 +241,6 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         data: POWERARMOR_LOOT_DATA,
         generic: true
       }
-    ]
-  },
-  {
-    label: "Modifications Armes",
-    data: [
-      {
-        type: 'mod-light-weapons',
-        label: 'Mod Armes légères',
-        icon: 'hammer',
-        definition: MOD_LIGHT_WEAPON_DEF,
-        data: MOD_LIGHT_WEAPON_DATA,
-        generic: true
-      },
-      {
-        type: 'mod-heavy-weapons',
-        label: 'Mod Armes lourdes',
-        icon: 'hammer',
-        definition: MOD_HEAVY_WEAPON_DEF,
-        data: MOD_HEAVY_WEAPON_DATA,
-        generic: true
-      },
-      {
-        type: 'mod-energy-weapons',
-        label: 'Mod Armes énergétiques',
-        icon: 'hammer',
-        definition: MOD_ENERGY_WEAPON_DEF,
-        data: MOD_ENERGY_WEAPON_DATA,
-        generic: true
-      },
-      {
-        type: 'mod-melee-weapons',
-        label: 'Mod Armes mêlée',
-        icon: 'hammer',
-        definition: MOD_MELEE_WEAPON_DEF,
-        data: MOD_MELEE_WEAPON_DATA,
-        generic: true
-      },
     ]
   }
 ];

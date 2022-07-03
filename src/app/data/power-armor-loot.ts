@@ -15,7 +15,7 @@ export const POWERRMOR_LOOT_DEF: DataTableDefinition[] = [{
 }, {
   column: 'PV',
   label: 'Points de vie'
-},{
+}, {
   column: 'Bodyparts',
   label: 'Parties couvertes'
 }, {

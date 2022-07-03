@@ -31,8 +31,6 @@ const routes: Routes = [
     path: 'random-loot',
     loadChildren: () => import('./pages/random-loot/random-loot.module').then(m => m.RandomLootPageModule)
   }
-
-
 ];
 
 @NgModule({
@@ -41,4 +39,5 @@ const routes: Routes = [
   ],
   exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule {
+}
