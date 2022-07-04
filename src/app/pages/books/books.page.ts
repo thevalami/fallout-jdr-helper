@@ -26,7 +26,7 @@ export class BooksPage implements OnInit {
 
     const dice = new Dice();
     this.bookTypeResult = dice.roll('1d20').total;
-    this.bookType = BOOK_TABLE_INDEX[this.bookTypeResult];
+    this.bookType = BooksPage.findBookType(this.bookTypeResult);
     if (this.bookType.Data) { // Lancer de dès pour le volume exact
       this.bookVolumeResult = dice.roll('1d20').total;
       for (let volume of this.bookType.Data) {
@@ -45,5 +45,16 @@ export class BooksPage implements OnInit {
         }
       }
     }
+  }
+
+  private static findBookType(bookTypeResult: number) {
+    let bookType = null;
+    for (let candidateBookType of BOOK_TABLE_INDEX) {
+      if (candidateBookType.Dice === bookTypeResult) {
+        bookType = candidateBookType;
+        break;
+      }
+    }
+    return bookType;
   }
 }

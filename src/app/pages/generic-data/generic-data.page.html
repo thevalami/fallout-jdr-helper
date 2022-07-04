@@ -15,7 +15,7 @@
 <ion-content>
   <ion-list>
     <app-generic-data-display [genericItems]="dataId.data | genericDataSearch:searchText"
-                              [definitions]="dataId.definition"></app-generic-data-display>
+                              [dataId]="dataId"></app-generic-data-display>
   </ion-list>
   <ion-fab vertical="top" horizontal="end" slot="fixed">
     <ion-fab-button [routerLink]="'/quick-search'">

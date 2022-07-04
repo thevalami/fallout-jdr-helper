@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 
 import {Platform} from '@ionic/angular';
 import {SplashScreen} from '@capacitor/splash-screen';
-import {REGISTERED_DATA_SECTIONS, Section} from "./data/generic-data";
+import {DataId, REGISTERED_DATA_SECTIONS, Section} from "./data/generic-data";
 
 @Component({
   selector: 'app-root',
@@ -14,49 +14,17 @@ export class AppComponent implements OnInit {
   public sections: Section[] = [];
 
   constructor(private platform: Platform) {
+  }
+
+  ngOnInit() {
     this.sections.push({
       label: "Aides de jeu",
       data: [
-        {
-          label: 'Accueil',
-          type: 'home',
-          icon: 'home',
-          data: [],
-          definition: [],
-          generic: false
-        },
-        {
-          label: 'Dès',
-          type: 'dices',
-          icon: 'dice',
-          data: [],
-          definition: [],
-          generic: false
-        },
-        {
-          label: 'Recherche rapide',
-          type: 'quick-search',
-          icon: 'search',
-          data: [],
-          definition: [],
-          generic: false
-        },
-        {
-          label: 'Livre aléatoire',
-          type: 'books',
-          icon: 'book',
-          data: [],
-          definition: [],
-          generic: false
-        },
-        {
-          label: 'Loot aléatoire',
-          type: 'random-loot',
-          icon: 'shuffle',
-          data: [],
-          definition: [],
-          generic: false
-        }
+        AppComponent.buildMenu('Accueil', 'home', 'home'),
+        AppComponent.buildMenu('Dès', 'dices', 'dice'),
+        AppComponent.buildMenu('Recherche rapide', 'quick-search', 'search'),
+        AppComponent.buildMenu('Livre aléatoire', 'books', 'book'),
+        AppComponent.buildMenu('Loot aléatoire', 'random-loot', 'shuffle'),
       ]
     });
     this.sections = [...this.sections, ...REGISTERED_DATA_SECTIONS];
@@ -69,7 +37,15 @@ export class AppComponent implements OnInit {
     });
   }
 
-  ngOnInit() {
-
+  private static buildMenu(label, type, icon): DataId {
+    return {
+      label: label,
+      type: type,
+      icon: icon,
+      data: [],
+      definition: [],
+      generic: false,
+      moddable: false
+    }
   }
 }

@@ -1,4 +1,4 @@
-import {DataTableDefinition} from "./generic-data";
+import {DataTableDefinition} from "../generic-data";
 
 export const MOD_MELEE_WEAPON_DEF: DataTableDefinition[] = [
   {

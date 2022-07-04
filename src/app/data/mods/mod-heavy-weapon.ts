@@ -1,4 +1,4 @@
-import {DataTableDefinition} from "./generic-data";
+import {DataTableDefinition} from "../generic-data";
 
 export const MOD_HEAVY_WEAPON_DEF: DataTableDefinition[] = [
   {

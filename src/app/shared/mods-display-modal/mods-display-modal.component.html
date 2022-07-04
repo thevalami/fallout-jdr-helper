@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="cancel()">Retour</ion-button>
+    </ion-buttons>
+    <ion-title>Mods de : {{itemName}}</ion-title>
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-searchbar [(ngModel)]="searchText"></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+  <app-generic-data-display *ngIf="dataId" [genericItems]="mods | genericTitleSearch:searchText"
+                            [dataId]="dataId"></app-generic-data-display>
+</ion-content>

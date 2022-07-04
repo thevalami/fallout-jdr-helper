@@ -7,7 +7,6 @@ import {IonicModule} from '@ionic/angular';
 import {GenericDataPageRoutingModule} from './generic-data-routing.module';
 
 import {GenericDataPage} from './generic-data.page';
-import {GenericDataSearchPipe} from "../../pipes/generic-data-search.pipe";
 import {CleanDataPipe} from "../../pipes/clean-data.pipe";
 import {QuickSearchPageModule} from "../quick-search/quick-search.module";
 import {SharedModule} from "../../shared/shared.module";
@@ -21,7 +20,7 @@ import {SharedModule} from "../../shared/shared.module";
     QuickSearchPageModule,
     SharedModule
   ],
-  declarations: [GenericDataPage, GenericDataSearchPipe, CleanDataPipe]
+  declarations: [GenericDataPage, CleanDataPipe]
 })
 export class GenericDataPageModule {
 }

@@ -1,5 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {DataTableDefinition} from "../../data/generic-data";
+import {DataId, DataTableDefinition} from "../../data/generic-data";
+import {ModalController} from "@ionic/angular";
+import {ModsDisplayModalComponent} from "../mods-display-modal/mods-display-modal.component";
 
 @Component({
   selector: 'app-generic-data-display',
@@ -8,13 +10,25 @@ import {DataTableDefinition} from "../../data/generic-data";
 })
 export class GenericDataDisplayComponent implements OnInit {
 
-  constructor() {
+  constructor(private modalCtrl: ModalController) {
   }
 
   ngOnInit() {
   }
 
-  @Input() definitions: DataTableDefinition[];
   @Input() genericItems: any[];
+  @Input() dataId: DataId;
 
+  async openModModal(itemName) {
+    const modal = await this.modalCtrl.create({
+      component: ModsDisplayModalComponent,
+      componentProps: {itemName: itemName, itemType: this.dataId.type}
+    });
+    await modal.present();
+    await modal.onWillDismiss();
+  }
+
+  isOptional(column: DataTableDefinition, value: string) {
+    return column.column.startsWith("Effect") && value === '';
+  }
 }

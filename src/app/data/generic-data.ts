@@ -34,6 +34,7 @@ export interface DataId {
   img?: string,
   icon?: string,
   generic: boolean
+  moddable: boolean
 }
 
 export interface Section {
@@ -51,7 +52,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'radioactive.png',
         definition: AMMUNITION_LOOT_DEF,
         data: AMMUNITION_LOOT_DATA,
-        generic: true
+        generic: true,
+        moddable: false
       },
       {
         type: 'syringes',
@@ -59,7 +61,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'chems.png',
         definition: SYRINGE_TYPE_DEF,
         data: SYRINGE_TYPE_DATA,
-        generic: true
+        generic: true,
+        moddable: false
       }
     ]
   },
@@ -72,7 +75,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'drink.png',
         definition: DRINK_LOOT_DEF,
         data: DRINK_LOOT_DATA,
-        generic: true
+        generic: true,
+        moddable: false
       },
       {
         type: 'foods',
@@ -80,7 +84,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'food.png',
         definition: FOOD_LOOT_DEF,
         data: FOOD_LOOT_DATA,
-        generic: true
+        generic: true,
+        moddable: false
       },
       {
         type: 'chems',
@@ -88,7 +93,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'chems2.png',
         definition: CHEMS_LOOT_DEF,
         data: CHEMS_LOOT_DATA,
-        generic: true
+        generic: true,
+        moddable: false
       }
     ]
   },
@@ -101,7 +107,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'tools.png',
         definition: TOOLS_LOOT_DEF,
         data: TOOLS_LOOT_DATA,
-        generic: true
+        generic: true,
+        moddable: false
       }
     ]
   },
@@ -114,7 +121,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'smallgun.png',
         definition: LIGHTWEAPONS_LOOT_DEF,
         data: LIGHTWEAPONS_LOOT_DATA,
-        generic: true
+        generic: true,
+        moddable: true
       },
       {
         type: 'energy-weapons',
@@ -122,7 +130,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'energyweapon.png',
         definition: ENERGYWEAPONS_LOOT_DEF,
         data: ENERGYWEAPONS_LOOT_DATA,
-        generic: true
+        generic: true,
+        moddable: false
       },
       {
         type: 'melee-weapons',
@@ -130,7 +139,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'melee.png',
         definition: MELEEWEAPONS_LOOT_DEF,
         data: MELEEWEAPONS_LOOT_DATA,
-        generic: true
+        generic: true,
+        moddable: false
       },
       {
         type: 'heavy-weapons',
@@ -138,7 +148,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'heavyguns.png',
         definition: HEAVYWEAPONS_LOOT_DEF,
         data: HEAVYWEAPONS_LOOT_DATA,
-        generic: true
+        generic: true,
+        moddable: false
       },
       {
         type: 'explosives',
@@ -146,7 +157,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'explosives.png',
         definition: EXPLOSIVES_LOOT_DEF,
         data: EXPLOSIVES_LOOT_DATA,
-        generic: true
+        generic: true,
+        moddable: false
       },
       {
         type: 'projectiles',
@@ -154,7 +166,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'projectile.png',
         definition: PROJECTILES_LOOT_DEF,
         data: PROJECTILES_LOOT_DATA,
-        generic: true
+        generic: true,
+        moddable: false
       }
     ]
   },
@@ -167,7 +180,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'outfits.png',
         definition: OUTFITS_LOOT_DEF,
         data: OUTFITS_LOOT_DATA,
-        generic: true
+        generic: true,
+        moddable: false
       },
       {
         type: 'hats',
@@ -175,7 +189,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'hats.png',
         definition: HATS_LOOT_DEF,
         data: HATS_LOOT_DATA,
-        generic: true
+        generic: true,
+        moddable: false
       },
       {
         type: 'leather-armor',
@@ -183,7 +198,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'leather.png',
         definition: LEATHERARMOR_LOOT_DEF,
         data: LEATHERARMOR_LOOT_DATA,
-        generic: true
+        generic: true,
+        moddable: false
       },
       {
         type: 'synth-armor',
@@ -191,7 +207,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'synth.png',
         definition: SYNTHARMOR_LOOT_DEF,
         data: SYNTHARMOR_LOOT_DATA,
-        generic: true
+        generic: true,
+        moddable: false
       },
       {
         type: 'vaultsec-armor',
@@ -199,7 +216,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'security.png',
         definition: VAULTSEC_LOOT_DEF,
         data: VAULTSECARMOR_LOOT_DATA,
-        generic: true
+        generic: true,
+        moddable: false
       },
       {
         type: 'lootersec-armor',
@@ -207,7 +225,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'raider.png',
         definition: LOOTERARMOR_LOOT_DEF,
         data: LOOTERARMOR_LOOT_DATA,
-        generic: true
+        generic: true,
+        moddable: false
       },
       {
         type: 'metal-armor',
@@ -215,7 +234,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'metal.png',
         definition: METALARMOR_LOOT_DEF,
         data: METALARMOR_LOOT_DATA,
-        generic: true
+        generic: true,
+        moddable: false
       },
       {
         type: 'combat-armor',
@@ -223,7 +243,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'combat.png',
         definition: COMBATARMOR_LOOT_DEF,
         data: COMBATARMOR_LOOT_DATA,
-        generic: true
+        generic: true,
+        moddable: false
       },
       {
         type: 'dog-armor',
@@ -231,7 +252,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'dog.png',
         definition: DOGARMOR_LOOT_DEF,
         data: DOGARMOR_LOOT_DATA,
-        generic: true
+        generic: true,
+        moddable: false
       },
       {
         type: 'power-armor',
@@ -239,7 +261,8 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'powerarmor.png',
         definition: POWERRMOR_LOOT_DEF,
         data: POWERARMOR_LOOT_DATA,
-        generic: true
+        generic: true,
+        moddable: false
       }
     ]
   }
