@@ -149,7 +149,7 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         definition: HEAVYWEAPONS_LOOT_DEF,
         data: HEAVYWEAPONS_LOOT_DATA,
         generic: true,
-        moddable: false
+        moddable: true
       },
       {
         type: 'explosives',
