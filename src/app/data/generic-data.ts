@@ -131,7 +131,7 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         definition: ENERGYWEAPONS_LOOT_DEF,
         data: ENERGYWEAPONS_LOOT_DATA,
         generic: true,
-        moddable: false
+        moddable: true
       },
       {
         type: 'melee-weapons',
