@@ -20,6 +20,7 @@ import {METALARMOR_LOOT_DATA, METALARMOR_LOOT_DEF} from "./metal-armor-loot";
 import {COMBATARMOR_LOOT_DATA, COMBATARMOR_LOOT_DEF} from "./combat-armor-loot";
 import {DOGARMOR_LOOT_DATA, DOGARMOR_LOOT_DEF} from "./dogarmor-loot";
 import {POWERARMOR_LOOT_DATA, POWERRMOR_LOOT_DEF} from "./power-armor-loot";
+import {ROBOTARMOR_LOOT_DATA, ROBOTARMOR_LOOT_DEF} from "./robot-armor-loot";
 
 export interface DataTableDefinition {
   column: string,
@@ -263,6 +264,15 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         data: POWERARMOR_LOOT_DATA,
         generic: true,
         moddable: false
+      },
+      {
+        type: 'robot-armor',
+        label: 'Armures robot',
+        img: 'robot.png',
+        definition: ROBOTARMOR_LOOT_DEF,
+        data: ROBOTARMOR_LOOT_DATA,
+        generic: true,
+        moddable: true
       }
     ]
   }
