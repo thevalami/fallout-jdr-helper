@@ -4,6 +4,7 @@ import {MOD_HEAVY_WEAPON_DATA} from "./mod-heavy-weapon";
 import {MOD_ENERGY_WEAPON_DATA} from "./mod-energy-weapon";
 import {MOD_MELEE_WEAPON_DATA} from "./mod-melee-weapon";
 import {MOD_ROBOT_ARMOR_DATA} from "./mod-robot-armor";
+import {MOD_TISSU_BALISTIQUE} from "./mod-tissu-ballistique";
 
 export const MOD_DEF: DataTableDefinition[] = [
   {
@@ -73,5 +74,6 @@ export const MODS_TABLE_DATA = {
   'heavy-weapons': MOD_HEAVY_WEAPON_DATA,
   'energy-weapons': MOD_ENERGY_WEAPON_DATA,
   'melee-weapons': MOD_MELEE_WEAPON_DATA,
-  'robot-armor': MOD_ROBOT_ARMOR_DATA
+  'robot-armor': MOD_ROBOT_ARMOR_DATA,
+  'tissu-balistique': MOD_TISSU_BALISTIQUE
 }
