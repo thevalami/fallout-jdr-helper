@@ -140,7 +140,7 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         definition: MELEEWEAPONS_LOOT_DEF,
         data: MELEEWEAPONS_LOOT_DATA,
         generic: true,
-        moddable: false
+        moddable: true
       },
       {
         type: 'heavy-weapons',

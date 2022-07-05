@@ -29,6 +29,6 @@ export class GenericDataDisplayComponent implements OnInit {
   }
 
   isOptional(column: DataTableDefinition, value: string) {
-    return column.column.startsWith("Effect") && value === '';
+    return value && column.column.startsWith("Effect") && value === '';
   }
 }

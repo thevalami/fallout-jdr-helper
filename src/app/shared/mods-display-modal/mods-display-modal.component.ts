@@ -20,7 +20,7 @@ export class ModsDisplayModalComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.mods = MODS_TABLE_DATA[this.itemType][this.itemName];
+    this.mods = MODS_TABLE_DATA[this.itemType][this.itemName] || [];
     this.dataId = {
       moddable: false,
       definition: MOD_DEF,
