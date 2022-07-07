@@ -345,86 +345,86 @@ const COMMON_ROBOT_MODS = [
     "Rarity": 5,
     "Skills": "Expert en robotique 2, Scientifique 1"
   },
-    {
-      "Name": "Capteurs de reconnaissance",
-      "Effect1": "Réduisez de 1 la difficulté de vos tests pour détecter les adversaires cachés (0 minimum), la difficulté des tests de Discrétion pour les ennemis que vous voyez et qui tentent de se cacher augmente de +1",
-      "MaxCarry": "- 2,5 kg",
-      "Cost": 50,
-      "Rarity": 3,
-      "Skills": "Expert en robotique 1"
-    },
-    {
-      "Name": "Champ de furtivité",
-      "Effect1": "Vos alliés à portée courte peuvent relancer 1D20 sur leurs tests de Discrétion",
-      "MaxCarry": "- 10 kg",
-      "Cost": 50,
-      "Rarity": 3,
-      "Skills": "Expert en robotique 1"
-    },
-    {
-      "Name": "Champ de régénération",
-      "Effect1": "En dehors des combats, vos alliés regagnent 2 PV au début de chaque scène dans laquelle vous êtes présent",
-      "MaxCarry": "- 12,5 kg",
-      "Cost": 125,
-      "Rarity": 5,
-      "Skills": "Expert en robotique 2, Scientifique 2"
-    },
-    {
-      "Name": "Champ de résistance",
-      "Effect1": "Vos alliés à portée courte reçoivent + 2 résistance aux dégâts balistiques",
-      "MaxCarry": "- 10 kg",
-      "Cost": 75,
-      "Rarity": 4,
-      "Skills": "Expert en robotique 1, Scientifique 1"
-    },
-    {
-      "Name": "Détecteur",
-      "Effect1": "Vous pouvez relancer 1D20 sur tous vos tests de PER, vous pouvez tenter des tests de PER pour détecter des choses normalement invisibles à l'œil nu, par exemple des radiations",
-      "MaxCarry": "- 7,5 kg",
-      "Cost": 50,
-      "Rarity": 3,
-      "Skills": "Expert en robotique 1"
-    },
-    {
-      "Name": "Module d'analyse comportementale",
-      "Effect1": "Réduisez de 1 la difficulté de vos tests de Discours (0 minimum)",
-      "MaxCarry": "",
-      "Cost": 50,
-      "Rarity": 3,
-      "Skills": "Expert en robotique 1"
-    },
-    {
-      "Name": "Module de bouilloire intégrée",
-      "Effect1": "Une fois par scène en dehors des combats, transformez 2 objets eau sale en 1 objet eau purifiée en 10 minutes",
-      "MaxCarry": "- 5 kg",
-      "Cost": 15,
-      "Rarity": 1,
-      "Skills": ""
-    },
-    {
-      "Name": "Module de crochetage",
-      "Effect1": "Réduisez de 1 la difficulté de vos tests de Crochetage (0 minimum), pas besoin d'épingle à cheveux ou autre outils de crochetage",
-      "MaxCarry": "- 2,5 kg",
-      "Cost": 25,
-      "Rarity": 2,
-      "Skills": ""
-    },
-    {
-      "Name": "Module de détection de risques",
-      "Effect1": "Réduisez de 1 la difficulté de vos tests de Survie pour détecter et désamorcer les pièges et les dangers similaires (0 minimum)",
-      "MaxCarry": "",
-      "Cost": 25,
-      "Rarity": 2,
-      "Skills": ""
-    },
-    {
-      "Name": "Module de diagnostic",
-      "Effect1": "Réduisez de 1 la difficulté de vos tests de Médecine (0 minimum)",
-      "MaxCarry": "",
-      "Cost": 50,
-      "Rarity": 3,
-      "Skills": "Expert en robotique 1"
-    },
+  {
+    "Name": "Capteurs de reconnaissance",
+    "Effect1": "Réduisez de 1 la difficulté de vos tests pour détecter les adversaires cachés (0 minimum), la difficulté des tests de Discrétion pour les ennemis que vous voyez et qui tentent de se cacher augmente de +1",
+    "MaxCarry": "- 2,5 kg",
+    "Cost": 50,
+    "Rarity": 3,
+    "Skills": "Expert en robotique 1"
+  },
+  {
+    "Name": "Champ de furtivité",
+    "Effect1": "Vos alliés à portée courte peuvent relancer 1D20 sur leurs tests de Discrétion",
+    "MaxCarry": "- 10 kg",
+    "Cost": 50,
+    "Rarity": 3,
+    "Skills": "Expert en robotique 1"
+  },
+  {
+    "Name": "Champ de régénération",
+    "Effect1": "En dehors des combats, vos alliés regagnent 2 PV au début de chaque scène dans laquelle vous êtes présent",
+    "MaxCarry": "- 12,5 kg",
+    "Cost": 125,
+    "Rarity": 5,
+    "Skills": "Expert en robotique 2, Scientifique 2"
+  },
+  {
+    "Name": "Champ de résistance",
+    "Effect1": "Vos alliés à portée courte reçoivent + 2 résistance aux dégâts balistiques",
+    "MaxCarry": "- 10 kg",
+    "Cost": 75,
+    "Rarity": 4,
+    "Skills": "Expert en robotique 1, Scientifique 1"
+  },
+  {
+    "Name": "Détecteur",
+    "Effect1": "Vous pouvez relancer 1D20 sur tous vos tests de PER, vous pouvez tenter des tests de PER pour détecter des choses normalement invisibles à l'œil nu, par exemple des radiations",
+    "MaxCarry": "- 7,5 kg",
+    "Cost": 50,
+    "Rarity": 3,
+    "Skills": "Expert en robotique 1"
+  },
+  {
+    "Name": "Module d'analyse comportementale",
+    "Effect1": "Réduisez de 1 la difficulté de vos tests de Discours (0 minimum)",
+    "MaxCarry": "",
+    "Cost": 50,
+    "Rarity": 3,
+    "Skills": "Expert en robotique 1"
+  },
+  {
+    "Name": "Module de bouilloire intégrée",
+    "Effect1": "Une fois par scène en dehors des combats, transformez 2 objets eau sale en 1 objet eau purifiée en 10 minutes",
+    "MaxCarry": "- 5 kg",
+    "Cost": 15,
+    "Rarity": 1,
+    "Skills": ""
+  },
+  {
+    "Name": "Module de crochetage",
+    "Effect1": "Réduisez de 1 la difficulté de vos tests de Crochetage (0 minimum), pas besoin d'épingle à cheveux ou autre outils de crochetage",
+    "MaxCarry": "- 2,5 kg",
+    "Cost": 25,
+    "Rarity": 2,
+    "Skills": ""
+  },
+  {
+    "Name": "Module de détection de risques",
+    "Effect1": "Réduisez de 1 la difficulté de vos tests de Survie pour détecter et désamorcer les pièges et les dangers similaires (0 minimum)",
+    "MaxCarry": "",
+    "Cost": 25,
+    "Rarity": 2,
+    "Skills": ""
+  },
+  {
+    "Name": "Module de diagnostic",
+    "Effect1": "Réduisez de 1 la difficulté de vos tests de Médecine (0 minimum)",
+    "MaxCarry": "",
+    "Cost": 50,
+    "Rarity": 3,
+    "Skills": "Expert en robotique 1"
+  },
   {
     "Name": "Module de piratage informatique",
     "Effect1": "Réduisez de 1 la difficulté de vos tests de Sciences pour pirater des systèmes informatiques vérrouillés (0 minimum)",
