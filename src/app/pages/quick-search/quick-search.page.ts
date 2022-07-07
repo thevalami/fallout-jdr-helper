@@ -1,7 +1,7 @@
 import {Component, OnInit, ViewChild} from '@angular/core';
 import {DataId, REGISTERED_DATA_SECTIONS} from "../../data/generic-data";
 import {GenericTitleSearchPipe} from "../../pipes/generic-data-search.pipe";
-import {IonSearchbar, ModalController} from "@ionic/angular";
+import {IonSearchbar} from "@ionic/angular";
 
 @Component({
   selector: 'app-quick-search',
@@ -16,7 +16,7 @@ export class QuickSearchPage implements OnInit {
 
   @ViewChild('searchBar', {static: false}) searchInput: IonSearchbar;
 
-  constructor(private searchPipe: GenericTitleSearchPipe, private modalCtrl: ModalController) {
+  constructor(private searchPipe: GenericTitleSearchPipe) {
   }
 
   ngOnInit() {

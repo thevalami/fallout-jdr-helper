@@ -1,4 +1,4 @@
-const commonRobotMods = [
+const COMMON_ROBOT_MODS = [
   {
     "Name": "Armure d'usine",
     "PhysicalRes": "+1",
@@ -328,29 +328,23 @@ const commonRobotMods = [
     "Cost": 30,
     "Skills": "Armurier 3",
     "Special": "Les attaques de corps à corps portées avec des bras équipés d'un châssis hydraulique infligent + 1 $CD$ de dégâts et gagnent l'effet de dégâts Etourdissant."
-  }
-];
-
-export const MOD_ROBOT_ARMOR_DATA = {
-  "Blindage standard": commonRobotMods,
-  "Blindage Mister Gutsy": commonRobotMods,
-  "Autres modifications": [
-    {
-      "Name": "Bobines de radiations",
-      "Effect1": "Peuvent être allumées ou éteintes au début d'un tour. Quand elles sont allumées, toutes les créatures à portée de main subissent 3 DESCOMBAT de dégâts de radiation à la fin du tour du robot",
-      "MaxCarry": "- 5 kg",
-      "Cost": 50,
-      "Rarity": 3,
-      "Skills": "Expert en robotique 1"
-    },
-    {
-      "Name": "Bobines Tesla",
-      "Effect1": "Peuvent être allumées ou éteintes au début d'un tour. Quand elles sont allumées, toutes les créatures à portée de main subissent 4 DESCOMBAT de dégâts énergétiques, Perforant 1 et Etourdissants à la fin du tour du robot",
-      "MaxCarry": "- 12,5 kg",
-      "Cost": 100,
-      "Rarity": 5,
-      "Skills": "Expert en robotique 2, Scientifique 1"
-    },
+  },
+  {
+    "Name": "Bobines de radiations",
+    "Effect1": "Peuvent être allumées ou éteintes au début d'un tour. Quand elles sont allumées, toutes les créatures à portée de main subissent 3 $CD$ de dégâts de radiation à la fin du tour du robot",
+    "MaxCarry": "- 5 kg",
+    "Cost": 50,
+    "Rarity": 3,
+    "Skills": "Expert en robotique 1"
+  },
+  {
+    "Name": "Bobines Tesla",
+    "Effect1": "Peuvent être allumées ou éteintes au début d'un tour. Quand elles sont allumées, toutes les créatures à portée de main subissent 4 $CD$ de dégâts énergétiques, Perforant 1 et Etourdissants à la fin du tour du robot",
+    "MaxCarry": "- 12,5 kg",
+    "Cost": 100,
+    "Rarity": 5,
+    "Skills": "Expert en robotique 2, Scientifique 1"
+  },
     {
       "Name": "Capteurs de reconnaissance",
       "Effect1": "Réduisez de 1 la difficulté de vos tests pour détecter les adversaires cachés (0 minimum), la difficulté des tests de Discrétion pour les ennemis que vous voyez et qui tentent de se cacher augmente de +1",
@@ -431,13 +425,16 @@ export const MOD_ROBOT_ARMOR_DATA = {
       "Rarity": 3,
       "Skills": "Expert en robotique 1"
     },
-    {
-      "Name": "Module de piratage informatique",
-      "Effect1": "Réduisez de 1 la difficulté de vos tests de Sciences pour pirater des systèmes informatiques vérrouillés (0 minimum)",
-      "MaxCarry": "",
-      "Cost": 25,
-      "Rarity": 2,
-      "Skills": ""
-    }
-  ],
+  {
+    "Name": "Module de piratage informatique",
+    "Effect1": "Réduisez de 1 la difficulté de vos tests de Sciences pour pirater des systèmes informatiques vérrouillés (0 minimum)",
+    "MaxCarry": "",
+    "Cost": 25,
+    "Rarity": 2,
+    "Skills": ""
+  }
+];
+
+export const MOD_ROBOT_ARMOR_DATA = {
+  "*": COMMON_ROBOT_MODS
 }

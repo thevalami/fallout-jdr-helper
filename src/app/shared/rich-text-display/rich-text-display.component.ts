@@ -1,7 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {ModalController} from "@ionic/angular";
 import {CombatDiceModalPage} from "../combat-dice-modal/combat-dice-modal.page";
-import {ModsDisplayModalComponent} from "../mods-display-modal/mods-display-modal.component";
 
 @Component({
   selector: 'app-rich-text-display',
@@ -20,15 +19,6 @@ export class RichTextDisplayComponent implements OnInit {
   async openCombatDiceModal() {
     const modal = await this.modalCtrl.create({
       component: CombatDiceModalPage,
-    });
-    await modal.present();
-    await modal.onWillDismiss();
-  }
-
-  async openTissuBalistiqueMods() {
-    const modal = await this.modalCtrl.create({
-      component: ModsDisplayModalComponent,
-      componentProps: {itemName: 'Tissu Balistique', itemType: 'tissu-balistique'}
     });
     await modal.present();
     await modal.onWillDismiss();

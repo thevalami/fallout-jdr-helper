@@ -33,12 +33,5 @@ export const ROBOTARMOR_LOOT_DATA = [
     "EnergyRes": 0,
     "BodyParts": "Toutes",
     "MaxCarry": "- 10 kg"
-  },
-  {
-    "Name": "Autres modifications",
-    "PhysicalRes": 0,
-    "EnergyRes": 0,
-    "BodyParts": "-",
-    "MaxCarry": "-"
   }
 ];

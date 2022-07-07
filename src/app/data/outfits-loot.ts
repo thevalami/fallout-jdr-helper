@@ -61,7 +61,7 @@ export const OUTFITS_LOOT_DATA = [
     "Weight": 1,
     "Cost": 20,
     "Rarity": 1,
-    "Special": "Permet de relancer une fois par scène un seul D20 sur un test de compétence basé sur la FOR ou l'AGI. Peut être renforcée avec du Tissu Balistique $TB$"
+    "Special": "Permet de relancer une fois par scène un seul D20 sur un test de compétence basé sur la FOR ou l'AGI. Peut être renforcée avec du Tissu Balistique"
   },
   {
     "Name": "Vêtements de cuir",
@@ -94,7 +94,7 @@ export const OUTFITS_LOOT_DATA = [
     "Weight": "1,5",
     "Cost": 12,
     "Rarity": 1,
-    "Special": "Permet de relancer une fois par scène un seul D20 sur un test de compétence basé sur la FOR ou l'AGI. Peut être renforcée avec du Tissu Balistique $TB$"
+    "Special": "Permet de relancer une fois par scène un seul D20 sur un test de compétence basé sur la FOR ou l'AGI. Peut être renforcée avec du Tissu Balistique"
   },
   {
     "Name": "Combinaison d'abri",
@@ -160,7 +160,7 @@ export const OUTFITS_LOOT_DATA = [
     "Weight": 1,
     "Cost": 20,
     "Rarity": 1,
-    "Special": "Permet de relancer une fois par scène un seul D20 sur un test de compétence basé sur l'END. Peut être renforcée avec du Tissu Balistique $TB$"
+    "Special": "Permet de relancer une fois par scène un seul D20 sur un test de compétence basé sur l'END. Peut être renforcée avec du Tissu Balistique"
   },
   {
     "Name": "Blouse",
@@ -171,7 +171,7 @@ export const OUTFITS_LOOT_DATA = [
     "Weight": 1,
     "Cost": 10,
     "Rarity": 1,
-    "Special": "Permet de relancer une fois par scène un seul D20 sur un test de compétence basé sur l'INT. Peut être renforcée avec du Tissu Balistique $TB$"
+    "Special": "Permet de relancer une fois par scène un seul D20 sur un test de compétence basé sur l'INT. Peut être renforcée avec du Tissu Balistique"
   },
   {
     "Name": "Bleu de travail",
@@ -193,7 +193,7 @@ export const OUTFITS_LOOT_DATA = [
     "Weight": 1,
     "Cost": 30,
     "Rarity": 2,
-    "Special": "Permet de relancer une fois par scène un seul D20 sur un test de compétence basé sur le CHR. Peut être renforcée avec du Tissu Balistique $TB$"
+    "Special": "Permet de relancer une fois par scène un seul D20 sur un test de compétence basé sur le CHR. Peut être renforcée avec du Tissu Balistique"
   },
   {
     "Name": "Armure de scribe de la Confrérie de l'Acier",

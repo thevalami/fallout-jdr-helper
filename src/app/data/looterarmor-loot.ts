@@ -1,6 +1,6 @@
 import {DataTableDefinition} from "./generic-data";
 
-export const LOOTERARMOR_LOOT_DEF: DataTableDefinition[] = [{
+export const RAIDERARMOR_LOOT_DEF: DataTableDefinition[] = [{
   column: 'Name',
   label: 'Nom'
 }, {
@@ -26,7 +26,7 @@ export const LOOTERARMOR_LOOT_DEF: DataTableDefinition[] = [{
   label: 'Rareté'
 }]
 
-export const LOOTERARMOR_LOOT_DATA = [
+export const RAIDERARMOR_LOOT_DATA = [
   {
     "Name": "Plastron de pillard",
     "PhysicalRes": 1,

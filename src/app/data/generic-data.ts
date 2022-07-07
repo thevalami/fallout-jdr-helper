@@ -15,7 +15,7 @@ import {HATS_LOOT_DATA, HATS_LOOT_DEF} from "./hats-loot";
 import {LEATHERARMOR_LOOT_DATA, LEATHERARMOR_LOOT_DEF} from "./leatherarmor-loot";
 import {SYNTHARMOR_LOOT_DATA, SYNTHARMOR_LOOT_DEF} from "./syntharmor-loot";
 import {VAULTSEC_LOOT_DEF, VAULTSECARMOR_LOOT_DATA} from "./vaultsecurity-armor-loot";
-import {LOOTERARMOR_LOOT_DATA, LOOTERARMOR_LOOT_DEF} from "./looterarmor-loot";
+import {RAIDERARMOR_LOOT_DATA, RAIDERARMOR_LOOT_DEF} from "./looterarmor-loot";
 import {METALARMOR_LOOT_DATA, METALARMOR_LOOT_DEF} from "./metal-armor-loot";
 import {COMBATARMOR_LOOT_DATA, COMBATARMOR_LOOT_DEF} from "./combat-armor-loot";
 import {DOGARMOR_LOOT_DATA, DOGARMOR_LOOT_DEF} from "./dogarmor-loot";
@@ -182,7 +182,7 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         definition: OUTFITS_LOOT_DEF,
         data: OUTFITS_LOOT_DATA,
         generic: true,
-        moddable: false
+        moddable: true
       },
       {
         type: 'hats',
@@ -200,7 +200,7 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         definition: LEATHERARMOR_LOOT_DEF,
         data: LEATHERARMOR_LOOT_DATA,
         generic: true,
-        moddable: false
+        moddable: true
       },
       {
         type: 'synth-armor',
@@ -209,7 +209,7 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         definition: SYNTHARMOR_LOOT_DEF,
         data: SYNTHARMOR_LOOT_DATA,
         generic: true,
-        moddable: false
+        moddable: true
       },
       {
         type: 'vaultsec-armor',
@@ -221,13 +221,13 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         moddable: false
       },
       {
-        type: 'lootersec-armor',
+        type: 'raider-armor',
         label: 'Armures de pillard',
         img: 'raider.png',
-        definition: LOOTERARMOR_LOOT_DEF,
-        data: LOOTERARMOR_LOOT_DATA,
+        definition: RAIDERARMOR_LOOT_DEF,
+        data: RAIDERARMOR_LOOT_DATA,
         generic: true,
-        moddable: false
+        moddable: true
       },
       {
         type: 'metal-armor',
@@ -236,7 +236,7 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         definition: METALARMOR_LOOT_DEF,
         data: METALARMOR_LOOT_DATA,
         generic: true,
-        moddable: false
+        moddable: true
       },
       {
         type: 'combat-armor',
@@ -245,7 +245,7 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         definition: COMBATARMOR_LOOT_DEF,
         data: COMBATARMOR_LOOT_DATA,
         generic: true,
-        moddable: false
+        moddable: true
       },
       {
         type: 'dog-armor',
@@ -263,7 +263,7 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         definition: POWERRMOR_LOOT_DEF,
         data: POWERARMOR_LOOT_DATA,
         generic: true,
-        moddable: false
+        moddable: true
       },
       {
         type: 'robot-armor',
