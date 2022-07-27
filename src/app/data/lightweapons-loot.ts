@@ -30,6 +30,9 @@ export const LIGHTWEAPONS_LOOT_DEF: DataTableDefinition[] = [{
 }, {
   column: 'Rarity',
   label: 'Rareté'
+}, {
+  column: 'Munitions',
+  label: 'Munitions'
 }]
 
 export const LIGHTWEAPONS_LOOT_DATA = [
@@ -43,10 +46,11 @@ export const LIGHTWEAPONS_LOOT_DATA = [
     "Bonus": "Combat rapproché",
     "Weight": 2,
     "Cost": 99,
-    "Rarity": 2
+    "Rarity": 2,
+    "Munitions": "Cartouches .44"
   },
   {
-    "Name": "Pistolet 10 mm",
+    "Name": "Pistolet 10mm",
     "Damage": "4 $CD$",
     "Effect": "–",
     "Type": "Balistiques",
@@ -55,7 +59,8 @@ export const LIGHTWEAPONS_LOOT_DATA = [
     "Bonus": "Combat rapproché,Fiable",
     "Weight": 2,
     "Cost": 50,
-    "Rarity": 1
+    "Rarity": 1,
+    "Munitions": "Cartouches 10mm"
   },
   {
     "Name": "Pistolet lance-fusées",
@@ -67,7 +72,8 @@ export const LIGHTWEAPONS_LOOT_DATA = [
     "Bonus": "Fiable",
     "Weight": 1,
     "Cost": 50,
-    "Rarity": 1
+    "Rarity": 1,
+    "Munitions": "Fusées éclairantes"
   },
   {
     "Name": "Fusil d’assaut",
@@ -79,7 +85,8 @@ export const LIGHTWEAPONS_LOOT_DATA = [
     "Bonus": "Deux mains",
     "Weight": "6,5",
     "Cost": 144,
-    "Rarity": 2
+    "Rarity": 2,
+    "Munitions": "Cartouches 5,56mm"
   },
   {
     "Name": "Carabine de combat",
@@ -91,7 +98,8 @@ export const LIGHTWEAPONS_LOOT_DATA = [
     "Bonus": "Deux mains",
     "Weight": "5,5",
     "Cost": 117,
-    "Rarity": 2
+    "Rarity": 2,
+    "Munitions": "Cartouches .45"
   },
   {
     "Name": "Fusil de Gauss",
@@ -103,7 +111,8 @@ export const LIGHTWEAPONS_LOOT_DATA = [
     "Bonus": "Deux mains",
     "Weight": 8,
     "Cost": 228,
-    "Rarity": 4
+    "Rarity": 4,
+    "Munitions": "CE 2mm"
   },
   {
     "Name": "Fusil de chasse",
@@ -115,7 +124,8 @@ export const LIGHTWEAPONS_LOOT_DATA = [
     "Bonus": "Deux mains",
     "Weight": 5,
     "Cost": 55,
-    "Rarity": 2
+    "Rarity": 2,
+    "Munitions": "Cartouches .308"
   },
   {
     "Name": "Mitraillette",
@@ -127,7 +137,8 @@ export const LIGHTWEAPONS_LOOT_DATA = [
     "Bonus": "Deux mains,Imprécis",
     "Weight": 6,
     "Cost": 109,
-    "Rarity": 1
+    "Rarity": 1,
+    "Munitions": "Cartouches .45"
   },
   {
     "Name": "Fusil de combat",
@@ -139,7 +150,8 @@ export const LIGHTWEAPONS_LOOT_DATA = [
     "Bonus": "Deux mains, Imprécis",
     "Weight": "5,5",
     "Cost": 87,
-    "Rarity": 2
+    "Rarity": 2,
+    "Munitions": "Calibre 12"
   },
   {
     "Name": "Fusil à double canon",
@@ -151,7 +163,8 @@ export const LIGHTWEAPONS_LOOT_DATA = [
     "Bonus": "Deux mains, Imprécis",
     "Weight": "4,5",
     "Cost": 39,
-    "Rarity": 1
+    "Rarity": 1,
+    "Munitions": "Calibre 12"
   },
   {
     "Name": "Arme à verrou de fortune",
@@ -163,7 +176,8 @@ export const LIGHTWEAPONS_LOOT_DATA = [
     "Bonus": "Imprévisible",
     "Weight": "1,5",
     "Cost": 30,
-    "Rarity": 0
+    "Rarity": 0,
+    "Munitions": "Cartouches .308"
   },
   {
     "Name": "Arme de fortune",
@@ -175,7 +189,8 @@ export const LIGHTWEAPONS_LOOT_DATA = [
     "Bonus": "Combat rapproché, Imprévisible",
     "Weight": 1,
     "Cost": 30,
-    "Rarity": 0
+    "Rarity": 0,
+    "Munitions": "Cartouches .38"
   },
   {
     "Name": "Revolver de fortune",
@@ -187,7 +202,8 @@ export const LIGHTWEAPONS_LOOT_DATA = [
     "Bonus": "Combat rapproché, Imprévisible",
     "Weight": 2,
     "Cost": 25,
-    "Rarity": 0
+    "Rarity": 0,
+    "Munitions": "Cartouches .45"
   },
   {
     "Name": "Fusil à clous",
@@ -199,7 +215,8 @@ export const LIGHTWEAPONS_LOOT_DATA = [
     "Bonus": "Deux mains, Imprévisible,Invalidant",
     "Weight": 7,
     "Cost": 290,
-    "Rarity": 4
+    "Rarity": 4,
+    "Munitions": "Clous de rail"
   },
   {
     "Name": "Pistolet à seringues",
@@ -211,6 +228,7 @@ export const LIGHTWEAPONS_LOOT_DATA = [
     "Bonus": "Deux mains",
     "Weight": 3,
     "Cost": 132,
-    "Rarity": 2
+    "Rarity": 2,
+    "Munitions": "Seringues"
   }
 ]

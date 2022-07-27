@@ -61,7 +61,7 @@ export const LOOT_RANGE_WEAPONS = [
   },
   {
     "Dice": 17,
-    "Loot": "Pistolet 10 mm"
+    "Loot": "Pistolet 10mm"
   },
   {
     "Dice": 18,
@@ -93,7 +93,7 @@ export const LOOT_RANGE_WEAPONS = [
   },
   {
     "Dice": 25,
-    "Loot": "Pistolet 10 mm Automatique  (Culasse Automatique)"
+    "Loot": "Pistolet 10mm Automatique  (Culasse Automatique)"
   },
   {
     "Dice": 26,

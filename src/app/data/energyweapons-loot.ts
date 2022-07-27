@@ -30,6 +30,9 @@ export const ENERGYWEAPONS_LOOT_DEF: DataTableDefinition[] = [{
 }, {
   column: 'Rarity',
   label: 'Rareté'
+}, {
+  column: 'Munitions',
+  label: 'Munitions'
 }]
 
 export const ENERGYWEAPONS_LOOT_DATA = [
@@ -43,7 +46,8 @@ export const ENERGYWEAPONS_LOOT_DATA = [
     "Bonus": "Combat rapproché, Imprécis",
     "Weight": 2,
     "Cost": 50,
-    "Rarity": 2
+    "Rarity": 2,
+    "Munitions": "Cellules à fusion"
   },
   {
     "Name": "Mousquet laser",
@@ -55,7 +59,8 @@ export const ENERGYWEAPONS_LOOT_DATA = [
     "Bonus": "Deux mains",
     "Weight": "6,5",
     "Cost": 57,
-    "Rarity": 1
+    "Rarity": 1,
+    "Munitions": "Cellules à fusion"
   },
   {
     "Name": "Arme laser",
@@ -67,7 +72,8 @@ export const ENERGYWEAPONS_LOOT_DATA = [
     "Bonus": "Combat rapproché",
     "Weight": 2,
     "Cost": 69,
-    "Rarity": 2
+    "Rarity": 2,
+    "Munitions": "Cellules à fusion"
   },
   {
     "Name": "Arme plasma",
@@ -79,7 +85,8 @@ export const ENERGYWEAPONS_LOOT_DATA = [
     "Bonus": "Combat rapproché",
     "Weight": 2,
     "Cost": 123,
-    "Rarity": 3
+    "Rarity": 3,
+    "Munitions": "Cartouches au plasma"
   },
   {
     "Name": "Pistolet Gamma",
@@ -91,6 +98,7 @@ export const ENERGYWEAPONS_LOOT_DATA = [
     "Bonus": "Imprécis, Zone d’impact",
     "Weight": "1,5",
     "Cost": 156,
-    "Rarity": 5
+    "Rarity": 5,
+    "Munitions": "Cartouches au plasma"
   }
 ]

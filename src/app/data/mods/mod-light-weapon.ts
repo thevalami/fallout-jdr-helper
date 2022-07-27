@@ -109,7 +109,7 @@ export const MOD_LIGHT_WEAPON_DATA = {
       "Skills": "Scientifique 3"
     }
   ],
-  "Pistolet 10 mm": [
+  "Pistolet 10mm": [
     {
       "Name": "Culasse calibrée",
       "Type": "Culasse",

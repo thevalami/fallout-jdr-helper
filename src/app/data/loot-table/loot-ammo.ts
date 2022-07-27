@@ -86,12 +86,12 @@ export const LOOT_AMMO = [
   },
   {
     "Dice": 19,
-    "Loot": "10 mm",
+    "Loot": "10mm",
     "Quantity": "8 + 4 $CD$"
   },
   {
     "Dice": 20,
-    "Loot": "10 mm",
+    "Loot": "10mm",
     "Quantity": "8 + 4 $CD$"
   },
   {

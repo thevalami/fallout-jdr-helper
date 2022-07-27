@@ -27,7 +27,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Condensateur amélioré",
       "Type": "Condensateur",
-      "Effect1": "+1 D de dégâts",
+      "Effect1": "+1 $CD$ de dégâts",
       "Effect2": "-1 cadence de tir",
       "Effect3": "",
       "Effect4": "",
@@ -39,7 +39,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Agitateur de photons",
       "Type": "Condensateur",
-      "Effect1": "+1 D de dégâts",
+      "Effect1": "+1 $CD$ de dégâts",
       "Effect2": "Gagne Brutal",
       "Effect3": "",
       "Effect4": "",
@@ -63,7 +63,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Canon automatique",
       "Type": "Canon",
-      "Effect1": "-1 D de dégâts",
+      "Effect1": "-1 $CD$ de dégâts",
       "Effect2": "Perd Combat rapproché",
       "Effect3": "Augmente la portée d'un niveau",
       "Effect4": "+1 cadence de tir",
@@ -75,7 +75,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Canon amélioré",
       "Type": "Canon",
-      "Effect1": "+1 D de dégâts",
+      "Effect1": "+1 $CD$ de dégâts",
       "Effect2": "",
       "Effect3": "",
       "Effect4": "",
@@ -171,7 +171,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Diviseur de rayon",
       "Type": "Bouche",
-      "Effect1": "-1 D de dégâts",
+      "Effect1": "-1 $CD$ de dégâts",
       "Effect2": "Gagne De zone",
       "Effect3": "-1 cadence de tir",
       "Effect4": "Gagne Imprécis",
@@ -209,7 +209,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Condensateur à trois charges",
       "Type": "Condensateur",
-      "Effect1": "+1 D de dégâts",
+      "Effect1": "+1 $CD$ de dégâts",
       "Effect2": "Consomme 3 tirs par attaque",
       "Effect3": "",
       "Effect4": "",
@@ -221,7 +221,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Condensateur à quatre charges",
       "Type": "Condensateur",
-      "Effect1": "+2 D de dégâts",
+      "Effect1": "+2 $CD$ de dégâts",
       "Effect2": "Consomme 4 tirs par attaque",
       "Effect3": "",
       "Effect4": "",
@@ -233,7 +233,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Condensateur à cinq charges",
       "Type": "Condensateur",
-      "Effect1": "+3 D de dégâts",
+      "Effect1": "+3 $CD$ de dégâts",
       "Effect2": "Consomme 5 tirs par attaque",
       "Effect3": "",
       "Effect4": "",
@@ -245,7 +245,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Condensateur à six charges",
       "Type": "Condensateur",
-      "Effect1": "+4 D de dégâts",
+      "Effect1": "+4 $CD$ de dégâts",
       "Effect2": "Consomme 6 tirs par attaque",
       "Effect3": "",
       "Effect4": "",
@@ -377,7 +377,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Diviseur de rayon",
       "Type": "Bouche",
-      "Effect1": "-1 D de dégâts",
+      "Effect1": "-1 $CD$ de dégâts",
       "Effect2": "Gagne De zone",
       "Effect3": "-1 cadence de tir",
       "Effect4": "Gagne Imprécis",
@@ -439,7 +439,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Condensateur amélioré",
       "Type": "Condensateur",
-      "Effect1": "+1 D de dégâts",
+      "Effect1": "+1 $CD$ de dégâts",
       "Effect2": "-1 cadence de tir",
       "Effect3": "",
       "Effect4": "",
@@ -451,7 +451,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Agitateur de photons",
       "Type": "Condensateur",
-      "Effect1": "+1 D de dégâts",
+      "Effect1": "+1 $CD$ de dégâts",
       "Effect2": "Gagne Brutal",
       "Effect3": "",
       "Effect4": "",
@@ -475,7 +475,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Canon automatique",
       "Type": "Canon",
-      "Effect1": "-1 D de dégâts",
+      "Effect1": "-1 $CD$ de dégâts",
       "Effect2": "Perd Combat rapproché",
       "Effect3": "Augmente la portée d'un niveau",
       "Effect4": "+1 cadence de tir",
@@ -487,7 +487,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Canon de précision",
       "Type": "Canon",
-      "Effect1": "+2 D de dégâts",
+      "Effect1": "+2 $CD$ de dégâts",
       "Effect2": "Perd Combat rapproché",
       "Effect3": "Augmente la portée d'un niveau",
       "Effect4": "-1 cadence de tir",
@@ -499,7 +499,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Canon amélioré",
       "Type": "Canon",
-      "Effect1": "+1 D de dégâts",
+      "Effect1": "+1 $CD$ de dégâts",
       "Effect2": "",
       "Effect3": "",
       "Effect4": "",
@@ -631,7 +631,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Diviseur de rayon",
       "Type": "Bouche",
-      "Effect1": "-1 D de dégâts",
+      "Effect1": "-1 $CD$ de dégâts",
       "Effect2": "Gagne De zone",
       "Effect3": "-1 cadence de tir",
       "Effect4": "Gagne Imprécis",
@@ -693,7 +693,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Condensateur amélioré",
       "Type": "Condensateur",
-      "Effect1": "+1 D de dégâts",
+      "Effect1": "+1 $CD$ de dégâts",
       "Effect2": "-1 cadence de tir",
       "Effect3": "",
       "Effect4": "",
@@ -705,7 +705,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Agitateur de photons",
       "Type": "Condensateur",
-      "Effect1": "+1 D de dégâts",
+      "Effect1": "+1 $CD$ de dégâts",
       "Effect2": "Gagne Brutal",
       "Effect3": "",
       "Effect4": "",
@@ -717,7 +717,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Diviseur",
       "Type": "Condensateur",
-      "Effect1": "-1 D de dégâts",
+      "Effect1": "-1 $CD$ de dégâts",
       "Effect2": "Gagne De zone",
       "Effect3": "Gagne Imprécis",
       "Effect4": "",
@@ -729,7 +729,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Canon automatique",
       "Type": "Canon",
-      "Effect1": "-1 D de dégâts",
+      "Effect1": "-1 $CD$ de dégâts",
       "Effect2": "Perd Combat rapproché",
       "Effect3": "Augmente la portée d'un niveau",
       "Effect4": "+1 cadence de tir",
@@ -741,7 +741,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Canon de précision",
       "Type": "Canon",
-      "Effect1": "+2 D de dégâts",
+      "Effect1": "+2 $CD$ de dégâts",
       "Effect2": "Perd Combat rapproché",
       "Effect3": "Augmente la portée d'un niveau",
       "Effect4": "-1 cadence de tir",
@@ -753,7 +753,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Canon lance-flammes",
       "Type": "Canon",
-      "Effect1": "-2 D de dégâts",
+      "Effect1": "-2 $CD$ de dégâts",
       "Effect2": "+2 cadence de tir",
       "Effect3": "Gagne De zone",
       "Effect4": "Gagne En rafale",
@@ -765,7 +765,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Canon amélioré",
       "Type": "Canon",
-      "Effect1": "+1 D de dégâts",
+      "Effect1": "+1 $CD$ de dégâts",
       "Effect2": "",
       "Effect3": "",
       "Effect4": "",
@@ -887,7 +887,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
     {
       "Name": "Parabole à renforcement",
       "Type": "Parabole",
-      "Effect1": "+1 D de dégâts",
+      "Effect1": "+1 $CD$ de dégâts",
       "Effect2": "Augmente la portée d'un niveau",
       "Effect3": "",
       "Effect4": "",

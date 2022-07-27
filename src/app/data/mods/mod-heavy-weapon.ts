@@ -52,7 +52,7 @@ export const MOD_HEAVY_WEAPON_DATA = {
     {
       "Name": "Réservoir à napalm",
       "Type": "Carburant",
-      "Effect1": "+1 D de dégâts",
+      "Effect1": "+1 $CD$ de dégâts",
       "Effect2": "",
       "Weight": "+ 3,5 kg",
       "Cost": "+ 59 caps",
@@ -88,7 +88,7 @@ export const MOD_HEAVY_WEAPON_DATA = {
     {
       "Name": "Buse de compression",
       "Type": "Buse",
-      "Effect1": "+1 D de dégâts",
+      "Effect1": "+1 $CD$ de dégâts",
       "Effect2": "",
       "Weight": "",
       "Cost": "+ 22 caps",
@@ -97,7 +97,7 @@ export const MOD_HEAVY_WEAPON_DATA = {
     {
       "Name": "Buse de vaporisation",
       "Type": "Buse",
-      "Effect1": "+1 D de dégâts",
+      "Effect1": "+1 $CD$ de dégâts",
       "Effect2": "Gagne Brutal",
       "Weight": "",
       "Cost": "+ 47 caps",
@@ -193,7 +193,7 @@ export const MOD_HEAVY_WEAPON_DATA = {
     {
       "Name": "Condensateur amélioré",
       "Type": "Condensateur",
-      "Effect1": "+1 D de dégâts",
+      "Effect1": "+1 $CD$ de dégâts",
       "Effect2": "-1 cadence de tir",
       "Effect3": "",
       "Weight": "+ 0,5 kg",
@@ -203,7 +203,7 @@ export const MOD_HEAVY_WEAPON_DATA = {
     {
       "Name": "Agitateur de photons",
       "Type": "Condensateur",
-      "Effect1": "+1 D de dégâts",
+      "Effect1": "+1 $CD$ de dégâts",
       "Effect2": "Gagne Brutal",
       "Effect3": "",
       "Weight": "+ 1,5 kg",
@@ -213,7 +213,7 @@ export const MOD_HEAVY_WEAPON_DATA = {
     {
       "Name": "Canons à chargement",
       "Type": "Canon",
-      "Effect1": "+4 D de dégâts",
+      "Effect1": "+4 $CD$ de dégâts",
       "Effect2": "-3 cadence de tir",
       "Effect3": "Augmente la portée d'un niveau",
       "Weight": "+ 5 kg",
@@ -245,7 +245,7 @@ export const MOD_HEAVY_WEAPON_DATA = {
     {
       "Name": "Canon grande vitesse",
       "Type": "Canon",
-      "Effect1": "+1 D de dégâts",
+      "Effect1": "+1 $CD$ de dégâts",
       "Effect2": "+1 cadence de tir",
       "Effect3": "Réduit la portée d'un niveau",
       "Weight": "+ 2,5 kg",
@@ -255,7 +255,7 @@ export const MOD_HEAVY_WEAPON_DATA = {
     {
       "Name": "Triple canon",
       "Type": "Canon",
-      "Effect1": "+2 D de dégâts",
+      "Effect1": "+2 $CD$ de dégâts",
       "Effect2": "-2 cadence de tir",
       "Effect3": "",
       "Weight": "+ 1,5 kg",
@@ -275,7 +275,7 @@ export const MOD_HEAVY_WEAPON_DATA = {
     {
       "Name": "Broyeur",
       "Type": "Bouche",
-      "Effect1": "Arme de corps à corps, inflige un nombre de D de dégâts balistiques égal à la cadence de tir",
+      "Effect1": "Arme de corps à corps, inflige un nombre de $CD$ de dégâts balistiques égal à la cadence de tir",
       "Effect2": "",
       "Effect3": "",
       "Weight": "+ 2,5 kg",
