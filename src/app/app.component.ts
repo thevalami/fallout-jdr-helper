@@ -25,6 +25,7 @@ export class AppComponent implements OnInit {
         AppComponent.buildMenu('Recherche rapide', 'quick-search', 'search'),
         AppComponent.buildMenu('Livre aléatoire', 'books', 'book'),
         AppComponent.buildMenu('Loot aléatoire', 'random-loot', 'shuffle'),
+        AppComponent.buildMenu('Version Android', 'getandroid', 'logo-android'),
       ]
     });
     this.sections = [...this.sections, ...REGISTERED_DATA_SECTIONS];

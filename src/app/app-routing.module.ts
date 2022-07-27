@@ -30,7 +30,12 @@ const routes: Routes = [
   {
     path: 'random-loot',
     loadChildren: () => import('./pages/random-loot/random-loot.module').then(m => m.RandomLootPageModule)
+  },
+  {
+    path: 'getandroid',
+    loadChildren: () => import('./pages/getandroid/getandroid.module').then(m => m.GetandroidPageModule)
   }
+
 ];
 
 @NgModule({
