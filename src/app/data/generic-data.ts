@@ -21,6 +21,14 @@ import {COMBATARMOR_LOOT_DATA, COMBATARMOR_LOOT_DEF} from "./combat-armor-loot";
 import {DOGARMOR_LOOT_DATA, DOGARMOR_LOOT_DEF} from "./dogarmor-loot";
 import {POWERARMOR_LOOT_DATA, POWERRMOR_LOOT_DEF} from "./power-armor-loot";
 import {ROBOTARMOR_LOOT_DATA, ROBOTARMOR_LOOT_DEF} from "./robot-armor-loot";
+import {RECIPE_DEF} from "./recipes/recipes";
+import {RECIPE_FOOD_STATION} from "./recipes/recipe-food";
+import {RECIPE_ARMOR_STATION} from "./recipes/recipe-armors";
+import {RECIPE_CHEMISTRY_STATION} from "./recipes/recipe-chemistry";
+import {RECIPE_ROBOT_STATION} from "./recipes/recipe-robot";
+import {RECIPE_POWERARMOR_STATION} from "./recipes/recipe-powerarmor";
+import {RECIPE_LIGHTWEAPONS_STATION} from "./recipes/recipe-lightweapons";
+import {RECIPE_ENERGYWEAPONS_STATION} from "./recipes/recipe-energyweapons";
 
 export interface DataTableDefinition {
   column: string,
@@ -273,6 +281,74 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         data: ROBOTARMOR_LOOT_DATA,
         generic: true,
         moddable: true
+      }
+    ]
+  },
+  {
+    label: "Recettes",
+    data: [
+      {
+        type: 'recipe-food-stattion',
+        label: 'Atelier de cuisine',
+        img: 'food.png',
+        definition: RECIPE_DEF,
+        data: RECIPE_FOOD_STATION,
+        generic: true,
+        moddable: false
+      },
+      {
+        type: 'recipe-armor-station',
+        label: 'Etabli d\'armures',
+        img: 'metal.png',
+        definition: RECIPE_DEF,
+        data: RECIPE_ARMOR_STATION,
+        generic: true,
+        moddable: false
+      },
+      {
+        type: 'recipe-chemistry-station',
+        label: 'Etabli de chimie',
+        img: 'chems.png',
+        definition: RECIPE_DEF,
+        data: RECIPE_CHEMISTRY_STATION,
+        generic: true,
+        moddable: false
+      },
+      {
+        type: 'recipe-robot-station',
+        label: 'Etabli de robots',
+        img: 'robot.png',
+        definition: RECIPE_DEF,
+        data: RECIPE_ROBOT_STATION,
+        generic: true,
+        moddable: false
+      },
+      {
+        type: 'recipe-powerarmor-station',
+        label: 'Poste d\'armures assistées',
+        img: 'powerarmor.png',
+        definition: RECIPE_DEF,
+        data: RECIPE_POWERARMOR_STATION,
+        generic: true,
+        moddable: false
+      },
+      {
+        type: 'recipe-lightweapons-station',
+        label: 'Poste d\'armes : légères',
+        img: 'smallgun.png',
+        definition: RECIPE_DEF,
+        data: RECIPE_LIGHTWEAPONS_STATION,
+        generic: true,
+        moddable: false
+      },
+      {
+        type: 'recipe-energyweapons-station',
+        label: 'Poste d\'armes : énergies',
+        img: 'energyweapon.png',
+        definition: RECIPE_DEF,
+        data: RECIPE_ENERGYWEAPONS_STATION,
+        generic: true,
+        moddable: false
       }
     ]
   }
