@@ -29,6 +29,8 @@ import {RECIPE_ROBOT_STATION} from "./recipes/recipe-robot";
 import {RECIPE_POWERARMOR_STATION} from "./recipes/recipe-powerarmor";
 import {RECIPE_LIGHTWEAPONS_STATION} from "./recipes/recipe-lightweapons";
 import {RECIPE_ENERGYWEAPONS_STATION} from "./recipes/recipe-energyweapons";
+import {RECIPE_HEAVYWEAPONS_STATION} from "./recipes/recipe-heavyweapons";
+import {RECIPE_MELEEWEAPONS_STATION} from "./recipes/recipe-meleeweapons";
 
 export interface DataTableDefinition {
   column: string,
@@ -347,6 +349,24 @@ export const REGISTERED_DATA_SECTIONS: Section[] = [
         img: 'energyweapon.png',
         definition: RECIPE_DEF,
         data: RECIPE_ENERGYWEAPONS_STATION,
+        generic: true,
+        moddable: false
+      },
+      {
+        type: 'recipe-heavyweapons-station',
+        label: 'Poste d\'armes : lourdes',
+        img: 'heavyguns.png',
+        definition: RECIPE_DEF,
+        data: RECIPE_HEAVYWEAPONS_STATION,
+        generic: true,
+        moddable: false
+      },
+      {
+        type: 'recipe-meleeweapons-station',
+        label: 'Poste d\'armes : mêlée',
+        img: 'melee.png',
+        definition: RECIPE_DEF,
+        data: RECIPE_MELEEWEAPONS_STATION,
         generic: true,
         moddable: false
       }
