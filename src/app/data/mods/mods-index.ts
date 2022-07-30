@@ -80,16 +80,52 @@ export const MOD_DEF: DataTableDefinition[] = [
 ]
 
 export const MODS_TABLE_DATA = {
-  'light-weapons': MOD_LIGHT_WEAPON_DATA,
-  'heavy-weapons': MOD_HEAVY_WEAPON_DATA,
-  'energy-weapons': MOD_ENERGY_WEAPON_DATA,
-  'melee-weapons': MOD_MELEE_WEAPON_DATA,
-  'robot-armor': MOD_ROBOT_ARMOR_DATA,
-  'outfits': MOD_OUTFITS,
-  'raider-armor': MOD_RAIDER_ARMOR,
-  'leather-armor': MOD_LEATHER_ARMOR,
-  'metal-armor': MOD_METAL_ARMOR,
-  'combat-armor': MOD_COMBAT_ARMOR,
-  'synth-armor': MOD_SYNTH_ARMOR,
-  'power-armor': MOD_POWER_ARMOR_ARMOR
+  'light-weapons': {
+    label: "Mods Armes légères",
+    mods: MOD_LIGHT_WEAPON_DATA
+  },
+  'heavy-weapons': {
+    label: "Mods Armes lourdes",
+    mods: MOD_HEAVY_WEAPON_DATA
+  },
+  'energy-weapons': {
+    label: "Mods Armes à énergie",
+    mods: MOD_ENERGY_WEAPON_DATA
+  },
+  'melee-weapons': {
+    label: "Mods Armes de mêlée",
+    mods: MOD_MELEE_WEAPON_DATA
+  },
+  'robot-armor': {
+    label: "Mods Armures de robots",
+    mods: MOD_ROBOT_ARMOR_DATA
+  },
+  'outfits': {
+    label: "Mods Tenues et vêtements",
+    mods: MOD_OUTFITS
+  },
+  'raider-armor': {
+    label: "Mods Armures de pillard",
+    mods: MOD_RAIDER_ARMOR
+  },
+  'leather-armor': {
+    label: "Mods Armures en cuir",
+    mods: MOD_LEATHER_ARMOR
+  },
+  'metal-armor': {
+    label: "Mods Armures en métal",
+    mods: MOD_METAL_ARMOR
+  },
+  'combat-armor': {
+    label: "Mods Armures de combat",
+    mods: MOD_COMBAT_ARMOR
+  },
+  'synth-armor': {
+    label: "Mods Armures de synthétique",
+    mods: MOD_SYNTH_ARMOR
+  },
+  'power-armor': {
+    label: "Mods Armeures assistées",
+    mods: MOD_POWER_ARMOR_ARMOR
+  }
 }
