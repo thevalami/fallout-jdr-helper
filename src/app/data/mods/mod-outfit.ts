@@ -3,10 +3,10 @@ import {GLOBAL_ARMOR_MODS, MOD_TISSU_BALISTIQUE} from "./mods-armor-global";
 export const MOD_OUTFITS = {
   "Harnais": [...GLOBAL_ARMOR_MODS],
   "Uniforme de la Confrérie de l'Acier": [...GLOBAL_ARMOR_MODS],
-  "Vêtements décontractés": [...MOD_TISSU_BALISTIQUE, ...GLOBAL_ARMOR_MODS,],
+  "Vêtements décontractés": [...MOD_TISSU_BALISTIQUE, ...GLOBAL_ARMOR_MODS],
   "Vêtements de cuir": [...GLOBAL_ARMOR_MODS],
   "Vêtements résistants": [...GLOBAL_ARMOR_MODS],
-  "Treillis militaire": [...MOD_TISSU_BALISTIQUE, ...GLOBAL_ARMOR_MODS,],
+  "Treillis militaire": [...MOD_TISSU_BALISTIQUE, ...GLOBAL_ARMOR_MODS],
   "Combinaison d'abri": [
     {
       "Name": "Revêtement isolant",
@@ -42,7 +42,7 @@ export const MOD_OUTFITS = {
       "Effect2": "+2 résistance aux dégâts de radiation",
       "Weight": "+ 0,5 kg",
       "Cost": "+ 40 Caps",
-      "Skills": "Armurier 4,Scientifique 2"
+      "Skills": "Armurier 4, Scientifique 2"
     },
     {
       "Name": "Revêtement blindé",
@@ -51,7 +51,7 @@ export const MOD_OUTFITS = {
       "Effect2": "+3 résistance aux dégâts de radiation",
       "Weight": "+ 0,5 kg",
       "Cost": "+ 50 Caps",
-      "Skills": "Armurier 4,Scientifique 4"
+      "Skills": "Armurier 4, Scientifique 4"
     }, ...GLOBAL_ARMOR_MODS
   ],
   "Tenue de nomade": [...GLOBAL_ARMOR_MODS],

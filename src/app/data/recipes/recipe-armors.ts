@@ -152,7 +152,7 @@ export const RECIPE_ARMOR_STATION = [
     "Rarity": "Peu fréquente"
   },
   {
-    "Name": "Metal - Peint",
+    "Name": "Métal - Peint",
     "Components": "Normaux",
     "Complexity": 2,
     "Perk": "–",
@@ -160,7 +160,7 @@ export const RECIPE_ARMOR_STATION = [
     "Rarity": "Fréquente"
   },
   {
-    "Name": "Metal - Émaillé",
+    "Name": "Métal - Émaillé",
     "Components": "Normaux",
     "Complexity": 3,
     "Perk": "Armurier 1",
@@ -168,7 +168,7 @@ export const RECIPE_ARMOR_STATION = [
     "Rarity": ""
   },
   {
-    "Name": "Metal - Ombré",
+    "Name": "Métal - Ombré",
     "Components": "Normaux",
     "Complexity": 4,
     "Perk": "Armurier 1",
@@ -176,7 +176,7 @@ export const RECIPE_ARMOR_STATION = [
     "Rarity": "Peu fréquente"
   },
   {
-    "Name": "Metal - Allié",
+    "Name": "Métal - Allié",
     "Components": "Normaux",
     "Complexity": 5,
     "Perk": "Armurier 1",
@@ -184,7 +184,7 @@ export const RECIPE_ARMOR_STATION = [
     "Rarity": "Peu fréquente"
   },
   {
-    "Name": "Metal - Poli",
+    "Name": "Métal - Poli",
     "Components": "Normaux",
     "Complexity": 6,
     "Perk": "Armurier 2",

@@ -113,7 +113,7 @@ export const RECIPE_FOOD_STATION = [
   },
   {
     "Name": "Pâté de fangeux",
-    "Components": "Œuf de fangeux x1,Viande de fangeux x1, Matériaux peu fréquents x1, Blé Surin x1",
+    "Components": "Œuf de fangeux x1, Viande de fangeux x1, Matériaux peu fréquents x1, Blé Surin x1",
     "Complexity": 4,
     "Perk": "–",
     "Skill": "Survie",

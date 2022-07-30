@@ -399,7 +399,7 @@ export const T51_MODS = [
     "Localisation": "Buste",
     "Weight": "+ 1,5 kg",
     "Cost": "+ 27 Caps",
-    "Skills": "Armurier 2,Scientifique 1"
+    "Skills": "Armurier 2, Scientifique 1"
   },
   {
     "Name": "Brassard T-51d",
@@ -698,7 +698,7 @@ export const T60_MODS = [
     "Localisation": "Tête",
     "Weight": "+ 1,5 kg",
     "Cost": "+  160 Caps",
-    "Skills": "Armurier 3,Scientifique 2"
+    "Skills": "Armurier 3, Scientifique 2"
   },
   {
     "Name": "Plastron T-60f",
@@ -936,7 +936,7 @@ export const X01_MODS = [
     "Localisation": "Tête",
     "Weight": "+ 1,5 kg",
     "Cost": "+ 35 Caps",
-    "Skills": "Armurier 3,Scientifique 2",
+    "Skills": "Armurier 3, Scientifique 2",
     "InstallSkill": ""
   },
   {

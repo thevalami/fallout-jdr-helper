@@ -139,16 +139,16 @@ export const MOD_HEAVY_WEAPON_DATA = {
       "Effect2": "Gagne Vision nocturne",
       "Weight": "+ 3 kg",
       "Cost": "+ 248 caps",
-      "Skills": "Fana d'armes 4,Scientifique 1"
+      "Skills": "Fana d'armes 4, Scientifique 1"
     },
     {
       "Name": "Ordinateur de visée",
       "Type": "Viseur",
-      "Effect1": "Quand vous visez une cible, elle ne bénéficie pas de son abri et le bonus de visée s'applique à l'attaque suivante lors de tout tour ultérieur pendant la scène,",
+      "Effect1": "Quand vous visez une cible, elle ne bénéficie pas de son abri et le bonus de visée s'applique à l'attaque suivante lors de tout tour ultérieur pendant la scène",
       "Effect2": "",
       "Weight": "+ 3,5 kg",
       "Cost": "+ 293 caps",
-      "Skills": "Fana d'armes 2,Scientifique 2"
+      "Skills": "Fana d'armes 2, Scientifique 2"
     },
     {
       "Name": "Baïonnette",

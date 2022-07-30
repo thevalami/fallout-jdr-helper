@@ -17,7 +17,7 @@ export const MOD_MELEE_WEAPON_DATA =
         "Effect3": "",
         "Weight": "0",
         "Cost": "+ 50 caps",
-        "Skills": "Forgeron 2,Scientifique 1"
+        "Skills": "Forgeron 2, Scientifique 1"
       },
       {
         "Name": "Lame dentelée électrifiée",
@@ -26,7 +26,7 @@ export const MOD_MELEE_WEAPON_DATA =
         "Effect3": "Gagne Persistant (balistiques)",
         "Weight": "0",
         "Cost": "+ 75 caps",
-        "Skills": "Forgeron 2,Scientifique 1"
+        "Skills": "Forgeron 2, Scientifique 1"
       },
       {
         "Name": "Module d'étourdissement",
@@ -35,7 +35,7 @@ export const MOD_MELEE_WEAPON_DATA =
         "Effect3": "Gagne Etourdissant",
         "Weight": "0",
         "Cost": "+ 100 caps",
-        "Skills": "Forgeron 2,Scientifique 1"
+        "Skills": "Forgeron 2, Scientifique 1"
       }
     ],
     "Couteau de Combat": [
