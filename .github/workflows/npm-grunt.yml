@@ -40,6 +40,7 @@ jobs:
     - name: Build Signed APK
       uses: victorbnl/build-signed-apk@gradlew_file-test 
       with:
+        gradlew_file: android/gradlew
         keystore_file: android.jks
         keystore_password: ${{ secrets.KEYSTORE_PASS }}
         key_alias: ${{ secrets.KEY_ALIAS }}
