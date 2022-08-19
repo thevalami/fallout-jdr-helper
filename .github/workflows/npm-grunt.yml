@@ -47,11 +47,11 @@ jobs:
      #   key_alias: ${{ secrets.KEY_ALIAS }}
      #   key_password: ${{ secrets.KEY_PASSWORD }}
         
-    - name: Copy file
-      uses: canastro/copy-action@0.0.2
-      with:
-        source: app/build/outputs/apk/release/app-release.apk
-        target: www/falloutjdrhelper.apk
+    #- name: Copy file
+    #  uses: canastro/copy-action@0.0.2
+    #  with:
+     #   source: app/build/outputs/apk/release/app-release.apk
+     #   target: www/falloutjdrhelper.apk
           
     - name: SFTP Deploy
       uses: wlixcc/SFTP-Deploy-Action@v1.2.2
