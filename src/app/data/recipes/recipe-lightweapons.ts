@@ -11,7 +11,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Culasse Puissante",
     "Components": "Normaux",
     "Complexity": 3,
-    "Perk": "Fana d’armes",
+    "Perk": "Fana d'armes",
     "Skill": 1,
     "Rarity": "Réparation"
   },
@@ -19,7 +19,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Culasse Avancée",
     "Components": "Normaux",
     "Complexity": 5,
-    "Perk": "Fana d’armes 2",
+    "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -35,7 +35,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Culasse Automatique",
     "Components": "Normaux",
     "Complexity": 3,
-    "Perk": "Fana d’armes 1",
+    "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -43,7 +43,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Culasse Haute sensibilité",
     "Components": "Normaux",
     "Complexity": 4,
-    "Perk": "Fana d’armes 2",
+    "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -51,7 +51,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Culasse .38",
     "Components": "Normaux",
     "Complexity": 6,
-    "Perk": "Fana d’armes 4",
+    "Perk": "Fana d'armes 4",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -59,7 +59,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Culasse .308",
     "Components": "Normaux",
     "Complexity": 6,
-    "Perk": "Fana d’armes 4",
+    "Perk": "Fana d'armes 4",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -67,7 +67,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Culasse .45",
     "Components": "Normaux",
     "Complexity": 4,
-    "Perk": "Fana d’armes 2",
+    "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -75,7 +75,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Culasse .50",
     "Components": "Normaux",
     "Complexity": 6,
-    "Perk": "Fana d’armes 4",
+    "Perk": "Fana d'armes 4",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -83,7 +83,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Culasse Automatique à Piston",
     "Components": "Normaux",
     "Complexity": 4,
-    "Perk": "Fana d’armes 2",
+    "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -99,7 +99,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Canon Extra-lourd",
     "Components": "Normaux",
     "Complexity": 5,
-    "Perk": "Fana d’armes 3",
+    "Perk": "Fana d'armes 3",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -107,7 +107,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Canon Long",
     "Components": "Normaux",
     "Complexity": 3,
-    "Perk": "Fana d’armes 1",
+    "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -123,7 +123,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Canon À ouvertures",
     "Components": "Normaux",
     "Complexity": 6,
-    "Perk": "Fana d’armes 4",
+    "Perk": "Fana d'armes 4",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -139,7 +139,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Canon Protégé",
     "Components": "Normaux",
     "Complexity": 3,
-    "Perk": "Fana d’armes 3",
+    "Perk": "Fana d'armes 3",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -147,7 +147,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Canon À ailettes",
     "Components": "Normaux",
     "Complexity": 4,
-    "Perk": "Fana d’armes 2",
+    "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -155,7 +155,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Grand chargeur",
     "Components": "Normaux",
     "Complexity": 4,
-    "Perk": "Fana d’armes 2",
+    "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -163,7 +163,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Chargeur à éjection rapide",
     "Components": "Normaux",
     "Complexity": 4,
-    "Perk": "Fana d’armes 1",
+    "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -171,7 +171,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Grand chargeur à éjection rapide",
     "Components": "Normaux",
     "Complexity": 5,
-    "Perk": "Fana d’armes 2",
+    "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -184,10 +184,10 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Rarity": "Fréquente"
   },
   {
-    "Name": "Poignée de tireur d’élite",
+    "Name": "Poignée de tireur d'élite",
     "Components": "Normaux",
     "Complexity": 3,
-    "Perk": "Fana d’armes",
+    "Perk": "Fana d'armes",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -200,10 +200,10 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Rarity": "Fréquente"
   },
   {
-    "Name": "Crosse  de tireur d’élite",
+    "Name": "Crosse  de tireur d'élite",
     "Components": "Normaux",
     "Complexity": 4,
-    "Perk": "Fana d’armes 2",
+    "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -211,7 +211,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Crosse à compensateur de recul",
     "Components": "Normaux",
     "Complexity": 5,
-    "Perk": "Fana d’armes 3",
+    "Perk": "Fana d'armes 3",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -275,7 +275,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Compensateur",
     "Components": "Normaux",
     "Complexity": 3,
-    "Perk": "Fana d’armes 1",
+    "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -283,7 +283,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Frein de bouche",
     "Components": "Normaux",
     "Complexity": 3,
-    "Perk": "Fana d’armes 1",
+    "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -291,7 +291,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Silencieux",
     "Components": "Normaux",
     "Complexity": 4,
-    "Perk": "Fana d’armes 2",
+    "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   }

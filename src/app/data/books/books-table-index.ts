@@ -70,12 +70,12 @@ export const BOOK_TABLE_INDEX: BookType[] = [
   },
   {
     "Dice": 9,
-    "Loot": "L’avenir des Armes est à Vous",
+    "Loot": "L'avenir des Armes est à Vous",
     "Description": "Une seule fois, quand vous portez une attaque avec une arme à énergie, vous pouvez la surcharger. Augmentez les dégâts de +2D pour cette attaque. L'arme ne peut pas être utilisée pour porter une attaque durant le tour qui suit une attaque surchargée, car elle est en train de se refroidir. Si vous apprenez cette aptitude plus tard, vous pouvez surcharger une arme à énergie une fois par scène."
   },
   {
     "Dice": 10,
-    "Loot": "L’Homme des Bois",
+    "Loot": "L'Homme des Bois",
     "Data": BOOK_HOMMES_BOIS,
     "Description": "Selon le numéro du magazine trouvé, vous recevez une aptitude différente, dont vous ne pouvez bénéficier qu'une seule fois. Si vous apprenez cette aptitude plus tard, vous pouvez utiliser ce bénéfice une fois par scène. Lancez 1D20 pour déterminer quel numéro vous trouvez."
   },
@@ -96,7 +96,7 @@ export const BOOK_TABLE_INDEX: BookType[] = [
   },
   {
     "Dice": 14,
-    "Loot": "Les Aventures d’un Vendeur de Viande Séchée de Junktown",
+    "Loot": "Les Aventures d'un Vendeur de Viande Séchée de Junktown",
     "Description": "Une seule fois, quand vous réussissez ou ratez un test de Troc pour marchander le prix d'un échange, vous pouvez dépenser 1 point de Chance pour altérer le prix de 10% en votre faveur. Si vous apprenez cette aptitude, vous pouvez l'appliquer à n'importe quel test de Troc pour marchander, mais vous devez dépenser 1 point de Chance supplémentaire pour chaque utilisation après la première au cours d'une partie (donc 1 point de Chance pour la première fois, 2 pour la deuxième, 3 pour la troisième, etc.)."
   },
   {
@@ -107,13 +107,13 @@ export const BOOK_TABLE_INDEX: BookType[] = [
   },
   {
     "Dice": 16,
-    "Loot": "Manuel d’Opérations Secrètes de l’Armée Américaine",
+    "Loot": "Manuel d'Opérations Secrètes de l'Armée Américaine",
     "Data": BOOK_MANUEL_ARMEE_USA,
     "Description": "Selon le numéro du magazine trouvé, vous recevez une aptitude différente, dont vous ne pouvez bénéficier qu'une seule fois. Si vous apprenez cette aptitude plus tard, vous pouvez utiliser ce bénéfice une fois par scène. Lancez 1D20 pour déterminer quel numéro vous trouvez."
   },
   {
     "Dice": 17,
-    "Loot": "Réparer tout et N’importe Quoi",
+    "Loot": "Réparer tout et N'importe Quoi",
     "Description": "Une seule fois, quand vous tentez de réparer un objet, réduisez de moitié la quantité de composants nécessaires pour effectuer la réparation (arrondi au supérieur). Si vous apprenez cette aptitude plus tard, vous pouvez l'utiliser chaque fois que vous tentez des réparations."
   },
   {

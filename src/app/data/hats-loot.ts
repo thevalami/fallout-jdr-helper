@@ -53,7 +53,7 @@ export const HATS_LOOT_DATA = [
     "Special": ""
   },
   {
-    "Name": "Chapeau de scribe de terrain de la Confrérie",
+    "Name": "Chapeau de scribe de la Confrérie",
     "PhysicalRes": 0,
     "EnergyRes": 2,
     "RadiationRes": 0,

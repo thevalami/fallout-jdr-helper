@@ -16,24 +16,24 @@ export const RECIPE_FOOD_STATION = [
     "Rarity": "Rare"
   },
   {
-    "Name": "Brochette d’écureuil",
-    "Components": "Bouchées d’écureuil x1, Matériaux fréquents x1",
+    "Name": "Brochette d'écureuil",
+    "Components": "Bouchées d'écureuil x1, Matériaux fréquents x1",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Survie",
     "Rarity": "Fréquente"
   },
   {
-    "Name": "Bouchées d’écureuil croustillantes",
-    "Components": "Bouchées d’Écureuil x1",
+    "Name": "Bouchées d'écureuil croustillantes",
+    "Components": "Bouchées d'Écureuil x1",
     "Complexity": 1,
     "Perk": "–",
     "Skill": "Survie",
     "Rarity": "Fréquente"
   },
   {
-    "Name": "Brochette d’iguane",
-    "Components": "Bouchées d’iguane x1",
+    "Name": "Brochette d'iguane",
+    "Components": "Bouchées d'iguane x1",
     "Complexity": "Matériaux fréquents x1",
     "Perk": 2,
     "Skill": "–",
@@ -88,15 +88,15 @@ export const RECIPE_FOOD_STATION = [
     "Rarity": "Fréquente"
   },
   {
-    "Name": "Omelette d’œufs d’écorcheur",
-    "Components": "Poche de sang x1, Œuf d’écorcheur x1",
+    "Name": "Omelette d'œufs d'écorcheur",
+    "Components": "Poche de sang x1, Œuf d'écorcheur x1",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Survie",
     "Rarity": "Fréquente"
   },
   {
-    "Name": "Omelette d’œufs de fangeux",
+    "Name": "Omelette d'œufs de fangeux",
     "Components": "Eau sale x1, œuf de fangeux x1",
     "Complexity": 2,
     "Perk": "–",
@@ -104,7 +104,7 @@ export const RECIPE_FOOD_STATION = [
     "Rarity": "Fréquente"
   },
   {
-    "Name": "Omelette d’œufs de radscorpion",
+    "Name": "Omelette d'œufs de radscorpion",
     "Components": "Eau purifiée x1, Œuf de radscorpion x1",
     "Complexity": 2,
     "Perk": "–",
@@ -144,8 +144,8 @@ export const RECIPE_FOOD_STATION = [
     "Rarity": "Rare"
   },
   {
-    "Name": "Ragoût d’iguane",
-    "Components": "Carotte x1, Eau sale x1, Bouchées d’iguane x3",
+    "Name": "Ragoût d'iguane",
+    "Components": "Carotte x1, Eau sale x1, Bouchées d'iguane x3",
     "Complexity": 3,
     "Perk": "–",
     "Skill": "Survie",
@@ -168,8 +168,8 @@ export const RECIPE_FOOD_STATION = [
     "Rarity": "Fréquente"
   },
   {
-    "Name": "Steak d’écorcheur",
-    "Components": "Viande d’écorcheur x1",
+    "Name": "Steak d'écorcheur",
+    "Components": "Viande d'écorcheur x1",
     "Complexity": 1,
     "Perk": "–",
     "Skill": "Survie",

@@ -112,7 +112,7 @@ export const EXPLOSIVES_LOOT_DATA = [
     "Damage": "9 $CD$",
     "Effect": "",
     "DamageType": "Energétiques",
-    "Quality": "Mine, Zone d'impact",
+    "Quality": "Lancer (M), Zone d'impact",
     "Weight": "< 0,5",
     "Cost": 135,
     "Rarity": 3
@@ -122,9 +122,19 @@ export const EXPLOSIVES_LOOT_DATA = [
     "Damage": "9 $CD$",
     "Effect": "",
     "DamageType": "Energétiques",
-    "Quality": "Mine, Zone d'impact",
+    "Quality": "Lancer (M), Zone d'impact",
     "Weight": "< 0,5",
     "Cost": 135,
     "Rarity": 3
+  },
+  {
+    "Name": "Mine nucléaire",
+    "Damage": "9 $CD$",
+    "Effect": "Brutal, Destructeur, Radioactif",
+    "DamageType": "Energétiques",
+    "Quality": "Lancer (M), Zone d'impact",
+    "Weight": "< 0,5",
+    "Cost": 100,
+    "Rarity": 4
   }
 ]

@@ -68,9 +68,9 @@ export const HEAVYWEAPONS_LOOT_DATA = [
   {
     "Name": "Junk Jet",
     "Damage": "6 $CD$",
-    "Effect": "Quand vous tirez avec le Junk Jet, choisissez un objet que vous transportez actuellement sur vous ; cet objet est tiré par l’arme. \n" +
-      "Choisissez un objet supplémentaire pour chaque tir de munitions supplémentaire dépensé par l’attaque. Les objets doivent être assez petits pour être tenus dans une main et chargés dans le réservoir. À la fin de la scène, vous pouvez lancer 1 $CD$ par\n" +
-      "objet tiré avec le Junk Jet ; si vous obtenez un Effet, l’objet a survécu à l’attaque et peut être récupéré.",
+    "Effect": "Quand vous tirez avec le Junk Jet, choisissez un objet que vous transportez actuellement sur vous ; cet objet est tiré par l'arme. \n" +
+      "Choisissez un objet supplémentaire pour chaque tir de munitions supplémentaire dépensé par l'attaque. Les objets doivent être assez petits pour être tenus dans une main et chargés dans le réservoir. À la fin de la scène, vous pouvez lancer 1 $CD$ par\n" +
+      "objet tiré avec le Junk Jet ; si vous obtenez un Effet, l'objet a survécu à l'attaque et peut être récupéré.",
     "DamageType": "Balistiques",
     "Rate": 1,
     "Range": "M",
@@ -107,7 +107,7 @@ export const HEAVYWEAPONS_LOOT_DATA = [
     "Munitions": "Missiles"
   },
   {
-    "Name": "Laser Gatling",
+    "Name": "Gatling Laser",
     "Damage": "3 $CD$",
     "Effect": "En Rafale, Perforant 1",
     "DamageType": "Energétiques",

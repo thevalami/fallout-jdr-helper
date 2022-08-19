@@ -1,7 +1,7 @@
 export const LOOT_MELEE_WEAPONS = [
   {
     "Dice": 2,
-    "Loot": "Gantelet d’Ecorcheur"
+    "Loot": "Gantelet d'écorcheur"
   },
   {
     "Dice": 3,
@@ -29,11 +29,11 @@ export const LOOT_MELEE_WEAPONS = [
   },
   {
     "Dice": 9,
-    "Loot": "Gant de Boxe"
+    "Loot": "Gant de boxe"
   },
   {
     "Dice": 10,
-    "Loot": "Gant de Boxe"
+    "Loot": "Gant de boxe"
   },
   {
     "Dice": 11,
@@ -61,19 +61,19 @@ export const LOOT_MELEE_WEAPONS = [
   },
   {
     "Dice": 17,
-    "Loot": "Queue de Billard"
+    "Loot": "Queue de billard"
   },
   {
     "Dice": 18,
-    "Loot": "Queue de Billard"
+    "Loot": "Queue de billard"
   },
   {
     "Dice": 19,
-    "Loot": "Cran d’Arrêt"
+    "Loot": "Cran d'arrêt"
   },
   {
     "Dice": 20,
-    "Loot": "Cran d’Arrêt"
+    "Loot": "Cran d'arrêt"
   },
   {
     "Dice": 21,
@@ -85,43 +85,43 @@ export const LOOT_MELEE_WEAPONS = [
   },
   {
     "Dice": 23,
-    "Loot": "Tuyau de Plomb"
+    "Loot": "Tuyau de plomb"
   },
   {
     "Dice": 24,
-    "Loot": "Tuyau de Plomb"
+    "Loot": "Tuyau de plomb"
   },
   {
     "Dice": 25,
-    "Loot": "Rouleau à Pâtisserie"
+    "Loot": "Rouleau à pâtisserie"
   },
   {
     "Dice": 26,
-    "Loot": "Rouleau à Pâtisserie"
+    "Loot": "Rouleau à pâtisserie"
   },
   {
     "Dice": 27,
-    "Loot": "Clé Serre-Tube"
+    "Loot": "Clé serre-tube"
   },
   {
     "Dice": 28,
-    "Loot": "Clé Serre-Tube"
+    "Loot": "Clé serre-tube"
   },
   {
     "Dice": 29,
-    "Loot": "Poing Américain"
+    "Loot": "Poing américain"
   },
   {
     "Dice": 30,
-    "Loot": "Poing Américain"
+    "Loot": "Poing américain"
   },
   {
     "Dice": 31,
-    "Loot": "Démonte-Pneu"
+    "Loot": "Démonte-pneu"
   },
   {
     "Dice": 32,
-    "Loot": "Démonte-Pneu"
+    "Loot": "Démonte-pneu"
   },
   {
     "Dice": 33,
@@ -133,26 +133,26 @@ export const LOOT_MELEE_WEAPONS = [
   },
   {
     "Dice": 35,
-    "Loot": "Batte de Baseball en Aluminium"
+    "Loot": "Batte de baseball en aluminium"
   },
   {
     "Dice": 36,
-    "Loot": "Batte de Baseball en Aluminium"
+    "Loot": "Batte de baseball en aluminium"
   },
   {
     "Dice": 37,
-    "Loot": "Poing Assisté"
+    "Loot": "Poing assisté"
   },
   {
     "Dice": 38,
-    "Loot": "Poing Assisté"
+    "Loot": "Poing assisté"
   },
   {
     "Dice": 39,
-    "Loot": "Super Masse"
+    "Loot": "Super masse"
   },
   {
     "Dice": 40,
-    "Loot": "Super Masse"
+    "Loot": "Super masse"
   }
 ];

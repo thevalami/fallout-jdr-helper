@@ -169,7 +169,7 @@ export const MOD_HEAVY_WEAPON_DATA = {
       "Skills": "Fana d'armes 2"
     }
   ],
-  "Laser Gatling": [
+  "Gatling Laser": [
     {
       "Name": "Stimulateur de photons",
       "Type": "Condensateur",

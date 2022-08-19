@@ -1,7 +1,7 @@
 export const LOOT_CHEMS = [
   {
     "Dice": 2,
-    "Loot": "Super Stimpack"
+    "Loot": "Super Stimpak"
   },
   {
     "Dice": 3,
@@ -17,7 +17,7 @@ export const LOOT_CHEMS = [
   },
   {
     "Dice": 6,
-    "Loot": "Stimpack"
+    "Loot": "Stimpak"
   },
   {
     "Dice": 7,
@@ -57,47 +57,47 @@ export const LOOT_CHEMS = [
   },
   {
     "Dice": 16,
-    "Loot": "Rad-X (Dilué)"
+    "Loot": "Rad-X (dilué)"
   },
   {
     "Dice": 17,
-    "Loot": "Rad-X (Dilué)"
+    "Loot": "Rad-X (dilué)"
   },
   {
     "Dice": 18,
-    "Loot": "Baume de Soin"
+    "Loot": "Baume de soin"
   },
   {
     "Dice": 19,
-    "Loot": "Baume de Soin"
+    "Loot": "Baume de soin"
   },
   {
     "Dice": 20,
-    "Loot": "Eau Sale"
+    "Loot": "Eau sale"
   },
   {
     "Dice": 21,
-    "Loot": "Eau Sale"
+    "Loot": "Eau sale"
   },
   {
     "Dice": 22,
-    "Loot": "Eau Sale"
+    "Loot": "Eau sale"
   },
   {
     "Dice": 23,
-    "Loot": "Stimpack (Dilué)"
+    "Loot": "Stimpak (dilué)"
   },
   {
     "Dice": 24,
-    "Loot": "Stimpack (Dilué)"
+    "Loot": "Stimpak (dilué)"
   },
   {
     "Dice": 25,
-    "Loot": "RadAway (Dilué)"
+    "Loot": "RadAway (dilué)"
   },
   {
     "Dice": 26,
-    "Loot": "RadAway (Dilué)"
+    "Loot": "RadAway (dilué)"
   },
   {
     "Dice": 27,
@@ -133,11 +133,11 @@ export const LOOT_CHEMS = [
   },
   {
     "Dice": 35,
-    "Loot": "Stimpack"
+    "Loot": "Stimpak"
   },
   {
     "Dice": 36,
-    "Loot": "Stimpack"
+    "Loot": "Stimpak"
   },
   {
     "Dice": 37,

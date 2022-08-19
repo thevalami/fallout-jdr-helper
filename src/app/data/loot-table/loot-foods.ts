@@ -5,7 +5,7 @@ export const LOOT_FOODS = [
   },
   {
     "Dice": 3,
-    "Loot": "Tarte Parfaitement Conservée"
+    "Loot": "Tarte parfaitement conservée"
   },
   {
     "Dice": 4,
@@ -17,15 +17,15 @@ export const LOOT_FOODS = [
   },
   {
     "Dice": 6,
-    "Loot": "Pack de Nourriture de l’Institut"
+    "Loot": "Pack de nourriture de l'Institut"
   },
   {
     "Dice": 7,
-    "Loot": "Bombes Sucrées (préservées)"
+    "Loot": "Bombes sucrées (préservées)"
   },
   {
     "Dice": 8,
-    "Loot": "Fruit Mutant (non irradié)"
+    "Loot": "Fruit mutant (non irradié)"
   },
   {
     "Dice": 9,
@@ -33,15 +33,15 @@ export const LOOT_FOODS = [
   },
   {
     "Dice": 10,
-    "Loot": "Pain Brioché"
+    "Loot": "Pain brioché"
   },
   {
     "Dice": 11,
-    "Loot": "Blé Surin"
+    "Loot": "Blé surin"
   },
   {
     "Dice": 12,
-    "Loot": "Brochette d’Iguane"
+    "Loot": "Brochette d'iguane"
   },
   {
     "Dice": 13,
@@ -57,19 +57,19 @@ export const LOOT_FOODS = [
   },
   {
     "Dice": 16,
-    "Loot": "Bombes Sucrées"
+    "Loot": "Bombes sucrées"
   },
   {
     "Dice": 17,
-    "Loot": "Viande en Boîte"
+    "Loot": "Viande en boîte"
   },
   {
     "Dice": 18,
-    "Loot": "Porc aux Haricots"
+    "Loot": "Porc aux haricots"
   },
   {
     "Dice": 19,
-    "Loot": "Purée-Minute"
+    "Loot": "Purée-minute"
   },
   {
     "Dice": 20,
@@ -85,11 +85,11 @@ export const LOOT_FOODS = [
   },
   {
     "Dice": 23,
-    "Loot": "Boules de Gomme"
+    "Loot": "Boules de gomme"
   },
   {
     "Dice": 24,
-    "Loot": "Fruit Mutant"
+    "Loot": "Fruit mutant"
   },
   {
     "Dice": 25,
@@ -105,11 +105,11 @@ export const LOOT_FOODS = [
   },
   {
     "Dice": 28,
-    "Loot": "Fausse Morille"
+    "Loot": "Fausse morille"
   },
   {
     "Dice": 29,
-    "Loot": "Maïs"
+    "Loot": "Épi de maïs"
   },
   {
     "Dice": 30,
@@ -121,7 +121,7 @@ export const LOOT_FOODS = [
   },
   {
     "Dice": 32,
-    "Loot": "Haricot Envasé"
+    "Loot": "Haricot envasé"
   },
   {
     "Dice": 33,
@@ -129,7 +129,7 @@ export const LOOT_FOODS = [
   },
   {
     "Dice": 34,
-    "Loot": "Purée-Minute (préservée)"
+    "Loot": "Purée-minute (préservée)"
   },
   {
     "Dice": 35,
@@ -137,15 +137,15 @@ export const LOOT_FOODS = [
   },
   {
     "Dice": 36,
-    "Loot": "Pâte Comestible"
+    "Loot": "Pâte comestible"
   },
   {
     "Dice": 37,
-    "Loot": "Bol de Nouilles"
+    "Loot": "Bol de nouilles"
   },
   {
     "Dice": 38,
-    "Loot": "Maïs (non irradié)"
+    "Loot": "Épi de maïs (non irradié)"
   },
   {
     "Dice": 39,

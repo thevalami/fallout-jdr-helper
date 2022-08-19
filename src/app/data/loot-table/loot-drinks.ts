@@ -17,27 +17,27 @@ export const LOOT_DRINKS = [
   },
   {
     "Dice": 6,
-    "Loot": "Nuka-Cherry"
+    "Loot": "Nuka Cherry"
   },
   {
     "Dice": 7,
-    "Loot": "Nuka-Cherry"
+    "Loot": "Nuka Cherry"
   },
   {
     "Dice": 8,
-    "Loot": "Nuka-Cherry"
+    "Loot": "Nuka Cherry"
   },
   {
     "Dice": 9,
-    "Loot": "Nuka-Cola"
+    "Loot": "Nuka Cola"
   },
   {
     "Dice": 10,
-    "Loot": "Nuka-Cherry"
+    "Loot": "Nuka Cherry"
   },
   {
     "Dice": 11,
-    "Loot": "Nuka-Cherry"
+    "Loot": "Nuka Cherry"
   },
   {
     "Dice": 12,
@@ -69,51 +69,51 @@ export const LOOT_DRINKS = [
   },
   {
     "Dice": 19,
-    "Loot": "Eau Sale"
+    "Loot": "Eau sale"
   },
   {
     "Dice": 20,
-    "Loot": "Eau Sale"
+    "Loot": "Eau sale"
   },
   {
     "Dice": 21,
-    "Loot": "Eau Sale"
+    "Loot": "Eau sale"
   },
   {
     "Dice": 22,
-    "Loot": "Eau Sale"
+    "Loot": "Eau sale"
   },
   {
     "Dice": 23,
-    "Loot": "Eau Sale"
+    "Loot": "Eau sale"
   },
   {
     "Dice": 24,
-    "Loot": "Eau Purifiée"
+    "Loot": "Eau purifiée"
   },
   {
     "Dice": 25,
-    "Loot": "Eau Purifiée"
+    "Loot": "Eau purifiée"
   },
   {
     "Dice": 26,
-    "Loot": "Eau Purifiée"
+    "Loot": "Eau purifiée"
   },
   {
     "Dice": 27,
-    "Loot": "Eau Purifiée"
+    "Loot": "Eau purifiée"
   },
   {
     "Dice": 28,
-    "Loot": "Lait de Brahmine"
+    "Loot": "Lait de brahmine"
   },
   {
     "Dice": 29,
-    "Loot": "Lait de Brahmine"
+    "Loot": "Lait de brahmine"
   },
   {
     "Dice": 30,
-    "Loot": "Lait de Brahmine"
+    "Loot": "Lait de brahmine"
   },
   {
     "Dice": 31,
@@ -129,15 +129,15 @@ export const LOOT_DRINKS = [
   },
   {
     "Dice": 34,
-    "Loot": "Eau-de-Vie"
+    "Loot": "Eau-de-vie"
   },
   {
     "Dice": 35,
-    "Loot": "Eau-de-Vie"
+    "Loot": "Eau-de-vie"
   },
   {
     "Dice": 36,
-    "Loot": "Eau-de-Vie"
+    "Loot": "Eau-de-vie"
   },
   {
     "Dice": 37,

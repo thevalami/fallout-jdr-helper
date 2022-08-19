@@ -64,7 +64,7 @@ export const FOOD_LOOT_DATA =
       "Rarity": 0
     },
     {
-      "Name": "Bouchées d’écureuil",
+      "Name": "Bouchées d'écureuil",
       "Heal": 4,
       "Effect": "–",
       "Radiation": "1 $CD$",
@@ -73,7 +73,7 @@ export const FOOD_LOOT_DATA =
       "Rarity": 1
     },
     {
-      "Name": "Bouchées d’écureuil croustillantes",
+      "Name": "Bouchées d'écureuil croustillantes",
       "Heal": 6,
       "Effect": "–",
       "Radiation": "–",
@@ -91,7 +91,7 @@ export const FOOD_LOOT_DATA =
       "Rarity": 0
     },
     {
-      "Name": "Brochette d’écureuil",
+      "Name": "Brochette d'écureuil",
       "Heal": 7,
       "Effect": "–",
       "Radiation": "–",
@@ -100,7 +100,7 @@ export const FOOD_LOOT_DATA =
       "Rarity": 2
     },
     {
-      "Name": "Brochette d’iguane",
+      "Name": "Brochette d'iguane",
       "Heal": 6,
       "Effect": "–",
       "Radiation": "–",
@@ -138,7 +138,7 @@ export const FOOD_LOOT_DATA =
     {
       "Name": "Côtelettes de yao guai",
       "Heal": 13,
-      "Effect": "+2 résistance aux dégâts balistiques jusqu’à la fin de la prochaine scène",
+      "Effect": "+2 résistance aux dégâts balistiques jusqu'à la fin de la prochaine scène",
       "Radiation": "–",
       "Weight": "0,5",
       "Cost": 90,
@@ -210,7 +210,7 @@ export const FOOD_LOOT_DATA =
     {
       "Name": "Filet de darillon",
       "Heal": 11,
-      "Effect": "Vous pouvez relancer 1d20 sur tous vos tests de PER jusqu’à la fin de la prochaine scène",
+      "Effect": "Vous pouvez relancer 1d20 sur tous vos tests de PER jusqu'à la fin de la prochaine scène",
       "Radiation": "–",
       "Weight": "<0,5",
       "Cost": 35,
@@ -271,7 +271,7 @@ export const FOOD_LOOT_DATA =
       "Rarity": 1
     },
     {
-      "Name": "Œuf d’écorcheur",
+      "Name": "Œuf d'écorcheur",
       "Heal": 7,
       "Effect": "–",
       "Radiation": "1 $CD$",
@@ -298,7 +298,7 @@ export const FOOD_LOOT_DATA =
       "Rarity": 3
     },
     {
-      "Name": "Œufs mimosas miam-miam",
+      "Name": "Œufs mimosas Miam-Miam",
       "Heal": 4,
       "Effect": "–",
       "Radiation": "1 $CD$",
@@ -307,7 +307,7 @@ export const FOOD_LOOT_DATA =
       "Rarity": 0
     },
     {
-      "Name": "Omelette d’œufs d’écorcheur",
+      "Name": "Omelette d'œufs d'écorcheur",
       "Heal": 11,
       "Effect": "Si la prochaine scène est un combat, vous regagnez 1 PV au début de chaque tour",
       "Radiation": "–",
@@ -316,7 +316,7 @@ export const FOOD_LOOT_DATA =
       "Rarity": 4
     },
     {
-      "Name": "Omelette d’œufs de fangeux",
+      "Name": "Omelette d'œufs de fangeux",
       "Heal": 7,
       "Effect": "Ajoutez immédiatement 2 PA à la réserve du groupe",
       "Radiation": "–",
@@ -325,7 +325,7 @@ export const FOOD_LOOT_DATA =
       "Rarity": 3
     },
     {
-      "Name": "Omelette d’œufs de radscorpion",
+      "Name": "Omelette d'œufs de radscorpion",
       "Heal": 9,
       "Effect": "Soigne toutes les dépendances",
       "Radiation": "–",
@@ -334,7 +334,7 @@ export const FOOD_LOOT_DATA =
       "Rarity": 4
     },
     {
-      "Name": "Pack de nourriture de l’Institut",
+      "Name": "Pack de nourriture de l'Institut",
       "Heal": 5,
       "Effect": "–",
       "Radiation": "–",
@@ -354,7 +354,7 @@ export const FOOD_LOOT_DATA =
     {
       "Name": "Pâte comestible",
       "Heal": 7,
-      "Effect": "Vous pouvez relancer 1d20 sur tous vos tests d’END jusqu’à la fin de la scène",
+      "Effect": "Vous pouvez relancer 1d20 sur tous vos tests d'END jusqu'à la fin de la scène",
       "Radiation": "–",
       "Weight": "<0,5",
       "Cost": 0,
@@ -363,7 +363,7 @@ export const FOOD_LOOT_DATA =
     {
       "Name": "Pâté de fangeux",
       "Heal": 12,
-      "Effect": "Vous pouvez respirer sous l’eau jusqu’à la fin de la prochaine scène",
+      "Effect": "Vous pouvez respirer sous l'eau jusqu'à la fin de la prochaine scène",
       "Radiation": "–",
       "Weight": "<0,5",
       "Cost": 35,
@@ -388,7 +388,7 @@ export const FOOD_LOOT_DATA =
       "Rarity": 1
     },
     {
-      "Name": "Pommes dandy boy",
+      "Name": "Pommes Dandy Boy",
       "Heal": 3,
       "Effect": "–",
       "Radiation": "1 $CD$",
@@ -426,14 +426,14 @@ export const FOOD_LOOT_DATA =
     {
       "Name": "Radcerf grillé",
       "Heal": 11,
-      "Effect": "Votre charge maximale augmente de +12,5 jusqu’à la fin de la prochaine scène",
+      "Effect": "Votre charge maximale augmente de +12,5 jusqu'à la fin de la prochaine scène",
       "Radiation": "–",
       "Weight": "0,5",
       "Cost": 60,
       "Rarity": 2
     },
     {
-      "Name": "Ragoût d’écureuil",
+      "Name": "Ragoût d'écureuil",
       "Heal": 10,
       "Effect": "–",
       "Radiation": "–",
@@ -444,14 +444,14 @@ export const FOOD_LOOT_DATA =
     {
       "Name": "Ragoût de radcerf",
       "Heal": 12,
-      "Effect": "+3 résistance aux dégâts énergétiques jusqu’à la fin de la prochaine scène",
+      "Effect": "+3 résistance aux dégâts énergétiques jusqu'à la fin de la prochaine scène",
       "Radiation": "–",
       "Weight": "0,5",
       "Cost": 60,
       "Rarity": 3
     },
     {
-      "Name": "Ragoût d’iguane",
+      "Name": "Ragoût d'iguane",
       "Heal": 4,
       "Effect": "–",
       "Radiation": "1 $CD$",
@@ -462,7 +462,7 @@ export const FOOD_LOOT_DATA =
     {
       "Name": "Rôti de yao guai",
       "Heal": 14,
-      "Effect": "+2 aux attaques de corps à corps jusqu’à la fin de la prochaine scène",
+      "Effect": "+2 aux attaques de corps à corps jusqu'à la fin de la prochaine scène",
       "Radiation": "–",
       "Weight": "0,5",
       "Cost": 110,
@@ -471,14 +471,14 @@ export const FOOD_LOOT_DATA =
     {
       "Name": "Soupe de légumes",
       "Heal": 7,
-      "Effect": "+2 résistance aux dégâts de radiation jusqu’à la fin de la prochaine scène",
+      "Effect": "+2 résistance aux dégâts de radiation jusqu'à la fin de la prochaine scène",
       "Radiation": "–",
       "Weight": "0,5",
       "Cost": 13,
       "Rarity": 2
     },
     {
-      "Name": "Soupe d’iguane",
+      "Name": "Soupe d'iguane",
       "Heal": 10,
       "Effect": "–",
       "Radiation": "–",
@@ -487,9 +487,9 @@ export const FOOD_LOOT_DATA =
       "Rarity": 3
     },
     {
-      "Name": "Steak d’écorcheur",
+      "Name": "Steak d'écorcheur",
       "Heal": 14,
-      "Effect": "Vous pouvez relancer 1d20 sur tous vos tests de FOR jusqu’à la fin de la prochaine scène",
+      "Effect": "Vous pouvez relancer 1d20 sur tous vos tests de FOR jusqu'à la fin de la prochaine scène",
       "Radiation": "–",
       "Weight": "0,5",
       "Cost": 130,
@@ -498,7 +498,7 @@ export const FOOD_LOOT_DATA =
     {
       "Name": "Steak de radscorpion",
       "Heal": 12,
-      "Effect": "+2 résistance aux dégâts énergétiques jusqu’à la fin de la prochaine scène",
+      "Effect": "+2 résistance aux dégâts énergétiques jusqu'à la fin de la prochaine scène",
       "Radiation": "–",
       "Weight": "0,5",
       "Cost": 65,
@@ -507,7 +507,7 @@ export const FOOD_LOOT_DATA =
     {
       "Name": "Steak de rataupe",
       "Heal": 7,
-      "Effect": "+1 PA max dans la réserve du groupe jusqu’à la fin de la scène en cours",
+      "Effect": "+1 PA max dans la réserve du groupe jusqu'à la fin de la scène en cours",
       "Radiation": "–",
       "Weight": "<0,5",
       "Cost": 8,
@@ -516,7 +516,7 @@ export const FOOD_LOOT_DATA =
     {
       "Name": "Steak de reine des fangeux",
       "Heal": 14,
-      "Effect": "Réduit de 1 la difficulté de tous les tests d’END jusqu’à la fin de la prochaine scène",
+      "Effect": "Réduit de 1 la difficulté de tous les tests d'END jusqu'à la fin de la prochaine scène",
       "Radiation": "–",
       "Weight": "0,5",
       "Cost": 130,
@@ -525,7 +525,7 @@ export const FOOD_LOOT_DATA =
     {
       "Name": "Steak de tique",
       "Heal": 10,
-      "Effect": "+3 PV max jusqu’à la fin de la scène suivante",
+      "Effect": "+3 PV max jusqu'à la fin de la scène suivante",
       "Radiation": "–",
       "Weight": "<0,5",
       "Cost": 18,
@@ -577,7 +577,7 @@ export const FOOD_LOOT_DATA =
       "Rarity": 1
     },
     {
-      "Name": "Viande d’écorcheur",
+      "Name": "Viande d'écorcheur",
       "Heal": 9,
       "Effect": "–",
       "Radiation": "1 $CD$",
@@ -669,7 +669,7 @@ export const FOOD_LOOT_DATA =
     {
       "Name": "Viande de reine des fangeux",
       "Heal": 10,
-      "Effect": "Vous pouvez relancer 1d20 sur tous les tests d’END jusqu’à la fin de la prochaine scène",
+      "Effect": "Vous pouvez relancer 1d20 sur tous les tests d'END jusqu'à la fin de la prochaine scène",
       "Radiation": "1 $CD$",
       "Weight": "<0,5",
       "Cost": 22,

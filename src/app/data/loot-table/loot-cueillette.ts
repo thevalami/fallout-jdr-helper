@@ -1,7 +1,7 @@
 export const LOOT_CUEILLETTE = [
   {
     "Dice": "1-2",
-    "Loot": "Fausse Morille"
+    "Loot": "Fausse morille"
   },
   {
     "Dice": "3-4",
@@ -9,7 +9,7 @@ export const LOOT_CUEILLETTE = [
   },
   {
     "Dice": "5-6",
-    "Loot": "Maïs"
+    "Loot": "Épi de maïs"
   },
   {
     "Dice": "7-8",
@@ -21,15 +21,15 @@ export const LOOT_CUEILLETTE = [
   },
   {
     "Dice": "11-13",
-    "Loot": "Fruit Mutant"
+    "Loot": "Fruit mutant"
   },
   {
     "Dice": "14-15",
-    "Loot": "Blé Surin"
+    "Loot": "Blé surin"
   },
   {
     "Dice": "16-17",
-    "Loot": "Haricot Envasé"
+    "Loot": "Haricot envasé"
   },
   {
     "Dice": "18-20",

@@ -6,22 +6,22 @@ export const BOOK_SCIENCE_TESLA = [
   },
   {
     "Dice": "3-4",
-    "Loot": "Qu’est-ce que le Plasma, d’abord ?",
+    "Loot": "Qu'est-ce que le Plasma, d'abord ?",
     "Effet": "+2 résistance aux dégâts balistiques et énergétiques contre les armes plasma"
   },
   {
     "Dice": "5-6",
-    "Loot": "La science, c’est pas Sorcier !",
+    "Loot": "La science, c'est pas Sorcier !",
     "Effet": "+2D de dégâts sur une attaque avec une arme à Zone d'Impact"
   },
   {
     "Dice": "7-8",
-    "Loot": "Technologie de demain pour supersoldats d’aujourd’hui",
+    "Loot": "Technologie de demain pour supersoldats d'aujourd'hui",
     "Effet": "Après avoir dépensé 1 charge de réacteur à fusion, vous pouvez dépenser 1 point de Chance ; dans ce cas, la charge n'est pas dépensée"
   },
   {
     "Dice": "9-10",
-    "Loot": "Un flingue n’est jamais assez gros !",
+    "Loot": "Un flingue n'est jamais assez gros !",
     "Effet": "Une seule fois, quand vous tirez avec une arme Gatling, vous consommez des munitions à 8 fois le rythme normal au lieu de 10 fois"
   },
   {
@@ -31,7 +31,7 @@ export const BOOK_SCIENCE_TESLA = [
   },
   {
     "Dice": "13-14",
-    "Loot": "L’armée des États-Unis dans l’espace",
+    "Loot": "L'armée des États-Unis dans l'espace",
     "Effet": "Sur une seule attaque avec une arme à énergie, vous infligez un coup critique si vous provoquez 3 points de dégâts ou plus après déduction de la résistance aux dégâts (au lieu de 5 points de dégâts ou plus selon la règle normale)"
   },
   {
@@ -41,7 +41,7 @@ export const BOOK_SCIENCE_TESLA = [
   },
   {
     "Dice": "17-18",
-    "Loot": "L’avenir de la guerre ?",
+    "Loot": "L'avenir de la guerre ?",
     "Effet": "Sur une seule attaque avec une arme maniée avec la compétence Armes Lourdes, vous infligez un coup critique si vous infligez 3 points de dégâts ou plus après déduction de la résistance aux dégâts (au lieu de 5 points de dégâts ou plus selon la règle normale)"
   },
   {

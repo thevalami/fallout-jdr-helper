@@ -6,7 +6,7 @@ export const BOOK_GROGNAK = [
   },
   {
     "Dice": "3-4",
-    "Loot": "Ainsi s’en vint le Malicieux",
+    "Loot": "Ainsi s'en vint le Malicieux",
     "Effet": "Ajoutez +1 à la difficulté du test de compétence d'un autre personnage pour vous repérer"
   },
   {
@@ -41,7 +41,7 @@ export const BOOK_GROGNAK = [
   },
   {
     "Dice": "17-18",
-    "Loot": "L’antre des dévoreurs de vierges",
+    "Loot": "L'antre des dévoreurs de vierges",
     "Effet": "Vous gagnez +5 à votre charge maximale pendant une scène"
   },
   {

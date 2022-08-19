@@ -9,11 +9,11 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 5,
-    "Loot": "Argent d’avant Guerre, valeur 5D20 Capsules"
+    "Loot": "Argent d'avant Guerre, valeur 5D20 Capsules"
   },
   {
     "Dice": 6,
-    "Loot": "Argent d’avant Guerre, valeur 5D20 Capsules"
+    "Loot": "Argent d'avant Guerre, valeur 5D20 Capsules"
   },
   {
     "Dice": 7,
@@ -32,15 +32,15 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 10,
-    "Loot": "Module de Furtivité"
+    "Loot": "Module de furtivité"
   },
   {
     "Dice": 11,
-    "Loot": "Capteurs de Reconnaissance"
+    "Loot": "Capteurs de reconnaissance"
   },
   {
     "Dice": 12,
-    "Loot": "Module de Diagnostic"
+    "Loot": "Module de diagnostic"
   },
   {
     "Dice": 13,
@@ -48,7 +48,7 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 14,
-    "Loot": "Trousse de Médecin"
+    "Loot": "Trousse de médecin"
   },
   {
     "Dice": 15,
@@ -56,7 +56,7 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 16,
-    "Loot": "Argent d’avant Guerre, valeur 4D20 Capsules"
+    "Loot": "Argent d'avant Guerre, valeur 4D20 Capsules"
   },
   {
     "Dice": 17,
@@ -68,7 +68,7 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 19,
-    "Loot": "Module de Détection de Risques"
+    "Loot": "Module de détection de risques"
   },
   {
     "Dice": 20,
@@ -76,19 +76,19 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 21,
-    "Loot": "Kit de Serrurier"
+    "Loot": "Kit de serrurier"
   },
   {
     "Dice": 22,
-    "Loot": "Terminal d’Holobande"
+    "Loot": "Lecteur d'holobande"
   },
   {
     "Dice": 23,
-    "Loot": "Gros Sac à Dos"
+    "Loot": "Sac à dos, grand"
   },
   {
     "Dice": 24,
-    "Loot": "Argent d’avant Guerre, valeur 3D20 Capsules"
+    "Loot": "Argent d'avant Guerre, valeur 3D20 Capsules"
   },
   {
     "Dice": 25,
@@ -97,16 +97,16 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 26,
-    "Loot": "Module de bouilloire intégré"
+    "Loot": "Module de bouilloire intégrée"
   },
   {
     "Dice": 27,
-    "Loot": "Fusées de Détresse",
+    "Loot": "Fusée de détresse",
     "Quantity": "1 + 2 $CD$"
   },
   {
     "Dice": 28,
-    "Loot": "Argent d’avant Guerre, valeur 2D20 Capsules"
+    "Loot": "Argent d'avant Guerre, valeur 2D20 Capsules"
   },
   {
     "Dice": 29,
@@ -115,7 +115,7 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 30,
-    "Loot": "Epingle à Cheveux",
+    "Loot": "Epingle à cheveux",
     "Quantity": "2 + 1 $CD$"
   },
   {
@@ -125,16 +125,16 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 32,
-    "Loot": "Argent d’avant Guerre, valeur 1D20 Capsules"
+    "Loot": "Argent d'avant Guerre, valeur 1D20 Capsules"
   },
   {
     "Dice": 33,
-    "Loot": "Epingle à Cheveux",
+    "Loot": "Epingle à cheveux",
     "Quantity": "4 + 2 $CD$"
   },
   {
     "Dice": 34,
-    "Loot": "Petit Sac à Dos"
+    "Loot": "Sac à dos, petit"
   },
   {
     "Dice": 35,
@@ -146,16 +146,16 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 37,
-    "Loot": "Epingle à Cheveux",
+    "Loot": "Epingle à cheveux",
     "Quantity": "6 + 3 $CD$"
   },
   {
     "Dice": 38,
-    "Loot": "Kit de Réparation de Robot"
+    "Loot": "Kit de réparation de robot"
   },
   {
     "Dice": 39,
-    "Loot": "Trousse de Premiers Secours"
+    "Loot": "Trousse de premiers secours"
   },
   {
     "Dice": 40,
@@ -167,11 +167,11 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 42,
-    "Loot": "Module de Piratage Informatique"
+    "Loot": "Module de piratage informatique"
   },
   {
     "Dice": 43,
-    "Loot": "Module de Crochetage"
+    "Loot": "Module de crochetage"
   },
   {
     "Dice": 44,
@@ -179,7 +179,7 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 45,
-    "Loot": "Epingle à Cheveux",
+    "Loot": "Epingle à cheveux",
     "Quantity": "8 + 4 $CD$"
   },
   {
@@ -188,19 +188,19 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 47,
-    "Loot": "Boite à outils Deluxe"
+    "Loot": "Boîte à outils de luxe"
   },
   {
     "Dice": 48,
-    "Loot": "Lampe de Poche"
+    "Loot": "Lampe de poche"
   },
   {
     "Dice": 49,
-    "Loot": "Module d’Analyse Comportementale"
+    "Loot": "Module d'analyse comportementale"
   },
   {
     "Dice": 50,
-    "Loot": "Bobines de Radiation"
+    "Loot": "Bobines de radiation"
   },
   {
     "Dice": 51,
@@ -220,26 +220,26 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 55,
-    "Loot": "Epingle à Cheveux",
+    "Loot": "Epingle à cheveux",
     "Quantity": "10 + 5 $CD$"
   },
   {
     "Dice": 56,
-    "Loot": "Epingle à Cheveux",
+    "Loot": "Epingle à cheveux",
     "Quantity": "10 + 5 $CD$"
   },
   {
     "Dice": 57,
-    "Loot": "Epingle à Cheveux",
+    "Loot": "Epingle à cheveux",
     "Quantity": "10 + 5 $CD$"
   },
   {
     "Dice": 58,
-    "Loot": "Diffuseur de Stimpack"
+    "Loot": "Diffuseur de stimpack"
   },
   {
     "Dice": 59,
-    "Loot": "Diffuseur de Stimpack"
+    "Loot": "Diffuseur de stimpack"
   },
   {
     "Dice": 60,

@@ -9,15 +9,15 @@ export const LOOT_RANGE_WEAPONS = [
   },
   {
     "Dice": 4,
-    "Loot": "Lance-Missiles"
+    "Loot": "Lance Missile"
   },
   {
     "Dice": 5,
-    "Loot": "Lance-Missiles"
+    "Loot": "Lance Missile"
   },
   {
     "Dice": 6,
-    "Loot": "Fusil à Clous"
+    "Loot": "Fusil à clous"
   },
   {
     "Dice": 7,
@@ -25,35 +25,35 @@ export const LOOT_RANGE_WEAPONS = [
   },
   {
     "Dice": 8,
-    "Loot": "Lance-Flammes"
+    "Loot": "Lance Flammes"
   },
   {
     "Dice": 9,
-    "Loot": "Pistolet Plasma"
+    "Loot": "Pistolet Gamma"
   },
   {
     "Dice": 10,
-    "Loot": "Fusil Laser (Canon Long, Crosse Standard)"
+    "Loot": "Arme laser (Fusil) (Canon Long, Crosse Standard)"
   },
   {
     "Dice": 11,
-    "Loot": "Fusil de l’Institut  (Canon Long, Crosse Standard)"
+    "Loot": "Laser de l'Institut (Fusil) (Canon Long, Crosse Standard)"
   },
   {
     "Dice": 12,
-    "Loot": "Pistolet à Seringues"
+    "Loot": "Pistolet à seringues"
   },
   {
     "Dice": 13,
-    "Loot": "Fusil de Chasse"
+    "Loot": "Fusil de chasse"
   },
   {
     "Dice": 14,
-    "Loot": "Fusil d’Assaut"
+    "Loot": "Fusil d'assaut"
   },
   {
     "Dice": 15,
-    "Loot": "Mousquet Laser"
+    "Loot": "Mousquet laser"
   },
   {
     "Dice": 16,
@@ -65,39 +65,39 @@ export const LOOT_RANGE_WEAPONS = [
   },
   {
     "Dice": 18,
-    "Loot": "Arme à Verrou de Fortune"
+    "Loot": "Arme à verrou de fortune"
   },
   {
     "Dice": 19,
-    "Loot": "Fusil de Fortune Automatique  (Canon Long, Crosse Standard, Culasse Automatique)"
+    "Loot": "Arme de fortune (Fusil) (Canon Long, Crosse Standard, Culasse Automatique)"
   },
   {
     "Dice": 20,
-    "Loot": "Fusil de Fortune  (Canon Long, Crosse Standard)"
+    "Loot": "Arme de fortune (Fusil) (Canon Long, Crosse Standard)"
   },
   {
     "Dice": 21,
-    "Loot": "Arme de Fortune"
+    "Loot": "Arme de fortune"
   },
   {
     "Dice": 22,
-    "Loot": "Arme de Fortune Automatique (Culasse Automatique)"
+    "Loot": "Arme de fortune (Culasse Automatique)"
   },
   {
     "Dice": 23,
-    "Loot": "Revolver de Fortune"
+    "Loot": "Revolver de fortune"
   },
   {
     "Dice": 24,
-    "Loot": "Fusil a Verrou de Fortune (Canon Long, Crosse Standard)"
+    "Loot": "Arme à verrou de fortune (Fusil) (Canon Long, Crosse Standard)"
   },
   {
     "Dice": 25,
-    "Loot": "Pistolet 10mm Automatique  (Culasse Automatique)"
+    "Loot": "Pistolet 10mm automatique  (Culasse Automatique)"
   },
   {
     "Dice": 26,
-    "Loot": "Fusil à Double Canon"
+    "Loot": "Fusil à double canon"
   },
   {
     "Dice": 27,
@@ -105,7 +105,7 @@ export const LOOT_RANGE_WEAPONS = [
   },
   {
     "Dice": 28,
-    "Loot": "Carabine de Combat"
+    "Loot": "Carabine de combat"
   },
   {
     "Dice": 29,
@@ -113,15 +113,15 @@ export const LOOT_RANGE_WEAPONS = [
   },
   {
     "Dice": 30,
-    "Loot": "Fusil de Combat"
+    "Loot": "Fusil de combat"
   },
   {
     "Dice": 31,
-    "Loot": "Pistolet de l’Institut"
+    "Loot": "Laser de l'Institut"
   },
   {
     "Dice": 32,
-    "Loot": "Pistolet Laser"
+    "Loot": "Arme laser (Pistolet)"
   },
   {
     "Dice": 33,
@@ -129,7 +129,7 @@ export const LOOT_RANGE_WEAPONS = [
   },
   {
     "Dice": 34,
-    "Loot": "Fusil Laser (Canon Long, Crosse Standard)"
+    "Loot": "Arme laser (Fusil) (Canon Long, Crosse Standard)"
   },
   {
     "Dice": 35,

@@ -76,7 +76,7 @@ export const LIGHTWEAPONS_LOOT_DATA = [
     "Munitions": "Fusées éclairantes"
   },
   {
-    "Name": "Fusil d’assaut",
+    "Name": "Fusil d'assaut",
     "Damage": "5 $CD$",
     "Effect": "–",
     "Type": "Balistiques",

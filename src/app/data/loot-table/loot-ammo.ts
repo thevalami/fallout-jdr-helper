@@ -1,22 +1,22 @@
 export const LOOT_AMMO = [
   {
     "Dice": 2,
-    "Loot": "2 mm EC",
+    "Loot": "CE 2mm",
     "Quantity": "6 + 3 $CD$"
   },
   {
     "Dice": 3,
-    "Loot": "2 mm EC",
+    "Loot": "CE 2mm",
     "Quantity": "6 + 3 $CD$"
   },
   {
     "Dice": 4,
-    "Loot": "2 mm EC",
+    "Loot": "CE 2mm",
     "Quantity": "6 + 3 $CD$"
   },
   {
     "Dice": 5,
-    "Loot": "Cartouche au Plasma",
+    "Loot": "Cartouche au plasma",
     "Quantity": "10 + 5 $CD$"
   },
   {
@@ -26,27 +26,27 @@ export const LOOT_AMMO = [
   },
   {
     "Dice": 7,
-    "Loot": "Réacteur à Fusion",
+    "Loot": "Réacteur à fusion",
     "Quantity": "1"
   },
   {
     "Dice": 8,
-    "Loot": "5 mm",
+    "Loot": "Cartouche 5mm",
     "Quantity": "(12 + 6 $CD$ ) x 10"
   },
   {
     "Dice": 9,
-    "Loot": "5 mm",
+    "Loot": "Cartouche 5mm",
     "Quantity": "(12 + 6 $CD$ ) x 10"
   },
   {
     "Dice": 10,
-    "Loot": "Munitions .50",
+    "Loot": "Calibre .50",
     "Quantity": "4 + 2 $CD$"
   },
   {
     "Dice": 11,
-    "Loot": "Munitions .50",
+    "Loot": "Calibre .50",
     "Quantity": "4 + 2 $CD$"
   },
   {
@@ -66,52 +66,52 @@ export const LOOT_AMMO = [
   },
   {
     "Dice": 15,
-    "Loot": "Carburant de L-Flammes",
+    "Loot": "Carburant de lance-flammes",
     "Quantity": "12 + 6 $CD$"
   },
   {
     "Dice": 16,
-    "Loot": "Carburant de L-Flammes",
+    "Loot": "Carburant de lance-flammes",
     "Quantity": "12 + 6 $CD$"
   },
   {
     "Dice": 17,
-    "Loot": "Munitions .45",
+    "Loot": "Cartouche .45",
     "Quantity": "9 + 4 $CD$"
   },
   {
     "Dice": 18,
-    "Loot": "Munitions .45",
+    "Loot": "Cartouche .45",
     "Quantity": "9 + 4 $CD$"
   },
   {
     "Dice": 19,
-    "Loot": "10mm",
+    "Loot": "Cartouche 10mm",
     "Quantity": "8 + 4 $CD$"
   },
   {
     "Dice": 20,
-    "Loot": "10mm",
+    "Loot": "Cartouche 10mm",
     "Quantity": "8 + 4 $CD$"
   },
   {
     "Dice": 21,
-    "Loot": "Munitions .38",
+    "Loot": "Cartouche .38",
     "Quantity": "10 + 5 $CD$"
   },
   {
     "Dice": 22,
-    "Loot": "Munitions .38",
+    "Loot": "Cartouche .38",
     "Quantity": "10 + 5 $CD$"
   },
   {
     "Dice": 23,
-    "Loot": "Fusée Eclairante",
+    "Loot": "Fusée éclairante",
     "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 24,
-    "Loot": "Munitions .308",
+    "Loot": "Cartouche .308",
     "Quantity": "6 + 3 $CD$"
   },
   {
@@ -126,42 +126,42 @@ export const LOOT_AMMO = [
   },
   {
     "Dice": 27,
-    "Loot": "Cellule à Fusion",
+    "Loot": "Cellule à fusion",
     "Quantity": "14 + 7 $CD$"
   },
   {
     "Dice": 28,
-    "Loot": "Cellule à Fusion",
+    "Loot": "Cellule à fusion",
     "Quantity": "14 + 7 $CD$"
   },
   {
     "Dice": 29,
-    "Loot": "Clou de Rail",
+    "Loot": "Clou de rail",
     "Quantity": "6 + 3 $CD$"
   },
   {
     "Dice": 30,
-    "Loot": "Clou de Rail",
+    "Loot": "Clou de rail",
     "Quantity": "6 + 3 $CD$"
   },
   {
     "Dice": 31,
-    "Loot": ".44 Magnum",
+    "Loot": "Cartouche .44 Magnum",
     "Quantity": "4 + 2 $CD$"
   },
   {
     "Dice": 32,
-    "Loot": ".44 Magnum",
+    "Loot": "Cartouche .44 Magnum",
     "Quantity": "4 + 2 $CD$"
   },
   {
     "Dice": 33,
-    "Loot": "5.56 mm",
+    "Loot": "Cartouche 5.56mm",
     "Quantity": "8 + 4 $CD$"
   },
   {
     "Dice": 34,
-    "Loot": "5.56 mm",
+    "Loot": "Cartouche 5.56mm",
     "Quantity": "8 + 4 $CD$"
   },
   {
@@ -171,27 +171,27 @@ export const LOOT_AMMO = [
   },
   {
     "Dice": 36,
-    "Loot": "Réacteur à Fusion",
+    "Loot": "Réacteur à fusion",
     "Quantity": "1"
   },
   {
     "Dice": 37,
-    "Loot": "Cartouche au Plasma",
+    "Loot": "Cartouche au plasma",
     "Quantity": "10 + 5 $CD$"
   },
   {
     "Dice": 38,
-    "Loot": "Mini-Nuke",
+    "Loot": "Mini-bombe nucléaire",
     "Quantity": "1 + 1 $CD$"
   },
   {
     "Dice": 39,
-    "Loot": "Mini-Nuke",
+    "Loot": "Mini-bombe nucléaire",
     "Quantity": "1 + 1 $CD$"
   },
   {
     "Dice": 40,
-    "Loot": "Mini-Nuke",
+    "Loot": "Mini-bombe nucléaire",
     "Quantity": "1 + 1 $CD$"
   }
 ];

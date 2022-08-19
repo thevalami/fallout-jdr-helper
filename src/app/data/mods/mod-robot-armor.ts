@@ -1,4 +1,4 @@
-const COMMON_ROBOT_MODS = [
+export const COMMON_ROBOT_MODS = [
   {
     "Name": "Armure d'usine",
     "PhysicalRes": "+1",
@@ -330,7 +330,7 @@ const COMMON_ROBOT_MODS = [
     "Special": "Les attaques de corps à corps portées avec des bras équipés d'un châssis hydraulique infligent + 1 $CD$ de dégâts et gagnent l'effet de dégâts Etourdissant."
   },
   {
-    "Name": "Bobines de radiations",
+    "Name": "Bobines de radiation",
     "Effect1": "Peuvent être allumées ou éteintes au début d'un tour. Quand elles sont allumées, toutes les créatures à portée de main subissent 3 $CD$ de dégâts de radiation à la fin du tour du robot",
     "MaxCarry": "- 5 kg",
     "Cost": 50,
@@ -354,7 +354,7 @@ const COMMON_ROBOT_MODS = [
     "Skills": "Expert en robotique 1"
   },
   {
-    "Name": "Champ de furtivité",
+    "Name": "Module de furtivité",
     "Effect1": "Vos alliés à portée courte peuvent relancer 1D20 sur leurs tests de Discrétion",
     "MaxCarry": "- 10 kg",
     "Cost": 50,
@@ -362,7 +362,7 @@ const COMMON_ROBOT_MODS = [
     "Skills": "Expert en robotique 1"
   },
   {
-    "Name": "Champ de régénération",
+    "Name": "Module de régénération",
     "Effect1": "En dehors des combats, vos alliés regagnent 2 PV au début de chaque scène dans laquelle vous êtes présent",
     "MaxCarry": "- 12,5 kg",
     "Cost": 125,

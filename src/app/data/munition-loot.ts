@@ -54,7 +54,7 @@ export const AMMUNITION_LOOT_DATA = [
     "Rarity": 1
   },
   {
-    "Name": "Cartouche.45",
+    "Name": "Cartouche .45",
     "Quantity": "8 + 4 $CD$",
     "Weight": "<0,5",
     "Cost": "3",
@@ -96,7 +96,7 @@ export const AMMUNITION_LOOT_DATA = [
     "Rarity": 2
   },
   {
-    "Name": "Cartouche .44",
+    "Name": "Cartouche .44 Magnum",
     "Quantity": "4 + 2 $CD$",
     "Weight": "<0,5",
     "Cost": "3",

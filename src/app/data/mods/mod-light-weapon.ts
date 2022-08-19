@@ -316,7 +316,7 @@ export const MOD_LIGHT_WEAPON_DATA = {
     }
   ],
   "Pistolet lance-fusées": [],
-  "Fusil d’assaut": [
+  "Fusil d'assaut": [
     {
       "Name": "Culasse calibrée",
       "Type": "Culasse",

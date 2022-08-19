@@ -24,7 +24,7 @@ export const RECIPE_MELEEWEAPONS_STATION = [
     "Rarity": "Peu fréquente"
   },
   {
-    "Name": "Epée - Module d’étourdissement",
+    "Name": "Epée - Module d'étourdissement",
     "Components": "Normaux",
     "Complexity": 5,
     "Perk": "Forgeron 3, Scientifique 1",
@@ -240,7 +240,7 @@ export const RECIPE_MELEEWEAPONS_STATION = [
     "Rarity": "Peu fréquente"
   },
   {
-    "Name": "Matraque - Module d’étourdissement",
+    "Name": "Matraque - Module d'étourdissement",
     "Components": "Normaux",
     "Complexity": 4,
     "Perk": "Forgeron 2, Scientifique 1",
@@ -272,7 +272,7 @@ export const RECIPE_MELEEWEAPONS_STATION = [
     "Rarity": "Peu fréquente"
   },
   {
-    "Name": "Super Masse - Module d’étourdissement",
+    "Name": "Super Masse - Module d'étourdissement",
     "Components": "Normaux",
     "Complexity": 5,
     "Perk": "Forgeron 3, Scientifique 1",

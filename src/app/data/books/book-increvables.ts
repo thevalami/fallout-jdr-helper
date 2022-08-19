@@ -6,7 +6,7 @@ export const BOOK_INCREVABLE = [
   },
   {
     "Dice": "5-8",
-    "Loot": "Qui peut arrêter l’inarrêtable Grog-Na-Rok ?!",
+    "Loot": "Qui peut arrêter l'inarrêtable Grog-Na-Rok ?!",
     "Effet": "Vous pouvez dépenser 2 points de Chance pour éviter tous les dégâts infligés par une attaque portée par un Humain Mutant (y compris les goules et les super mutants)"
   },
   {

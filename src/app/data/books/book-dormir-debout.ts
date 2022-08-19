@@ -1,17 +1,17 @@
 export const BOOK_DORMIR_DEBOUT = [
   {
     "Dice": "1-2",
-    "Loot": "L’assaut des Hommes-Poisson !",
+    "Loot": "L'assaut des Hommes-Poisson !",
     "Effet": "+1D sur vos attaques contre les fangeux"
   },
   {
     "Dice": "3-4",
-    "Loot": "L’ascension des Mutants !",
+    "Loot": "L'ascension des Mutants !",
     "Effet": "+1D sur vos attaques contre les super mutants"
   },
   {
     "Dice": "5-6",
-    "Loot": "L’attaque des Hommes de Métal !",
+    "Loot": "L'attaque des Hommes de Métal !",
     "Effet": "+2 aux résistances aux dégâts balistiques et énergétiques contre les Robots"
   },
   {
@@ -21,7 +21,7 @@ export const BOOK_DORMIR_DEBOUT = [
   },
   {
     "Dice": "9-10",
-    "Loot": "La starlette tireuse d’élite !",
+    "Loot": "La starlette tireuse d'élite !",
     "Effet": "+1D sur vos attaques avec des armes Précises"
   },
   {
@@ -31,7 +31,7 @@ export const BOOK_DORMIR_DEBOUT = [
   },
   {
     "Dice": "13-14",
-    "Loot": "L’invasion des Insectes Géants !",
+    "Loot": "L'invasion des Insectes Géants !",
     "Effet": "+2 résistance aux dégâts de radiation"
   },
   {

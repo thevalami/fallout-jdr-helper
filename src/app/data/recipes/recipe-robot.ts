@@ -1,6 +1,6 @@
 export const RECIPE_ROBOT_STATION = [
   {
-    "Name": "Armure d’usine",
+    "Name": "Armure d'usine",
     "Components": "Normaux (+1 peu fréq. sur torse)",
     "Complexity": 2,
     "Perk": "–",
@@ -8,7 +8,7 @@ export const RECIPE_ROBOT_STATION = [
     "Rarity": "Fréquente"
   },
   {
-    "Name": "Armure de stockage d’usine",
+    "Name": "Armure de stockage d'usine",
     "Components": "Normaux (+1 peu fréq. sur torse)",
     "Complexity": 3,
     "Perk": "Armurier 1",

@@ -31,7 +31,7 @@ export const BOOK_VIE_AMOUR = [
   },
   {
     "Dice": "13-14",
-    "Loot": "Méfiez vous du Dresseur d’Hommes",
+    "Loot": "Méfiez vous du Dresseur d'Hommes",
     "Effet": "La réserve de PA du groupe peut contenir 1 PA de plus que la normale pendant une scène"
   },
   {
@@ -41,7 +41,7 @@ export const BOOK_VIE_AMOUR = [
   },
   {
     "Dice": "17-18",
-    "Loot": "J’ai épousé un Robot",
+    "Loot": "J'ai épousé un Robot",
     "Effet": "+2 à toutes les résistances aux dégâts contre les Robots pendant une scène"
   },
   {

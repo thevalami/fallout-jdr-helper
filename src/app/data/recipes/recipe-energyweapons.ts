@@ -128,10 +128,10 @@ export const RECIPE_ENERGYWEAPONS_STATION = [
     "Rarity": "Peu fréquente"
   },
   {
-    "Name": "Poignée de Tireur d’élite",
+    "Name": "Poignée de Tireur d'élite",
     "Components": "Normaux",
     "Complexity": 3,
-    "Perk": "Fana d’armes",
+    "Perk": "Fana d'armes",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -152,10 +152,10 @@ export const RECIPE_ENERGYWEAPONS_STATION = [
     "Rarity": "Fréquente"
   },
   {
-    "Name": "Crosse de tireur d’élite",
+    "Name": "Crosse de tireur d'élite",
     "Components": "Normaux",
     "Complexity": 4,
-    "Perk": "Fana d’armes",
+    "Perk": "Fana d'armes",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -163,7 +163,7 @@ export const RECIPE_ENERGYWEAPONS_STATION = [
     "Name": "Crosse à compensateur de recul",
     "Components": "Normaux",
     "Complexity": 5,
-    "Perk": "Fana d’armes 3",
+    "Perk": "Fana d'armes 3",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },

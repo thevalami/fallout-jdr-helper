@@ -200,7 +200,7 @@ export const RECIPE_POWERARMOR_STATION = [
     "Rarity": "Peu fréquente"
   },
   {
-    "Name": "Barre d’armature soudée (Pillard Uniquement)",
+    "Name": "Barre d'armature soudée (Pillard Uniquement)",
     "Components": "Normaux",
     "Complexity": 2,
     "Perk": "Armurier 1",
@@ -224,7 +224,7 @@ export const RECIPE_POWERARMOR_STATION = [
     "Rarity": "Peu fréquente"
   },
   {
-    "Name": "Protocoles d’urgence",
+    "Name": "Protocoles d'urgence",
     "Components": "Normaux",
     "Complexity": 6,
     "Perk": "Scientifique 4",
@@ -328,7 +328,7 @@ export const RECIPE_POWERARMOR_STATION = [
     "Rarity": "Peu fréquente"
   },
   {
-    "Name": "Évent d’explosion",
+    "Name": "Évent d'explosion",
     "Components": "Normaux",
     "Complexity": 5,
     "Perk": "Scientifique 3",

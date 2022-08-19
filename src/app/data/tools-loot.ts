@@ -27,14 +27,14 @@ export const TOOLS_LOOT_DATA = [
   },
   {
     "Name": "Brahmine de bât",
-    "Effect": "Une vache mutante qui transporte de lourdes charges et produit du lait et de l’engrais",
+    "Effect": "Une vache mutante qui transporte de lourdes charges et produit du lait et de l'engrais",
     "Weight": "–",
     "Cost": 200,
     "Rarity": 3
   },
   {
     "Name": "Compteur Geiger",
-    "Effect": "Permet d’effectuer un test de PER +  survie, difficulté 1, pour déterminer si une zone est irradiée et à quel point",
+    "Effect": "Permet d'effectuer un test de PER +  survie, difficulté 1, pour déterminer si une zone est irradiée et à quel point",
     "Weight": 4,
     "Cost": 325,
     "Rarity": 3
@@ -48,7 +48,7 @@ export const TOOLS_LOOT_DATA = [
   },
   {
     "Name": "Fusée de détresse",
-    "Effect": "Génère une lumière vive à portée courte jusqu’à la fin de la scène actuelle. À usage unique.",
+    "Effect": "Génère une lumière vive à portée courte jusqu'à la fin de la scène actuelle. À usage unique.",
     "Weight": "<0,5",
     "Cost": 10,
     "Rarity": 1
@@ -69,7 +69,7 @@ export const TOOLS_LOOT_DATA = [
   },
   {
     "Name": "Lampe de poche",
-    "Effect": "Génère une lumière vive dans une seule zone à portée moyenne, l’utilisateur peut choisir quelle zone est éclairée",
+    "Effect": "Génère une lumière vive dans une seule zone à portée moyenne, l'utilisateur peut choisir quelle zone est éclairée",
     "Weight": 1,
     "Cost": 100,
     "Rarity": 3
@@ -82,7 +82,7 @@ export const TOOLS_LOOT_DATA = [
     "Rarity": 2
   },
   {
-    "Name": "Lecteur d’holobande",
+    "Name": "Lecteur d'holobande",
     "Effect": "Permet de lire les holobandes audio",
     "Weight": "1,5",
     "Cost": 250,
@@ -104,7 +104,7 @@ export const TOOLS_LOOT_DATA = [
   },
   {
     "Name": "Pip-Boy",
-    "Effect": "Journal personnel, Boussole, Radio, Compteur Geiger, Lampe de poche. Le système V.A.T.S. permet d'ignorer l’augmentation de difficulté normale si on cible une localisation spécifique pendant une attaque",
+    "Effect": "Journal personnel, Boussole, Radio, Compteur Geiger, Lampe de poche. Le système V.A.T.S. permet d'ignorer l'augmentation de difficulté normale si on cible une localisation spécifique pendant une attaque",
     "Weight": "–",
     "Cost": "–",
     "Rarity": "–"
@@ -132,21 +132,21 @@ export const TOOLS_LOOT_DATA = [
   },
   {
     "Name": "Torche",
-    "Effect": "Génère une lumière vive à portée courte jusqu’à la fin de la scène actuelle, l’allumer nécessite un test d’INT + Survie difficulté 1, +1 pour chaque utilisation antérieure",
+    "Effect": "Génère une lumière vive à portée courte jusqu'à la fin de la scène actuelle, l'allumer nécessite un test d'INT + Survie difficulté 1, +1 pour chaque utilisation antérieure",
     "Weight": "0,5",
     "Cost": 10,
     "Rarity": 1
   },
   {
     "Name": "Trousse de médecin",
-    "Effect": "Réduit de 1 la difficulté des tests de Médecine (0 minimum), quand vous prodiguez des soins sur le long terme, vous pouvez prendre en charge jusqu’à 2 patients supplémentaires",
+    "Effect": "Réduit de 1 la difficulté des tests de Médecine (0 minimum), quand vous prodiguez des soins sur le long terme, vous pouvez prendre en charge jusqu'à 2 patients supplémentaires",
     "Weight": 5,
     "Cost": 300,
     "Rarity": 3
   },
   {
     "Name": "Trousse de premiers secours",
-    "Effect": "Guérit +2 PV quand vous réussissez l’action porter secours",
+    "Effect": "Guérit +2 PV quand vous réussissez l'action porter secours",
     "Weight": 2,
     "Cost": 200,
     "Rarity": 2

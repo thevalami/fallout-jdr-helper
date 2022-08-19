@@ -6,7 +6,7 @@ export const BOOK_ARMES_MUNITIONS = [
   },
   {
     "Dice": "3-4",
-    "Loot": "Les Lasers et la Chasse : Carnager c’est OK",
+    "Loot": "Les Lasers et la Chasse : Carnager c'est OK",
     "Effet": "Une attaque avec une arme laser gagne l'effet de dégâts Brutal si elle ne l'avait pas déjà"
   },
   {
@@ -31,7 +31,7 @@ export const BOOK_ARMES_MUNITIONS = [
   },
   {
     "Dice": "13-14",
-    "Loot": "Viser et Tirer, comme à l’Armée",
+    "Loot": "Viser et Tirer, comme à l'Armée",
     "Effet": "Une attaque avec visée portée avec une arme qui n'a pas la qualité Précis inflige +2D de dégâts"
   },
   {
@@ -41,7 +41,7 @@ export const BOOK_ARMES_MUNITIONS = [
   },
   {
     "Dice": "17-18",
-    "Loot": "Plasma : l’Arme de Demain",
+    "Loot": "Plasma : l'Arme de Demain",
     "Effet": "Une attaque avec une arme plasma gagne l'effet de dégâts Brutal si elle ne l'avait pas déjà"
   },
   {

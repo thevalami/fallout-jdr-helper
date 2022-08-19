@@ -37,7 +37,7 @@ export const ENERGYWEAPONS_LOOT_DEF: DataTableDefinition[] = [{
 
 export const ENERGYWEAPONS_LOOT_DATA = [
   {
-    "Name": "Laser de l’Institut",
+    "Name": "Laser de l'Institut",
     "Damage": "3 $CD$",
     "Effect": "En rafale",
     "Type": "Énergétiques",
@@ -95,7 +95,7 @@ export const ENERGYWEAPONS_LOOT_DATA = [
     "Type": "De radiation",
     "Rate": 1,
     "Range": "M",
-    "Bonus": "Imprécis, Zone d’impact",
+    "Bonus": "Imprécis, Zone d'impact",
     "Weight": "1,5",
     "Cost": 156,
     "Rarity": 5,

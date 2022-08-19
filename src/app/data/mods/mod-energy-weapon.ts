@@ -1,5 +1,5 @@
 export const MOD_ENERGY_WEAPON_DATA = {
-  "Laser de l’Institut": [
+  "Laser de l'Institut": [
     {
       "Name": "Stimulateur de photons",
       "Type": "Condensateur",

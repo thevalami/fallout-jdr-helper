@@ -1,35 +1,35 @@
 export const LOOT_CLOTHES = [
   {
     "Dice": 2,
-    "Loot": "Treillis de la Confrérie de l’Acier"
+    "Loot": "Treillis de la Confrérie de l'Acier"
   },
   {
     "Dice": 3,
-    "Loot": "Masque de Soudure"
+    "Loot": "Masque de soudure"
   },
   {
     "Dice": 4,
-    "Loot": "Chapeau de Scribe de la Confrérie"
+    "Loot": "Chapeau de scribe de la Confrérie"
   },
   {
     "Dice": 5,
-    "Loot": "Cagoule de la Confrérie de l’Acier"
+    "Loot": "Cagoule de la Confrérie de l'Acier"
   },
   {
     "Dice": 6,
-    "Loot": "Armure de Scribe de la Confrérie de l’Acier"
+    "Loot": "Armure de scribe de la Confrérie de l'Acier"
   },
   {
     "Dice": 7,
-    "Loot": "Uniforme de la Confrérie de l’Acier"
+    "Loot": "Uniforme de la Confrérie de l'Acier"
   },
   {
     "Dice": 8,
-    "Loot": "Casque de Chantier"
+    "Loot": "Casque de chantier"
   },
   {
     "Dice": 9,
-    "Loot": "Casque Militaire"
+    "Loot": "Casque militaire"
   },
   {
     "Dice": 10,
@@ -41,27 +41,27 @@ export const LOOT_CLOTHES = [
   },
   {
     "Dice": 12,
-    "Loot": "Armure d’Ingénieur"
+    "Loot": "Armure d'ingénieur"
   },
   {
     "Dice": 13,
-    "Loot": "Armure d’Ingénieur"
+    "Loot": "Armure d'ingénieur"
   },
   {
     "Dice": 14,
-    "Loot": "Vêtements de Cuir"
+    "Loot": "Vêtements de cuir"
   },
   {
     "Dice": 15,
-    "Loot": "Vêtements de Cuir"
+    "Loot": "Vêtements de cuir"
   },
   {
     "Dice": 16,
-    "Loot": "Vêtements Décontractés"
+    "Loot": "Vêtements décontractés"
   },
   {
     "Dice": 17,
-    "Loot": "Vêtements Décontractés"
+    "Loot": "Vêtements décontractés"
   },
   {
     "Dice": 18,
@@ -81,47 +81,47 @@ export const LOOT_CLOTHES = [
   },
   {
     "Dice": 22,
-    "Loot": "Sac Cagoule"
+    "Loot": "Sac cagoule"
   },
   {
     "Dice": 23,
-    "Loot": "Sac Cagoule"
+    "Loot": "Sac cagoule"
   },
   {
     "Dice": 24,
-    "Loot": "Treillis Militaire"
+    "Loot": "Treillis militaire"
   },
   {
     "Dice": 25,
-    "Loot": "Treillis Militaire"
+    "Loot": "Treillis militaire"
   },
   {
     "Dice": 26,
-    "Loot": "Vêtements Résistants"
+    "Loot": "Vêtements résistants"
   },
   {
     "Dice": 27,
-    "Loot": "Vêtements Résistants"
+    "Loot": "Vêtements résistants"
   },
   {
     "Dice": 28,
-    "Loot": "Manteau Lourd"
+    "Loot": "Manteau lourd"
   },
   {
     "Dice": 29,
-    "Loot": "Manteau Lourd"
+    "Loot": "Manteau lourd"
   },
   {
     "Dice": 30,
-    "Loot": "Bleu de Travail"
+    "Loot": "Bleu de travail"
   },
   {
     "Dice": 31,
-    "Loot": "Bleu de Travail"
+    "Loot": "Bleu de travail"
   },
   {
     "Dice": 32,
-    "Loot": "Chapeau Décontracté"
+    "Loot": "Chapeau décontracté"
   },
   {
     "Dice": 33,
@@ -129,30 +129,30 @@ export const LOOT_CLOTHES = [
   },
   {
     "Dice": 34,
-    "Loot": "Combinaison d’Abri"
+    "Loot": "Combinaison d'abri"
   },
   {
     "Dice": 35,
-    "Loot": "Vêtements Elégants"
+    "Loot": "Vêtements élégants"
   },
   {
     "Dice": 36,
-    "Loot": "Vêtements Elégants"
+    "Loot": "Vêtements élégants"
   },
   {
     "Dice": 37,
-    "Loot": "Chapeau Elégant"
+    "Loot": "Chapeau élégant"
   },
   {
     "Dice": 38,
-    "Loot": "Masque à Gaz"
+    "Loot": "Masque à gaz"
   },
   {
     "Dice": 39,
-    "Loot": "Armure Cage"
+    "Loot": "Armure cage"
   },
   {
     "Dice": 40,
-    "Loot": "Combinaison Etanche"
+    "Loot": "Combinaison étanche"
   }
 ];

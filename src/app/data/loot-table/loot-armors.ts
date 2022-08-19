@@ -1,31 +1,31 @@
 export const LOOT_ARMORS = [
   {
     "Dice": 2,
-    "Loot": "Pièce d’armure assistée X-01"
+    "Loot": "Pièce d'armure assistée X-01"
   },
   {
     "Dice": 3,
-    "Loot": "Pièce d’armure assistée X-01"
+    "Loot": "Pièce d'armure assistée X-01"
   },
   {
     "Dice": 4,
-    "Loot": "Pièce d’armure assistée X-01"
+    "Loot": "Pièce d'armure assistée X-01"
   },
   {
     "Dice": 5,
-    "Loot": "Châssis d’armure assistée"
+    "Loot": "Châssis d'armure assistée"
   },
   {
     "Dice": 6,
-    "Loot": "Châssis d’armure assistée"
+    "Loot": "Châssis d'armure assistée"
   },
   {
     "Dice": 7,
-    "Loot": "Pièce d’armure assistée T-60"
+    "Loot": "Pièce d'armure assistée T-60"
   },
   {
     "Dice": 8,
-    "Loot": "Pièce d’armure assistée T-60"
+    "Loot": "Pièce d'armure assistée T-60"
   },
   {
     "Dice": 9,
@@ -45,7 +45,7 @@ export const LOOT_ARMORS = [
   },
   {
     "Dice": 13,
-    "Loot": "Pièce d’armure assistée de Pillard"
+    "Loot": "Pièce d'armure assistée de Pillard"
   },
   {
     "Dice": 14,
@@ -101,7 +101,7 @@ export const LOOT_ARMORS = [
   },
   {
     "Dice": 27,
-    "Loot": "Pièce d’arm. Assist. T-45"
+    "Loot": "Pièce d'arm. Assist. T-45"
   },
   {
     "Dice": 28,
@@ -113,7 +113,7 @@ export const LOOT_ARMORS = [
   },
   {
     "Dice": 30,
-    "Loot": "Pièce d’armure assistée T-51"
+    "Loot": "Pièce d'armure assistée T-51"
   },
   {
     "Dice": 31,
@@ -137,11 +137,11 @@ export const LOOT_ARMORS = [
   },
   {
     "Dice": 36,
-    "Loot": "Châssis d’armure assistée"
+    "Loot": "Châssis d'armure assistée"
   },
   {
     "Dice": 37,
-    "Loot": "Châssis d’armure assistée"
+    "Loot": "Châssis d'armure assistée"
   },
   {
     "Dice": 38,

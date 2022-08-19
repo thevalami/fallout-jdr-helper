@@ -11,7 +11,7 @@ export const BOOK_HOMMES_BOIS = [
   },
   {
     "Dice": "5-6",
-    "Loot": "L’horreur Familiale",
+    "Loot": "L'horreur Familiale",
     "Effet": "Réduisez de 1 la difficulté pour fabriquer une arme (0 minimum)"
   },
   {
@@ -31,17 +31,17 @@ export const BOOK_HOMMES_BOIS = [
   },
   {
     "Dice": "13-14",
-    "Loot": "L’art du Tomahawk",
+    "Loot": "L'art du Tomahawk",
     "Effet": "Réduisez de 1 la difficulté d'un test pour ne pas attraper une maladie (0 minimum)"
   },
   {
     "Dice": "15-16",
-    "Loot": "L’armurier d’Harper’s Ferry",
+    "Loot": "L'armurier d'Harper's Ferry",
     "Effet": "Quand vous trouvez des munitions, vous en trouvez +2D"
   },
   {
     "Dice": "17-18",
-    "Loot": "L’ermite de la rivière Ohio",
+    "Loot": "L'ermite de la rivière Ohio",
     "Effet": "Réduisez de 1 la difficulté pour réparer un objet endommagé (0 minimum)"
   },
   {

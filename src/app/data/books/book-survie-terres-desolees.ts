@@ -26,7 +26,7 @@ export const BOOK_SURVIE_TERRES_DESOLEE = [
   },
   {
     "Dice": "16-18",
-    "Loot": "Les secrets de l’autodéfense",
+    "Loot": "Les secrets de l'autodéfense",
     "Effet": "Votre défense augmente de +1 contre une attaque de corps à corps"
   },
   {
