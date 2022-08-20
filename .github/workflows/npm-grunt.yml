@@ -37,21 +37,21 @@ jobs:
      #   name: www
      #   path: www
      
-    - name: Build Signed APK
-      uses: victorbnl/build-signed-apk@gradlew_file-test 
-      with:
-        gradlew_file: android/gradlew
-        gradlew_dir: android/
-        keystore_file: android.jks
-        keystore_password: ${{ secrets.KEYSTORE_PASS }}
-        key_alias: ${{ secrets.KEY_ALIAS }}
-        key_password: ${{ secrets.KEY_PASSWORD }}
+    #- name: Build Signed APK
+    #  uses: victorbnl/build-signed-apk@gradlew_file-test 
+    #  with:
+     #   gradlew_file: android/gradlew
+    #    gradlew_dir: android/
+     #   keystore_file: android.jks
+     #   keystore_password: ${{ secrets.KEYSTORE_PASS }}
+     #   key_alias: ${{ secrets.KEY_ALIAS }}
+     #   key_password: ${{ secrets.KEY_PASSWORD }}
         
-    - name: Copy file
-      uses: canastro/copy-action@0.0.2
-      with:
-        source: app/build/outputs/apk/release/app-release.apk
-        target: www/falloutjdrhelper.apk
+    #- name: Copy file
+    #  uses: canastro/copy-action@0.0.2
+    #  with:
+     #   source: app/build/outputs/apk/release/app-release.apk
+     #   target: www/falloutjdrhelper.apk
           
     - name: SFTP Deploy
       uses: wlixcc/SFTP-Deploy-Action@v1.2.2
