@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {Loot, LOOT_TABLE_INDEX, LootDef} from "../../data/loot-table/loot-table-index";
 import {Dice} from "dice-typescript";
+import {findMatchingDefinition, findMatchingLoot} from "./loot-utils";
 
 @Component({
   selector: 'app-random-loot',
@@ -25,51 +26,23 @@ export class RandomLootPage implements OnInit {
   generateRandomLoot() {
     this.loots = [];
     this.lootDiceResult = [];
-    let matchingLootDef: LootDef = this.findMatchingDefinition(this.lootType);
+    let matchingLootDef: LootDef = findMatchingDefinition(this.lootType);
     if (matchingLootDef != null) {
       for (let i = 0; i < this.diceCount; i++) {
         const dice = new Dice();
         const diceResult = dice.roll(matchingLootDef.dices).total;
-        let loot = this.findMatchingLoot(diceResult, matchingLootDef);
+        let loot = findMatchingLoot(diceResult, matchingLootDef);
         this.loots.push(loot);
         this.lootDiceResult.push(diceResult);
       }
     }
   }
 
-  findMatchingDefinition(lootType: string): LootDef {
-    let definition = null;
-    for (let lootTypeDef of LOOT_TABLE_INDEX) {
-      if (lootTypeDef.label === lootType) {
-        definition = lootTypeDef;
-      }
-    }
-    return definition;
-  }
-
-  findMatchingLoot(diceResult: number, lootDef: LootDef): Loot {
-    let loot = null;
-    for (let candidateData of lootDef.data) {
-      if (String(candidateData.Dice).includes("-")) {
-        let minDice: number = Number(String(candidateData.Dice).split("-")[0]);
-        let maxDice: number = Number(String(candidateData.Dice).split("-")[1]);
-        if (diceResult >= minDice && diceResult <= maxDice) {
-          loot = candidateData;
-        }
-      } else {
-        if (diceResult === candidateData.Dice) {
-          loot = candidateData;
-        }
-      }
-    }
-    return loot;
-  }
-
   lootTypeChanged($event: any) {
     this.loots = [];
     this.lootDiceResult = [];
     this.lootType = $event.detail.value;
-    const definition = this.findMatchingDefinition(this.lootType);
+    const definition = findMatchingDefinition(this.lootType);
     if (definition != null) {
       this.diceDefinition = definition.dices;
     }

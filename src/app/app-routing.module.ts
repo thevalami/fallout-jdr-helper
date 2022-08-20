@@ -34,7 +34,12 @@ const routes: Routes = [
   {
     path: 'getandroid',
     loadChildren: () => import('./pages/getandroid/getandroid.module').then(m => m.GetandroidPageModule)
+  },
+  {
+    path: 'auto-loot',
+    loadChildren: () => import('./pages/auto-loot/auto-loot.module').then(m => m.AutoLootPageModule)
   }
+
 
 ];
 

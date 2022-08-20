@@ -1,0 +1,81 @@
+<ion-app>
+
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title class="ion-text-capitalize">Loot automatique</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="ion-padding">
+    <ion-note>Choisissez le type de zone, la taille, et éventuellement la limite de rareté, pour obtenir un ensemble de
+      loots aléatoires.
+    </ion-note>
+    <ion-grid class="ion-no-padding">
+      <ion-row>
+        <ion-col size="12" class="ion-no-padding">
+          <ion-item>
+            <ion-label>Lieu :</ion-label>
+            <ion-select placeholder="..." [(ngModel)]="selectedPlace" interface="popover"
+                        (ionChange)="fetchLootTables()">
+              <ion-select-option [value]="place" *ngFor="let place of places">{{place}}</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12" class="ion-no-padding">
+          <ion-item>
+            <ion-label>Taille :</ion-label>
+            <ion-select placeholder="..." [(ngModel)]="selectedSize" interface="popover"
+                        (ionChange)="fetchLootTables()">
+              <ion-select-option [value]="size" *ngFor="let size of placeSizes">{{size}}</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12" class="ion-no-padding">
+          <ion-range [min]="1" [max]="6" [pin]="true" [ticks]="true" [snaps]="true" [(ngModel)]="maxRarity">
+            <ion-label slot="start">Rareté max : 1</ion-label>
+            <ion-label slot="end">6</ion-label>
+          </ion-range>
+        </ion-col>
+      </ion-row>
+      <ion-row *ngIf="lootTables && lootTypes">
+        <ion-col size="12" class="ion-no-padding">
+          <ng-container *ngFor="let lootType of lootTypes">
+            <ion-range [min]="lootTables[lootType].min" [max]="lootTables[lootType].max"
+                       [(ngModel)]="lootQuantities[lootType]"
+                       [pin]="true" [ticks]="true" [snaps]="true" *ngIf="!displayLoot && lootTables[lootType].max > 0">
+              <ion-label slot="start">{{ lootType }} : {{ lootTables[lootType].min }}</ion-label>
+              <ion-label slot="end">{{lootTables[lootType].max}}</ion-label>
+            </ion-range>
+            <h4 *ngIf="displayLoot &&  lootTables[lootType].max > 0">{{lootType}}</h4>
+            <ion-list *ngIf="generatedLoots[lootType]">
+              <ion-item *ngFor="let loot of generatedLoots[lootType]">
+                <ion-label>
+                  <h2>
+                    <app-rich-text-display [propertyText]="('' + loot.Loot)"></app-rich-text-display>
+                  </h2>
+                  <h4>
+                    <app-rich-text-display *ngIf="loot.Quantity"
+                                           [propertyText]="('' + loot.Quantity)"></app-rich-text-display>
+                  </h4>
+                </ion-label>
+              </ion-item>
+            </ion-list>
+          </ng-container>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12" class="ion-no-padding">
+          <ion-button (click)="generateLoot()">Générer Loot</ion-button>
+          <ion-button *ngIf="displayLoot" color="secondary" (click)="reset()">Reconfigurer</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+</ion-app>
