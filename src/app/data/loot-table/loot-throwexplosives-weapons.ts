@@ -33,95 +33,118 @@ export const LOOT_THROWEXPLOSIVES = [
   },
   {
     "Dice": 10,
-    "Loot": "Grenade à fragmentation 2 + 1 $CD$"
+    "Loot": "Grenade à fragmentation",
+    "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 11,
-    "Loot": "Grenade à fragmentation 2 + 1 $CD$"
+    "Loot": "Grenade à fragmentation",
+    "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 12,
-    "Loot": "Grenade à fragmentation2 + 1 $CD$"
+    "Loot": "Grenade à fragmentation",
+    "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 13,
-    "Loot": "Cocktail Molotov 2 + 1 $CD$"
+    "Loot": "Cocktail Molotov",
+    "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 14,
-    "Loot": "Cocktail Molotov 2 + 1 $CD$"
+    "Loot": "Cocktail Molotov",
+    "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 15,
-    "Loot": "Javelots 2 + 1 $CD$ "
+    "Loot": "Javelots",
+    "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 16,
-    "Loot": "Javelots 2 + 1 $CD$ "
+    "Loot": "Javelots",
+    "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 17,
-    "Loot": "Javelots 2 + 1 $CD$ "
+    "Loot": "Javelots",
+    "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 18,
-    "Loot": "Javelots 2 + 1 $CD$ "
+    "Loot": "Javelots",
+    "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 19,
-    "Loot": "Javelots 2 + 1 $CD$ "
+    "Loot": "Javelots",
+    "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 20,
-    "Loot": "Couteaux de lancer 4 + 2 $CD$ "
+    "Loot": "Couteaux de lancer",
+    "Quantity": "4 + 2 $CD$"
   },
   {
     "Dice": 21,
-    "Loot": "Couteaux de lancer 4 + 2 $CD$ "
+    "Loot": "Couteaux de lancer",
+    "Quantity": "4 + 2 $CD$"
   },
   {
     "Dice": 22,
-    "Loot": "Couteaux de lancer 4 + 2 $CD$ "
+    "Loot": "Couteaux de lancer",
+    "Quantity": "4 + 2 $CD$"
   },
   {
     "Dice": 23,
-    "Loot": "Grenade rondes 2 + 1 $CD$"
+    "Loot": "Grenade ronde",
+    "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 24,
-    "Loot": "Grenade rondes 2 + 1 $CD$"
+    "Loot": "Grenade ronde",
+    "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 25,
-    "Loot": "Grenade rondes 2 + 1 $CD$"
+    "Loot": "Grenade ronde",
+    "Quantity": " 2 + 1 $CD$"
   },
   {
     "Dice": 26,
-    "Loot": "Grenade rondes 2 + 1 $CD$"
+    "Loot": "Grenade rondes",
+    "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 27,
-    "Loot": "Grenade rondes 2 + 1 $CD$"
+    "Loot": "Grenade rondes",
+    "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 28,
-    "Loot": "Cocktail Molotov 2 + 1 $CD$ "
+    "Loot": "Cocktail Molotov",
+    "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 29,
-    "Loot": "Cocktail Molotov 2 + 1 $CD$ "
+    "Loot": "Cocktail Molotov",
+    "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 30,
-    "Loot": "Tomahawk 2 + 1 $CD$"
+    "Loot": "Tomahawk",
+    "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 31,
-    "Loot": "Tomahawk 2 + 1 $CD$"
+    "Loot": "Tomahawk",
+    "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 32,
-    "Loot": "Tomahawk 2 + 1 $CD$"
+    "Loot": "Tomahawk",
+    "Quantity": "2 + 1 $CD$"
   },
   {
     "Dice": 33,
