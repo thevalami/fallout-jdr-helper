@@ -125,7 +125,7 @@ export const MODS_TABLE_DATA = {
     mods: MOD_SYNTH_ARMOR
   },
   'power-armor': {
-    label: "Mods Armeures assistées",
+    label: "Mods Armures assistées",
     mods: MOD_POWER_ARMOR_ARMOR
   }
 }
