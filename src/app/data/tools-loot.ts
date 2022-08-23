@@ -150,5 +150,33 @@ export const TOOLS_LOOT_DATA = [
     "Weight": 2,
     "Cost": 200,
     "Rarity": 2
+  },
+  {
+    "Name": "Stealth Boy",
+    "Effect": "Action mineure : invisibilité pendant 3 tours (+2 difficulté pour être repéré, défense +2)",
+    "Weight": "0.5",
+    "Cost": 100,
+    "Rarity": 3
+  },
+  {
+    "Name": "Kit de réparation de robots",
+    "Effect": "Rends 4PV à un robot ou une armure assistée, ou soigne une blessure. Peut aussi être utiliser pour porter secours, en plus des soins de base.",
+    "Weight": "<0.5>",
+    "Cost": 48,
+    "Rarity": 2
+  },
+  {
+    "Name": "Diffuseur de stimpak",
+    "Effect": "Action mineure : consomme un Super Stimpak pour rendre 4PV à tous les non-robots à portée courte",
+    "Weight": "0.5",
+    "Cost": 100,
+    "Rarity": 5
+  },
+  {
+    "Name": "Livres et magazines",
+    "Effect": "Varie selon le tome/édition",
+    "Weight": "<0.5",
+    "Cost": 100,
+    "Rarity": 3
   }
 ]

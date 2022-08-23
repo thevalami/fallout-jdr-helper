@@ -235,11 +235,11 @@ export const LOOT_CURIOSITIES_VALUABLES = [
   },
   {
     "Dice": 58,
-    "Loot": "Diffuseur de stimpack"
+    "Loot": "Diffuseur de stimpak"
   },
   {
     "Dice": 59,
-    "Loot": "Diffuseur de stimpack"
+    "Loot": "Diffuseur de stimpak"
   },
   {
     "Dice": 60,
