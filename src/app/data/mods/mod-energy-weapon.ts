@@ -553,7 +553,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
       "Effect4": "",
       "Effect5": "",
       "Weight": "+ 1 kg",
-      "Cost": "+ 3 caps",
+      "Cost": "+ 30 caps",
       "Skills": "Fana d'armes 3"
     },
     {
@@ -794,9 +794,9 @@ export const MOD_ENERGY_WEAPON_DATA = {
       "Effect3": "Gagne Précis",
       "Effect4": "",
       "Effect5": "",
-      "Weight": "",
-      "Cost": "+ 1 kg",
-      "Skills": "+ 20 caps"
+      "Weight": "+ 1 kg",
+      "Cost": "+ 20 caps",
+      "Skills": "Fana d'armes 2"
     },
     {
       "Name": "Crosse à compensateur de recul",
@@ -808,7 +808,7 @@ export const MOD_ENERGY_WEAPON_DATA = {
       "Effect5": "",
       "Weight": "",
       "Cost": "+ 1 kg",
-      "Skills": "+ 3 caps"
+      "Skills": "+ 30 caps"
     },
     {
       "Name": "Viseur laser",

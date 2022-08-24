@@ -234,7 +234,7 @@ export const MELEEWEAPONS_LOOT_DATA = [
     "Damage": "5 $CD$",
     "Effect": "",
     "DamageType": "Balistiques",
-    "Quality": "",
+    "Quality": "Deux mains",
     "Weight": 6,
     "Cost": 40,
     "Rarity": 2

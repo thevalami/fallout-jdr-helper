@@ -239,7 +239,7 @@ export const MOD_LIGHT_WEAPON_DATA = {
       "Effect4": "",
       "Effect5": "",
       "Weight": "+ 0,5 kg",
-      "Cost": "- 3 Caps",
+      "Cost": "+ 3 Caps",
       "Skills": "Fana d'armes 2"
     },
     {
@@ -458,7 +458,7 @@ export const MOD_LIGHT_WEAPON_DATA = {
       "Effect4": "",
       "Effect5": "",
       "Weight": "+ 1 kg",
-      "Cost": "+ 3 caps",
+      "Cost": "+ 30 caps",
       "Skills": "Fana d'armes 3"
     },
     {
@@ -470,7 +470,7 @@ export const MOD_LIGHT_WEAPON_DATA = {
       "Effect4": "",
       "Effect5": "",
       "Weight": "+ 0,5 kg",
-      "Cost": "- 3 Caps",
+      "Cost": "+ 3 Caps",
       "Skills": "Fana d'armes 2"
     },
     {
@@ -760,7 +760,7 @@ export const MOD_LIGHT_WEAPON_DATA = {
       "Effect4": "",
       "Effect5": "",
       "Weight": "+ 1 kg",
-      "Cost": "+ 3 caps",
+      "Cost": "+ 30 caps",
       "Skills": "Fana d'armes 3"
     },
     {
@@ -772,7 +772,7 @@ export const MOD_LIGHT_WEAPON_DATA = {
       "Effect4": "",
       "Effect5": "",
       "Weight": "+ 0,5 kg",
-      "Cost": "- 3 Caps",
+      "Cost": "+ 3 Caps",
       "Skills": "Fana d'armes 2"
     },
     {
@@ -930,7 +930,7 @@ export const MOD_LIGHT_WEAPON_DATA = {
       "Effect4": "",
       "Effect5": "",
       "Weight": "+ 1 kg",
-      "Cost": "+ 3 caps",
+      "Cost": "+ 30 caps",
       "Skills": "Fana d'armes 3"
     },
     {
@@ -1184,7 +1184,7 @@ export const MOD_LIGHT_WEAPON_DATA = {
       "Effect4": "",
       "Effect5": "",
       "Weight": "+ 0,5 kg",
-      "Cost": "- 3 Caps",
+      "Cost": "+ 3 Caps",
       "Skills": "Fana d'armes 2"
     },
     {
@@ -1390,7 +1390,7 @@ export const MOD_LIGHT_WEAPON_DATA = {
       "Effect4": "",
       "Effect5": "",
       "Weight": "+ 1 kg",
-      "Cost": "+ 3 caps",
+      "Cost": "+ 30 caps",
       "Skills": "Fana d'armes 3"
     },
     {
@@ -1402,7 +1402,7 @@ export const MOD_LIGHT_WEAPON_DATA = {
       "Effect4": "",
       "Effect5": "",
       "Weight": "+ 0,5 kg",
-      "Cost": "- 3 Caps",
+      "Cost": "+ 3 Caps",
       "Skills": "Fana d'armes 2"
     },
     {
@@ -1608,7 +1608,7 @@ export const MOD_LIGHT_WEAPON_DATA = {
       "Effect4": "",
       "Effect5": "",
       "Weight": "+ 1 kg",
-      "Cost": "+ 3 caps",
+      "Cost": "+ 30 caps",
       "Skills": "Fana d'armes 3"
     },
     {
@@ -1620,7 +1620,7 @@ export const MOD_LIGHT_WEAPON_DATA = {
       "Effect4": "",
       "Effect5": "",
       "Weight": "+ 0,5 kg",
-      "Cost": "- 3 Caps",
+      "Cost": "+ 3 Caps",
       "Skills": "Fana d'armes 2"
     },
     {
@@ -2032,7 +2032,7 @@ export const MOD_LIGHT_WEAPON_DATA = {
       "Effect4": "",
       "Effect5": "",
       "Weight": "+ 1 kg",
-      "Cost": "+ 3 caps",
+      "Cost": "+ 30 caps",
       "Skills": "Fana d'armes 3"
     },
     {
@@ -2310,7 +2310,7 @@ export const MOD_LIGHT_WEAPON_DATA = {
       "Effect4": "",
       "Effect5": "",
       "Weight": "+ 1 kg",
-      "Cost": "+ 3 caps",
+      "Cost": "+ 30 caps",
       "Skills": "Fana d'armes 3"
     },
     {
@@ -2612,7 +2612,7 @@ export const MOD_LIGHT_WEAPON_DATA = {
       "Effect4": "",
       "Effect5": "",
       "Weight": "+ 1 kg",
-      "Cost": "+ 3 caps",
+      "Cost": "+ 30 caps",
       "Skills": "Fana d'armes 3"
     },
     {
@@ -2770,7 +2770,7 @@ export const MOD_LIGHT_WEAPON_DATA = {
       "Effect4": "",
       "Effect5": "",
       "Weight": "+ 1 kg",
-      "Cost": "+ 3 caps",
+      "Cost": "+ 30 caps",
       "Skills": "Fana d'armes 3"
     },
     {
@@ -2904,7 +2904,7 @@ export const MOD_LIGHT_WEAPON_DATA = {
       "Effect4": "",
       "Effect5": "",
       "Weight": "+ 1 kg",
-      "Cost": "+ 3 caps",
+      "Cost": "+ 30 caps",
       "Skills": "Fana d'armes 3"
     },
     {

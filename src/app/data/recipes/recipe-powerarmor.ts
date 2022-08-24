@@ -147,7 +147,7 @@ export const RECIPE_POWERARMOR_STATION = [
     "Name": "X-01 Mk IV",
     "Components": "Normaux (+1 peu fréq. sur torse)",
     "Complexity": 5,
-    "Perk": "Armurier 2, Scientifique 2",
+    "Perk": "Armurier 2, Scientifique 1",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },

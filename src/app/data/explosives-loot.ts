@@ -112,7 +112,7 @@ export const EXPLOSIVES_LOOT_DATA = [
     "Damage": "9 $CD$",
     "Effect": "",
     "DamageType": "Energétiques",
-    "Quality": "Lancer (M), Zone d'impact",
+    "Quality": "Lancer (M), Zone d'impact, Etourdissant",
     "Weight": "< 0,5",
     "Cost": 135,
     "Rarity": 3

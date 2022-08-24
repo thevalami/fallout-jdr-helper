@@ -181,7 +181,7 @@ export const POWERARMOR_LOOT_DATA = [
     "PV": 10,
     "Bodyparts": "Tête",
     "Weight": 6,
-    "Cost": 650,
+    "Cost": 120,
     "Rarity": 4
   },
   {
@@ -192,7 +192,7 @@ export const POWERARMOR_LOOT_DATA = [
     "PV": 21,
     "Bodyparts": "Buste",
     "Weight": 10,
-    "Cost": 750,
+    "Cost": 200,
     "Rarity": 4
   },
   {
@@ -203,7 +203,7 @@ export const POWERARMOR_LOOT_DATA = [
     "PV": 10,
     "Bodyparts": "Bras",
     "Weight": "7,5",
-    "Cost": 700,
+    "Cost": 160,
     "Rarity": 4
   },
   {
@@ -214,7 +214,7 @@ export const POWERARMOR_LOOT_DATA = [
     "PV": 10,
     "Bodyparts": "Jambe",
     "Weight": "7,5",
-    "Cost": 700,
+    "Cost": 160,
     "Rarity": 4
   },
   {
@@ -225,7 +225,7 @@ export const POWERARMOR_LOOT_DATA = [
     "PV": 12,
     "Bodyparts": "Tête",
     "Weight": 6,
-    "Cost": 60,
+    "Cost": 140,
     "Rarity": 5
   },
   {
@@ -236,7 +236,7 @@ export const POWERARMOR_LOOT_DATA = [
     "PV": 24,
     "Bodyparts": "Buste",
     "Weight": 10,
-    "Cost": 140,
+    "Cost": 280,
     "Rarity": 5
   },
   {
@@ -247,7 +247,7 @@ export const POWERARMOR_LOOT_DATA = [
     "PV": 12,
     "Bodyparts": "Bras",
     "Weight": "7,5",
-    "Cost": 100,
+    "Cost": 200,
     "Rarity": 5
   },
   {
@@ -258,7 +258,7 @@ export const POWERARMOR_LOOT_DATA = [
     "PV": 12,
     "Bodyparts": "Jambe",
     "Weight": "7,5",
-    "Cost": 100,
+    "Cost": 200,
     "Rarity": 5
   }
 ]

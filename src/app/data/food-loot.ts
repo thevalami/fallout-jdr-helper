@@ -264,7 +264,7 @@ export const FOOD_LOOT_DATA =
     {
       "Name": "Mouche bouffie grillée",
       "Heal": 6,
-      "Effect": "+2 résistance aux dégâts de radiation",
+      "Effect": "+2 résistance aux dégâts de radiation jusqu’à la fin de la prochaine scène",
       "Radiation": "–",
       "Weight": "<0,5",
       "Cost": 15,

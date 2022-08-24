@@ -17,7 +17,7 @@ export const MOD_HEAVY_WEAPON_DATA = {
       "Effect1": "+1 cadence de tir",
       "Effect2": "",
       "Weight": "+ 1 kg",
-      "Cost": "+ 40 caps",
+      "Cost": "+ 30 caps",
       "Skills": ""
     },
     {

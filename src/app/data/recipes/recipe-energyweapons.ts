@@ -131,7 +131,7 @@ export const RECIPE_ENERGYWEAPONS_STATION = [
     "Name": "Poignée de Tireur d'élite",
     "Components": "Normaux",
     "Complexity": 3,
-    "Perk": "Fana d'armes",
+    "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
@@ -155,7 +155,7 @@ export const RECIPE_ENERGYWEAPONS_STATION = [
     "Name": "Crosse de tireur d'élite",
     "Components": "Normaux",
     "Complexity": 4,
-    "Perk": "Fana d'armes",
+    "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },

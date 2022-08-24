@@ -117,11 +117,11 @@ export const LOOT_ARMORS = [
   },
   {
     "Dice": 31,
-    "Loot": "Armure Assistée Lourde"
+    "Loot": "Armure de combat lourde"
   },
   {
     "Dice": 32,
-    "Loot": "Armure Assistée Lourde"
+    "Loot": "Armure de combat lourde"
   },
   {
     "Dice": 33,

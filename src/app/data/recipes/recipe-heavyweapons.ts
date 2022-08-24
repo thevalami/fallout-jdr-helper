@@ -3,7 +3,7 @@ export const RECIPE_HEAVYWEAPONS_STATION = [
     "Name": "Lance Flammes - Réservoir à napalm",
     "Components": "Normaux",
     "Complexity": 3,
-    "Perk": "–",
+    "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
     "Rarity": "Fréquente"
   },
@@ -11,7 +11,7 @@ export const RECIPE_HEAVYWEAPONS_STATION = [
     "Name": "Lance Flammes - Canon long",
     "Components": "Normaux",
     "Complexity": 3,
-    "Perk": "–",
+    "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
     "Rarity": "Fréquente"
   },
@@ -19,7 +19,7 @@ export const RECIPE_HEAVYWEAPONS_STATION = [
     "Name": "Lance Flammes - Grand réservoir",
     "Components": "Normaux",
     "Complexity": 3,
-    "Perk": "–",
+    "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
     "Rarity": "Fréquente"
   },
@@ -27,7 +27,7 @@ export const RECIPE_HEAVYWEAPONS_STATION = [
     "Name": "Lance Flammes - Réservoir géant",
     "Components": "Normaux",
     "Complexity": 4,
-    "Perk": "–",
+    "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
     "Rarity": "Fréquente"
   },
@@ -35,7 +35,7 @@ export const RECIPE_HEAVYWEAPONS_STATION = [
     "Name": "Lance Flammes - Buse de compression",
     "Components": "Normaux",
     "Complexity": 3,
-    "Perk": "–",
+    "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
     "Rarity": "Fréquente"
   },
@@ -43,7 +43,7 @@ export const RECIPE_HEAVYWEAPONS_STATION = [
     "Name": "Lance Flammes - Buse de vaporisation",
     "Components": "Normaux",
     "Complexity": 4,
-    "Perk": "–",
+    "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
     "Rarity": "Fréquente"
   },

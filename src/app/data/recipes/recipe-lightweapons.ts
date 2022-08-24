@@ -187,7 +187,7 @@ export const RECIPE_LIGHTWEAPONS_STATION = [
     "Name": "Poignée de tireur d'élite",
     "Components": "Normaux",
     "Complexity": 3,
-    "Perk": "Fana d'armes",
+    "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
