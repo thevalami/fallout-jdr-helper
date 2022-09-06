@@ -8,10 +8,11 @@ import {CombatDiceModalPage} from "./combat-dice-modal/combat-dice-modal.page";
 import {FormsModule} from "@angular/forms";
 import {ModsDisplayModalComponent} from "./mods-display-modal/mods-display-modal.component";
 import {GenericDataSearchPipe, GenericTitleSearchPipe} from "../pipes/generic-data-search.pipe";
+import {SortByPipe} from "../pipes/sort-by.pipe";
 
 @NgModule({
-  declarations: [RichTextDisplayComponent, GenericDataDisplayComponent, CombatDiceModalPage, CombatDiceComponent, ModsDisplayModalComponent, GenericTitleSearchPipe, GenericDataSearchPipe],
-  exports: [RichTextDisplayComponent, GenericDataDisplayComponent, CombatDiceModalPage, CombatDiceComponent, ModsDisplayModalComponent, GenericTitleSearchPipe, GenericDataSearchPipe],
+  declarations: [RichTextDisplayComponent, GenericDataDisplayComponent, CombatDiceModalPage, CombatDiceComponent, ModsDisplayModalComponent, GenericTitleSearchPipe, GenericDataSearchPipe, SortByPipe],
+  exports: [RichTextDisplayComponent, GenericDataDisplayComponent, CombatDiceModalPage, CombatDiceComponent, ModsDisplayModalComponent, GenericTitleSearchPipe, GenericDataSearchPipe, SortByPipe],
   imports: [
     CommonModule,
     IonicModule,

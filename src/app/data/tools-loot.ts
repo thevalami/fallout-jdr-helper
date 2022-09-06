@@ -44,7 +44,7 @@ export const TOOLS_LOOT_DATA = [
     "Effect": "Réduit de 1 la difficulté des tests de Crochetage (1 minimum), 1 épingle à cheveux se brise par complication obtenue",
     "Weight": "<0,5",
     "Cost": 1,
-    "Rarity": 0
+    "Rarity": "0"
   },
   {
     "Name": "Fusée de détresse",

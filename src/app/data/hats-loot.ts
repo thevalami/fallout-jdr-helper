@@ -82,7 +82,7 @@ export const HATS_LOOT_DATA = [
     "BodyParts": "Tête",
     "Weight": "0,5",
     "Cost": 5,
-    "Rarity": 0,
+    "Rarity": "0",
     "Special": ""
   },
   {

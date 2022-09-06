@@ -874,7 +874,7 @@ export const MOD_LIGHT_WEAPON_DATA = {
     {
       "Name": "Baïonnette",
       "Type": "Bouche",
-      "Effect1": "Arme de corps à corps, inflige 4$CD$ de dégâts balistiques Perforant 1",
+      "Effect1": "Arme de corps à corps, inflige 4 $CD$ de dégâts balistiques Perforant 1",
       "Effect2": "",
       "Effect3": "",
       "Effect4": "",
@@ -1286,7 +1286,7 @@ export const MOD_LIGHT_WEAPON_DATA = {
     {
       "Name": "Baïonnette",
       "Type": "Bouche",
-      "Effect1": "Arme de corps à corps, inflige 4$CD$ de dégâts balistiques Perforant 1",
+      "Effect1": "Arme de corps à corps, inflige 4 $CD$ de dégâts balistiques Perforant 1",
       "Effect2": "",
       "Effect3": "",
       "Effect4": "",

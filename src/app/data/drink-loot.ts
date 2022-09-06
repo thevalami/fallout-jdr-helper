@@ -79,7 +79,7 @@ export const DRINK_LOOT_DATA =
       "Radiation": "1 $CD$",
       "Weight": "<0,5",
       "Cost": 5,
-      "Rarity": 0
+      "Rarity": "0"
     },
     {
       "Name": "Gnôle des Terres désolées",

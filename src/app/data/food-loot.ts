@@ -34,7 +34,7 @@ export const FOOD_LOOT_DATA =
       "Radiation": "1 $CD$",
       "Weight": "0,5",
       "Cost": 18,
-      "Rarity": 0
+      "Rarity": "0"
     },
     {
       "Name": "Blé surin",
@@ -61,7 +61,7 @@ export const FOOD_LOOT_DATA =
       "Radiation": "1 $CD$",
       "Weight": "<0,5",
       "Cost": 11,
-      "Rarity": 0
+      "Rarity": "0"
     },
     {
       "Name": "Bouchées d'écureuil",
@@ -88,7 +88,7 @@ export const FOOD_LOOT_DATA =
       "Radiation": "1 $CD$",
       "Weight": "<0,5",
       "Cost": 5,
-      "Rarity": 0
+      "Rarity": "0"
     },
     {
       "Name": "Brochette d'écureuil",
@@ -124,7 +124,7 @@ export const FOOD_LOOT_DATA =
       "Radiation": "1 $CD$",
       "Weight": "<0,5",
       "Cost": 3,
-      "Rarity": 0
+      "Rarity": "0"
     },
     {
       "Name": "Chips",
@@ -133,7 +133,7 @@ export const FOOD_LOOT_DATA =
       "Radiation": "1 $CD$",
       "Weight": "<0,5",
       "Cost": 7,
-      "Rarity": 0
+      "Rarity": "0"
     },
     {
       "Name": "Côtelettes de yao guai",
@@ -223,7 +223,7 @@ export const FOOD_LOOT_DATA =
       "Radiation": "1 $CD$",
       "Weight": "<0,5",
       "Cost": 8,
-      "Rarity": 0
+      "Rarity": "0"
     },
     {
       "Name": "Goudrelle",
@@ -304,7 +304,7 @@ export const FOOD_LOOT_DATA =
       "Radiation": "1 $CD$",
       "Weight": "<0,5",
       "Cost": 20,
-      "Rarity": 0
+      "Rarity": "0"
     },
     {
       "Name": "Omelette d'œufs d'écorcheur",
@@ -376,7 +376,7 @@ export const FOOD_LOOT_DATA =
       "Radiation": "1 $CD$",
       "Weight": "<0,5",
       "Cost": 6,
-      "Rarity": 0
+      "Rarity": "0"
     },
     {
       "Name": "Pomate",
@@ -394,7 +394,7 @@ export const FOOD_LOOT_DATA =
       "Radiation": "1 $CD$",
       "Weight": "<0,5",
       "Cost": 7,
-      "Rarity": 0
+      "Rarity": "0"
     },
     {
       "Name": "Porc aux haricots",
@@ -403,7 +403,7 @@ export const FOOD_LOOT_DATA =
       "Radiation": "1 $CD$",
       "Weight": "<0,5",
       "Cost": 10,
-      "Rarity": 0
+      "Rarity": "0"
     },
     {
       "Name": "Purée-minute",
@@ -412,7 +412,7 @@ export const FOOD_LOOT_DATA =
       "Radiation": "1 $CD$",
       "Weight": "<0,5",
       "Cost": 20,
-      "Rarity": 0
+      "Rarity": "0"
     },
     {
       "Name": "Radcafard grillé",
@@ -538,7 +538,7 @@ export const FOOD_LOOT_DATA =
       "Radiation": "1 $CD$",
       "Weight": "<0,5",
       "Cost": 20,
-      "Rarity": 0
+      "Rarity": "0"
     },
     {
       "Name": "Tarte parfaitement conservée",
@@ -565,7 +565,7 @@ export const FOOD_LOOT_DATA =
       "Radiation": "1 $CD$",
       "Weight": "<0,5",
       "Cost": 8,
-      "Rarity": 0
+      "Rarity": "0"
     },
     {
       "Name": "Viande de darillon",
@@ -637,7 +637,7 @@ export const FOOD_LOOT_DATA =
       "Radiation": "1 $CD$",
       "Weight": "<0,5",
       "Cost": 8,
-      "Rarity": 0
+      "Rarity": "0"
     },
     {
       "Name": "Viande de radcerf",
@@ -664,7 +664,7 @@ export const FOOD_LOOT_DATA =
       "Radiation": "1 $CD$",
       "Weight": "<0,5",
       "Cost": 5,
-      "Rarity": 0
+      "Rarity": "0"
     },
     {
       "Name": "Viande de reine des fangeux",
@@ -700,6 +700,6 @@ export const FOOD_LOOT_DATA =
       "Radiation": "2 $CD$",
       "Weight": "0,5",
       "Cost": 25,
-      "Rarity": 0
+      "Rarity": "0"
     }
   ]

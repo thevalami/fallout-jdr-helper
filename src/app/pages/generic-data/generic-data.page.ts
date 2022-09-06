@@ -10,6 +10,7 @@ import {DataId, REGISTERED_DATA_SECTIONS, Section} from "../../data/generic-data
 export class GenericDataPage implements OnInit {
   dataId: DataId;
   searchText = '';
+  sortType: 'Name' | 'Rarity' = 'Name';
 
   constructor(private activatedRoute: ActivatedRoute) {
   }
@@ -29,5 +30,9 @@ export class GenericDataPage implements OnInit {
         }
       }
     }
+  }
+
+  sortTypeChanged($event: any) {
+    this.sortType = $event.detail.value;
   }
 }

@@ -138,7 +138,7 @@ export const MELEEWEAPONS_LOOT_DATA = [
     "Quality": "Dissimulé",
     "Weight": "0,5",
     "Cost": 20,
-    "Rarity": 0
+    "Rarity": "0"
   },
   {
     "Name": "Batte de baseball",
@@ -171,7 +171,7 @@ export const MELEEWEAPONS_LOOT_DATA = [
     "Quality": "Deux mains",
     "Weight": "1,5",
     "Cost": 20,
-    "Rarity": 0
+    "Rarity": "0"
   },
   {
     "Name": "Tuyau de plomb",
@@ -182,7 +182,7 @@ export const MELEEWEAPONS_LOOT_DATA = [
     "Quality": "",
     "Weight": "1,5",
     "Cost": 15,
-    "Rarity": 0
+    "Rarity": "0"
   },
   {
     "Name": "Clé Serre-Tube",
@@ -204,7 +204,7 @@ export const MELEEWEAPONS_LOOT_DATA = [
     "Quality": "Deux mains",
     "Weight": "0,5",
     "Cost": 10,
-    "Rarity": 0
+    "Rarity": "0"
   },
   {
     "Name": "Rouleau à pâtisserie",
@@ -215,7 +215,7 @@ export const MELEEWEAPONS_LOOT_DATA = [
     "Quality": "",
     "Weight": "0,5",
     "Cost": 10,
-    "Rarity": 0
+    "Rarity": "0"
   },
   {
     "Name": "Matraque",
@@ -226,7 +226,7 @@ export const MELEEWEAPONS_LOOT_DATA = [
     "Quality": "",
     "Weight": "0,5",
     "Cost": 10,
-    "Rarity": 0
+    "Rarity": "0"
   },
   {
     "Name": "Masse",
@@ -270,7 +270,7 @@ export const MELEEWEAPONS_LOOT_DATA = [
     "Quality": "",
     "Weight": 1,
     "Cost": 10,
-    "Rarity": 0
+    "Rarity": "0"
   },
   {
     "Name": "Gant de boxe",

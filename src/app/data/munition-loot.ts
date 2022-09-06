@@ -23,14 +23,14 @@ export const AMMUNITION_LOOT_DATA = [
     "Quantity": "10 + 5 $CD$",
     "Weight": "<0,5",
     "Cost": "1",
-    "Rarity": 0
+    "Rarity": "0"
   },
   {
     "Name": "Cartouche 10mm",
     "Quantity": "8 + 4 $CD$",
     "Weight": "<0,5",
     "Cost": "2",
-    "Rarity": 0
+    "Rarity": "0"
   },
   {
     "Name": "Cartouche .308",

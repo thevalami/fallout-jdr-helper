@@ -176,7 +176,7 @@ export const LIGHTWEAPONS_LOOT_DATA = [
     "Bonus": "Imprévisible",
     "Weight": "1,5",
     "Cost": 30,
-    "Rarity": 0,
+    "Rarity": "0",
     "Munitions": "Cartouches .308"
   },
   {
@@ -189,7 +189,7 @@ export const LIGHTWEAPONS_LOOT_DATA = [
     "Bonus": "Combat rapproché, Imprévisible",
     "Weight": 1,
     "Cost": 30,
-    "Rarity": 0,
+    "Rarity": "0",
     "Munitions": "Cartouches .38"
   },
   {
@@ -202,7 +202,7 @@ export const LIGHTWEAPONS_LOOT_DATA = [
     "Bonus": "Combat rapproché, Imprévisible",
     "Weight": 2,
     "Cost": 25,
-    "Rarity": 0,
+    "Rarity": "0",
     "Munitions": "Cartouches .45"
   },
   {

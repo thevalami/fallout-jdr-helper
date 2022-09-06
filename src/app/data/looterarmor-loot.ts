@@ -35,7 +35,7 @@ export const RAIDERARMOR_LOOT_DATA = [
     "BodyParts": "Buste",
     "Weight": "3,5",
     "Cost": 18,
-    "Rarity": 0
+    "Rarity": "0"
   },
   {
     "Name": "Jambière de pillard",
@@ -45,7 +45,7 @@ export const RAIDERARMOR_LOOT_DATA = [
     "BodyParts": "Jambe",
     "Weight": "1,5",
     "Cost": 8,
-    "Rarity": 0
+    "Rarity": "0"
   },
   {
     "Name": "Brassard de pillard",
@@ -55,7 +55,7 @@ export const RAIDERARMOR_LOOT_DATA = [
     "BodyParts": "Bras",
     "Weight": "1,5",
     "Cost": 6,
-    "Rarity": 0
+    "Rarity": "0"
   },
   {
     "Name": "Plastron de pillard solide",

@@ -38,7 +38,7 @@ export const OUTFITS_LOOT_DATA = [
     "BodyParts": "Bras, Jambes, Buste",
     "Weight": "0,5",
     "Cost": 5,
-    "Rarity": 0,
+    "Rarity": "0",
     "Special": ""
   },
   {
@@ -126,7 +126,7 @@ export const OUTFITS_LOOT_DATA = [
     "BodyParts": "Bras, Jambes, Buste",
     "Weight": 2,
     "Cost": 13,
-    "Rarity": 0,
+    "Rarity": "0",
     "Special": ""
   },
   {
