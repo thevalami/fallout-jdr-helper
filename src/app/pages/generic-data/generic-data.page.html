@@ -12,10 +12,10 @@
   </ion-toolbar>
   <ion-segment (ionChange)="sortTypeChanged($event)" [value]="sortType">
     <ion-segment-button value="Name">
-      <ion-label>Alphabétique</ion-label>
+      <ion-label>{{"GENERIC-DATA.ALPHABETICAL" | translate}}</ion-label>
     </ion-segment-button>
     <ion-segment-button value="Rarity">
-      <ion-label>Rareté</ion-label>
+      <ion-label>{{"GENERIC-DATA.RARITY" | translate}}</ion-label>
     </ion-segment-button>
   </ion-segment>
 </ion-header>

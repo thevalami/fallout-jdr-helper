@@ -16,7 +16,7 @@ export const findMatchingLoot = (diceResult: number, lootDef: LootDef): Loot => 
     }
   }
   return loot;
-}
+};
 
 export const findMatchingDefinition = (lootType: string): LootDef => {
   let definition = null;
@@ -26,4 +26,4 @@ export const findMatchingDefinition = (lootType: string): LootDef => {
     }
   }
   return definition;
-}
+};

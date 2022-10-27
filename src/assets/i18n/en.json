@@ -1,0 +1,23 @@
+{
+  "APP": {
+    "TITLE": "Fallout 2D20",
+    "SUBTITLE": "Tools and Utilities",
+    "SECTIONS": {
+      "MAIN": "Game Tools"
+    },
+    "LANGUAGEPICKER": "Choose Language",
+    "MENU": {
+      "HOME": "Home",
+      "DICE": "Dices",
+      "QUICKSEARCH": "Quick Search",
+      "RANDOMBOOKS": "Random Books",
+      "RANDOMLOOT": "Random Loots",
+      "AUTOLOOT": "Automated Loots",
+      "ANDROIDVERSION": "Android App"
+    }
+  },
+  "HOME": {
+    "WELCOME": "Welcome to the Fallout 2D20 Companion App",
+    "WELCOME-DETAILS": "Please use the left menu to access each functionalities, or use the quick search button directly"
+  }
+}

@@ -5,13 +5,23 @@
         <ion-header>
           <ion-item class="transparent ion-text-center" lines="none">
             <ion-label class="ion-text-left ion-padding-top">
-              <h1 class="text-size-xl text-color-light ion-text-wrap">Fallout JDR </h1>
+              <h1 class="text-size-xl text-color-light ion-text-wrap">{{'APP.TITLE' | translate}}</h1>
               <p class=" text-color-light text-size-md ion-text-wrap">
-                Outils et aides
+                {{'APP.SUBTITLE' | translate}}
               </p>
             </ion-label>
           </ion-item>
         </ion-header>
+
+        <ion-list>
+          <ion-item>
+            <ion-label>{{'APP.LANGUAGEPICKER' | translate }}</ion-label>
+            <ion-select interface="action-sheet" (ionChange)="changeLanguage($event)" [(ngModel)]="currentLanguage">
+              <ion-select-option value="fr">Français</ion-select-option>
+              <ion-select-option value="en">English</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-list>
 
         <ion-list id="inbox-list">
           <ng-container *ngFor="let section of sections">

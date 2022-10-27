@@ -5,16 +5,16 @@
         <ion-label text-wrap>
           <h1>
             <app-rich-text-display [propertyText]="loot.Loot"></app-rich-text-display>
-            <small class="smaller">(Résultat dès : {{ lootDiceResult[i] }})</small>
+            <small class="smaller">({{"LOOT-DISPLAY.DICERESULT" | translate}} : {{ lootDiceResult[i] }})</small>
           </h1>
           <ng-container *ngIf="loot.Quantity">
-            <p><strong>Quantité : </strong>
+            <p><strong>{{"LOOT-DISPLAY.QUANTITY" | translate}} : </strong>
               <app-rich-text-display [propertyText]="loot.Quantity"></app-rich-text-display>
             </p>
           </ng-container>
-          <p *ngIf="loot.Special"><strong>Special :</strong> {{ loot.Special }}</p>
+          <p *ngIf="loot.Special"><strong>{{"LOOT-DISPLAY.SPECIAL" | translate}} :</strong> {{ loot.Special }}</p>
           <ion-item *ngIf="lootType == 'Bric-à-brac'">
-            Vous obtenez {{lootDiceResult[i]}} objets !
+            {{"LOOT-DISPLAY.YOUGOTLOOT" | translate: {"count": lootDiceResult[i]} }} !
           </ion-item>
         </ion-label>
       </ion-item>

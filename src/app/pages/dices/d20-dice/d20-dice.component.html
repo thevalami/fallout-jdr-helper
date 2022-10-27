@@ -1,14 +1,14 @@
 <ion-item>
-  <ion-label>Nombre de dès</ion-label>
+  <ion-label>{{"DICES.DICECOUNT" | translate }}</ion-label>
   <ion-input type="number" name="combatDiceCount" [(ngModel)]="d20DiceCount">
   </ion-input>
 </ion-item>
 
-<ion-button color="primary" expand="block" (click)="rollD20()">Lancer</ion-button>
+<ion-button color="primary" expand="block" (click)="rollD20()">{{"DICES.THROW" | translate }}</ion-button>
 
 <ion-list *ngIf="d20DiceResult != null">
   <ion-list-header>
-    <small>Total : {{d20DiceResult.total}}</small>
+    <small>{{"DICES.TOTAL" | translate }} : {{d20DiceResult.total}}</small>
   </ion-list-header>
   <ion-item *ngFor="let child of d20DiceChildren">
     {{child.getAttribute('value')}}

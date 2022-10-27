@@ -3,6 +3,7 @@ import {Component, OnInit} from '@angular/core';
 import {Platform} from '@ionic/angular';
 import {SplashScreen} from '@capacitor/splash-screen';
 import {DataId, REGISTERED_DATA_SECTIONS, Section} from "./data/generic-data";
+import {TranslateService} from "@ngx-translate/core";
 
 @Component({
   selector: 'app-root',
@@ -12,25 +13,18 @@ import {DataId, REGISTERED_DATA_SECTIONS, Section} from "./data/generic-data";
 export class AppComponent implements OnInit {
   public selectedIndex = 0;
   public sections: Section[] = [];
+  public currentLanguage = 'fr';
 
-  constructor(private platform: Platform) {
+  constructor(private platform: Platform, private translate: TranslateService) {
+    translate.setDefaultLang(this.currentLanguage);
+    translate.use(this.currentLanguage);
   }
 
   ngOnInit() {
-    this.sections.push({
-      label: "Aides de jeu",
-      data: [
-        AppComponent.buildMenu('Accueil', 'home', 'home'),
-        AppComponent.buildMenu('Dès', 'dices', 'dice'),
-        AppComponent.buildMenu('Recherche rapide', 'quick-search', 'search'),
-        AppComponent.buildMenu('Livre aléatoire', 'books', 'book'),
-        AppComponent.buildMenu('Loot aléatoire', 'random-loot', 'shuffle'),
-        AppComponent.buildMenu('Loot Automatique', 'auto-loot', 'bag-handle-outline'),
-        AppComponent.buildMenu('Version Android', 'getandroid', 'logo-android'),
-      ]
+    this.translate.get('APP.TITLE').subscribe(() => {
+      this.buildNavigation();
+      this.initializeApp();
     });
-    this.sections = [...this.sections, ...REGISTERED_DATA_SECTIONS];
-    this.initializeApp();
   }
 
   initializeApp() {
@@ -39,9 +33,9 @@ export class AppComponent implements OnInit {
     });
   }
 
-  private static buildMenu(label, type, icon): DataId {
+  private buildMenu(labelKey, type, icon): DataId {
     return {
-      label: label,
+      label: this.translate.instant('APP.MENU.' + labelKey),
       type: type,
       icon: icon,
       data: [],
@@ -49,5 +43,30 @@ export class AppComponent implements OnInit {
       generic: false,
       moddable: false
     }
+  }
+
+  private buildNavigation() {
+    this.sections = [];
+    console.log(this.translate.instant('APP.SECTIONS.MAIN'));
+    this.sections.push({
+      label: this.translate.instant('APP.SECTIONS.MAIN'),
+      data: [
+        this.buildMenu('HOME', 'home', 'home'),
+        this.buildMenu('DICE', 'dices', 'dice'),
+        this.buildMenu('QUICKSEARCH', 'quick-search', 'search'),
+        this.buildMenu('RANDOMBOOKS', 'books', 'book'),
+        this.buildMenu('RANDOMLOOT', 'random-loot', 'shuffle'),
+        this.buildMenu('AUTOLOOT', 'auto-loot', 'bag-handle-outline'),
+        this.buildMenu('ANDROIDVERSION', 'getandroid', 'logo-android'),
+      ]
+    });
+    this.sections = [...this.sections, ...REGISTERED_DATA_SECTIONS];
+  }
+
+  changeLanguage(event) {
+    this.currentLanguage = event.detail.value;
+    this.translate.use(this.currentLanguage).subscribe(() => {
+      this.buildNavigation();
+    });
   }
 }

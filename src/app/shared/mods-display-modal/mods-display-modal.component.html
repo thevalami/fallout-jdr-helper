@@ -1,9 +1,9 @@
 <ion-header>
   <ion-toolbar>
     <ion-buttons slot="start">
-      <ion-button (click)="cancel()">Retour</ion-button>
+      <ion-button (click)="cancel()">{{"APP.BACK" | translate }}</ion-button>
     </ion-buttons>
-    <ion-title>Mods de : {{itemName}}</ion-title>
+    <ion-title>{{"MODDISPLAY.MODSOF" | translate}} : {{itemName}}</ion-title>
   </ion-toolbar>
   <ion-toolbar>
     <ion-searchbar [(ngModel)]="searchText"></ion-searchbar>
@@ -11,7 +11,7 @@
 </ion-header>
 <ion-content class="ion-padding">
   <ion-item color="primary" *ngIf="mods.length === 0">
-    <ion-label>Aucun mod pour cette arme</ion-label>
+    <ion-label>{{"MODDISPLAY.MODSOF" | translate}}</ion-label>
   </ion-item>
   <app-generic-data-display *ngIf="dataId" [genericItems]="mods | genericTitleSearch:searchText"
                             [dataId]="dataId"></app-generic-data-display>

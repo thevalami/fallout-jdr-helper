@@ -5,19 +5,18 @@
       <ion-buttons slot="start">
         <ion-menu-button></ion-menu-button>
       </ion-buttons>
-      <ion-title class="ion-text-capitalize">Loot automatique</ion-title>
+      <ion-title class="ion-text-capitalize">{{"APP.MENU.AUTOLOOT" | translate}}</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <ion-content class="ion-padding">
-    <ion-note>Choisissez le type de zone, la taille, et éventuellement la limite de rareté, pour obtenir un ensemble de
-      loots aléatoires.
+    <ion-note>{{"AUTOLOOT.HELP" | translate }}
     </ion-note>
     <ion-grid class="ion-no-padding">
       <ion-row>
         <ion-col size="12" class="ion-no-padding">
           <ion-item>
-            <ion-label>Lieu :</ion-label>
+            <ion-label>{{"AUTOLOOT.PLACE" | translate }} :</ion-label>
             <ion-select placeholder="..." [(ngModel)]="selectedPlace" interface="popover"
                         (ionChange)="fetchLootTables()">
               <ion-select-option [value]="place" *ngFor="let place of places">{{place}}</ion-select-option>
@@ -28,7 +27,7 @@
       <ion-row>
         <ion-col size="12" class="ion-no-padding">
           <ion-item>
-            <ion-label>Taille :</ion-label>
+            <ion-label>{{"AUTOLOOT.SIZE" | translate }} :</ion-label>
             <ion-select placeholder="..." [(ngModel)]="selectedSize" interface="popover"
                         (ionChange)="fetchLootTables()">
               <ion-select-option [value]="size" *ngFor="let size of placeSizes">{{size}}</ion-select-option>
@@ -39,7 +38,7 @@
       <ion-row>
         <ion-col size="12" class="ion-no-padding">
           <ion-range [min]="1" [max]="6" [pin]="true" [ticks]="true" [snaps]="true" [(ngModel)]="maxRarity">
-            <ion-label slot="start">Rareté max : 1</ion-label>
+            <ion-label slot="start">{{"AUTOLOOT.MAXRARITY" | translate }} : 1</ion-label>
             <ion-label slot="end">6</ion-label>
           </ion-range>
         </ion-col>
@@ -72,8 +71,9 @@
       </ion-row>
       <ion-row>
         <ion-col size="12" class="ion-no-padding">
-          <ion-button (click)="generateLoot()">Générer Loot</ion-button>
-          <ion-button *ngIf="displayLoot" color="secondary" (click)="reset()">Reconfigurer</ion-button>
+          <ion-button (click)="generateLoot()">{{"AUTOLOOT.GENERATE" | translate }}</ion-button>
+          <ion-button *ngIf="displayLoot" color="secondary"
+                      (click)="reset()">{{"AUTOLOOT.RECONFIGURE" | translate }}</ion-button>
         </ion-col>
       </ion-row>
     </ion-grid>

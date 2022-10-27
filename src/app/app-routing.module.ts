@@ -39,8 +39,6 @@ const routes: Routes = [
     path: 'auto-loot',
     loadChildren: () => import('./pages/auto-loot/auto-loot.module').then(m => m.AutoLootPageModule)
   }
-
-
 ];
 
 @NgModule({

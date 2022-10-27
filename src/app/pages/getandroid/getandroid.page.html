@@ -5,15 +5,16 @@
       <ion-buttons slot="start">
         <ion-menu-button></ion-menu-button>
       </ion-buttons>
-      <ion-title class="ion-text-capitalize">Obtenir l'APK Android</ion-title>
+      <ion-title class="ion-text-capitalize">{{ "GETANDROID.TITLE" | translate }}</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <ion-content>
     <div id="container">
-      <strong class="capitalize ion-padding">Scannez le QRCode pour obtenir l'APK pour Android</strong>
+      <strong class="capitalize ion-padding">{{ "GETANDROID.HELP" | translate }}</strong>
       <p class="ion-padding">
-        Ou cliquez sur <a href="https://fallout.kyne.ovh/falloutjdrhelper.apk" target="_blank">ce lien</a>
+        {{ "GETANDROID.ORCLICKON" | translate }} <a href="https://fallout.kyne.ovh/falloutjdrhelper.apk"
+                                                    target="_blank">ce lien</a>
         <img src="assets/imgs/qr-code.png" alt="fallout-logo"/>
       </p>
     </div>

@@ -1,20 +1,20 @@
 <ion-app>
-
   <ion-header>
     <ion-toolbar>
       <ion-buttons slot="start">
         <ion-menu-button></ion-menu-button>
       </ion-buttons>
-      <ion-title class="ion-text-capitalize">Livre aléatoire (loot)</ion-title>
+      <ion-title class="ion-text-capitalize">{{"APP.MENU.RANDOMBOOKS" | translate}}</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <ion-content class="ion-padding">
-    <ion-note>Lancer les dès pour calculer automatiquement le livre que vous trouvez</ion-note>
+    <ion-note>{{"RANDOMBOOKS.HELP" | translate}}</ion-note>
     <ion-grid class="ion-no-padding">
       <ion-row>
         <ion-col size="12" class="ion-no-padding">
-          <ion-button color="primary" expand="block" (click)="generateRandomBook()">Lancer le dès</ion-button>
+          <ion-button color="primary" expand="block"
+                      (click)="generateRandomBook()">{{"RANDOMBOOKS.THROW" | translate}}</ion-button>
         </ion-col>
       </ion-row>
       <ion-row>
@@ -23,7 +23,7 @@
             <ion-item>
               <ion-label text-wrap>
                 <h1>{{ bookType.Loot }} &nbsp;<small>({{ bookTypeResult }})</small></h1>
-                <p><strong>Description :</strong> {{ bookType.Description }}</p>
+                <p><strong>{{"RANDOMBOOKS.DESCRIPTION" | translate}} :</strong> {{ bookType.Description }}</p>
               </ion-label>
             </ion-item>
           </ion-list>
@@ -32,7 +32,7 @@
       <ion-row>
         <ion-col size="12" class="ion-no-padding">
           <ion-item *ngIf="bookVolume">
-            Vous trouvez le volume suivant ...
+            {{"RANDOMBOOKS.VOLUMEFOUND" | translate}}
           </ion-item>
         </ion-col>
       </ion-row>
@@ -42,7 +42,7 @@
             <ion-item>
               <ion-label text-wrap>
                 <h1>{{ bookVolume.Loot }}&nbsp;<small>({{ bookVolumeResult }})</small></h1>
-                <p><strong>Effet :</strong> {{ bookVolume.Effet }}</p>
+                <p><strong>{{"RANDOMBOOKS.EFFECT" | translate}} :</strong> {{ bookVolume.Effet }}</p>
               </ion-label>
             </ion-item>
           </ion-list>

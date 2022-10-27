@@ -7,7 +7,7 @@ import {IonicModule} from '@ionic/angular';
 import {AutoLootPageRoutingModule} from './auto-loot-routing.module';
 
 import {AutoLootPage} from './auto-loot.page';
-import {SharedModule} from "../../shared/shared.module";
+import {SharedModule} from '../../shared/shared.module';
 
 @NgModule({
   imports: [

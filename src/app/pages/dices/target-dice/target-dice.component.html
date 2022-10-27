@@ -1,19 +1,19 @@
 <ion-segment (ionChange)="segmentChanged($event)" value="HUMAN">
   <ion-segment-button value="HUMAN">
-    <ion-label>Humain</ion-label>
+    <ion-label>{{"DICES.TARGETS.HUMAN" | translate }}</ion-label>
   </ion-segment-button>
   <ion-segment-button value="QUADRUPEDE">
-    <ion-label>Quadrupède</ion-label>
+    <ion-label>{{"DICES.TARGETS.QUADRUPEDE" | translate }}</ion-label>
   </ion-segment-button>
   <ion-segment-button value="FLYINGINSECT">
-    <ion-label>Insecte volant</ion-label>
+    <ion-label>{{"DICES.TARGETS.FLYING-INSECT" | translate }}</ion-label>
   </ion-segment-button>
   <ion-segment-button value="ROBOT">
-    <ion-label>Robot</ion-label>
+    <ion-label>{{"DICES.TARGETS.ROBOT" | translate }}</ion-label>
   </ion-segment-button>
 </ion-segment>
 
-<ion-button color="primary" expand="block" (click)="rollTarget()">Lancer</ion-button>
+<ion-button color="primary" expand="block" (click)="rollTarget()">{{"DICES.THROW" | translate }}</ion-button>
 
 <ion-item *ngIf="targetDiceResult != null">
   {{target}} &nbsp; <small>({{this.targetDiceResult.total}})</small>

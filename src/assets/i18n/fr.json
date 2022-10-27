@@ -1,0 +1,84 @@
+{
+  "APP": {
+    "TITLE": "Fallout JDR",
+    "SUBTITLE": " Outils et aides",
+    "SECTIONS": {
+      "MAIN": "Aides de jeu"
+    },
+    "BACK": "Retour",
+    "LANGUAGEPICKER": "Choix de la langue",
+    "MENU": {
+      "HOME": "Accueil",
+      "DICE": "Dès",
+      "QUICKSEARCH": "Recherche Rapide",
+      "RANDOMBOOKS": "Livres Aléatoires",
+      "RANDOMLOOT": "Loots Aléatoires",
+      "AUTOLOOT": "Loot Automatique",
+      "ANDROIDVERSION": "Version Android"
+    }
+  },
+  "HOME": {
+    "WELCOME": "Bienvenue sur l'utilitaire Fallout JDR",
+    "WELCOME-DETAILS": "Utilisez le menu de gauche pour accéder aux fonctionnalités, ou cherchez directement un objet via le bouton !"
+  },
+  "MODDISPLAY": {
+    "MODSOF": "Mods de",
+    "NOMOD": "Aucun mod pour cet objet"
+  },
+  "DICES": {
+    "TITLE": "Lancer de dès",
+    "COMBATDICES": "Dès de combat",
+    "D20": "D20",
+    "DICECOUNT": "Nombre de dès",
+    "TOTAL": "Total",
+    "HITTARGET": "Localisation dégâts",
+    "THROW": "Lancer",
+    "TARGETS": {
+      "HUMAN": "Humain",
+      "QUADRUPEDE": "Quadrupède",
+      "FLYING-INSECT": "Insecte volant",
+      "ROBOT": "Robot"
+    }
+  },
+  "AUTOLOOT": {
+    "HELP": "Choisissez le type de zone, la taille, et éventuellement la limite de rareté, pour obtenir un ensemble de loots aléatoires.",
+    "PLACE": "Lieu",
+    "SIZE": "Taille",
+    "SIZES": {
+      "TINY": "Minuscule",
+      "SMALL": "Petit",
+      "AVERAGE": "Moyen",
+      "LARGE": "Grand"
+    },
+    "MAXRARITY": "Rareté max",
+    "GENERATE": "Générer Loot",
+    "RECONFIGURE": "Reconfigurer"
+  },
+  "RANDOMBOOKS": {
+    "HELP": "Lancer les dès pour calculer automatiquement le livre que vous trouvez",
+    "THROW": "Lancer les dès",
+    "DESCRIPTION": "Description",
+    "VOLUMEFOUND": "Vous trouvez le volume suivant ...",
+    "EFFECT": "Effet"
+  },
+  "GENERIC-DATA": {
+    "ALPHABETICAL": "Alphabétique",
+    "RARITY": "Rareté"
+  },
+  "GETANDROID": {
+    "TITLE": "Obtenir l'APK Android",
+    "HELP": "Scannez le QRCode pour obtenir l'APK pour Android",
+    "ORCLICKON": "Ou cliquez sur"
+  },
+  "QUICKSEARCH": {
+    "TITLE": "Recherche rapide",
+    "HELP": "Cherchez parmis tous les objets connus du jeu en indiquant leur nom",
+    "PLACEHOLDER": "Recherche rapide..."
+  },
+  "LOOT-DISPLAY": {
+    "DICERESULT": "Résultat dès",
+    "QUANTITY": "Quantité",
+    "SPECIAL": "Spécial",
+    "YOUGOTLOOT": "Vous obtenez {{count}} objet(s)"
+  }
+}

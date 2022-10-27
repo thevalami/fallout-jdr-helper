@@ -4,14 +4,15 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-icon icon="search" slot="start" size="large"></ion-icon>
-    <ion-title class="ion-text-capitalize">Recherche rapide</ion-title>
+    <ion-title class="ion-text-capitalize">{{"QUICKSEARCH.TITLE" | translate}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content class="ion-padding">
-  <ion-note>Cherchez parmis tous les objets connus du jeu en indiquant leur nom</ion-note>
+  <ion-note>{{"QUICKSEARCH.HELP" | translate}}</ion-note>
 
-  <ion-searchbar #searchBar [(ngModel)]="searchText" placeholder="Recherche rapide..." debounce="200"
+  <ion-searchbar #searchBar [(ngModel)]="searchText" [placeholder]="'QUICKSEARCH.PLACEHOLDER' | translate"
+                 debounce="200"
                  (ionChange)="searchItems()"></ion-searchbar>
   <ion-list>
     <ng-container *ngFor="let dataId of definitions; let idx = index">

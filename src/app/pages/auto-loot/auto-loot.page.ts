@@ -20,6 +20,7 @@ import {TOOLS_LOOT_DATA} from "../../data/tools-loot";
 import {DOGARMOR_LOOT_DATA} from "../../data/dogarmor-loot";
 import {LOOT_CURIOSITIES_VALUABLES} from "../../data/loot-table/loot-curiositiesvaluables";
 import {COMMON_ROBOT_MODS} from "../../data/mods/mod-robot-armor";
+import {TranslateService} from "@ngx-translate/core";
 
 @Component({
   selector: 'app-auto-loot',
@@ -29,10 +30,10 @@ import {COMMON_ROBOT_MODS} from "../../data/mods/mod-robot-armor";
 export class AutoLootPage implements OnInit {
 
   places = Object.keys(LOOT_PLACES);
-  placeSizes: string[] = ['Minuscule', 'Petit', 'Moyen', 'Grand'];
+  placeSizes = [];
 
-  selectedPlace: string = this.places[0];
-  selectedSize: string = this.placeSizes[0];
+  selectedPlace = null;
+  selectedSize = null;
   maxRarity = 3;
 
   lootTables: any[] = [];
@@ -42,11 +43,22 @@ export class AutoLootPage implements OnInit {
 
   displayLoot = false;
 
-  constructor() {
+  constructor(private translateService: TranslateService) {
   }
 
   ngOnInit() {
-    this.fetchLootTables();
+    this.translateService.get("AUTOLOOT.SIZE").subscribe(() => {
+      this.placeSizes = [
+        this.translateService.instant("AUTOLOOT.SIZES.TINY"),
+        this.translateService.instant("AUTOLOOT.SIZES.SMALL"),
+        this.translateService.instant("AUTOLOOT.SIZES.AVERAGE"),
+        this.translateService.instant("AUTOLOOT.SIZES.LARGE"),
+      ];
+      this.selectedPlace = this.places[0];
+      this.selectedSize = this.placeSizes[0];
+
+      this.fetchLootTables();
+    });
   }
 
   fetchLootTables() {

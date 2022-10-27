@@ -7,13 +7,15 @@ import {IonicModule} from '@ionic/angular';
 import {GetandroidPageRoutingModule} from './getandroid-routing.module';
 
 import {GetandroidPage} from './getandroid.page';
+import {SharedModule} from "../../shared/shared.module";
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    GetandroidPageRoutingModule
+    GetandroidPageRoutingModule,
+    SharedModule
   ],
   declarations: [GetandroidPage]
 })
