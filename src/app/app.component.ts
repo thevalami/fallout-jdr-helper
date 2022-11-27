@@ -2,8 +2,9 @@ import {Component, OnInit} from '@angular/core';
 
 import {Platform} from '@ionic/angular';
 import {SplashScreen} from '@capacitor/splash-screen';
-import {DataId, REGISTERED_DATA_SECTIONS, Section} from "./data/generic-data";
 import {TranslateService} from "@ngx-translate/core";
+import {LanguageService} from "./shared/language.service";
+import {DataId, REGISTERED_DATA_SECTIONS, Section} from "./data/generic-data-lang";
 
 @Component({
   selector: 'app-root',
@@ -13,17 +14,26 @@ import {TranslateService} from "@ngx-translate/core";
 export class AppComponent implements OnInit {
   public selectedIndex = 0;
   public sections: Section[] = [];
-  public currentLanguage = 'fr';
+  public currentLanguage = 'en';
 
-  constructor(private platform: Platform, private translate: TranslateService) {
+  constructor(private platform: Platform, private translate: TranslateService, private languageService: LanguageService) {
+    if (this.translate.getBrowserLang() === 'fr') {
+      this.currentLanguage = 'fr';
+    }
     translate.setDefaultLang(this.currentLanguage);
     translate.use(this.currentLanguage);
+    this.languageService.updateLanguage(this.currentLanguage);
   }
 
   ngOnInit() {
     this.translate.get('APP.TITLE').subscribe(() => {
       this.buildNavigation();
       this.initializeApp();
+    });
+    this.languageService.getLanguage().subscribe(lang => {
+      this.translate.use(this.currentLanguage).subscribe(() => {
+        this.buildNavigation();
+      });
     });
   }
 
@@ -60,13 +70,11 @@ export class AppComponent implements OnInit {
         this.buildMenu('ANDROIDVERSION', 'getandroid', 'logo-android'),
       ]
     });
-    this.sections = [...this.sections, ...REGISTERED_DATA_SECTIONS];
+    this.sections = [...this.sections, ...REGISTERED_DATA_SECTIONS[this.currentLanguage]];
   }
 
   changeLanguage(event) {
     this.currentLanguage = event.detail.value;
-    this.translate.use(this.currentLanguage).subscribe(() => {
-      this.buildNavigation();
-    });
+    this.languageService.updateLanguage(this.currentLanguage);
   }
 }

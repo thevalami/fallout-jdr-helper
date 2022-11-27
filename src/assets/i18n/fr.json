@@ -40,6 +40,12 @@
       "ROBOT": "Robot"
     }
   },
+  "RANDOMLOOT": {
+    "HELP": "Lancez les dès pour calculer automatiquement le(s) loots que vous trouvez dans la catégorie choisie",
+    "LOOTTYPE": "Type de loot",
+    "LOOTCOUNT": "Nombre de loots",
+    "THROWDICE": "Lancer les dès"
+  },
   "AUTOLOOT": {
     "HELP": "Choisissez le type de zone, la taille, et éventuellement la limite de rareté, pour obtenir un ensemble de loots aléatoires.",
     "PLACE": "Lieu",
@@ -68,7 +74,8 @@
   "GETANDROID": {
     "TITLE": "Obtenir l'APK Android",
     "HELP": "Scannez le QRCode pour obtenir l'APK pour Android",
-    "ORCLICKON": "Ou cliquez sur"
+    "ORCLICKON": "Ou cliquez sur",
+    "THISLINK": "ce lien"
   },
   "QUICKSEARCH": {
     "TITLE": "Recherche rapide",

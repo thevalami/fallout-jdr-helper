@@ -1,4 +1,4 @@
-import {Loot, LOOT_TABLE_INDEX, LootDef} from "../../data/loot-table/loot-table-index";
+import {Loot, LOOT_TABLE_INDEX, LootDef} from "../../data/loot-table/loot-table-lang";
 
 export const findMatchingLoot = (diceResult: number, lootDef: LootDef): Loot => {
   let loot = null;
@@ -18,9 +18,9 @@ export const findMatchingLoot = (diceResult: number, lootDef: LootDef): Loot => 
   return loot;
 };
 
-export const findMatchingDefinition = (lootType: string): LootDef => {
+export const findMatchingDefinition = (lootType: string, lang: string): LootDef => {
   let definition = null;
-  for (let lootTypeDef of LOOT_TABLE_INDEX) {
+  for (let lootTypeDef of LOOT_TABLE_INDEX[lang]) {
     if (lootTypeDef.label === lootType) {
       definition = lootTypeDef;
     }

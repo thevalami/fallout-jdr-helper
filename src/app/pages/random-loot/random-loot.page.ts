@@ -1,7 +1,8 @@
 import {Component, OnInit} from '@angular/core';
-import {Loot, LOOT_TABLE_INDEX, LootDef} from "../../data/loot-table/loot-table-index";
 import {Dice} from "dice-typescript";
 import {findMatchingDefinition, findMatchingLoot} from "./loot-utils";
+import {LanguageService} from "../../shared/language.service";
+import {Loot, LOOT_TABLE_INDEX, LootDef} from "../../data/loot-table/loot-table-lang";
 
 @Component({
   selector: 'app-random-loot',
@@ -11,22 +12,32 @@ import {findMatchingDefinition, findMatchingLoot} from "./loot-utils";
 export class RandomLootPage implements OnInit {
 
   diceCount = 1;
-  diceDefinition: string = LOOT_TABLE_INDEX[0].dices;
-  lootType: string = LOOT_TABLE_INDEX[0].label;
-  lootTypes: LootDef[] = LOOT_TABLE_INDEX;
+  diceDefinition: string;
+  lootType: string;
+  lootTypes: LootDef[] = [];
   lootDiceResult: number[] = [];
   loots: Loot[];
 
-  constructor() {
+  constructor(private languageService: LanguageService) {
   }
 
   ngOnInit() {
+    this.initScreen(this.languageService.getCurrentLanguage());
+    this.languageService.getLanguage().subscribe(lang => {
+      this.initScreen(lang);
+    });
+  }
+
+  private initScreen(lang: string) {
+    this.diceDefinition = LOOT_TABLE_INDEX[lang][0].dices;
+    this.lootType = LOOT_TABLE_INDEX[lang][0].label;
+    this.lootTypes = LOOT_TABLE_INDEX[lang];
   }
 
   generateRandomLoot() {
     this.loots = [];
     this.lootDiceResult = [];
-    let matchingLootDef: LootDef = findMatchingDefinition(this.lootType);
+    let matchingLootDef: LootDef = findMatchingDefinition(this.lootType, this.languageService.getCurrentLanguage());
     if (matchingLootDef != null) {
       for (let i = 0; i < this.diceCount; i++) {
         const dice = new Dice();
@@ -42,7 +53,7 @@ export class RandomLootPage implements OnInit {
     this.loots = [];
     this.lootDiceResult = [];
     this.lootType = $event.detail.value;
-    const definition = findMatchingDefinition(this.lootType);
+    const definition = findMatchingDefinition(this.lootType, this.languageService.getCurrentLanguage());
     if (definition != null) {
       this.diceDefinition = definition.dices;
     }

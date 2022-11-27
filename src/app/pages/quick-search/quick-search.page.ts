@@ -1,8 +1,9 @@
 import {Component, OnInit, ViewChild} from '@angular/core';
-import {DataId, REGISTERED_DATA_SECTIONS} from "../../data/generic-data";
 import {GenericTitleSearchPipe} from "../../pipes/generic-data-search.pipe";
 import {IonSearchbar} from "@ionic/angular";
-import {MOD_DEF, MODS_TABLE_DATA} from "../../data/mods/mods-index";
+import {DataId, REGISTERED_DATA_SECTIONS} from "../../data/generic-data-lang";
+import {LanguageService} from "../../shared/language.service";
+import {MOD_DEF, MODS_DATA_TABLE} from "../../data/mods/mod-lang";
 
 @Component({
   selector: 'app-quick-search',
@@ -17,7 +18,7 @@ export class QuickSearchPage implements OnInit {
 
   @ViewChild('searchBar', {static: false}) searchInput: IonSearchbar;
 
-  constructor(private searchPipe: GenericTitleSearchPipe) {
+  constructor(private searchPipe: GenericTitleSearchPipe, private languageService: LanguageService) {
   }
 
   ngOnInit() {
@@ -30,7 +31,7 @@ export class QuickSearchPage implements OnInit {
     if (this.searchText?.length >= 3) {
       this.definitions = [];
       this.itemTypes = [];
-      for (let section of REGISTERED_DATA_SECTIONS) {
+      for (let section of REGISTERED_DATA_SECTIONS[this.languageService.getCurrentLanguage()]) {
         for (let candidatedata of section.data) {
           const items = this.searchPipe.transform(candidatedata.data, this.searchText);
           if (items.length > 0) {
@@ -39,14 +40,15 @@ export class QuickSearchPage implements OnInit {
           }
         }
       }
-      for (let modType of Object.keys(MODS_TABLE_DATA)) {
-        const modEntries = MODS_TABLE_DATA[modType];
+      let translatedItems = MODS_DATA_TABLE[this.languageService.getCurrentLanguage()];
+      for (let modType of Object.keys(translatedItems)) {
+        const modEntries = translatedItems[modType];
         for (let moddedItem of Object.keys(modEntries.mods)) {
           let candidateMods = modEntries.mods[moddedItem];
           const matchingMods = this.searchPipe.transform(candidateMods, this.searchText);
           if (matchingMods.length > 0) {
             this.definitions.push({
-              definition: MOD_DEF,
+              definition: MOD_DEF[this.languageService.getCurrentLanguage()],
               type: modType,
               label: modEntries.label + ' : ' + moddedItem,
               img: '',

@@ -30,12 +30,13 @@ import {TranslateModule} from '@ngx-translate/core';
     GenericTitleSearchPipe,
     GenericDataSearchPipe,
     SortByPipe,
-    TranslateModule],
+    TranslateModule
+  ],
   imports: [
     CommonModule,
     IonicModule,
     FormsModule,
-    TranslateModule.forChild()
+    TranslateModule
   ]
 })
 export class SharedModule {

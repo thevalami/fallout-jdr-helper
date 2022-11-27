@@ -1,7 +1,8 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {ModalController} from "@ionic/angular";
-import {MOD_DEF, MODS_TABLE_DATA} from "../../data/mods/mods-index";
-import {DataId} from "../../data/generic-data";
+import {DataId} from "../../data/generic-data-lang";
+import {MOD_DEF, MODS_DATA_TABLE} from "../../data/mods/mod-lang";
+import {LanguageService} from "../language.service";
 
 @Component({
   selector: 'app-mods-display-modal',
@@ -16,15 +17,22 @@ export class ModsDisplayModalComponent implements OnInit {
   dataId: DataId;
   searchText = '';
 
-  constructor(private modalCtrl: ModalController) {
+  constructor(private modalCtrl: ModalController, private languageService: LanguageService) {
   }
 
   ngOnInit() {
-    const matchingItems = MODS_TABLE_DATA[this.itemType].mods;
+    this.initScreen(this.languageService.getCurrentLanguage());
+    this.languageService.getLanguage().subscribe(lang => {
+      this.initScreen(lang);
+    })
+  }
+
+  private initScreen(currentLanguage: string) {
+    const matchingItems = MODS_DATA_TABLE[currentLanguage][this.itemType].mods;
     this.mods = matchingItems["*"] ? matchingItems["*"] : matchingItems[this.itemName] || [];
     this.dataId = {
       moddable: false,
-      definition: MOD_DEF,
+      definition: MOD_DEF[currentLanguage],
       type: 'mod-' + this.itemType,
       data: [],
       generic: true,

@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Loot} from "../../../data/loot-table/loot-table-index";
+import {Loot} from "../../../data/loot-table/loot-table-lang";
 
 @Component({
   selector: 'app-loots-display',

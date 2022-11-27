@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute} from "@angular/router";
-import {DataId, REGISTERED_DATA_SECTIONS, Section} from "../../data/generic-data";
+import {DataId, REGISTERED_DATA_SECTIONS, Section} from "../../data/generic-data-lang";
+import {LanguageService} from "../../shared/language.service";
 
 @Component({
   selector: 'app-generic-data',
@@ -12,13 +13,13 @@ export class GenericDataPage implements OnInit {
   searchText = '';
   sortType: 'Name' | 'Rarity' = 'Name';
 
-  constructor(private activatedRoute: ActivatedRoute) {
+  constructor(private activatedRoute: ActivatedRoute, private languageService: LanguageService) {
   }
 
   ngOnInit() {
     this.activatedRoute.params.subscribe(params => {
       const dataType = params['type'];
-      this.dataId = GenericDataPage.findDefinitions(REGISTERED_DATA_SECTIONS, dataType);
+      this.dataId = GenericDataPage.findDefinitions(REGISTERED_DATA_SECTIONS[this.languageService.getCurrentLanguage()], dataType);
     });
   }
 

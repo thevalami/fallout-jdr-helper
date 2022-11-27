@@ -1,7 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {DataId, DataTableDefinition} from "../../data/generic-data";
 import {ModalController} from "@ionic/angular";
 import {ModsDisplayModalComponent} from "../mods-display-modal/mods-display-modal.component";
+import {DataId, DataTableDefinition} from "../../data/generic-data-lang";
 
 @Component({
   selector: 'app-generic-data-display',

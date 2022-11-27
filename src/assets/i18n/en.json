@@ -5,6 +5,7 @@
     "SECTIONS": {
       "MAIN": "Game Tools"
     },
+    "BACK": "Back",
     "LANGUAGEPICKER": "Choose Language",
     "MENU": {
       "HOME": "Home",
@@ -19,5 +20,75 @@
   "HOME": {
     "WELCOME": "Welcome to the Fallout 2D20 Companion App",
     "WELCOME-DETAILS": "Please use the left menu to access each functionalities, or use the quick search button directly"
+  },
+  "MODDISPLAY": {
+    "MODSOF": "Mods for",
+    "NOMOD": "There are no mod pour this item"
+  },
+  "DICES": {
+    "TITLE": "Dice throw",
+    "COMBATDICES": "Combat dices",
+    "D20": "D20",
+    "DICECOUNT": "Dice count",
+    "TOTAL": "Total",
+    "HITTARGET": "Damage localisation",
+    "THROW": "Throw",
+    "TARGETS": {
+      "HUMAN": "Human",
+      "QUADRUPEDE": "Quadrupede",
+      "FLYING-INSECT": "Flying insect",
+      "ROBOT": "Robot"
+    }
+  },
+  "AUTOLOOT": {
+    "HELP": "Choose zone type, size and optional rarity threshold to generate a set of random loots.",
+    "PLACE": "Place",
+    "SIZE": "Size",
+    "SIZES": {
+      "TINY": "Tiny",
+      "SMALL": "Small",
+      "AVERAGE": "Average",
+      "LARGE": "Large"
+    },
+    "MAXRARITY": "Max rarity",
+    "GENERATE": "Generate Loot",
+    "RECONFIGURE": "Reconfigure"
+  },
+  "RANDOMLOOT": {
+    "HELP": "Throw dices to automatically generate loots you find in the given category",
+    "LOOTTYPE": "Loot type",
+    "LOOTCOUNT": "Loot count",
+    "THROWDICE": "Throw dices"
+  },
+  "RANDOMBOOKS": {
+    "HELP": "Throw dices to automatically find a random book",
+    "THROW": "Throw dices",
+    "DESCRIPTION": "Description",
+    "VOLUMEFOUND": "You find the following volume  ...",
+    "EFFECT": "Effect"
+  },
+  "GENERIC-DATA": {
+    "ALPHABETICAL": "Alphabetical",
+    "RARITY": "Rarity"
+  },
+  "GETANDROID": {
+    "TITLE": "Get the Android APK",
+    "HELP": "Scan the QRCode to get the Android APK",
+    "ORCLICKON": "Or click on ",
+    "THISLINK": "this link"
+  },
+  "QUICKSEARCH": {
+    "TITLE": "Quick search",
+    "HELP": "Search among all game items by typing their name",
+    "PLACEHOLDER": "Quick search..."
+  },
+  "LOOT-DISPLAY": {
+    "DICERESULT": "Dice results",
+    "QUANTITY": "Quantity",
+    "SPECIAL": "Special",
+    "YOUGOTLOOT": "You got {{count}} item(s)"
+  },
+  "GENERIC": {
+    "MISSINGITEMDEF": "No matching item definition found. Ensure translated) definition is not missing for "
   }
 }

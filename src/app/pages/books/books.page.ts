@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {Dice} from "dice-typescript";
-import {BOOK_TABLE_INDEX, BookType, BookVolume} from "../../data/books/books-table-index";
+import {BOOK_TABLE_INDEX, BookType, BookVolume} from "../../data/books/book-lang";
+import {LanguageService} from "../../shared/language.service";
 
 @Component({
   selector: 'app-books',
@@ -9,7 +10,7 @@ import {BOOK_TABLE_INDEX, BookType, BookVolume} from "../../data/books/books-tab
 })
 export class BooksPage implements OnInit {
 
-  constructor() {
+  constructor(private languageService: LanguageService) {
   }
 
   bookType: BookType;
@@ -26,7 +27,7 @@ export class BooksPage implements OnInit {
 
     const dice = new Dice();
     this.bookTypeResult = dice.roll('1d20').total;
-    this.bookType = BooksPage.findBookType(this.bookTypeResult);
+    this.bookType = this.findBookType(this.bookTypeResult);
     if (this.bookType.Data) { // Lancer de dès pour le volume exact
       this.bookVolumeResult = dice.roll('1d20').total;
       for (let volume of this.bookType.Data) {
@@ -47,9 +48,9 @@ export class BooksPage implements OnInit {
     }
   }
 
-  private static findBookType(bookTypeResult: number) {
+  private findBookType(bookTypeResult: number) {
     let bookType = null;
-    for (let candidateBookType of BOOK_TABLE_INDEX) {
+    for (let candidateBookType of BOOK_TABLE_INDEX[this.languageService.getCurrentLanguage()]) {
       if (candidateBookType.Dice === bookTypeResult) {
         bookType = candidateBookType;
         break;
