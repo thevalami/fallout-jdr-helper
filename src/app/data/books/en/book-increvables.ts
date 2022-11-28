@@ -2,27 +2,27 @@
 export const BOOK_INCREVABLE_EN = [
   {
     "Dice": "1-4",
-    "Loot": "Dr Brainwash et son armée de dé-capitalistes",
-    "Effet": "Vous pouvez dépenser 3 points de Chance pour éviter tous les dégâts infligés par une seule attaque ou un seul danger"
+    "Loot": "Dr. Brainwash and His Army of De-Capitalists!",
+    "Effet": "Spend 3 Luck points to avoid all damage from a single attack or hazard"
   },
   {
     "Dice": "5-8",
-    "Loot": "Qui peut arrêter l'inarrêtable Grog-Na-Rok ?!",
-    "Effet": "Vous pouvez dépenser 2 points de Chance pour éviter tous les dégâts infligés par une attaque portée par un Humain Mutant (y compris les goules et les super mutants)"
+    "Loot": "Who Can Stop the Unstoppable Grog-Na-Rok?!",
+    "Effet": "Spend 2 Luck points to avoid all damage from an attack from a Mutated Human (including Ghouls and super mutants)"
   },
   {
     "Dice": "9-12",
-    "Loot": "Péril Rouge contre Ray Manta",
-    "Effet": "Vous pouvez dépenser 1 point de Chance pour éviter tous les dégâts infligés par une attaque d'arme à Zone d'Impact"
+    "Loot": "Commie-Kazi vs. Manta Man",
+    "Effet": "Spend 1 Luck point to avoid all damage from a Blast weapon"
   },
   {
     "Dice": "13-16",
-    "Loot": "Piégé dans la Dimension des Pterreurdactyles !",
-    "Effet": "Vous pouvez dépenser 1 point de Chance pour éviter tous les dégâts infligés par une seule attaque de corps à corps"
+    "Loot": "Trapped in the Dimension of the Pterror-dactyls!",
+    "Effet": "Spend 1 Luck point to avoid all damage from a single melee attack"
   },
   {
     "Dice": "17-20",
-    "Loot": "Visitez la galaxie Ux-Ron !",
-    "Effet": "Vous pouvez dépenser 1 point de Chance pour éviter tous les dégâts énergétiques infligés par une seule attaque"
+    "Loot": "Visit the Ux-Ron Galaxy!",
+    "Effet": "Spend 1 Luck point to avoid all Energy damage from a single attack"
   }
 ];

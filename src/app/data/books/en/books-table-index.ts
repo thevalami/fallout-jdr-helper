@@ -15,112 +15,112 @@ import {BookType} from "../book-lang";
 export const BOOK_TABLE_INDEX_EN: BookType[] = [
   {
     "Dice": 1,
-    "Loot": "A couvert !",
-    "Description": "Une seule fois, quand vous êtes touché par une arme à Zone d'Impact, vous pouvez choisir de tomber au sol. Dans ce cas, vous ajoutez +3 à toutes vos résistances aux dégâts contre les dégâts causés par cette arme à Zone d'Impact. Si vous apprenez cette aptitude plus tard, vous pouvez l'utiliser chaque fois que vous êtes touché par une arme à Zone d'Impact en dépensant 1 PA."
+    "Loot": "¡La Fantoma!",
+    "Description": "When you succeed at a Sneak test to avoid notice, you may spend 1 AP to create a distraction somewhere within Medium range; the character who failed the opposed test to detect you heads towards the distraction you created. If you learn this perk, you may use it once per scene."
   },
   {
     "Dice": 2,
-    "Loot": "Armes et Munitions",
-    "Data": BOOK_ARMES_MUNITIONS_EN,
-    "Description": "Selon le numéro du magazine trouvé, vous recevez une aptitude différente, dont vous ne pouvez bénéficier qu'une seule fois. Si vous apprenez cette aptitude plus tard, vous pouvez utiliser ce bénéfice une fois par scène. Lancez 1D20 pour déterminer quel numéro vous trouvez.",
+    "Loot": "Astoundingly Awesome Tales",
+    "Data": BOOK_DORMIR_DEBOUT_EN,
+    "Description": "Depending on the individual issue found, you receive a different perk, granting bonus damage or bonus damage resistance against a single foe or type of attack. This lasts only for a single attack (made or received, respectively), unless the perk is learned, in which case it applies to all attacks. Roll to determine the issue found.",
   },
   {
     "Dice": 3,
-    "Loot": "Faire des Rencontres",
-    "Description": "Une seule fois, quand vous obtenez une ou plusieurs complications sur un test de Discours, vous pouvez ignorer ces complications. Si vous apprenez cette aptitude, vous pouvez l'appliquer une fois par scène."
+    "Loot": "Backwoodsman",
+    "Data": BOOK_HOMMES_BOIS_EN,
+    "Description": "Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene. Roll to determine the issue found."
   },
   {
     "Dice": 4,
-    "Loot": "Fantômes en tous genres",
-    "Description": "Quand vous réussissez un test de Discrétion pour éviter d'être repéré, vous pouvez dépenser 1 PA pour créer une diversion quelque part à portée moyenne ; si un personnage a perdu un test en opposition pour vous repérer, il se dirige vers la diversion que vous avez créée. Si vous apprenez cette aptitude, vous pouvez l'utiliser une fois par scène."
+    "Loot": "Boxing Times",
+    "Description": "Once, when you succeed at an Unarmed attack, if you spend any AP to increase the damage you dealt, you may add the Stun damage effect to your attack. If you later learn this perk, you may use this on any successful Unarmed attack."
   },
   {
     "Dice": 5,
-    "Loot": "Gorges et Pênes",
-    "Data": BOOK_GORGES_PENES_EN,
-    "Description": "Selon le numéro du magazine trouvé, vous recevez une aptitude différente, dont vous ne pouvez bénéficier qu'une seule fois. Si vous apprenez cette aptitude plus tard, vous pouvez utiliser ce bénéfice une fois par scène. Lancez 1D20 pour déterminer quel numéro vous trouvez."
+    "Loot": "Duck and Cover!",
+    "Description": "Once, when you are affected by a Blast weapon, you may choose to fall prone. If you do so, you add +3 to all damage resistances against the damage caused by that Blast. If you later learn this perk, you may use whenever you are affected by a Blast weapon by spending 1 AP."
   },
   {
     "Dice": 6,
-    "Loot": "Grognak le Barbare",
-    "Data": BOOK_GROGNAK_EN,
-    "Description": "Selon le numéro du magazine trouvé, vous recevez une aptitude différente, dont vous ne pouvez bénéficier qu'une seule fois. Si vous apprenez cette aptitude plus tard, vous pouvez utiliser ce bénéfice une fois par scène. Lancez 1D20 pour déterminer quel numéro vous trouvez."
+    "Loot": "Fixin’ Things",
+    "Description": "Once, when you attempt to repair an item, halve the amounts of the materials needed to complete the repair (round up). If you later learn this perk, you may use this whenever you attempt repairs."
   },
   {
     "Dice": 7,
-    "Loot": "Guide de Survie des Terres Désolées",
-    "Data": BOOK_SURVIE_TERRES_DESOLEE_EN,
-    "Description": "Selon le numéro du magazine trouvé, vous recevez une aptitude différente, dont vous ne pouvez bénéficier qu'une seule fois. Si vous apprenez cette aptitude plus tard, vous pouvez utiliser ce bénéfice une fois par scène. Lancez 1D20 pour déterminer quel numéro vous trouvez."
+    "Loot": "Future Weapons Today",
+    "Description": "Once, when you make an attack with an Energy Weapon, you may overcharge it. Increase the damage by +2D for that attack. The weapon cannot be used to make an attack in the turn after an overcharged attack as it cools down. If you later learn this perk, you may overcharge an Energy Weapon once per scene."
   },
   {
     "Dice": 8,
-    "Loot": "Histoires à Dormir Debout",
-    "Data": BOOK_DORMIR_DEBOUT_EN,
-    "Description": "Selon le numéro du magazine trouvé, vous recevez une aptitude différente, vous conférant des dégâts bonus ou des points de résistance aux dégâts bonus contre un seul adversaire ou un seul type d'attaque. Ce bonus ne s'applique que pour une seule attaque (portée ou reçue, respectivement) sauf si vous apprenez l'aptitude, auquel cas elle s'applique à toutes les attaques. Lancer 1D20 pour déterminer quel numéro vous trouvez."
+    "Loot": "Grognak the Barbarian",
+    "Data": BOOK_GROGNAK_EN,
+    "Description": "Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene. Roll to determine the issue found."
   },
   {
     "Dice": 9,
-    "Loot": "L'avenir des Armes est à Vous",
-    "Description": "Une seule fois, quand vous portez une attaque avec une arme à énergie, vous pouvez la surcharger. Augmentez les dégâts de +2D pour cette attaque. L'arme ne peut pas être utilisée pour porter une attaque durant le tour qui suit une attaque surchargée, car elle est en train de se refroidir. Si vous apprenez cette aptitude plus tard, vous pouvez surcharger une arme à énergie une fois par scène."
+    "Loot": "Guns and Bullets",
+    "Data": BOOK_ARMES_MUNITIONS_EN,
+    "Description": "Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene. Roll to determine the issue found."
   },
   {
     "Dice": 10,
-    "Loot": "L'Homme des Bois",
-    "Data": BOOK_HOMMES_BOIS_EN,
-    "Description": "Selon le numéro du magazine trouvé, vous recevez une aptitude différente, dont vous ne pouvez bénéficier qu'une seule fois. Si vous apprenez cette aptitude plus tard, vous pouvez utiliser ce bénéfice une fois par scène. Lancez 1D20 pour déterminer quel numéro vous trouvez."
+    "Loot": "Live & Love",
+    "Data": BOOK_VIE_AMOUR_EN,
+    "Description": "Depending on the individual issue found, you receive a different perk, which you may benefit from for a single scene. If you later learn the perk, you may use that benefit constantly. Roll to determine the issue found."
   },
   {
     "Dice": 11,
-    "Loot": "La Boxe pour les Passionnés",
-    "Description": "Une seule fois, quand vous réussissez une attaque avec la compétence Mains Nues, si vous dépensez des PA pour augmenter les dégâts que vous infliger, vous pouvez ajouter l'effet de dégâts Etourdissant à votre attaque. Si vous apprenez cette aptitude plus tard, vous pouvez l'utiliser lors de toute attaque réussie avec la compétence Mains Nues."
+    "Loot": "Massachusetts Surgical Journal",
+    "Description": "Once, when you provide medical attention to another character and assist their END + Survival test to heal Injuries, you may treat your assistance die as if it had rolled a 1. If you learn this perk, you may do this once per session."
   },
   {
     "Dice": 12,
-    "Loot": "Le Chirurgien du Massachusetts",
-    "Description": "Une seule fois, quand vous prodiguez des soins médicaux à un autre personnage et que vous fournissez une assistance à son test d'END + Survie pour guérir des blessures, vous pouvez considérer que votre dé d'assistance a donné un résultat de 1. Si vous apprenez cette aptitude, vous pouvez l'appliquer une fois par partie."
+    "Loot": "Meeting People",
+    "Description": "Once, when you roll one or more complications on a Speech test, you may ignore those complications. If you learn this perk, you may do this once per scene."
   },
   {
     "Dice": 13,
-    "Loot": "Le Petit Livre du Programmateur",
-    "Description": "Une seule fois, quand vous ratez un test de Sciences pour pirater un terminal d'ordinateur et que votre accès devrait être bloqué (et donc que vous ne devriez pas pouvoir réessayer), vous pouvez décider que votre accès n'est pas bloqué, ce qui vous permet de faire une autre tentative. Si vous apprenez cette aptitude, vous pouvez l'appliquer chaque fois que votre accès à un ordinateur devrait être bloqué."
+    "Loot": "Programmer’s Digest",
+    "Description": "Once, when you fail a Science test to hack into a computer terminal and would be locked out (prevented from trying again), you may choose not to be locked out, allowing you to make another attempt. If you learn this Perk, you may do this whenever you are locked out of a computer."
   },
   {
     "Dice": 14,
-    "Loot": "Les Aventures d'un Vendeur de Viande Séchée de Junktown",
-    "Description": "Une seule fois, quand vous réussissez ou ratez un test de Troc pour marchander le prix d'un échange, vous pouvez dépenser 1 point de Chance pour altérer le prix de 10% en votre faveur. Si vous apprenez cette aptitude, vous pouvez l'appliquer à n'importe quel test de Troc pour marchander, mais vous devez dépenser 1 point de Chance supplémentaire pour chaque utilisation après la première au cours d'une partie (donc 1 point de Chance pour la première fois, 2 pour la deuxième, 3 pour la troisième, etc.)."
+    "Loot": "Tales of a Junktown Jerky Vendor",
+    "Description": "Once, when you succeed or fail at a Barter test to haggle on the price of a trade, you may spend 1 Luck point to shift the price 10% in your favor. If you learn this Perk, you may do this on any Barter test to haggle, though you must spend one additional Luck point each extra time you use it during a session (1 for the first time, 2 for the second, 3 for the third, etc.)."
   },
   {
     "Dice": 15,
-    "Loot": "Les Increvables",
-    "Data": BOOK_INCREVABLE_EN,
-    "Description": "Selon le numéro du magazine trouvé, vous recevez une aptitude différente. Celle-ci vous permet de dépenser des points de Chance pour éviter certains dégâts et vous ne pouvez en bénéficier qu'une seule fois. Si vous apprenez cette aptitude plus tard, vous pouvez en bénéficier tant que vous avez des points de Chance à dépenser pour cela. Lancer 1D20 pour déterminer quel numéro vous trouvez."
+    "Loot": "Tesla Science Magazine",
+    "Data": BOOK_SCIENCE_TESLA_EN,
+    "Description": "Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene. Roll to determine the issue found."
   },
   {
     "Dice": 16,
-    "Loot": "Manuel d'Opérations Secrètes de l'Armée Américaine",
-    "Data": BOOK_MANUEL_ARMEE_USA_EN,
-    "Description": "Selon le numéro du magazine trouvé, vous recevez une aptitude différente, dont vous ne pouvez bénéficier qu'une seule fois. Si vous apprenez cette aptitude plus tard, vous pouvez utiliser ce bénéfice une fois par scène. Lancez 1D20 pour déterminer quel numéro vous trouvez."
+    "Loot": "True Police Stories",
+    "Description": "Once, when you roll the damage of an attack, you may spend a Luck point to turn up to three D to any face, rather than rolling them. If you learn this perk, you may do this once per scene."
   },
   {
     "Dice": 17,
-    "Loot": "Réparer tout et N'importe Quoi",
-    "Description": "Une seule fois, quand vous tentez de réparer un objet, réduisez de moitié la quantité de composants nécessaires pour effectuer la réparation (arrondi au supérieur). Si vous apprenez cette aptitude plus tard, vous pouvez l'utiliser chaque fois que vous tentez des réparations."
+    "Loot": "Tumblers Today",
+    "Data": BOOK_GORGES_PENES_EN,
+    "Description": "Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene. Roll to determine the issue found."
   },
   {
     "Dice": 18,
-    "Loot": "Science Tesla",
-    "Data": BOOK_SCIENCE_TESLA_EN,
-    "Description": "Selon le numéro du magazine trouvé, vous recevez une aptitude différente, dont vous ne pouvez bénéficier qu'une seule fois. Si vous apprenez cette aptitude plus tard, vous pouvez utiliser ce bénéfice une fois par scène. Lancez 1D20 pour déterminer quel numéro vous trouvez."
+    "Loot": "Unstoppables",
+    "Data": BOOK_INCREVABLE_EN,
+    "Description": "Depending on the individual issue found, you receive a different perk, allowing you to spend Luck points to avoid a single instance of damage, which you may benefit from once. If you later learn the perk, you may use that benefit as often as you have Luck points to spend on it. Roll to determine the issue found."
   },
   {
     "Dice": 19,
-    "Loot": "Vie et Amour",
-    "Data": BOOK_VIE_AMOUR_EN,
-    "Description": "Selon le numéro du magazine trouvé, vous recevez une aptitude différente, dont vous ne pouvez bénéficier que pendant une seule scène. Si vous apprenez cette aptitude plus tard, vous pouvez en bénéficier de manière permanente. Lancez 1D20 pour déterminer quel numéro vous trouvez."
+    "Loot": "U.S. Covert Operations Manual",
+    "Data": BOOK_MANUEL_ARMEE_USA_EN,
+    "Description": "Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene. Roll to determine the issue found."
   },
   {
     "Dice": 20,
-    "Loot": "Vraies Histoires de Police",
-    "Description": "Une seule fois, quand vous faites le jet de dégâts d'une attaque, vous pouvez dépenser 1 point de Chance pour transformer jusqu'à 3D en n'importe quel résultat au lieu de les lancer. Si vous apprenez cette aptitude, vous pouvez l'appliquer une fois par scène."
+    "Loot": "Wasteland Survival Guide",
+    "Data": BOOK_SURVIE_TERRES_DESOLEE_EN,
+    "Description": "Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene. Roll to determine the issue found."
   }
 ];

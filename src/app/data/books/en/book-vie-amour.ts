@@ -2,52 +2,52 @@
 export const BOOK_VIE_AMOUR_EN = [
   {
     "Dice": "1-2",
-    "Loot": "Meilleurs Amis pour la Vie !",
-    "Effet": "+1 point de vie maximum pour tous les membres du groupe pendant une scène"
+    "Loot": "Life Long Best Friends!",
+    "Effet": "+1 Maximum Health Points to all party members for one scene"
   },
   {
     "Dice": "3-4",
-    "Loot": "Explose ce Gars !",
-    "Effet": "+1D de dégâts sur les attaques de tous les mmebres du groupe pendant une scène"
+    "Loot": "Nuke-the-Man!",
+    "Effet": "+1D damage to attacks from all party members for one scene"
   },
   {
     "Dice": "5-6",
-    "Loot": "En finir avec le Gras !",
-    "Effet": "Vous regagnez deux fois plus de PV en mangeant des fruits ou des légumes pendant une scène"
+    "Loot": "Trim the Fat!",
+    "Effet": "Regain twice as many HP from fruit or vegetables eaten in one scene"
   },
   {
     "Dice": "7-8",
-    "Loot": "Une si charmante secrétaire",
-    "Effet": "Au début d'une scène, ajoutez +1 PA à la réserve du groupe"
+    "Loot": "The Secretary Charmer",
+    "Effet": "At the start of one scene, add +1 AP to the group pool"
   },
   {
     "Dice": "9-10",
-    "Loot": "Lève le coude, mais pas trop !",
-    "Effet": "Vous gagnez 1 point de Chance (perdu à la fin de la scène s'il n'est pas utilisé) quand vous consommez une boisson Alcoolisée"
+    "Loot": "Talk Yourself Sober",
+    "Effet": "Gain 1 Luck point (lost at the end of the scene if not used) when you consume an Alcoholic drink"
   },
   {
     "Dice": "11-12",
-    "Loot": "Conseils pour hommes mariés !",
-    "Effet": "+1 résistance aux dégâts balistiques pour tous les membres du groupe pendant une scène"
+    "Loot": "Advice from Married Men",
+    "Effet": "+1 Physical damage resistance to all party members for one scene"
   },
   {
     "Dice": "13-14",
-    "Loot": "Méfiez vous du Dresseur d'Hommes",
-    "Effet": "La réserve de PA du groupe peut contenir 1 PA de plus que la normale pendant une scène"
+    "Loot": "Beware the Man Handler",
+    "Effet": "The group AP pool may contain 1 AP more than normal for one scene"
   },
   {
     "Dice": "15-16",
-    "Loot": "Une expérience marquante",
-    "Effet": "Choisissez une autre aptitude de magazine que vous avez déjà utilisée mais pas apprise ; elle s'applique maintenant"
+    "Loot": "An Experience to Remember",
+    "Effet": "Choose one other Magazine perk you have previously used but not learned; that now takes effect"
   },
   {
     "Dice": "17-18",
-    "Loot": "J'ai épousé un Robot",
-    "Effet": "+2 à toutes les résistances aux dégâts contre les Robots pendant une scène"
+    "Loot": "I Married a Robot",
+    "Effet": "+2 to all damage resistances against Robots for one scene"
   },
   {
     "Dice": "19-20",
-    "Loot": "Relancez le dé",
+    "Loot": "Re-roll result",
     "Effet": ""
   }
 ];

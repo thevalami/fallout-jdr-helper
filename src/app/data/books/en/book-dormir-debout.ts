@@ -2,52 +2,52 @@
 export const BOOK_DORMIR_DEBOUT_EN = [
   {
     "Dice": "1-2",
-    "Loot": "L'assaut des Hommes-Poisson !",
-    "Effet": "+1D sur vos attaques contre les fangeux"
+    "Loot": "Attack of the Fishmen!",
+    "Effet": "+1D on attacks vs mirelurk"
   },
   {
     "Dice": "3-4",
-    "Loot": "L'ascension des Mutants !",
-    "Effet": "+1D sur vos attaques contre les super mutants"
+    "Loot": "Rise of the Mutants!",
+    "Effet": "+1D on attacks vs super mutants"
   },
   {
     "Dice": "5-6",
-    "Loot": "L'attaque des Hommes de Métal !",
-    "Effet": "+2 aux résistances aux dégâts balistiques et énergétiques contre les Robots"
+    "Loot": "Attack of the Metal Men!",
+    "Effet": "+2 to Physical and Energy damage resistances vs Robots"
   },
   {
     "Dice": "7-8",
-    "Loot": "La vengeance du Russe Dément !",
-    "Effet": "+2 résistance aux dégâts de poison"
+    "Loot": "The Mad Russian’s Revenge!",
+    "Effet": "+2 to Poison damage resistance"
   },
   {
     "Dice": "9-10",
-    "Loot": "La starlette tireuse d'élite !",
-    "Effet": "+1D sur vos attaques avec des armes Précises"
+    "Loot": "The Starlet Sniper!",
+    "Effet": "+1D on attacks with Accurate weapons"
   },
   {
     "Dice": "11-12",
-    "Loot": "La malédiction des Calcinés !",
-    "Effet": "+1D sur vos attaques contre les goules"
+    "Loot": "Curse of the Burned!",
+    "Effet": "+1D on attacks vs Ghouls"
   },
   {
     "Dice": "13-14",
-    "Loot": "L'invasion des Insectes Géants !",
-    "Effet": "+2 résistance aux dégâts de radiation"
+    "Loot": "Giant Insects Invade!",
+    "Effet": "+2 to Radiation damage resistance"
   },
   {
     "Dice": "15-16",
-    "Loot": "Lasers Mortels !",
-    "Effet": "+1D sur vos attaques avec des armes à énergie"
+    "Loot": "Deadly Lasers!",
+    "Effet": "+1D on attacks with Energy weapons"
   },
   {
     "Dice": "17-18",
-    "Loot": "Science et Démence !",
-    "Effet": "+2 résistance aux dégâts énergétiques"
+    "Loot": "Science Gone Mad!",
+    "Effet": "+2 to Energy damage resistance"
   },
   {
     "Dice": "19-20",
-    "Loot": "Encerclé par les morts !",
-    "Effet": "+1D sur vos attaques quand vous dépensez un ou plusieurs tirs de munition pour obtenir des dégâts bonus"
+    "Loot": "Surrounded by the Dead!",
+    "Effet": "+1D on attacks where you spend one or more Ammunition for bonus damage"
   }
 ];
