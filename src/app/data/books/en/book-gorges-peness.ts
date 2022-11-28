@@ -2,27 +2,27 @@
 export const BOOK_GORGES_PENES_EN = [
   {
     "Dice": "1-4",
-    "Loot": "Les Mystères du Passe-Partout révélés !",
-    "Effet": "Vous pouvez relancer 1D20 sur un seul test de Crochetage"
+    "Loot": "Mysteries of the Master Key Exposed!",
+    "Effet": "You may re-roll 1d20 on a single Lockpicking test"
   },
   {
     "Dice": "5-8",
-    "Loot": "Les épingles à cheveux : + efficaces que les outils de crochetage ?",
-    "Effet": "Quand vous utilisez une épingle à cheveux, réduisez de 2 au lieu de 1 la difficulté d'un test de crochetage (0 minimum)"
+    "Loot": "Bobby Pins: More Effective Than Lockpicks?",
+    "Effet": "When using a Bobby Pin, reduce the difficulty of a Lockpicking test by a further 1 (minimum 0)"
   },
   {
     "Dice": "9-12",
-    "Loot": "Confession d'un Monte en l'Air",
-    "Effet": "Quand vous fouillez ou quand vous récupérez du Butin, vous pouvez dépenser 1 point de Chance pour trouver 2 + 2D épingles à cheveux"
+    "Loot": "Confessions of a Housebreaker",
+    "Effet": "When scavenging or looting, spend 1 Luck to find 2+2 DC Bobby Pins"
   },
   {
     "Dice": "13-16",
-    "Loot": "Ouvrez toutes les serrures en 5 secondes Chrono",
-    "Effet": "Quand vous réussissez à crocheter une serrure, vous pouvez utiliser l'option de PA réduire la durée sans dépenser de PA"
+    "Loot": "Open Any Lock in 5 Seconds Flat",
+    "Effet": "When you successfully pick a lock, you may use the Reduce Time AP option without spending AP"
   },
   {
     "Dice": "17-20",
-    "Loot": "Certificat de serrurier – Réussissez haut la main",
-    "Effet": "Quand vous subissez une ou plusieurs complications sur un test de Crochetage, vous pouvez dépenser 1 point de Chance pour ignorer ces complications"
+    "Loot": "Locksmith Certification Special — Pass with Flying Colors",
+    "Effet": "When suffer one or more complications on a Lockpicking test, spend 1 Luck point to ignore those complications"
   }
 ];

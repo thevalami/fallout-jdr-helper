@@ -2,52 +2,52 @@
 export const BOOK_SCIENCE_TESLA_EN = [
   {
     "Dice": "1-2",
-    "Loot": "Les Robots dirigeront-ils le monde ?",
-    "Effet": "+2 résistance aux dégâts balistiques et énergétiques contre les Robots"
+    "Loot": "Will Robots Rule the World?",
+    "Effet": "+2 to Physical and Energy damage resistances vs Robots"
   },
   {
     "Dice": "3-4",
-    "Loot": "Qu'est-ce que le Plasma, d'abord ?",
-    "Effet": "+2 résistance aux dégâts balistiques et énergétiques contre les armes plasma"
+    "Loot": "What is Plasma, anyway?",
+    "Effet": "+2 to Physical and Energy damage resistances vs Plasma weapons"
   },
   {
     "Dice": "5-6",
-    "Loot": "La science, c'est pas Sorcier !",
-    "Effet": "+2D de dégâts sur une attaque avec une arme à Zone d'Impact"
+    "Loot": "Rocket Science for Toddlers",
+    "Effet": "+2D damage inflicted by one attack with a Blast weapon"
   },
   {
     "Dice": "7-8",
-    "Loot": "Technologie de demain pour supersoldats d'aujourd'hui",
-    "Effet": "Après avoir dépensé 1 charge de réacteur à fusion, vous pouvez dépenser 1 point de Chance ; dans ce cas, la charge n'est pas dépensée"
+    "Loot": "Tomorrow’s Technology for Today’s Super Soldiers",
+    "Effet": "After spending a fusion core charge, you may spend 1 Luck point: if you do so the charge is not spent"
   },
   {
     "Dice": "9-10",
-    "Loot": "Un flingue n'est jamais assez gros !",
-    "Effet": "Une seule fois, quand vous tirez avec une arme Gatling, vous consommez des munitions à 8 fois le rythme normal au lieu de 10 fois"
+    "Loot": "Giant Super Weapons!",
+    "Effet": "Once, when you fire a Gatling weapon, you consume ammunition at 8x the rate, rather than 10x the rate"
   },
   {
     "Dice": "11-12",
-    "Loot": "Geckos et Radiations Gamma",
-    "Effet": "+2D de dégâts sur une attaque contre une créature Mutante"
+    "Loot": "Geckos and Gamma Radiation",
+    "Effet": "+2D damage inflicted on one attack against a Mutated creature"
   },
   {
     "Dice": "13-14",
-    "Loot": "L'armée des États-Unis dans l'espace",
-    "Effet": "Sur une seule attaque avec une arme à énergie, vous infligez un coup critique si vous provoquez 3 points de dégâts ou plus après déduction de la résistance aux dégâts (au lieu de 5 points de dégâts ou plus selon la règle normale)"
+    "Loot": "U.S. Army Goes to Space",
+    "Effet": "On a single attack with an Energy weapon, you inflict a Critical Hit if you inflict 3 or more damage after damage resistance (rather than the normal 5 or more damage)"
   },
   {
     "Dice": "15-16",
-    "Loot": "10 hits n°1 !!! Rock-o-bot prend le pays par surprise !",
-    "Effet": "Une seule fois, quand vous infligez un coup critique, augmentez la quantité totale de dégâts infligés de +2"
+    "Loot": "10 Number 1 Hits!!! Rock-o-bot Takes the Nation by Storm!!",
+    "Effet": "Once, when you inflict a Critical Hit, increase the total damage inflicted by +2"
   },
   {
     "Dice": "17-18",
-    "Loot": "L'avenir de la guerre ?",
-    "Effet": "Sur une seule attaque avec une arme maniée avec la compétence Armes Lourdes, vous infligez un coup critique si vous infligez 3 points de dégâts ou plus après déduction de la résistance aux dégâts (au lieu de 5 points de dégâts ou plus selon la règle normale)"
+    "Loot": "Future of Warfare?",
+    "Effet": "On a single attack with a Big Gun, you inflict a Critical Hit if you inflict 3 or more damage after damage resistance (rather than the normal 5 or more damage)"
   },
   {
     "Dice": "19-20",
-    "Loot": "Relancez le dé",
+    "Loot": "Re-roll result",
     "Effet": ""
   }
 ];

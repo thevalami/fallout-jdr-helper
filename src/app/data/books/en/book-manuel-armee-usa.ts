@@ -2,52 +2,52 @@
 export const BOOK_MANUEL_ARMEE_USA_EN = [
   {
     "Dice": "1-2",
-    "Loot": "FH 5-01 Siffloter dans les ténèbres",
-    "Effet": "Si vous êtes repéré en tentant d'être discret, vous ajoutez +2 à votre résitance aux dégâts balistiques contre la première attaque que vous recevez après avoir été repéré"
+    "Loot": "FH 5-01 Whistling in the Dark",
+    "Effet": "If you are detected while sneaking, you add +2 to Physical damage resistance against the first attack you receive after being detected"
   },
   {
     "Dice": "3-4",
-    "Loot": "FH 5-02 Le camouflage urbain",
-    "Effet": "La difficulté des tests des ennemis pour vous repérer augmente de +1 ; cette augmentation ne se cumule pas avec les augmentations de difficulté à cause d'une faible lumière ou de l'obscurité"
+    "Loot": "FH 5-02 Urban Camouflage",
+    "Effet": "Enemies suffer +1 difficulty on tests to detect you; this does not stack with any difficulty increases for poor light or darkness"
   },
   {
     "Dice": "5-6",
-    "Loot": "FH 5-03 Fondamentaux du camouflage social",
-    "Effet": "+1 à toutes les résitances aux dégats contre les attaques des PNJ personnages"
+    "Loot": "FH 5-03 Facepaint Fundamentals",
+    "Effet": "+1 to all damage resistances against attacks from Character NPCs"
   },
   {
     "Dice": "7-8",
-    "Loot": "FH 5-04 Ce ne sont pas les soldats que vous cherchez",
-    "Effet": "+1D de dégâts infligés par les attaques contre les PNJ personnages"
+    "Loot": "FH 5-04 Not the Soldiers You’re Looking For",
+    "Effet": "+1D damage inflicted by attacks against Character NPCs"
   },
   {
     "Dice": "9-10",
-    "Loot": "FH 5-05 Qui-va-là ?",
-    "Effet": "Quand vous dépensez 1 point de Chance pour relancer 1D20 sur un test de PER, considérez que ce dé a donné un résultat de 1 au lieu de relancer"
+    "Loot": "FH 5-05 Who Goes There?",
+    "Effet": "When you spend a Luck point to re-roll a d20 on a PER test, instead count that die as if it had rolled a 1"
   },
   {
     "Dice": "11-12",
-    "Loot": "FH 5-06 Parquet Grinçant, Mort instantanée",
-    "Effet": "Une suele fois, quand vous subissez une ou plusieurs complications sur un test de Discrétion, ignorez les"
+    "Loot": "FH 5-06 Squeaky Floorboard, Sudden Death",
+    "Effet": "Once, when you suffer one or more Complications on a Sneak test, ignore the complications"
   },
   {
     "Dice": "13-14",
-    "Loot": "FH 5-07 Faire tomber les communistes",
-    "Effet": "Une fois, quand un ennemi vise avant de porter une attaque contre vous, vous pouvez lui faire perdre les bénéfices de la visée"
+    "Loot": "FH 5-07 Getting the Drop on the Communists",
+    "Effet": "Once, when an enemy aims before making an attack against you, you may cause them to lose the benefits of aiming"
   },
   {
     "Dice": "15-16",
-    "Loot": "FH 5-08 Spécial Camouflage: Buissons, caisses et ruches",
-    "Effet": "+2D de dégâts infligés par une attaque à mains nues ou avec un couteau"
+    "Loot": "FH 5-08 Bushes, Boxes, and Beehives: Camouflage Special",
+    "Effet": "+2D damage inflicted by an unarmed attack or an attack made with a knife"
   },
   {
     "Dice": "17-18",
-    "Loot": "FH 5-09 Le noir vous va si bien",
-    "Effet": "Une fois, quand vous utilisez un Stealth Boy, il dure un tour supplémentaire"
+    "Loot": "FH 5-09 Look Better in Black",
+    "Effet": "Once, when using a Stealth Boy, it lasts for one additional turn"
   },
   {
     "Dice": "19-20",
-    "Loot": "FH 5-10 Sur la pointe des pieds dans les tulipes",
-    "Effet": "Quand vous dépensez 1 point de Chance pour relancer 1D20 sur un test d'AGI, considérez que ce dé a donné un résultat de 1 au lieu de relancer"
+    "Loot": "FH 5-10 Tiptoe Through the Tulips",
+    "Effet": "When you spend a Luck point to re-roll a d20 on an AGI test, instead count that die as if it had rolled a 1"
   }
 ];

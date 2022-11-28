@@ -2,52 +2,52 @@
 export const BOOK_ARMES_MUNITIONS_EN = [
   {
     "Dice": "1-2",
-    "Loot": "Quel Avenir pour la Chasse ?",
-    "Effet": "Une attaque contre un robot inflige +2D de dégâts"
+    "Loot": "The Future of Hunting?",
+    "Effet": "One attack against Robots inflicts +2D damage"
   },
   {
     "Dice": "3-4",
-    "Loot": "Les Lasers et la Chasse : Carnager c'est OK",
-    "Effet": "Une attaque avec une arme laser gagne l'effet de dégâts Brutal si elle ne l'avait pas déjà"
+    "Loot": "Lasers & Hunting: Acceptable Overkill",
+    "Effet": "One attack with a Laser weapon gains the Vicious damage effect if it didn’t already have it"
   },
   {
     "Dice": "5-6",
-    "Loot": "Petites Armes pour Petites Dames",
-    "Effet": "Une attaque avec une arme maniée avec Armes légères gagne l'effet de dégâts Brutal si elle ne l'avait pas déjà"
+    "Loot": "Little Guns for Little Ladies",
+    "Effet": "One attack with a Small Guns weapon gains the Vicious damage effect if it didn’t have it already"
   },
   {
     "Dice": "7-8",
-    "Loot": "Flingues de Rue à Détroit",
-    "Effet": "Vous gagnez 2 PA supplémentaires après une attaque réussie. Ces PA doiven être dépensés immédiatement, sinon ils sont perdus"
+    "Loot": "Street Guns of Detroit",
+    "Effet": "Gain an extra 2 AP after one successful attack. This AP must be spent immediately: it cannot be saved"
   },
   {
     "Dice": "9-10",
-    "Loot": "Eviter ces Satanées Lois Contre les Armes !",
-    "Effet": "Quand vous récupérez une arme, vous gagnez 2 PA qui ne peuvent être dépensés que pour récupérer des unités de composants supplémentaires"
+    "Loot": "Avoid Those Pesky Gun Laws!",
+    "Effet": "When you salvage a weapon, gain 2 AP which may only be spent to salvage additional units of materials"
   },
   {
     "Dice": "11-12",
-    "Loot": "La Lune : Appareil de Fin du Monde Communiste ?!",
-    "Effet": "Gagnez +2 à votre résistance aux dégâts balistiques ou énergétiques contre une attaque par nuit"
+    "Loot": "The Moon: A Communist Doomsday Device?!",
+    "Effet": "Gain +2 to Physical or Energy damage resistance against one attack at night"
   },
   {
     "Dice": "13-14",
-    "Loot": "Viser et Tirer, comme à l'Armée",
-    "Effet": "Une attaque avec visée portée avec une arme qui n'a pas la qualité Précis inflige +2D de dégâts"
+    "Loot": "Take Aim, Army Style",
+    "Effet": "One aimed attack made with a weapon which lacks the Accurate quality inflicts +2D damage"
   },
   {
     "Dice": "15-16",
-    "Loot": "Protéger son campement des Ours",
-    "Effet": "Une attaque contre un Yao Guai inflige +3D de dégâts"
+    "Loot": "Bear-Proofing your Campsite",
+    "Effet": "One attack against Yao Guai inflicts +3D damage"
   },
   {
     "Dice": "17-18",
-    "Loot": "Plasma : l'Arme de Demain",
-    "Effet": "Une attaque avec une arme plasma gagne l'effet de dégâts Brutal si elle ne l'avait pas déjà"
+    "Loot": "Plasma: The Weapon of Tomorrow",
+    "Effet": "One attack with a Plasma weapon gains the Vicious damage effect if it didn’t already have it"
   },
   {
     "Dice": "19-20",
-    "Loot": "Guide de la chasse aux Rouges",
-    "Effet": "Une attaque contre un ennemi au niveau inférieur au vôtre inflige +2D de dégâts"
+    "Loot": "Guide to Hunting Commies!",
+    "Effet": "One attack against an enemy with a lower level than you inflicts +2D damage"
   }
 ];

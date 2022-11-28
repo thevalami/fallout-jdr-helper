@@ -2,37 +2,37 @@
 export const BOOK_SURVIE_TERRES_DESOLEE_EN = [
   {
     "Dice": "1-3",
-    "Loot": "Cultiver dans les Terres Désolées",
-    "Effet": "Profiter d'un consommable qui est un fruit ou un légume guérit deux fois plus de PV"
+    "Loot": "Farming the Wastes",
+    "Effet": "Consuming a fruit or vegetable food item heals twice as many HP"
   },
   {
     "Dice": "4-6",
-    "Loot": "Numéro Spécial Insecticides",
-    "Effet": "Augmentez toutes vos résistances aux dégâts de +2 contre une attaque portée par un Insecte"
+    "Loot": "Insect Repellent Special",
+    "Effet": "Increase all damage resistances by +2 vs an attack from an Insect"
   },
   {
     "Dice": "7-9",
-    "Loot": "Le bon côté de la contamination aux radiations",
-    "Effet": "Quand vous consommez un objet de nourriture ou une boisson irradiée, guérissez un nombre de PV supplémentaires égal au résultat du D"
+    "Loot": "The Bright Side of Radiation Poisoning",
+    "Effet": "When you consume irradiated food or drink, heal additional HP equal to the roll on the D"
   },
   {
     "Dice": "10-12",
-    "Loot": "Spécial Coupons",
-    "Effet": "Quand vous avez acheter de la nourriture ou des boissons, le prix est altéré de 10% de plus en votre faveur"
+    "Loot": "Coupon Spectacular",
+    "Effet": "When buying food or drink items, the price is shifted an additional 10% in your favor"
   },
   {
     "Dice": "13-15",
-    "Loot": "Gymnastique aquatique pour les goules",
-    "Effet": "Réduisez de 1 la difficulté d'un test d'Athlétisme pour nager (0 minimum)"
+    "Loot": "Water Aerobics for Ghouls",
+    "Effet": "Reduce the difficulty of an Athletics test to swim by 1 (min. 0)"
   },
   {
     "Dice": "16-18",
-    "Loot": "Les secrets de l'autodéfense",
-    "Effet": "Votre défense augmente de +1 contre une attaque de corps à corps"
+    "Loot": "Self Defense Secrets",
+    "Effet": "Gain +1 defense against a melee attack"
   },
   {
     "Dice": "19-20",
-    "Loot": "Chasser dans les Terres Désolées",
-    "Effet": "Quand vous dépecez un animal que vous avez tué et que la quantité de viande trouvée peut être augmentée en dépensant des PA, vous gagnez 1 PA bonus à cette fin (s'il n'est pas utilisé, il est perdu)"
+    "Loot": "Hunting in the Wastes",
+    "Effet": "When you butcher an animal you’ve killed, and the amount of meat found can be increased by spending AP, you gain 1 bonus AP for that purpose (this AP is lost if not used)"
   }
 ];
