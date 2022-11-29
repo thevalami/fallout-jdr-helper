@@ -124,7 +124,7 @@ export const CHEMS_LOOT_DATA_EN = [
     "Rarity": 3
   },
   {
-    "Name": "Baume de soin",
+    "Name": "Healing Salve",
     "Effect": "Heals 2 HP (Take Chem minor action) or 4 HP (First Aid action)",
     "Duration": "Instant",
     "Addictive": "No",
