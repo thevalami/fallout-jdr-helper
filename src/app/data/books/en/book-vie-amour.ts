@@ -1,4 +1,3 @@
-//TODO: Translate me !
 export const BOOK_VIE_AMOUR_EN = [
   {
     "Dice": "1-2",
@@ -8,7 +7,7 @@ export const BOOK_VIE_AMOUR_EN = [
   {
     "Dice": "3-4",
     "Loot": "Nuke-the-Man!",
-    "Effet": "+1D damage to attacks from all party members for one scene"
+    "Effet": "+1 $CD$ damage to attacks from all party members for one scene"
   },
   {
     "Dice": "5-6",

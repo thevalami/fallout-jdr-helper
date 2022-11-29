@@ -1,9 +1,8 @@
-//TODO: Translate me !
 export const BOOK_ARMES_MUNITIONS_EN = [
   {
     "Dice": "1-2",
     "Loot": "The Future of Hunting?",
-    "Effet": "One attack against Robots inflicts +2D damage"
+    "Effet": "One attack against Robots inflicts +2 $CD$ damage"
   },
   {
     "Dice": "3-4",
@@ -33,12 +32,12 @@ export const BOOK_ARMES_MUNITIONS_EN = [
   {
     "Dice": "13-14",
     "Loot": "Take Aim, Army Style",
-    "Effet": "One aimed attack made with a weapon which lacks the Accurate quality inflicts +2D damage"
+    "Effet": "One aimed attack made with a weapon which lacks the Accurate quality inflicts +2 $CD$ damage"
   },
   {
     "Dice": "15-16",
     "Loot": "Bear-Proofing your Campsite",
-    "Effet": "One attack against Yao Guai inflicts +3D damage"
+    "Effet": "One attack against Yao Guai inflicts +3 $CD$ damage"
   },
   {
     "Dice": "17-18",
@@ -48,6 +47,6 @@ export const BOOK_ARMES_MUNITIONS_EN = [
   {
     "Dice": "19-20",
     "Loot": "Guide to Hunting Commies!",
-    "Effet": "One attack against an enemy with a lower level than you inflicts +2D damage"
+    "Effet": "One attack against an enemy with a lower level than you inflicts +2 $CD$ damage"
   }
 ];

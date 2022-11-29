@@ -1,4 +1,3 @@
-//TODO: Translate me !
 export const BOOK_MANUEL_ARMEE_USA_EN = [
   {
     "Dice": "1-2",
@@ -18,7 +17,7 @@ export const BOOK_MANUEL_ARMEE_USA_EN = [
   {
     "Dice": "7-8",
     "Loot": "FH 5-04 Not the Soldiers You’re Looking For",
-    "Effet": "+1D damage inflicted by attacks against Character NPCs"
+    "Effet": "+1 $CD$ damage inflicted by attacks against Character NPCs"
   },
   {
     "Dice": "9-10",
@@ -38,7 +37,7 @@ export const BOOK_MANUEL_ARMEE_USA_EN = [
   {
     "Dice": "15-16",
     "Loot": "FH 5-08 Bushes, Boxes, and Beehives: Camouflage Special",
-    "Effet": "+2D damage inflicted by an unarmed attack or an attack made with a knife"
+    "Effet": "+2 $CD$ damage inflicted by an unarmed attack or an attack made with a knife"
   },
   {
     "Dice": "17-18",

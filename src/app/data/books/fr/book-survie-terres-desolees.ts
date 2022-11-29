@@ -12,7 +12,7 @@ export const BOOK_SURVIE_TERRES_DESOLEE_FR = [
   {
     "Dice": "7-9",
     "Loot": "Le bon côté de la contamination aux radiations",
-    "Effet": "Quand vous consommez un objet de nourriture ou une boisson irradiée, guérissez un nombre de PV supplémentaires égal au résultat du D"
+    "Effet": "Quand vous consommez un objet de nourriture ou une boisson irradiée, guérissez un nombre de PV supplémentaires égal au résultat du $CD$"
   },
   {
     "Dice": "10-12",

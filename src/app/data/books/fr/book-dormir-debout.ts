@@ -2,12 +2,12 @@ export const BOOK_DORMIR_DEBOUT_FR = [
   {
     "Dice": "1-2",
     "Loot": "L'assaut des Hommes-Poisson !",
-    "Effet": "+1D sur vos attaques contre les fangeux"
+    "Effet": "+1 $CD$ sur vos attaques contre les fangeux"
   },
   {
     "Dice": "3-4",
     "Loot": "L'ascension des Mutants !",
-    "Effet": "+1D sur vos attaques contre les super mutants"
+    "Effet": "+1 $CD$ sur vos attaques contre les super mutants"
   },
   {
     "Dice": "5-6",
@@ -22,12 +22,12 @@ export const BOOK_DORMIR_DEBOUT_FR = [
   {
     "Dice": "9-10",
     "Loot": "La starlette tireuse d'élite !",
-    "Effet": "+1D sur vos attaques avec des armes Précises"
+    "Effet": "+1 $CD$ sur vos attaques avec des armes Précises"
   },
   {
     "Dice": "11-12",
     "Loot": "La malédiction des Calcinés !",
-    "Effet": "+1D sur vos attaques contre les goules"
+    "Effet": "+1 $CD$ sur vos attaques contre les goules"
   },
   {
     "Dice": "13-14",
@@ -37,7 +37,7 @@ export const BOOK_DORMIR_DEBOUT_FR = [
   {
     "Dice": "15-16",
     "Loot": "Lasers Mortels !",
-    "Effet": "+1D sur vos attaques avec des armes à énergie"
+    "Effet": "+1 $CD$ sur vos attaques avec des armes à énergie"
   },
   {
     "Dice": "17-18",
@@ -47,6 +47,6 @@ export const BOOK_DORMIR_DEBOUT_FR = [
   {
     "Dice": "19-20",
     "Loot": "Encerclé par les morts !",
-    "Effet": "+1D sur vos attaques quand vous dépensez un ou plusieurs tirs de munition pour obtenir des dégâts bonus"
+    "Effet": "+1 $CD$ sur vos attaques quand vous dépensez un ou plusieurs tirs de munition pour obtenir des dégâts bonus"
   }
 ];

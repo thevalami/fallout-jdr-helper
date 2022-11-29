@@ -2,7 +2,7 @@ export const BOOK_GROGNAK_FR = [
   {
     "Dice": "1-2",
     "Loot": "Du Sang sur la Harpe",
-    "Effet": "Une attaque de corps à corps réussie que vous portez inflige +2D de dégâts"
+    "Effet": "Une attaque de corps à corps réussie que vous portez inflige +2 $CD$ de dégâts"
   },
   {
     "Dice": "3-4",
@@ -22,7 +22,7 @@ export const BOOK_GROGNAK_FR = [
   {
     "Dice": "9-10",
     "Loot": "Esclaves Démoniaques, Sables démoniaques",
-    "Effet": "Une attaque portée contre des Goules inflige +2D de dégâts"
+    "Effet": "Une attaque portée contre des Goules inflige +2 $CD$ de dégâts"
   },
   {
     "Dice": "11-12",
