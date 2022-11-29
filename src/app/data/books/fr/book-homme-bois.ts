@@ -7,7 +7,7 @@ export const BOOK_HOMMES_BOIS_FR = [
   {
     "Dice": "3-4",
     "Loot": "Cuisiner à la Maison",
-    "Effet": "Ajoutez +2D de dégâts à une attaque d'arme de Lancer (autre qu'un explosif)"
+    "Effet": "Ajoutez +2 $CD$ de dégâts à une attaque d'arme de Lancer (autre qu'un explosif)"
   },
   {
     "Dice": "5-6",
@@ -22,7 +22,7 @@ export const BOOK_HOMMES_BOIS_FR = [
   {
     "Dice": "9-10",
     "Loot": "Lapins Carnivore des Appalaches",
-    "Effet": "Ajoutez +2D de dégâts à une attaque contre un Mammifère ou un Lézard"
+    "Effet": "Ajoutez +2 $CD$ de dégâts à une attaque contre un Mammifère ou un Lézard"
   },
   {
     "Dice": "11-12",
@@ -37,7 +37,7 @@ export const BOOK_HOMMES_BOIS_FR = [
   {
     "Dice": "15-16",
     "Loot": "L'armurier d'Harper's Ferry",
-    "Effet": "Quand vous trouvez des munitions, vous en trouvez +2D"
+    "Effet": "Quand vous trouvez des munitions, vous en trouvez +2 $CD$"
   },
   {
     "Dice": "17-18",

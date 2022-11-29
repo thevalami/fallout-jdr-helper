@@ -23,7 +23,10 @@
             <ion-item>
               <ion-label text-wrap>
                 <h1>{{ bookType.Loot }} &nbsp;<small>({{ bookTypeResult }})</small></h1>
-                <p><strong>{{"RANDOMBOOKS.DESCRIPTION" | translate}} :</strong> {{ bookType.Description }}</p>
+                <p>
+                  <strong>{{"RANDOMBOOKS.DESCRIPTION" | translate}} :</strong>
+                  <app-rich-text-display [propertyText]="bookType.Description"></app-rich-text-display>
+                </p>
               </ion-label>
             </ion-item>
           </ion-list>
@@ -42,7 +45,10 @@
             <ion-item>
               <ion-label text-wrap>
                 <h1>{{ bookVolume.Loot }}&nbsp;<small>({{ bookVolumeResult }})</small></h1>
-                <p><strong>{{"RANDOMBOOKS.EFFECT" | translate}} :</strong> {{ bookVolume.Effet }}</p>
+                <p>
+                  <strong>{{"RANDOMBOOKS.EFFECT" | translate}} :</strong>
+                  <app-rich-text-display [propertyText]="bookVolume.Effet"></app-rich-text-display>
+                </p>
               </ion-label>
             </ion-item>
           </ion-list>

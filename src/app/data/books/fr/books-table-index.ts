@@ -59,7 +59,7 @@ export const BOOK_TABLE_INDEX_FR: BookType[] = [
   {
     "Dice": 9,
     "Loot": "L'avenir des Armes est à Vous",
-    "Description": "Une seule fois, quand vous portez une attaque avec une arme à énergie, vous pouvez la surcharger. Augmentez les dégâts de +2D pour cette attaque. L'arme ne peut pas être utilisée pour porter une attaque durant le tour qui suit une attaque surchargée, car elle est en train de se refroidir. Si vous apprenez cette aptitude plus tard, vous pouvez surcharger une arme à énergie une fois par scène."
+    "Description": "Une seule fois, quand vous portez une attaque avec une arme à énergie, vous pouvez la surcharger. Augmentez les dégâts de +2 $CD$ pour cette attaque. L'arme ne peut pas être utilisée pour porter une attaque durant le tour qui suit une attaque surchargée, car elle est en train de se refroidir. Si vous apprenez cette aptitude plus tard, vous pouvez surcharger une arme à énergie une fois par scène."
   },
   {
     "Dice": 10,
@@ -119,6 +119,6 @@ export const BOOK_TABLE_INDEX_FR: BookType[] = [
   {
     "Dice": 20,
     "Loot": "Vraies Histoires de Police",
-    "Description": "Une seule fois, quand vous faites le jet de dégâts d'une attaque, vous pouvez dépenser 1 point de Chance pour transformer jusqu'à 3D en n'importe quel résultat au lieu de les lancer. Si vous apprenez cette aptitude, vous pouvez l'appliquer une fois par scène."
+    "Description": "Une seule fois, quand vous faites le jet de dégâts d'une attaque, vous pouvez dépenser 1 point de Chance pour transformer jusqu'à 3 $CD$ en n'importe quel résultat au lieu de les lancer. Si vous apprenez cette aptitude, vous pouvez l'appliquer une fois par scène."
   }
 ];

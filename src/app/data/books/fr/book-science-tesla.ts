@@ -12,7 +12,7 @@ export const BOOK_SCIENCE_TESLA_FR = [
   {
     "Dice": "5-6",
     "Loot": "La science, c'est pas Sorcier !",
-    "Effet": "+2D de dégâts sur une attaque avec une arme à Zone d'Impact"
+    "Effet": "+2 $CD$ de dégâts sur une attaque avec une arme à Zone d'Impact"
   },
   {
     "Dice": "7-8",
@@ -27,7 +27,7 @@ export const BOOK_SCIENCE_TESLA_FR = [
   {
     "Dice": "11-12",
     "Loot": "Geckos et Radiations Gamma",
-    "Effet": "+2D de dégâts sur une attaque contre une créature Mutante"
+    "Effet": "+2 $CD$ de dégâts sur une attaque contre une créature Mutante"
   },
   {
     "Dice": "13-14",

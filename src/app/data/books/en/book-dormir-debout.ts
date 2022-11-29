@@ -3,12 +3,12 @@ export const BOOK_DORMIR_DEBOUT_EN = [
   {
     "Dice": "1-2",
     "Loot": "Attack of the Fishmen!",
-    "Effet": "+1D on attacks vs mirelurk"
+    "Effet": "+1 $CD$ on attacks vs mirelurk"
   },
   {
     "Dice": "3-4",
     "Loot": "Rise of the Mutants!",
-    "Effet": "+1D on attacks vs super mutants"
+    "Effet": "+1 $CD$ on attacks vs super mutants"
   },
   {
     "Dice": "5-6",
@@ -23,12 +23,12 @@ export const BOOK_DORMIR_DEBOUT_EN = [
   {
     "Dice": "9-10",
     "Loot": "The Starlet Sniper!",
-    "Effet": "+1D on attacks with Accurate weapons"
+    "Effet": "+1 $CD$ on attacks with Accurate weapons"
   },
   {
     "Dice": "11-12",
     "Loot": "Curse of the Burned!",
-    "Effet": "+1D on attacks vs Ghouls"
+    "Effet": "+1 $CD$ on attacks vs Ghouls"
   },
   {
     "Dice": "13-14",
@@ -38,7 +38,7 @@ export const BOOK_DORMIR_DEBOUT_EN = [
   {
     "Dice": "15-16",
     "Loot": "Deadly Lasers!",
-    "Effet": "+1D on attacks with Energy weapons"
+    "Effet": "+1 $CD$ on attacks with Energy weapons"
   },
   {
     "Dice": "17-18",
@@ -48,6 +48,6 @@ export const BOOK_DORMIR_DEBOUT_EN = [
   {
     "Dice": "19-20",
     "Loot": "Surrounded by the Dead!",
-    "Effet": "+1D on attacks where you spend one or more Ammunition for bonus damage"
+    "Effet": "+1 $CD$ on attacks where you spend one or more Ammunition for bonus damage"
   }
 ];

@@ -17,7 +17,7 @@ export const BOOK_MANUEL_ARMEE_USA_FR = [
   {
     "Dice": "7-8",
     "Loot": "FH 5-04 Ce ne sont pas les soldats que vous cherchez",
-    "Effet": "+1D de dégâts infligés par les attaques contre les PNJ personnages"
+    "Effet": "+1 $CD$ de dégâts infligés par les attaques contre les PNJ personnages"
   },
   {
     "Dice": "9-10",
@@ -37,7 +37,7 @@ export const BOOK_MANUEL_ARMEE_USA_FR = [
   {
     "Dice": "15-16",
     "Loot": "FH 5-08 Spécial Camouflage: Buissons, caisses et ruches",
-    "Effet": "+2D de dégâts infligés par une attaque à mains nues ou avec un couteau"
+    "Effet": "+2 $CD$ de dégâts infligés par une attaque à mains nues ou avec un couteau"
   },
   {
     "Dice": "17-18",

@@ -3,7 +3,7 @@ export const BOOK_GROGNAK_EN = [
   {
     "Dice": "1-2",
     "Loot": "Blood on the Harp",
-    "Effet": "One successful melee attack you make inflicts +2D damage"
+    "Effet": "One successful melee attack you make inflicts +2 $CD$ damage"
   },
   {
     "Dice": "3-4",
@@ -23,7 +23,7 @@ export const BOOK_GROGNAK_EN = [
   {
     "Dice": "9-10",
     "Loot": "Demon Slaves, Demon Sands",
-    "Effet": "One attack against Ghouls inflicts +2D damage"
+    "Effet": "One attack against Ghouls inflicts +2 $CD$ damage"
   },
   {
     "Dice": "11-12",

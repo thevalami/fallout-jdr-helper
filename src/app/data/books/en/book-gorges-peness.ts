@@ -13,7 +13,7 @@ export const BOOK_GORGES_PENES_EN = [
   {
     "Dice": "9-12",
     "Loot": "Confessions of a Housebreaker",
-    "Effet": "When scavenging or looting, spend 1 Luck to find 2+2 DC Bobby Pins"
+    "Effet": "When scavenging or looting, spend 1 Luck to find 2+2 $CD$ Bobby Pins"
   },
   {
     "Dice": "13-16",

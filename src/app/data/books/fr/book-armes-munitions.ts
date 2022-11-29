@@ -2,7 +2,7 @@ export const BOOK_ARMES_MUNITIONS_FR = [
   {
     "Dice": "1-2",
     "Loot": "Quel Avenir pour la Chasse ?",
-    "Effet": "Une attaque contre un robot inflige +2D de dégâts"
+    "Effet": "Une attaque contre un robot inflige +2 $CD$ de dégâts"
   },
   {
     "Dice": "3-4",
@@ -32,12 +32,12 @@ export const BOOK_ARMES_MUNITIONS_FR = [
   {
     "Dice": "13-14",
     "Loot": "Viser et Tirer, comme à l'Armée",
-    "Effet": "Une attaque avec visée portée avec une arme qui n'a pas la qualité Précis inflige +2D de dégâts"
+    "Effet": "Une attaque avec visée portée avec une arme qui n'a pas la qualité Précis inflige +2 $CD$ de dégâts"
   },
   {
     "Dice": "15-16",
     "Loot": "Protéger son campement des Ours",
-    "Effet": "Une attaque contre un Yao Guai inflige +3D de dégâts"
+    "Effet": "Une attaque contre un Yao Guai inflige +3 $CD$ de dégâts"
   },
   {
     "Dice": "17-18",

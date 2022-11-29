@@ -13,7 +13,7 @@ export const BOOK_SCIENCE_TESLA_EN = [
   {
     "Dice": "5-6",
     "Loot": "Rocket Science for Toddlers",
-    "Effet": "+2D damage inflicted by one attack with a Blast weapon"
+    "Effet": "+2 $CD$ damage inflicted by one attack with a Blast weapon"
   },
   {
     "Dice": "7-8",
@@ -28,7 +28,7 @@ export const BOOK_SCIENCE_TESLA_EN = [
   {
     "Dice": "11-12",
     "Loot": "Geckos and Gamma Radiation",
-    "Effet": "+2D damage inflicted on one attack against a Mutated creature"
+    "Effet": "+2 $CD$ damage inflicted on one attack against a Mutated creature"
   },
   {
     "Dice": "13-14",

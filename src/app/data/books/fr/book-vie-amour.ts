@@ -7,7 +7,7 @@ export const BOOK_VIE_AMOUR_FR = [
   {
     "Dice": "3-4",
     "Loot": "Explose ce Gars !",
-    "Effet": "+1D de dégâts sur les attaques de tous les mmebres du groupe pendant une scène"
+    "Effet": "+1 $CD$ de dégâts sur les attaques de tous les mmebres du groupe pendant une scène"
   },
   {
     "Dice": "5-6",

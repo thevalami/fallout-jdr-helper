@@ -13,7 +13,7 @@ export const BOOK_SURVIE_TERRES_DESOLEE_EN = [
   {
     "Dice": "7-9",
     "Loot": "The Bright Side of Radiation Poisoning",
-    "Effet": "When you consume irradiated food or drink, heal additional HP equal to the roll on the D"
+    "Effet": "When you consume irradiated food or drink, heal additional HP equal to the roll on the $CD$"
   },
   {
     "Dice": "10-12",

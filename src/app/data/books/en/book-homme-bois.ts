@@ -8,7 +8,7 @@ export const BOOK_HOMMES_BOIS_EN = [
   {
     "Dice": "3-4",
     "Loot": "Down Home Cookin’",
-    "Effet": "Add +2D damage to a Thrown weapon attack (other than an Explosive)"
+    "Effet": "Add +2 $CD$ damage to a Thrown weapon attack (other than an Explosive)"
   },
   {
     "Dice": "5-6",
@@ -23,7 +23,7 @@ export const BOOK_HOMMES_BOIS_EN = [
   {
     "Dice": "9-10",
     "Loot": "Carnivorous Rabbits of Appalachia",
-    "Effet": "Add +2D damage to an attack against a Mammal or Lizard"
+    "Effet": "Add +2 $CD$ damage to an attack against a Mammal or Lizard"
   },
   {
     "Dice": "11-12",
@@ -38,7 +38,7 @@ export const BOOK_HOMMES_BOIS_EN = [
   {
     "Dice": "15-16",
     "Loot": "The Gunsmith of Harper’s Ferry",
-    "Effet": "When you find ammo, you find +2D more shots"
+    "Effet": "When you find ammo, you find +2 $CD$ more shots"
   },
   {
     "Dice": "17-18",

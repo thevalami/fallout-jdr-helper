@@ -48,7 +48,7 @@ export const BOOK_TABLE_INDEX_EN: BookType[] = [
   {
     "Dice": 7,
     "Loot": "Future Weapons Today",
-    "Description": "Once, when you make an attack with an Energy Weapon, you may overcharge it. Increase the damage by +2D for that attack. The weapon cannot be used to make an attack in the turn after an overcharged attack as it cools down. If you later learn this perk, you may overcharge an Energy Weapon once per scene."
+    "Description": "Once, when you make an attack with an Energy Weapon, you may overcharge it. Increase the damage by +2 $CD$ for that attack. The weapon cannot be used to make an attack in the turn after an overcharged attack as it cools down. If you later learn this perk, you may overcharge an Energy Weapon once per scene."
   },
   {
     "Dice": 8,
@@ -97,7 +97,7 @@ export const BOOK_TABLE_INDEX_EN: BookType[] = [
   {
     "Dice": 16,
     "Loot": "True Police Stories",
-    "Description": "Once, when you roll the damage of an attack, you may spend a Luck point to turn up to three D to any face, rather than rolling them. If you learn this perk, you may do this once per scene."
+    "Description": "Once, when you roll the damage of an attack, you may spend a Luck point to turn up to three $CD$ to any face, rather than rolling them. If you learn this perk, you may do this once per scene."
   },
   {
     "Dice": 17,
