@@ -1,4 +1,3 @@
-//TODO: Translate me !
 export const BOOK_MANUEL_ARMEE_USA_EN = [
   {
     "Dice": "1-2",

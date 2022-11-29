@@ -1,4 +1,3 @@
-//TODO: Translate me !
 export const BOOK_SURVIE_TERRES_DESOLEE_EN = [
   {
     "Dice": "1-3",

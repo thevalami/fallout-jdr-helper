@@ -1,4 +1,3 @@
-//TODO: Translate me !
 export const BOOK_HOMMES_BOIS_EN = [
   {
     "Dice": "1-2",

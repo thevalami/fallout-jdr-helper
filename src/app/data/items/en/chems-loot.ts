@@ -1,4 +1,3 @@
-//TODO: Translate me !
 import {DataTableDefinition} from "../../generic-data-lang";
 
 export const CHEMS_LOOT_DEF_EN: DataTableDefinition[] = [{

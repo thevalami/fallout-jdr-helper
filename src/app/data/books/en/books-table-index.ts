@@ -1,5 +1,3 @@
-//TODO: Translate me !
-
 import {BOOK_ARMES_MUNITIONS_EN} from "./book-armes-munitions";
 import {BOOK_GORGES_PENES_EN} from "./book-gorges-peness";
 import {BOOK_GROGNAK_EN} from "./book-grognak";
@@ -97,7 +95,7 @@ export const BOOK_TABLE_INDEX_EN: BookType[] = [
   {
     "Dice": 16,
     "Loot": "True Police Stories",
-    "Description": "Once, when you roll the damage of an attack, you may spend a Luck point to turn up to three $CD$ to any face, rather than rolling them. If you learn this perk, you may do this once per scene."
+    "Description": "Once, when you roll the damage of an attack, you may spend a Luck point to turn up to three  to any face, rather than rolling them. If you learn this perk, you may do this once per scene."
   },
   {
     "Dice": 17,

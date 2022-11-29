@@ -1,4 +1,3 @@
-//TODO: Translate me !
 export const BOOK_DORMIR_DEBOUT_EN = [
   {
     "Dice": "1-2",

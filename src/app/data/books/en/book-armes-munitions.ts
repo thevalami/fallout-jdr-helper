@@ -1,4 +1,3 @@
-//TODO: Translate me !
 export const BOOK_ARMES_MUNITIONS_EN = [
   {
     "Dice": "1-2",

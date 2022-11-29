@@ -1,4 +1,3 @@
-//TODO: Translate me !
 export const BOOK_INCREVABLE_EN = [
   {
     "Dice": "1-4",

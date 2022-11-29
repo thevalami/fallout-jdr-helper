@@ -1,4 +1,3 @@
-//TODO: Translate me !
 export const BOOK_VIE_AMOUR_EN = [
   {
     "Dice": "1-2",

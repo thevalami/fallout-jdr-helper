@@ -12,7 +12,7 @@ export const BOOK_GORGES_PENES_FR = [
   {
     "Dice": "9-12",
     "Loot": "Confession d'un Monte en l'Air",
-    "Effet": "Quand vous fouillez ou quand vous récupérez du Butin, vous pouvez dépenser 1 point de Chance pour trouver 2 + 2D épingles à cheveux"
+    "Effet": "Quand vous fouillez ou quand vous récupérez du Butin, vous pouvez dépenser 1 point de Chance pour trouver 2 + 2 $CD$ épingles à cheveux"
   },
   {
     "Dice": "13-16",

@@ -1,4 +1,3 @@
-//TODO: Translate me !
 export const BOOK_GORGES_PENES_EN = [
   {
     "Dice": "1-4",
