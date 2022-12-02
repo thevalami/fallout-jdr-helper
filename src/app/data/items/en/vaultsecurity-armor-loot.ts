@@ -29,22 +29,22 @@ export const VAULTSEC_LOOT_DEF_EN: DataTableDefinition[] = [{
 
 export const VAULTSEC_ARMOR_LOOT_DATA_EN = [
   {
-    "Name": "Casque de sécurité Vault-Tec",
+    "Name": "Vault-Tec Security Helmet",
     "PhysicalRes": 2,
     "EnergyRes": 0,
     "RadiationRes": 0,
-    "BodyParts": "Tête",
-    "Weight": 1,
+    "BodyParts": "Head",
+    "Weight": 2,
     "Cost": 20,
     "Rarity": 1
   },
   {
-    "Name": "Armure de sécurité Vault-Tec",
+    "Name": "Vault-Tec Security Armor",
     "PhysicalRes": 2,
     "EnergyRes": 0,
     "RadiationRes": 2,
-    "BodyParts": "Buste, Jambes, Bras",
-    "Weight": 4,
+    "BodyParts": "Arms, Legs, Torso",
+    "Weight": 8,
     "Cost": 16,
     "Rarity": 1
   }

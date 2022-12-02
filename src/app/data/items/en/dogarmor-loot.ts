@@ -29,42 +29,42 @@ export const DOGARMOR_LOOT_DEF_EN: DataTableDefinition[] = [{
 
 export const DOGARMOR_LOOT_DATA_EN = [
   {
-    "Name": "Casque de chien",
+    "Name": "Dog Helmet",
     "PhysicalRes": 2,
     "EnergyRes": 1,
     "RadiationRes": 0,
-    "BodyParts": "Tête",
-    "Weight": "0,5",
+    "BodyParts": "Head",
+    "Weight": "1",
     "Cost": 7,
     "Rarity": 2
   },
   {
-    "Name": "Armure de chien légère",
+    "Name": "Light Dog Armor",
     "PhysicalRes": 1,
     "EnergyRes": 1,
     "RadiationRes": 0,
-    "BodyParts": "Buste, Jambes",
-    "Weight": "0,5",
+    "BodyParts": "Torso, Legs",
+    "Weight": "1",
     "Cost": 10,
     "Rarity": 1
   },
   {
-    "Name": "Armure de chien moyenne",
+    "Name": "Medium Dog Armor",
     "PhysicalRes": 2,
     "EnergyRes": 2,
     "RadiationRes": 0,
-    "BodyParts": "Buste, Jambes",
-    "Weight": 1,
+    "BodyParts": "Torso, Legs",
+    "Weight": 2,
     "Cost": 15,
     "Rarity": 2
   },
   {
-    "Name": "Armure de chien lourde",
+    "Name": "Heavy Dog Armor",
     "PhysicalRes": 3,
     "EnergyRes": 3,
     "RadiationRes": 0,
-    "BodyParts": "Buste, Jambes",
-    "Weight": 1,
+    "BodyParts": "Torso, Legs",
+    "Weight": 2,
     "Cost": 20,
     "Rarity": 3
   }
