@@ -29,32 +29,32 @@ export const PROJECTILES_LOOT_DEF_EN: DataTableDefinition[] = [{
 
 export const PROJECTILES_LOOT_DATA_EN = [
   {
-    "Name": "Couteaux de lancer",
+    "Name": "Throwing Knives",
     "Damage": "3 $CD$",
-    "Effect": "Perforant 1",
-    "DamageType": "Balistiques",
-    "Quality": "Dissimulé, Lancer ( C ), Silencieux",
-    "Weight": "<0,5",
+    "Effect": "Piercing 1",
+    "DamageType": "Physical",
+    "Quality": "Concealed, Suppressed, Thrown ( C )",
+    "Weight": "<1",
     "Cost": 10,
     "Rarity": 1
   },
   {
     "Name": "Tomahawk",
     "Damage": "4 $CD$",
-    "Effect": "Perforant 1",
-    "DamageType": "Balistiques",
-    "Quality": "Lancer ( C ), Silencieux",
-    "Weight": "<0,5",
+    "Effect": "Piercing 1",
+    "DamageType": "Physical",
+    "Quality": "Suppressed, Thrown ( C )",
+    "Weight": "<1",
     "Cost": 15,
     "Rarity": 2
   },
   {
-    "Name": "Javelot",
+    "Name": "Javelin",
     "Damage": "4 $CD$",
-    "Effect": "Perforant 1",
-    "DamageType": "Balistiques",
-    "Quality": "Lancer ( M ), Silencieux",
-    "Weight": 2,
+    "Effect": "Piercing 1",
+    "DamageType": "Physical",
+    "Quality": "Suppressed, Thrown ( M )",
+    "Weight": 4,
     "Cost": 10,
     "Rarity": 1
   }
