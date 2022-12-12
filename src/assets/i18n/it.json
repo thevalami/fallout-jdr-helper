@@ -1,0 +1,94 @@
+{
+  "APP": {
+    "TITLE": "Fallout 2D20",
+    "SUBTITLE": "Strumenti e utilità",
+    "SECTIONS": {
+      "MAIN": "Strumenti di gioco"
+    },
+    "BACK": "Indietro",
+    "LANGUAGEPICKER": "Scegli la lingua",
+    "MENU": {
+      "HOME": "Home",
+      "DICE": "Dadi",
+      "QUICKSEARCH": "Ricerca veloce",
+      "RANDOMBOOKS": "Riviste casuali",
+      "RANDOMLOOT": "Bottini casuali",
+      "AUTOLOOT": "Bottini automatizzati",
+      "ANDROIDVERSION": "Android App"
+    }
+  },
+  "HOME": {
+    "WELCOME": "Benvenuto nell'app di supporto per Fallout 2D20",
+    "WELCOME-DETAILS": "Si prega di utilizzare il menu a sinistra per accedere a ciascuna funzionalità o utilizzare direttamente il pulsante di ricerca rapida"
+  },
+  "MODDISPLAY": {
+    "MODSOF": "Mods per",
+    "NOMOD": "Non ci sono mod per questo articolo"
+  },
+  "DICES": {
+    "TITLE": "Lancio dei dadi",
+    "COMBATDICES": "Dadi da combattimento",
+    "D20": "D20",
+    "DICECOUNT": "Contatore dadi",
+    "TOTAL": "Totale",
+    "HITTARGET": "Localizzazione dei danni",
+    "THROW": "Lanciare",
+    "TARGETS": {
+      "HUMAN": "Umano",
+      "QUADRUPEDE": "Quadrupede",
+      "FLYING-INSECT": "Insetto volante",
+      "ROBOT": "Robot"
+    }
+  },
+  "AUTOLOOT": {
+    "HELP": "Scegli il tipo di zona, la dimensione e la soglia di rarità opzionale per generare un set di bottini casuali.",
+    "PLACE": "Luogo",
+    "SIZE": "Dimensione",
+    "SIZES": {
+      "TINY": "Minuscolo",
+      "SMALL": "Piccolo",
+      "AVERAGE": "Nella media",
+      "LARGE": "Grande"
+    },
+    "MAXRARITY": "Rarità massima",
+    "GENERATE": "Genera il bottino",
+    "RECONFIGURE": "Riconfigura"
+  },
+  "RANDOMLOOT": {
+    "HELP": "Lancia i dadi per generare automaticamente bottini che trovi nella categoria data",
+    "LOOTTYPE": "Tipo di bottino",
+    "LOOTCOUNT": "Quantità di bottino",
+    "THROWDICE": "Lancia i dadi"
+  },
+  "RANDOMBOOKS": {
+    "HELP": "Lancia i dadi per trovare automaticamente una rivista a caso",
+    "THROW": "Lancia i dadi",
+    "DESCRIPTION": "Descrizione",
+    "VOLUMEFOUND": "Hai trovato la seguente rivista  ...",
+    "EFFECT": "Effetto"
+  },
+  "GENERIC-DATA": {
+    "ALPHABETICAL": "Alfabetico",
+    "RARITY": "Rarità"
+  },
+  "GETANDROID": {
+    "TITLE": "Ottieni l'APK Android",
+    "HELP": "Scansiona il QRCode per ottenere l'APK Android",
+    "ORCLICKON": "Oppure clicca su ",
+    "THISLINK": "questo link"
+  },
+  "QUICKSEARCH": {
+    "TITLE": "Ricerca rapida",
+    "HELP": "Cerca tra tutti gli elementi di gioco digitandone il nome",
+    "PLACEHOLDER": "Ricerca rapida... "
+  },
+  "LOOT-DISPLAY": {
+    "DICERESULT": "Risultato dei dadi",
+    "QUANTITY": "Quantità",
+    "SPECIAL": "Special",
+    "YOUGOTLOOT": "Hai ottenuto {{count}} oggetto/i"
+  },
+  "GENERIC": {
+    "MISSINGITEMDEF": "Non è stato trovato nessun oggetto corrispondente. Assicurati che la voce tradotta non manchi per "
+  }
+}
