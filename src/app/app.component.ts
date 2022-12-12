@@ -17,8 +17,8 @@ export class AppComponent implements OnInit {
   public currentLanguage = 'en';
 
   constructor(private platform: Platform, private translate: TranslateService, private languageService: LanguageService) {
-    if (this.translate.getBrowserLang() === 'fr') {
-      this.currentLanguage = 'fr';
+    if (this.translate.getBrowserLang() === 'fr' || this.translate.getBrowserLang() === 'it') {
+      this.currentLanguage = this.translate.getBrowserLang();
     }
     translate.setDefaultLang(this.currentLanguage);
     translate.use(this.currentLanguage);
