@@ -100,7 +100,7 @@ export class AutoLootPage implements OnInit {
             let loot = findMatchingLoot(diceResult, matchingLootDef);
 
             const objectRarity = this.findObjectRarity(lootType, loot);
-            if (objectRarity < this.maxRarity) {
+            if (objectRarity <= this.maxRarity) {
               loots.push(loot);
             }
           }

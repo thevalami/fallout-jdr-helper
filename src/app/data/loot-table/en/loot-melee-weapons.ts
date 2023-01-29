@@ -150,10 +150,10 @@ export const LOOT_MELEE_WEAPONS_EN = [
   },
   {
     "Dice": 39,
-    "Loot": "Super masse"
+    "Loot": "Super Masse"
   },
   {
     "Dice": 40,
-    "Loot": "Super masse"
+    "Loot": "Super Masse"
   }
 ];

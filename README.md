@@ -28,6 +28,6 @@ Finally, in Studio, once everything is loaded
 1) Go to "Build > Generate signed bundle /APK"
 2) Select "APK", click "next"
 3) Create your own new key, or select an existing one _(this is not enough to send it to the Playstore , but should
-   suffice to install it on your own mobile device_
+   enough to install it on your own mobile device_
 4) Click "next", and select "release", then click on "finish"
 5) A popup will display where you'll be able to locate and open the folder containing the APK
