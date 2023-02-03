@@ -14,7 +14,8 @@
       "RANDOMBOOKS": "Random Books",
       "RANDOMLOOT": "Random Loots",
       "AUTOLOOT": "Automated Loots",
-      "ANDROIDVERSION": "Android App"
+      "ANDROIDVERSION": "Android App",
+      "DISEASES": "Diseases"
     }
   },
   "HOME": {
@@ -90,5 +91,9 @@
   },
   "GENERIC": {
     "MISSINGITEMDEF": "No matching item definition found. Ensure translated) definition is not missing for "
+  },
+  "DISEASE": {
+    "DURATION": "Duration",
+    "RANDOMBUTTON": "Random Disease"
   }
 }

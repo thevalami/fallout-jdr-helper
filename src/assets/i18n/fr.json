@@ -14,7 +14,8 @@
       "RANDOMBOOKS": "Livres Aléatoires",
       "RANDOMLOOT": "Loots Aléatoires",
       "AUTOLOOT": "Loot Automatique",
-      "ANDROIDVERSION": "Version Android"
+      "ANDROIDVERSION": "Version Android",
+      "DISEASES": "Maladies"
     }
   },
   "HOME": {
@@ -87,5 +88,9 @@
     "QUANTITY": "Quantité",
     "SPECIAL": "Spécial",
     "YOUGOTLOOT": "Vous obtenez {{count}} objet(s)"
+  },
+  "DISEASE": {
+    "DURATION": "Durée",
+    "RANDOMBUTTON": "Maladie aléatoire"
   }
 }
