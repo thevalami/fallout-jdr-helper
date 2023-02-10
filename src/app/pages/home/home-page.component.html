@@ -12,8 +12,8 @@
     <strong class="capitalize ion-padding">{{'HOME.WELCOME' | translate }}</strong>
     <p class="ion-padding">
       {{'HOME.WELCOME-DETAILS' | translate }}
-      <img src="assets/imgs/fallout-the-series_k1pz.png" alt="fallout-logo"/>
     </p>
+    <img *ngIf="isWebContext()" class="qrcode" src="assets/imgs/getandroidapp.png" alt="Get android App"/>
   </div>
   <ion-fab vertical="top" horizontal="end" slot="fixed">
     <ion-fab-button [routerLink]="'/quick-search'">

@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {Capacitor} from "@capacitor/core";
 
 @Component({
   selector: 'app-home',
@@ -8,5 +9,9 @@ import {Component, OnInit} from '@angular/core';
 export class HomePage implements OnInit {
 
   ngOnInit(): void { /**/
+  }
+
+  isWebContext() {
+    return !Capacitor.isNativePlatform();
   }
 }
