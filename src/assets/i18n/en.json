@@ -19,7 +19,7 @@
     }
   },
   "HOME": {
-    "WELCOME": "Welcome to the Fallout 2D20 Companion App",
+    "WELCOME": "Welcome to the Fallout 2D20 Helper App",
     "WELCOME-DETAILS": "Please use the left menu to access each functionalities, or use the quick search button directly"
   },
   "MODDISPLAY": {
@@ -71,12 +71,6 @@
   "GENERIC-DATA": {
     "ALPHABETICAL": "Alphabetical",
     "RARITY": "Rarity"
-  },
-  "GETANDROID": {
-    "TITLE": "Get the Android APK",
-    "HELP": "Scan the QRCode to get the Android APK",
-    "ORCLICKON": "Or click on ",
-    "THISLINK": "this link"
   },
   "QUICKSEARCH": {
     "TITLE": "Quick search",

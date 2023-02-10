@@ -67,8 +67,7 @@ export class AppComponent implements OnInit {
         this.buildMenu('RANDOMBOOKS', 'books', 'book'),
         this.buildMenu('RANDOMLOOT', 'random-loot', 'shuffle'),
         this.buildMenu('AUTOLOOT', 'auto-loot', 'bag-handle-outline'),
-        this.buildMenu('DISEASES', 'diseases', 'medical-outline'),
-        this.buildMenu('ANDROIDVERSION', 'getandroid', 'logo-android'),
+        this.buildMenu('DISEASES', 'diseases', 'medical-outline')
       ]
     });
     this.sections = [...this.sections, ...REGISTERED_DATA_SECTIONS[this.currentLanguage]];

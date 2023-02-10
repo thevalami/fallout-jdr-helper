@@ -1,33 +1,25 @@
-# fallout-jdr-helper
+# 2d20 Helper for Fallout
 
-Fr:
-Utilitaires pour le JDR Fallout (2D20)
+## Utilisation (FR)
 
-En:
-RPG Utilities for Fallout (2D20)
+**Utilitaires pour le JDR Fallout (2D20)**\
+L'application peut-être téléchargée pour Android
+ici : https://play.google.com/store/apps/details?id=org.kyne.falloutjdrhelper
+Vous pouvez aussi l'utiliser depuis n'importe quel navigateur web : https://fallout.kyne.ovh
 
-# How to build the android APK
+## Fonctionnalités (FR)
 
-Prerequisites : NPM, Android Studio with proper setup
+Fonctionnalités :
 
-First, build the web application using your IDE or any terminal :
+* Lancé de D20, Dès de combat, Dès de localisation
+* Listing (et recherche) des munitions (et seringues), boissons, nourritures, outils divers, drogues, armes légères et
+  armes à énergie
+* Tables de loot présentes dans les règles (armures, armes, distributeurs, collecte.... et tous les livres !)
+* Recherche rapide, qui permet de fouiller dans tous les éléments encodés (si vous ne savez pas à quoi correspond un
+  loot par exemple)
 
-`ionic build`
+## Utilisation (EN)
 
-Then, synchronise all the build files :
-
-`npx cap sync`
-
-And finally, open the project in Studio :
-
-`npx cap open`
-(select "android")
-
-Finally, in Studio, once everything is loaded
-
-1) Go to "Build > Generate signed bundle /APK"
-2) Select "APK", click "next"
-3) Create your own new key, or select an existing one _(this is not enough to send it to the Playstore , but should
-   enough to install it on your own mobile device_
-4) Click "next", and select "release", then click on "finish"
-5) A popup will display where you'll be able to locate and open the folder containing the APK
+Application can be installed to Android devices
+here : https://play.google.com/store/apps/details?id=org.kyne.falloutjdrhelper
+You can also use the web version here (not fully translated yet) : https://fallout.kyne.ovh

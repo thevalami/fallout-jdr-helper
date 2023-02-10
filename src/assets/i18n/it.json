@@ -71,12 +71,6 @@
     "ALPHABETICAL": "Alfabetico",
     "RARITY": "Rarità"
   },
-  "GETANDROID": {
-    "TITLE": "Ottieni l'APK Android",
-    "HELP": "Scansiona il QRCode per ottenere l'APK Android",
-    "ORCLICKON": "Oppure clicca su ",
-    "THISLINK": "questo link"
-  },
   "QUICKSEARCH": {
     "TITLE": "Ricerca rapida",
     "HELP": "Cerca tra tutti gli elementi di gioco digitandone il nome",
