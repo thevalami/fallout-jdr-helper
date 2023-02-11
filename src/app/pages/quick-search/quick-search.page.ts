@@ -1,5 +1,5 @@
 import {Component, OnInit, ViewChild} from '@angular/core';
-import {GenericTitleSearchPipe} from "../../pipes/generic-data-search.pipe";
+import {GenericDataSearchPipe} from "../../pipes/generic-data-search.pipe";
 import {IonSearchbar} from "@ionic/angular";
 import {DataId, REGISTERED_DATA_SECTIONS} from "../../data/generic-data-lang";
 import {LanguageService} from "../../shared/language.service";
@@ -18,7 +18,7 @@ export class QuickSearchPage implements OnInit {
 
   @ViewChild('searchBar', {static: false}) searchInput: IonSearchbar;
 
-  constructor(private searchPipe: GenericTitleSearchPipe, private languageService: LanguageService) {
+  constructor(private searchPipe: GenericDataSearchPipe, private languageService: LanguageService) {
   }
 
   ngOnInit() {

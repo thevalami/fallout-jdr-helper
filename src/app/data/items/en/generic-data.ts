@@ -32,6 +32,8 @@ import {RECIPE_HEAVYWEAPONS_STATION_EN} from "../../recipes/en/recipe-heavyweapo
 import {RECIPE_MELEEWEAPONS_STATION_EN} from "../../recipes/en/recipe-meleeweapons";
 import {VAULTSEC_ARMOR_LOOT_DATA_EN, VAULTSEC_LOOT_DEF_EN} from "./vaultsecurity-armor-loot";
 import {POWERARMOR_LOOT_DATA_EN, POWERRMOR_LOOT_DEF_EN} from "./power-armor-loot";
+import {EFFECT_TYPE_EN, EFFECTS_EN} from "../../rules/en/effects";
+import {MODIFIERS_EN, MODIFIERS_TYPE_EN} from "../../rules/en/modifiers";
 
 export const REGISTERED_DATA_SECTIONS_EN: Section[] = [
   {
@@ -347,6 +349,29 @@ export const REGISTERED_DATA_SECTIONS_EN: Section[] = [
         img: 'melee.png',
         definition: RECIPE_DEF_EN,
         data: RECIPE_MELEEWEAPONS_STATION_EN,
+        generic: true,
+        moddable: false
+      }
+    ]
+  },
+  {
+    label: "Rules",
+    data: [
+      {
+        type: 'effects',
+        label: 'Effects',
+        icon: 'sparkles-outline',
+        definition: EFFECT_TYPE_EN,
+        data: EFFECTS_EN,
+        generic: true,
+        moddable: false
+      },
+      {
+        type: 'modifiers',
+        label: 'Modifiers',
+        icon: 'star-outline',
+        definition: MODIFIERS_TYPE_EN,
+        data: MODIFIERS_EN,
         generic: true,
         moddable: false
       }

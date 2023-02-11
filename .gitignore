@@ -30,3 +30,6 @@ npm-debug.log*
 /platforms
 /plugins
 /www
+/android/android/.idea/.gitignore
+/android/android/.idea/misc.xml
+/android/android/.idea/modules.xml

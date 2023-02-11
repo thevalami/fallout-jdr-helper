@@ -33,6 +33,8 @@ import {RECIPE_LIGHTWEAPONS_STATION_FR} from "../../recipes/fr/recipe-lightweapo
 import {RECIPE_ENERGYWEAPONS_STATION_FR} from "../../recipes/fr/recipe-energyweapons";
 import {RECIPE_HEAVYWEAPONS_STATION_FR} from "../../recipes/fr/recipe-heavyweapons";
 import {RECIPE_MELEEWEAPONS_STATION_FR} from "../../recipes/fr/recipe-meleeweapons";
+import {EFFECT_TYPE_FR, EFFECTS_FR} from "../../rules/fr/effects";
+import {MODIFIERS_FR, MODIFIERS_TYPE_FR} from "../../rules/fr/modifiers";
 
 export const REGISTERED_DATA_SECTIONS_FR: Section[] = [
   {
@@ -352,5 +354,29 @@ export const REGISTERED_DATA_SECTIONS_FR: Section[] = [
         moddable: false
       }
     ]
-  }
+  },
+  {
+    label: "Règles",
+    data: [
+      {
+        type: 'effects',
+        label: 'Effets',
+        icon: 'sparkles-outline',
+        definition: EFFECT_TYPE_FR,
+        data: EFFECTS_FR,
+        generic: true,
+        moddable: false
+      },
+      {
+        type: 'modifiers',
+        label: 'Qualités',
+        icon: 'star-outline',
+        definition: MODIFIERS_TYPE_FR,
+        data: MODIFIERS_FR,
+        generic: true,
+        moddable: false
+      }
+    ]
+  },
+
 ];

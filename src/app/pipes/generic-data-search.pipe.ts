@@ -11,16 +11,19 @@ export class GenericDataSearchPipe implements PipeTransform {
     } else {
       const filteredData = [];
       for (let candidateData of data) {
+        let match = false;
         for (let key of Object.keys(candidateData)) {
           if (String(candidateData[key]).toLowerCase().includes(searchtext.toLowerCase())) {
-            filteredData.push(candidateData);
+            match = true;
           }
+        }
+        if (match) {
+          filteredData.push(candidateData);
         }
       }
       return filteredData;
     }
   }
-
 }
 
 @Pipe({
@@ -41,5 +44,4 @@ export class GenericTitleSearchPipe implements PipeTransform {
       return filteredData;
     }
   }
-
 }

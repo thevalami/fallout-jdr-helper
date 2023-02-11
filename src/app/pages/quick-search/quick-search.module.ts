@@ -7,7 +7,7 @@ import {IonicModule} from '@ionic/angular';
 import {QuickSearchPageRoutingModule} from './quick-search-routing.module';
 
 import {QuickSearchPage} from './quick-search.page';
-import {GenericTitleSearchPipe} from "../../pipes/generic-data-search.pipe";
+import {GenericDataSearchPipe, GenericTitleSearchPipe} from "../../pipes/generic-data-search.pipe";
 import {SharedModule} from "../../shared/shared.module";
 import {DicesPageModule} from "../dices/dices.module";
 
@@ -20,7 +20,7 @@ import {DicesPageModule} from "../dices/dices.module";
     SharedModule,
     DicesPageModule
   ],
-  providers: [GenericTitleSearchPipe],
+  providers: [GenericTitleSearchPipe, GenericDataSearchPipe],
   declarations: [QuickSearchPage]
 })
 export class QuickSearchPageModule {
