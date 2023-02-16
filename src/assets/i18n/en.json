@@ -39,7 +39,9 @@
       "QUADRUPEDE": "Quadrupede",
       "FLYING-INSECT": "Flying insect",
       "ROBOT": "Robot"
-    }
+    },
+    "DAMAGE": "Damages",
+    "EFFECTS": "Effects"
   },
   "AUTOLOOT": {
     "HELP": "Choose zone type, size and optional rarity threshold to generate a set of random loots.",

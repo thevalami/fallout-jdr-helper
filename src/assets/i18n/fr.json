@@ -39,7 +39,9 @@
       "QUADRUPEDE": "Quadrupède",
       "FLYING-INSECT": "Insecte volant",
       "ROBOT": "Robot"
-    }
+    },
+    "DAMAGE": "Degâts",
+    "EFFECTS": "Effets"
   },
   "RANDOMLOOT": {
     "HELP": "Lancez les dès pour calculer automatiquement le(s) loots que vous trouvez dans la catégorie choisie",

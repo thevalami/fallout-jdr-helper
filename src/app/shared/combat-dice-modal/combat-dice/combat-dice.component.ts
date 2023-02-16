@@ -26,4 +26,26 @@ export class CombatDiceComponent implements OnInit {
     });
   }
 
+  public getDamageDetails(): any {
+    const details = {
+      'damages': 0,
+      'effects': 0
+    };
+    this.combatDiceChildren.forEach(value => {
+      const d6 = value.getAttribute('value')
+      switch (d6) {
+        case 1:
+          details.damages += 1;
+          break;
+        case 2:
+          details.damages += 2;
+          break;
+        case 5:
+        case 6:
+          details.damages += 1;
+          details.effects += 1;
+      }
+    })
+    return details;
+  }
 }

@@ -13,3 +13,10 @@
          [alt]="child.getAttribute('value')"/>
   </ion-thumbnail>
 </ion-list>
+
+<ion-item *ngIf="combatDiceChildren.length > 0">
+  <span style="font-weight: bold">{{'DICES.DAMAGE' | translate}} : </span>&nbsp;{{getDamageDetails().damages}}
+</ion-item>
+<ion-item *ngIf="combatDiceChildren.length > 0">
+  <span style="font-weight: bold">{{'DICES.EFFECTS' | translate}} : </span>&nbsp;{{getDamageDetails().effects}}
+</ion-item>
