@@ -54,7 +54,7 @@ export const MOD_DEF_EN: DataTableDefinition[] = [
     label: 'Effect 4'
   },
   {
-    column: 'Effect4',
+    column: 'Effect5',
     label: 'Effect 5'
   },
   {
