@@ -1,14 +1,14 @@
 //TODO: Translate me !
 
-import {GLOBAL_ARMOR_MODS_EN, MOD_BALLISTIC_WEAVE_EN} from "./mods-armor-global";
+import {MOD_BALLISTIC_WEAVE_EN} from "./mods-armor-global";
 
 export const MOD_OUTFITS_EN = {
-  "Harnais": [...GLOBAL_ARMOR_MODS_EN],
-  "Uniforme de la Confrérie de l'Acier": [...GLOBAL_ARMOR_MODS_EN],
-  "Vêtements décontractés": [...MOD_BALLISTIC_WEAVE_EN, ...GLOBAL_ARMOR_MODS_EN],
-  "Vêtements de cuir": [...GLOBAL_ARMOR_MODS_EN],
-  "Vêtements résistants": [...GLOBAL_ARMOR_MODS_EN],
-  "Treillis militaire": [...MOD_BALLISTIC_WEAVE_EN, ...GLOBAL_ARMOR_MODS_EN],
+  "Harnais": [],
+  "Uniforme de la Confrérie de l'Acier": [],
+  "Vêtements décontractés": [...MOD_BALLISTIC_WEAVE_EN],
+  "Vêtements de cuir": [],
+  "Vêtements résistants": [],
+  "Treillis militaire": [...MOD_BALLISTIC_WEAVE_EN],
   "Combinaison d'abri": [
     {
       "Name": "Revêtement isolant",
@@ -54,18 +54,18 @@ export const MOD_OUTFITS_EN = {
       "Weight": "+ 0,5 kg",
       "Cost": "+ 50 Caps",
       "Skills": "Armurier 4, Scientifique 4"
-    }, ...GLOBAL_ARMOR_MODS_EN
+    },
   ],
-  "Tenue de nomade": [...GLOBAL_ARMOR_MODS_EN],
-  "Peaux": [...GLOBAL_ARMOR_MODS_EN],
-  "Armure cage": [...GLOBAL_ARMOR_MODS_EN],
-  "Armure d'ingénieur": [...GLOBAL_ARMOR_MODS_EN],
-  "Manteau lourd": [...MOD_BALLISTIC_WEAVE_EN, ...GLOBAL_ARMOR_MODS_EN],
-  "Blouse": [...MOD_BALLISTIC_WEAVE_EN, ...GLOBAL_ARMOR_MODS_EN],
-  "Bleu de travail": [...GLOBAL_ARMOR_MODS_EN],
-  "Vêtements élégants": [...MOD_BALLISTIC_WEAVE_EN, ...GLOBAL_ARMOR_MODS_EN],
-  "Armure de scribe de la Confrérie de l'Acier": [...GLOBAL_ARMOR_MODS_EN],
-  "Treillis de la Confrérie de l'Acier": [...GLOBAL_ARMOR_MODS_EN],
-  "Combinaison étanche": [...GLOBAL_ARMOR_MODS_EN],
-  "Armure à pointes": [...GLOBAL_ARMOR_MODS_EN],
+  "Tenue de nomade": [],
+  "Peaux": [],
+  "Armure cage": [],
+  "Armure d'ingénieur": [],
+  "Manteau lourd": [...MOD_BALLISTIC_WEAVE_EN],
+  "Blouse": [...MOD_BALLISTIC_WEAVE_EN],
+  "Bleu de travail": [],
+  "Vêtements élégants": [...MOD_BALLISTIC_WEAVE_EN],
+  "Armure de scribe de la Confrérie de l'Acier": [],
+  "Treillis de la Confrérie de l'Acier": [],
+  "Combinaison étanche": [],
+  "Armure à pointes": [],
 };
