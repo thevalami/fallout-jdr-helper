@@ -13,7 +13,7 @@ export const SYRINGE_TYPE_DEF_FR: DataTableDefinition[] = [
   }
 ];
 
-export const SYRINGE_TYPE_DATA_FR = [
+export const SYRINGE_LOOT_DATA_FR = [
   {
     "Name": "Artibloc",
     "Effect": "L'arme gagne l'effet de dégâts Étourdissant.",

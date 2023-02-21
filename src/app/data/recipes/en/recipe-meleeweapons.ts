@@ -96,7 +96,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
     "Rarity": "Fréquente"
   },
   {
-    "Name": "Batte de baseball À pointes",
+    "Name": "Batte de baseball à pointes",
     "Components": "Normaux",
     "Complexity": 2,
     "Perk": "–",
@@ -112,7 +112,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
     "Rarity": "Fréquente"
   },
   {
-    "Name": "Batte de baseball À chaînes",
+    "Name": "Batte de baseball à chaînes",
     "Components": "Normaux",
     "Complexity": 3,
     "Perk": "Forgeron 1",
@@ -120,7 +120,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
     "Rarity": "Peu fréquente"
   },
   {
-    "Name": "Batte de baseball - À lames",
+    "Name": "Batte de baseball - à lames",
     "Components": "Normaux",
     "Complexity": 4,
     "Perk": "Forgeron 2",
@@ -128,7 +128,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
     "Rarity": "Peu fréquente"
   },
   {
-    "Name": "Planche À pointes",
+    "Name": "Planche à pointes",
     "Components": "Normaux",
     "Complexity": 1,
     "Perk": "–",
@@ -144,7 +144,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
     "Rarity": "Peu fréquente"
   },
   {
-    "Name": "Planche À lame",
+    "Name": "Planche à lame",
     "Components": "Normauxs",
     "Complexity": 2,
     "Perk": "Forgeron 1",
@@ -152,7 +152,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
     "Rarity": "Peu fréquente"
   },
   {
-    "Name": "Tuyau de plomb À pointes",
+    "Name": "Tuyau de plomb à pointes",
     "Components": "Normaux",
     "Complexity": 1,
     "Perk": "–",
@@ -216,7 +216,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
     "Rarity": "Fréquente"
   },
   {
-    "Name": "Rouleau à pâtisserie À pointes",
+    "Name": "Rouleau à pâtisserie à pointes",
     "Components": "Normaux",
     "Complexity": 1,
     "Perk": "–",
@@ -280,7 +280,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
     "Rarity": "Peu fréquente"
   },
   {
-    "Name": "Démonte-pneu À lames",
+    "Name": "Démonte-pneu à lames",
     "Components": "Normaux",
     "Complexity": 3,
     "Perk": "Forgeron 3",
@@ -296,7 +296,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
     "Rarity": "Fréquente"
   },
   {
-    "Name": "Canne À Pointes",
+    "Name": "Canne à Pointes",
     "Components": "Normaux",
     "Complexity": 1,
     "Perk": "–",
@@ -304,7 +304,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
     "Rarity": "Fréquente"
   },
   {
-    "Name": "Gant de boxe À pointes",
+    "Name": "Gant de boxe à pointes",
     "Components": "Normaux",
     "Complexity": 1,
     "Perk": "–",
@@ -344,7 +344,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
     "Rarity": "Fréquente"
   },
   {
-    "Name": "Point américain À pointes",
+    "Name": "Point américain à pointes",
     "Components": "Normaux",
     "Complexity": 1,
     "Perk": "–",
@@ -360,7 +360,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
     "Rarity": "Peu fréquente"
   },
   {
-    "Name": "Point américain À lames",
+    "Name": "Point américain à lames",
     "Components": "Normaux",
     "Complexity": 2,
     "Perk": "Forgeron 1",

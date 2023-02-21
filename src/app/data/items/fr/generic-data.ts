@@ -1,5 +1,5 @@
 import {AMMUNITION_LOOT_DATA_FR, AMMUNITION_LOOT_DEF_FR} from "./munition-loot";
-import {SYRINGE_TYPE_DATA_FR, SYRINGE_TYPE_DEF_FR} from "./syringe-type";
+import {SYRINGE_LOOT_DATA_FR, SYRINGE_TYPE_DEF_FR} from "./syringe-type";
 import {DRINK_LOOT_DATA_FR, DRINK_LOOT_DEF_FR} from "./drink-loot";
 import {TOOLS_LOOT_DATA_FR, TOOLS_LOOT_DEF_FR} from "./tools-loot";
 import {FOOD_LOOT_DATA_FR, FOOD_LOOT_DEF_FR} from "./food-loot";
@@ -54,7 +54,7 @@ export const REGISTERED_DATA_SECTIONS_FR: Section[] = [
         label: 'Seringues',
         img: 'chems.png',
         definition: SYRINGE_TYPE_DEF_FR,
-        data: SYRINGE_TYPE_DATA_FR,
+        data: SYRINGE_LOOT_DATA_FR,
         generic: true,
         moddable: false
       }
@@ -74,7 +74,7 @@ export const REGISTERED_DATA_SECTIONS_FR: Section[] = [
       },
       {
         type: 'foods',
-        label: 'Nourritures',
+        label: 'Nourriture',
         img: 'food.png',
         definition: FOOD_LOOT_DEF_FR,
         data: FOOD_LOOT_DATA_FR,

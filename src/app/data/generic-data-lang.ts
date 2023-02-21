@@ -2,7 +2,7 @@ import {REGISTERED_DATA_SECTIONS_FR} from "./items/fr/generic-data";
 import {REGISTERED_DATA_SECTIONS_EN} from "./items/en/generic-data";
 import {AMMUNITION_LOOT_DATA_FR} from "./items/fr/munition-loot";
 import {AMMUNITION_LOOT_DATA_EN} from "./items/en/munition-loot";
-import {SYRINGE_TYPE_DATA_FR} from "./items/fr/syringe-type";
+import {SYRINGE_LOOT_DATA_FR} from "./items/fr/syringe-type";
 import {SYRINGE_TYPE_DATA_EN} from "./items/en/syringe-type";
 import {DRINK_LOOT_DATA_FR} from "./items/fr/drink-loot";
 import {DRINK_LOOT_DATA_EN} from "./items/en/drink-loot";
@@ -74,8 +74,8 @@ export const AMMUNITION_LOOT_DATA = {
   'en': AMMUNITION_LOOT_DATA_EN
 }
 
-export const SYRINGE_TYPE_DATA = {
-  'fr': SYRINGE_TYPE_DATA_FR,
+export const SYRINGE_LOOT_DATA = {
+  'fr': SYRINGE_LOOT_DATA_FR,
   'en': SYRINGE_TYPE_DATA_EN
 }
 

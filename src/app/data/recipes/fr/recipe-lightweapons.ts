@@ -11,9 +11,9 @@ export const RECIPE_LIGHTWEAPONS_STATION_FR = [
     "Name": "Culasse Puissante",
     "Components": "Normaux",
     "Complexity": 3,
-    "Perk": "Fana d'armes",
-    "Skill": 1,
-    "Rarity": "Réparation"
+    "Perk": "Fana d'armes 1",
+    "Skill": "Réparation",
+    "Rarity": "Peu fréquente"
   },
   {
     "Name": "Culasse Avancée",
@@ -120,7 +120,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_FR = [
     "Rarity": "Peu fréquente"
   },
   {
-    "Name": "Canon À ouvertures",
+    "Name": "Canon à ouvertures",
     "Components": "Normaux",
     "Complexity": 6,
     "Perk": "Fana d'armes 4",
@@ -144,7 +144,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_FR = [
     "Rarity": "Peu fréquente"
   },
   {
-    "Name": "Canon À ailettes",
+    "Name": "Canon à ailettes",
     "Components": "Normaux",
     "Complexity": 4,
     "Perk": "Fana d'armes 2",

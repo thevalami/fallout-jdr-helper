@@ -49,7 +49,7 @@ export const LOOT_TABLE_INDEX_FR = [
     "dices": "2d20"
   },
   {
-    "label": "Nourritures",
+    "label": "Nourriture",
     "data": LOOT_FOODS_FR,
     "dices": "2d20"
   },
