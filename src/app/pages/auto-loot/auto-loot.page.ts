@@ -3,26 +3,9 @@ import {Dice} from "dice-typescript";
 import {findMatchingDefinition, findMatchingLoot} from "../random-loot/loot-utils";
 import {TranslateService} from "@ngx-translate/core";
 import {LanguageService} from "../../shared/language.service";
-import {Loot, LOOT_CURIOSITIES_VALUABLES, LootDef, LOOTPLACES} from "../../data/loot-table/loot-table-lang";
+import {Loot, LootDef, LOOTPLACES} from "../../data/loot-table/loot-table-lang";
 import {ToastController} from "@ionic/angular";
-import {COMMON_ROBOT_MODS} from "../../data/mods/mod-lang";
-import {
-  AMMUNITION_LOOT_DATA,
-  CHEMS_LOOT_DATA,
-  DOGARMOR_LOOT_DATA,
-  DRINK_LOOT_DATA,
-  ENERGYWEAPONS_LOOT_DATA,
-  EXPLOSIVES_LOOT_DATA,
-  FOOD_LOOT_DATA,
-  HATS_LOOT_DATA,
-  HEAVYWEAPONS_LOOT_DATA,
-  LIGHTWEAPONS_LOOT_DATA,
-  MELEEWEAPONS_LOOT_DATA,
-  OUTFITS_LOOT_DATA,
-  PROJECTILES_LOOT_DATA,
-  ROBOTARMOR_LOOT_DATA,
-  TOOLS_LOOT_DATA
-} from "../../data/generic-data-lang";
+import {findDataMatching} from "../../shared/data/data-type-matcher";
 
 @Component({
   selector: 'app-auto-loot',
@@ -98,7 +81,6 @@ export class AutoLootPage implements OnInit {
             const dice = new Dice();
             const diceResult = dice.roll(matchingLootDef.dices).total;
             let loot = findMatchingLoot(diceResult, matchingLootDef);
-
             const objectRarity = this.findObjectRarity(lootType, loot);
             if (objectRarity <= this.maxRarity) {
               loots.push(loot);
@@ -114,7 +96,7 @@ export class AutoLootPage implements OnInit {
   private findObjectRarity(lootType: string, loot: Loot): number {
     let objectRarity = 0;
     const lootName = loot.Loot;
-    const data = this.findDataMatching(lootType);
+    const data = findDataMatching(this.languageService.getCurrentLanguage(), lootType);
     for (let candidate of data) {
       if (lootName.startsWith(candidate.Name)) {
         objectRarity = candidate.Rarity || 0;
@@ -129,46 +111,6 @@ export class AutoLootPage implements OnInit {
     this.generatedLoots = {};
   }
 
-  private findDataMatching(lootType: string): any[] {
-    let language = this.languageService.getCurrentLanguage();
-    switch (lootType) {
-      case 'Munitions':
-      case 'Ammunitions':
-        return [...AMMUNITION_LOOT_DATA[language]];
-      case 'Drogues':
-      case 'Chems':
-        return [...CHEMS_LOOT_DATA[language]];
-      case 'Vêtements':
-      case 'Clothes':
-        return [...OUTFITS_LOOT_DATA[language], ...HATS_LOOT_DATA[language]];
-      case 'Cueillette':
-      case 'Gathering':
-        return [...FOOD_LOOT_DATA[language]];
-      case 'Curiosités / Objets de valeur':
-      case 'Curiosities / Valuables':
-        return [...TOOLS_LOOT_DATA[language], ...ROBOTARMOR_LOOT_DATA[language], ...DOGARMOR_LOOT_DATA[language], ...LOOT_CURIOSITIES_VALUABLES[language], ...COMMON_ROBOT_MODS[language]];
-      case 'Boissons':
-      case 'Drinks':
-        return [...DRINK_LOOT_DATA[language]];
-      case 'Nourriture':
-      case 'Food':
-        return [...FOOD_LOOT_DATA[language]];
-      case 'Armes de jet et explosifs':
-      case 'Projectiles and explosives':
-        return [...EXPLOSIVES_LOOT_DATA[language], ...PROJECTILES_LOOT_DATA[language]];
-      case 'Armes à distance':
-      case 'Ranged weapons':
-        return [...ENERGYWEAPONS_LOOT_DATA[language], ...LIGHTWEAPONS_LOOT_DATA[language], ...HEAVYWEAPONS_LOOT_DATA[language]];
-      case 'Armes de mêlée':
-      case 'Melee weapons':
-        return [...MELEEWEAPONS_LOOT_DATA[language]];
-      case 'Distributeur Nuka-Cola':
-      case 'Nuka-Cola vending machine':
-        return [...DRINK_LOOT_DATA[language]];
-      default:
-        return [];
-    }
-  }
 
   private reportMissingItem(lootType: string) {
     this.toastController.create({

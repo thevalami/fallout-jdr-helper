@@ -15,7 +15,8 @@
       "RANDOMLOOT": "Loots Aléatoires",
       "AUTOLOOT": "Loot Automatique",
       "ANDROIDVERSION": "Version Android",
-      "DISEASES": "Maladies"
+      "DISEASES": "Maladies",
+      "MERCHANT": "Marchand Automatique"
     }
   },
   "HOME": {
@@ -88,5 +89,11 @@
   "DISEASE": {
     "DURATION": "Durée",
     "RANDOMBUTTON": "Maladie aléatoire"
+  },
+  "MERCHANT": {
+    "HELP": "Définissez la richesse du marchand (influence la rareté, la quantité et les capsules) et cliquez sur 'Générer'",
+    "GENERATE": "Générer",
+    "WEALTH": "Richesse",
+    "MONEY": "Capsules Marchand"
   }
 }

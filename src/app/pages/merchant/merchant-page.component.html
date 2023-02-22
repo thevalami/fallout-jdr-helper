@@ -1,0 +1,54 @@
+<ion-app>
+
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title class="ion-text-capitalize">{{"APP.MENU.MERCHANT" | translate}}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="ion-padding">
+    <ion-note>{{"MERCHANT.HELP" | translate }}</ion-note>
+    <ion-grid class="ion-no-padding">
+      <ion-row>
+        <ion-range [min]="1" [max]="6" [pin]="true" [ticks]="true" [snaps]="true" [(ngModel)]="wealth">
+          <ion-label slot="start">{{"MERCHANT.WEALTH" | translate }} : 1</ion-label>
+          <ion-label slot="end">6</ion-label>
+        </ion-range>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12" class="ion-no-padding">
+          <ion-button color="primary" expand="block" (click)="generateMerchant()">
+            {{"MERCHANT.GENERATE" | translate}}
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-item *ngIf="merchantReady">
+      <ion-badge slot="end"><h4>{{capsules}}</h4></ion-badge>
+      <h4>{{"MERCHANT.MONEY" | translate}}</h4>
+    </ion-item>
+
+    <ion-accordion-group *ngIf="merchantReady" [value]="lootTypes" multiple="true">
+      <ion-accordion [value]="lootType" *ngFor="let lootType of lootTypes">
+        <ion-item slot="header" color="light">
+          <h4>{{lootType}}</h4>
+        </ion-item>
+        <div class="ion-padding" slot="content">
+          <ion-list *ngIf="generatedItems[lootType]">
+            <ion-item *ngFor="let item of generatedItems[lootType]">
+              <ion-label>
+                <app-rich-text-display [propertyText]="('' + item.item.Name)"></app-rich-text-display>
+              </ion-label>
+              <ion-badge slot="start">{{item.quantity}}</ion-badge>
+              <ion-badge slot="end">{{item.item.Cost}} c</ion-badge>
+            </ion-item>
+          </ion-list>
+        </div>
+      </ion-accordion>
+    </ion-accordion-group>
+  </ion-content>
+</ion-app>

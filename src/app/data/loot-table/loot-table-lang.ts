@@ -33,3 +33,8 @@ export const LOOT_CURIOSITIES_VALUABLES = {
   "fr": LOOT_CURIOSITIES_VALUABLES_FR,
   "en": LOOT_CURIOSITIES_VALUABLES_EN
 }
+
+export const MERCHANT_LOOT_TYPES = {
+  "fr": ["Munitions", "Drogues", "Vêtements", "Curiosités / Objets de valeur", "Boissons", "Nourriture", "Armes de mêlée", "Armes à distance", "Armes de jet et explosifs", "Armures"],
+  "en": ["Ammunitions", "Chems", "Clothes", "Curiosities / Valuables", "Drinks", "Food", "Melee weapons", "Ranged weapons", "Projectiles and explosives", "Armors"]
+}
