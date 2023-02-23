@@ -57,7 +57,6 @@ export class AppComponent implements OnInit {
 
   private buildNavigation() {
     this.sections = [];
-    console.log(this.translate.instant('APP.SECTIONS.MAIN'));
     this.sections.push({
       label: this.translate.instant('APP.SECTIONS.MAIN'),
       data: [

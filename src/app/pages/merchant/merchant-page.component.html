@@ -28,8 +28,8 @@
     </ion-grid>
 
     <ion-item *ngIf="merchantReady">
-      <ion-badge slot="end"><h4>{{capsules}}</h4></ion-badge>
-      <h4>{{"MERCHANT.MONEY" | translate}}</h4>
+      <ion-badge slot="end" (click)="openSellModal()"><h4>{{capsules}}</h4></ion-badge>
+      <h4> {{"MERCHANT.MONEY" | translate}}</h4>
     </ion-item>
 
     <ion-accordion-group *ngIf="merchantReady" [value]="lootTypes" multiple="true">
@@ -51,4 +51,10 @@
       </ion-accordion>
     </ion-accordion-group>
   </ion-content>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="openSellModal()">
+      <ion-icon name="cash-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 </ion-app>

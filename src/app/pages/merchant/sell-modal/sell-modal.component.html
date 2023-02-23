@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="cancel()">{{"APP.BACK" | translate}}</ion-button>
+    </ion-buttons>
+    <ion-title>{{"MERCHANT.SELLMODAL" | translate}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+  <ion-item>
+    <ion-label position="fixed">{{'MERCHANT.SELLBASEAMOUNT' | translate }}</ion-label>
+    <ion-input type="number" min="0" [max]="merchantCapsules" [(ngModel)]="sellAmount"></ion-input>
+    <ion-note slot="helper">{{'MERCHANT.SELLHELP' | translate }}<br/>
+      <span class="error"
+            *ngIf="merchantCapsules > 0 && sellAmount > merchantCapsules">{{'MERCHANT.SELLAMOUNTMUSTBE' | translate }}
+        <= {{merchantCapsules}}</span>
+    </ion-note>
+  </ion-item>
+  <ion-item *ngIf="sellAmount > 0">
+    <h2>{{'MERCHANT.BARTERDETAILS' | translate }}</h2>
+  </ion-item>
+  <ion-item *ngIf="sellAmount > 0">
+    <ion-label position="fixed">{{'MERCHANT.BARTERFAIL' | translate }} </ion-label>
+    <ion-badge slot="end">{{getFailAmount()}}</ion-badge>
+  </ion-item>
+  <ion-item *ngIf="sellAmount > 0">
+    <ion-label position="fixed">{{'MERCHANT.BARTERNORMAL' | translate }} </ion-label>
+    <ion-badge slot="end">{{getNormalAmount()}}</ion-badge>
+  </ion-item>
+  <ion-item *ngIf="sellAmount > 0">
+    <ion-label position="fixed">{{'MERCHANT.BARTERSUCCESS2' | translate }} </ion-label>
+    <ion-badge slot="end">{{getSuccessAmount()}}</ion-badge>
+  </ion-item>
+  <ion-item *ngIf="sellAmount > 0">
+    <ion-label position="fixed">{{'MERCHANT.BARTERSUCCESS2' | translate }} </ion-label>
+    <ion-badge slot="end">{{getIncreasedSuccessAmount()}}</ion-badge>
+  </ion-item>
+</ion-content>

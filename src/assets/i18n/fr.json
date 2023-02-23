@@ -94,6 +94,15 @@
     "HELP": "Définissez la richesse du marchand (influence la rareté, la quantité et les capsules) et cliquez sur 'Générer'",
     "GENERATE": "Générer",
     "WEALTH": "Richesse",
-    "MONEY": "Capsules Marchand"
+    "MONEY": "Capsules Marchand",
+    "SELLMODAL": "Vente d'objets",
+    "SELLBASEAMOUNT": "Valeur de vente",
+    "SELLHELP": "Entrez la valeur totale des objets à vendre (prix plein)",
+    "SELLAMOUNTMUSTBE": "La valeur doit être",
+    "BARTERDETAILS": "Gestion du Troc",
+    "BARTERFAIL": "Echec + 2PA",
+    "BARTERNORMAL": "Aucun troc",
+    "BARTERSUCCESS": "Succès",
+    "BARTERSUCCESS2": "Succès + 2PA"
   }
 }

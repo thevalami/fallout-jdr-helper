@@ -2,6 +2,8 @@ import {Component, OnInit} from '@angular/core';
 import {LanguageService} from "../../shared/language.service";
 import {MERCHANT_LOOT_TYPES} from "../../data/loot-table/loot-table-lang";
 import {findDataMatching} from "../../shared/data/data-type-matcher";
+import {ModalController} from "@ionic/angular";
+import {SellModalComponent} from "./sell-modal/sell-modal.component";
 
 const WEALTH_QUANTITY_MULTIPLIER = 3;
 
@@ -17,7 +19,7 @@ export class MerchantPage implements OnInit {
   capsules = 0;
   merchantReady = false;
 
-  constructor(private languageService: LanguageService) {
+  constructor(private languageService: LanguageService, private modalCtrl: ModalController) {
   }
 
   ngOnInit() {
@@ -46,7 +48,6 @@ export class MerchantPage implements OnInit {
       }).map(value => {
         return {item: value, quantity: this.generateRandomQuantity(lootType, value)};
       });
-      console.log(lootType, candidateData);
       const subsetSize = this.randomIntFromInterval(1, Math.min(candidateData.length, this.wealth * WEALTH_QUANTITY_MULTIPLIER) - 1);
       const finalData = this.randomizeElements(candidateData, subsetSize);
       this.generatedItems[lootType] = finalData.sort((a, b) => a.Cost - b.Cost);
@@ -115,6 +116,15 @@ export class MerchantPage implements OnInit {
         break;
     }
     return Math.ceil(baseQuantity * multiplicator * (Math.random() + 1));
+  }
+
+  async openSellModal() {
+    const modal = await this.modalCtrl.create({
+      component: SellModalComponent,
+      componentProps: {merchantCapsules: this.capsules}
+    });
+    await modal.present();
+    await modal.onWillDismiss();
   }
 }
 
