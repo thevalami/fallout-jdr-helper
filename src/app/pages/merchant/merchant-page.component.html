@@ -28,9 +28,11 @@
     </ion-grid>
 
     <ion-item *ngIf="merchantReady">
-      <ion-badge slot="end" (click)="openSellModal()"><h4>{{capsules}}</h4></ion-badge>
+      <ion-badge slot="end"><h4>{{capsules}}</h4></ion-badge>
       <h4> {{"MERCHANT.MONEY" | translate}}</h4>
     </ion-item>
+
+    <ion-note *ngIf="merchantReady">{{"MERCHANT.HELPBUY" | translate }}</ion-note>
 
     <ion-accordion-group *ngIf="merchantReady" [value]="lootTypes" multiple="true">
       <ion-accordion [value]="lootType" *ngFor="let lootType of lootTypes">
@@ -44,7 +46,14 @@
                 <app-rich-text-display [propertyText]="('' + item.item.Name)"></app-rich-text-display>
               </ion-label>
               <ion-badge slot="start">{{item.quantity}}</ion-badge>
-              <ion-badge slot="end">{{item.item.Cost}} c</ion-badge>
+              <ion-button slot="start" (click)="cancelBuyItem(item)" *ngIf="item.boughtQuantity > 0">
+                -1
+                <ion-icon name="cart-outline" slot="end"></ion-icon>
+              </ion-button>
+              <ion-button slot="end" (click)="buyItem(item)">
+                {{item.item.Cost}}
+                <ion-icon *ngIf="item.quantity > 0" name="cart-outline" slot="end"></ion-icon>
+              </ion-button>
             </ion-item>
           </ion-list>
         </div>
@@ -52,9 +61,10 @@
     </ion-accordion-group>
   </ion-content>
 
-  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
-    <ion-fab-button (click)="openSellModal()">
-      <ion-icon name="cash-outline"></ion-icon>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed" *ngIf="merchantReady">
+    <ion-fab-button (click)="openCheckoutModal()">
+      <ion-icon name="bag-outline" *ngIf="boughtItems == 0"></ion-icon>
+      <ion-icon name="bag-check-outline" *ngIf="boughtItems > 0"></ion-icon>
     </ion-fab-button>
   </ion-fab>
 </ion-app>

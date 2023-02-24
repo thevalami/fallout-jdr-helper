@@ -3,7 +3,8 @@ import {LanguageService} from "../../shared/language.service";
 import {MERCHANT_LOOT_TYPES} from "../../data/loot-table/loot-table-lang";
 import {findDataMatching} from "../../shared/data/data-type-matcher";
 import {ModalController} from "@ionic/angular";
-import {SellModalComponent} from "./sell-modal/sell-modal.component";
+import {CheckoutModal} from "./checkout-modal/checkout-modal.component";
+import {MerchantItem} from "./merchant-item.model";
 
 const WEALTH_QUANTITY_MULTIPLIER = 3;
 
@@ -18,6 +19,8 @@ export class MerchantPage implements OnInit {
   generatedItems: { [key: string]: MerchantItem[] } = {};
   capsules = 0;
   merchantReady = false;
+
+  boughtItems = 0;
 
   constructor(private languageService: LanguageService, private modalCtrl: ModalController) {
   }
@@ -46,7 +49,7 @@ export class MerchantPage implements OnInit {
           && !isNaN(value.Cost)
           && value.Cost > 0 // Gratuit = pas en vente ou pas un objet
       }).map(value => {
-        return {item: value, quantity: this.generateRandomQuantity(lootType, value)};
+        return {item: value, quantity: this.generateRandomQuantity(lootType, value), boughtQuantity: 0};
       });
       const subsetSize = this.randomIntFromInterval(1, Math.min(candidateData.length, this.wealth * WEALTH_QUANTITY_MULTIPLIER) - 1);
       const finalData = this.randomizeElements(candidateData, subsetSize);
@@ -118,17 +121,36 @@ export class MerchantPage implements OnInit {
     return Math.ceil(baseQuantity * multiplicator * (Math.random() + 1));
   }
 
-  async openSellModal() {
+  async openCheckoutModal() {
     const modal = await this.modalCtrl.create({
-      component: SellModalComponent,
-      componentProps: {merchantCapsules: this.capsules}
+      component: CheckoutModal,
+      componentProps: {merchantCapsules: this.capsules, boughtItems: this.generateBoughtItems()}
     });
     await modal.present();
     await modal.onWillDismiss();
   }
-}
 
-interface MerchantItem {
-  item: any,
-  quantity: number
+  buyItem(item: MerchantItem) {
+    if (item.quantity > 0) {
+      item.quantity--;
+      item.boughtQuantity++;
+      this.boughtItems++;
+    }
+  }
+
+  cancelBuyItem(item: MerchantItem) {
+    if (item.boughtQuantity > 0) {
+      item.quantity++;
+      item.boughtQuantity--;
+      this.boughtItems--;
+    }
+  }
+
+  private generateBoughtItems() {
+    const boughtItems = [];
+    for (let lootType in this.generatedItems) {
+      this.generatedItems[lootType].filter(value => value.boughtQuantity > 0).forEach(value => boughtItems.push(value));
+    }
+    return boughtItems;
+  }
 }

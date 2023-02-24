@@ -1,19 +1,19 @@
 import {ComponentFixture, TestBed, waitForAsync} from '@angular/core/testing';
 import {IonicModule} from '@ionic/angular';
 
-import {SellModalComponent} from './sell-modal.component';
+import {CheckoutModal} from './checkout-modal.component';
 
 describe('SellModalComponent', () => {
-  let component: SellModalComponent;
-  let fixture: ComponentFixture<SellModalComponent>;
+  let component: CheckoutModal;
+  let fixture: ComponentFixture<CheckoutModal>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [SellModalComponent],
+      declarations: [CheckoutModal],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(SellModalComponent);
+    fixture = TestBed.createComponent(CheckoutModal);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

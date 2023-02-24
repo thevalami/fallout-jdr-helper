@@ -5,7 +5,8 @@ import {IonicModule} from '@ionic/angular';
 import {MerchantPage} from './merchant-page.component';
 import {SharedModule} from '../../shared/shared.module';
 import {MerchantRoutingModule} from "./merchant-routing.module";
-import {SellModalComponent} from "./sell-modal/sell-modal.component";
+import {CheckoutModal} from "./checkout-modal/checkout-modal.component";
+import {TradePipe} from './trade.pipe';
 
 @NgModule({
   imports: [
@@ -15,7 +16,7 @@ import {SellModalComponent} from "./sell-modal/sell-modal.component";
     MerchantRoutingModule,
     SharedModule
   ],
-  declarations: [MerchantPage, SellModalComponent]
+  declarations: [MerchantPage, CheckoutModal, TradePipe]
 })
 export class MerchantModule {
 }

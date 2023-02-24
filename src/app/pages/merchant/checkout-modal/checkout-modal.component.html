@@ -1,0 +1,77 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="cancel()">{{"APP.BACK" | translate}}</ion-button>
+    </ion-buttons>
+    <ion-title>{{"MERCHANT.CHECKOUTMODAL" | translate}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+
+  <ion-item>
+    <ion-badge slot="end">{{merchantCapsules}}</ion-badge>
+    {{"MERCHANT.MONEY" | translate}}
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">{{'MERCHANT.SELLAMOUNT' | translate }}</ion-label>
+    <ion-input type="number" min="0" [(ngModel)]="sellAmount"></ion-input>
+  </ion-item>
+
+  <ion-list>
+    <ion-item *ngIf="sellAmount > 0">
+      <ion-label color="success" slot="end">+ {{getSellValue(sellAmount) | trade:tradeModifier:'SELL' }}
+        <span *ngIf="tradeModifier != 1"><small>({{getSellValue(sellAmount)}})</small></span>
+      </ion-label>
+    </ion-item>
+    <ion-item *ngFor="let item of boughtItems">
+      <ion-label>
+        {{item.item.Name}}
+      </ion-label>
+      <ion-badge slot="start">{{item.boughtQuantity}}</ion-badge>
+      <ion-label color="danger" slot="end">- {{(item.boughtQuantity * item.item.Cost) | trade:tradeModifier:'BUY'}}
+        <span *ngIf="tradeModifier != 1"><small>({{item.boughtQuantity * item.item.Cost}})</small></span>
+      </ion-label>
+    </ion-item>
+    <ion-item *ngIf="getSellValue(sellAmount) > (merchantCapsules + buyAmount)">
+      <ion-label color="danger">{{'MERCHANT.NOTRICHENOUGHT' | translate }}</ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-radio-group value="strawberries" [(ngModel)]="tradeModifier">
+      <ion-item>
+        <ion-label><small>{{'MERCHANT.BARTERFAIL2AP' | translate}}</small></ion-label>
+        <ion-radio slot="end" [value]="0.9"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label><small>{{'MERCHANT.BARTERDEFAULT' | translate}}</small></ion-label>
+        <ion-radio slot="end" [value]="1"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label><small>{{'MERCHANT.BARTERSUCCESS' | translate}}</small></ion-label>
+        <ion-radio slot="end" [value]="1.1"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label><small>{{'MERCHANT.BARTERSUCCESS2AP' | translate}}</small></ion-label>
+        <ion-radio slot="end" [value]="1.2"></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-list>
+
+
+  <ion-item>
+    <ion-label slot="start">{{'MERCHANT.TOTAL' | translate }}</ion-label>
+    <ion-label color="success" slot="end"
+               *ngIf="(getSellValue(sellAmount) | trade:tradeModifier:'SELL') - (buyAmount | trade:tradeModifier:'BUY')  >= 0">
+      + {{ (getSellValue(sellAmount) | trade:tradeModifier:'SELL') - (buyAmount | trade:tradeModifier:'BUY') }}
+    </ion-label>
+    <ion-label color="danger" slot="end"
+               *ngIf="(getSellValue(sellAmount) | trade:tradeModifier:'SELL') - (buyAmount | trade:tradeModifier:'BUY')  < 0">
+      {{ (getSellValue(sellAmount) | trade:tradeModifier:'SELL') - (buyAmount | trade:tradeModifier:'BUY') }}
+    </ion-label>
+  </ion-item>
+</ion-content>

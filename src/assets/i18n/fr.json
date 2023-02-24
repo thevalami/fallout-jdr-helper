@@ -95,14 +95,16 @@
     "GENERATE": "Générer",
     "WEALTH": "Richesse",
     "MONEY": "Capsules Marchand",
-    "SELLMODAL": "Vente d'objets",
-    "SELLBASEAMOUNT": "Valeur de vente",
+    "CHECKOUTMODAL": "Achats et ventes",
+    "SELLAMOUNT": "Valeur brute à vendre",
     "SELLHELP": "Entrez la valeur totale des objets à vendre (prix plein)",
-    "SELLAMOUNTMUSTBE": "La valeur doit être",
     "BARTERDETAILS": "Gestion du Troc",
-    "BARTERFAIL": "Echec + 2PA",
-    "BARTERNORMAL": "Aucun troc",
-    "BARTERSUCCESS": "Succès",
-    "BARTERSUCCESS2": "Succès + 2PA"
+    "BARTERFAIL2AP": "Troc raté + 2PA",
+    "BARTERDEFAULT": "Pas de troc",
+    "BARTERSUCCESS": "Troc réussi",
+    "BARTERSUCCESS2AP": "Troc réussi + 2PA",
+    "HELPBUY": "Pour calculer le prix d'achat total, cliquez sur les objets désirés",
+    "NOTRICHENOUGHT": "Ce marchand n'est pas assez riche pour cette transaction",
+    "TOTAL": "Total"
   }
 }
