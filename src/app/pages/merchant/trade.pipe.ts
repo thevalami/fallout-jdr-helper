@@ -4,7 +4,7 @@ import {Pipe, PipeTransform} from '@angular/core';
   name: 'trade'
 })
 export class TradePipe implements PipeTransform {
-  transform(value: number, tradeModifier: number, mode: Mode): unknown {
+  transform(value: number, tradeModifier: number, mode: Mode): number {
     if (mode === "SELL") {
       return Math.floor(value * tradeModifier);
     } else {
