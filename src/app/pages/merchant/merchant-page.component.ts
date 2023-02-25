@@ -2,9 +2,10 @@ import {Component, OnInit} from '@angular/core';
 import {LanguageService} from "../../shared/language.service";
 import {MERCHANT_LOOT_TYPES} from "../../data/loot-table/loot-table-lang";
 import {findDataMatching} from "../../shared/data/data-type-matcher";
-import {ModalController} from "@ionic/angular";
+import {AlertController, ModalController} from "@ionic/angular";
 import {CheckoutModal} from "./checkout-modal/checkout-modal.component";
 import {MerchantItem} from "./merchant-item.model";
+import {TranslateService} from "@ngx-translate/core";
 
 const WEALTH_QUANTITY_MULTIPLIER = 3;
 
@@ -22,7 +23,8 @@ export class MerchantPage implements OnInit {
 
   boughtItems = 0;
 
-  constructor(private languageService: LanguageService, private modalCtrl: ModalController) {
+  constructor(private languageService: LanguageService, private modalCtrl: ModalController, private alertController: AlertController,
+              private translateService: TranslateService) {
   }
 
   ngOnInit() {
@@ -131,7 +133,9 @@ export class MerchantPage implements OnInit {
   }
 
   buyItem(item: MerchantItem) {
-    if (item.quantity > 0) {
+    if (item.quantity > 5) {
+      this.presentAlert(item, item.quantity);
+    } else if (item.quantity > 0) {
       item.quantity--;
       item.boughtQuantity++;
       this.boughtItems++;
@@ -152,5 +156,33 @@ export class MerchantPage implements OnInit {
       this.generatedItems[lootType].filter(value => value.boughtQuantity > 0).forEach(value => boughtItems.push(value));
     }
     return boughtItems;
+  }
+
+  async presentAlert(item: MerchantItem, maxQuantity: number): Promise<void> {
+    const alert = await this.alertController.create({
+      header: this.translateService.instant('LOOT-DISPLAY.QUANTITY'),
+      buttons: [
+        {
+          text: 'Ok',
+          handler: (alertData) => {
+            const batchQuantity = Number(alertData.quantity);
+            item.quantity -= batchQuantity;
+            item.boughtQuantity += batchQuantity;
+            this.boughtItems += batchQuantity;
+          }
+        }
+      ],
+      inputs: [
+        {
+          name: 'quantity',
+          type: 'number',
+          placeholder: this.translateService.instant('LOOT-DISPLAY.QUANTITY'),
+          min: 1,
+          max: maxQuantity,
+        }
+      ],
+    });
+
+    await alert.present();
   }
 }
