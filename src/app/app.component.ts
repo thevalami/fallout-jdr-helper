@@ -14,7 +14,7 @@ import {DataId, REGISTERED_DATA_SECTIONS, Section} from "./data/generic-data-lan
 export class AppComponent implements OnInit {
   public selectedIndex = 0;
   public sections: Section[] = [];
-  public currentLanguage = 'en';
+  public currentLanguage = 'fr';
 
   constructor(private platform: Platform, private translate: TranslateService, private languageService: LanguageService) {
     if (this.translate.getBrowserLang() === 'fr' || this.translate.getBrowserLang() === 'it') {
