@@ -1,7 +1,7 @@
 export const RECIPE_POWERARMOR_STATION_EN = [
   {
     "Name": "Pillard II",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 3,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -9,7 +9,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "T-45b",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 3,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -17,7 +17,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "T-45c",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 4,
     "Perk": "Armurier 2",
     "Skill": "Réparation",
@@ -25,7 +25,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "T-45d",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 5,
     "Perk": "Armurier 2, Scientifique 1",
     "Skill": "Réparation",
@@ -33,7 +33,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "T-45e",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 6,
     "Perk": "Armurier 3, Scientifique 1",
     "Skill": "Réparation",
@@ -41,7 +41,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "T-45f",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 7,
     "Perk": "Armurier 3, Scientifique 2",
     "Skill": "Réparation",
@@ -49,7 +49,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "T-51b",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 3,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -57,7 +57,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "T-51c",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 4,
     "Perk": "Armurier 2",
     "Skill": "Réparation",
@@ -65,7 +65,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "T-51d",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 5,
     "Perk": "Armurier 2, Scientifique 1",
     "Skill": "Réparation",
@@ -73,7 +73,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "T-51e",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 6,
     "Perk": "Armurier 3, Scientifique 1",
     "Skill": "Réparation",
@@ -81,7 +81,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "T-51f",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 7,
     "Perk": "Armurier 3, Scientifique 2",
     "Skill": "Réparation",
@@ -89,7 +89,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "T-60b",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 3,
     "Perk": "–",
     "Skill": "Réparation",
@@ -97,7 +97,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "T-60c",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 4,
     "Perk": "Armurier 1, Scientifique 1",
     "Skill": "Réparation",
@@ -105,7 +105,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "T-60d",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 5,
     "Perk": "Armurier 2, Scientifique 2",
     "Skill": "Réparation",
@@ -113,7 +113,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "T-60e",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 6,
     "Perk": "Armurier 3, Scientifique 1",
     "Skill": "Réparation",
@@ -121,7 +121,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "T-60f",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 7,
     "Perk": "Armurier 3, Scientifique 2",
     "Skill": "Réparation",
@@ -129,7 +129,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "X-01 Mk II",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 3,
     "Perk": "–",
     "Skill": "Réparation",
@@ -137,7 +137,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "X-01 Mk III",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 4,
     "Perk": "Armurier 1, Scientifique 1",
     "Skill": "Réparation",
@@ -145,7 +145,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "X-01 Mk IV",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 5,
     "Perk": "Armurier 2, Scientifique 1",
     "Skill": "Réparation",
@@ -153,7 +153,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "X-01 Mk V",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 6,
     "Perk": "Armurier 3, Scientifique 1",
     "Skill": "Réparation",
@@ -161,7 +161,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "X-01 Mk VI",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 7,
     "Perk": "Armurier 3, Scientifique 2",
     "Skill": "Réparation",

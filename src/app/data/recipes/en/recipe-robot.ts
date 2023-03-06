@@ -1,7 +1,7 @@
 export const RECIPE_ROBOT_STATION_EN = [
   {
     "Name": "Armure d'usine",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -9,7 +9,7 @@ export const RECIPE_ROBOT_STATION_EN = [
   },
   {
     "Name": "Armure de stockage d'usine",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 3,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -17,7 +17,7 @@ export const RECIPE_ROBOT_STATION_EN = [
   },
   {
     "Name": "Plaque de base",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -25,7 +25,7 @@ export const RECIPE_ROBOT_STATION_EN = [
   },
   {
     "Name": "Plaque dentelée",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 3,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -33,7 +33,7 @@ export const RECIPE_ROBOT_STATION_EN = [
   },
   {
     "Name": "Plaque néfaste",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 3,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -41,7 +41,7 @@ export const RECIPE_ROBOT_STATION_EN = [
   },
   {
     "Name": "Plaque toxique",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 5,
     "Perk": "Armurier 3",
     "Skill": "Réparation",
@@ -49,7 +49,7 @@ export const RECIPE_ROBOT_STATION_EN = [
   },
   {
     "Name": "Châssis actif",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -57,7 +57,7 @@ export const RECIPE_ROBOT_STATION_EN = [
   },
   {
     "Name": "Châssis voltaïque",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 4,
     "Perk": "Armurier 2",
     "Skill": "Réparation",
@@ -65,7 +65,7 @@ export const RECIPE_ROBOT_STATION_EN = [
   },
   {
     "Name": "Châssis hydraulique",
-    "Components": "Normaux (+1 peu fréq. sur torse)",
+    "Components": "$DEFAULTTORSO$",
     "Complexity": 5,
     "Perk": "Armurier 3",
     "Skill": "Réparation",

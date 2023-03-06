@@ -110,6 +110,7 @@
   "JUNK": {
     "COMMON": "Fréquents",
     "UNCOMMON": "Peu fréquents",
-    "RARE": "Rares"
+    "RARE": "Rares",
+    "TORSO": "sur Torse"
   }
 }

@@ -11,7 +11,9 @@
         <app-rich-text-display *ngIf="column.column !== 'Components'"
                                [propertyText]="('' + data[column.column])"></app-rich-text-display>
         <ng-container *ngIf="column.column === 'Components'">
-          <span *ngIf="data[column.column] === '$DEFAULT$'">{{getComponents(data['Complexity'])}}</span>
+          <span *ngIf="data[column.column] === '$DEFAULT$' || data[column.column] === '$DEFAULTTORSO$'">
+            {{getComponents(data['Complexity'], data[column.column] === '$DEFAULTTORSO$')}}
+          </span>
         </ng-container>
       </p>
     </ng-container>

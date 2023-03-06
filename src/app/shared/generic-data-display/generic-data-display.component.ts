@@ -33,22 +33,23 @@ export class GenericDataDisplayComponent implements OnInit {
     return value && column.column.startsWith("Effect") && value === '';
   }
 
-  getComponents(complexity: number): string {
+  getComponents(complexity: number, extraOnTorso: boolean): string {
+    const suffix = extraOnTorso ? (' (+1 ' + this.translate.instant('JUNK.UNCOMMON') + ' ' + this.translate.instant('JUNK.TORSO') + ')') : '';
     switch (complexity) {
       case 1:
-        return this.translate.instant('JUNK.COMMON') + ' X2';
+        return this.translate.instant('JUNK.COMMON') + ' X2' + suffix;
       case 2:
-        return this.translate.instant('JUNK.COMMON') + ' X3';
+        return this.translate.instant('JUNK.COMMON') + ' X3' + suffix;
       case 3:
-        return this.translate.instant('JUNK.COMMON') + ' X4, ' + this.translate.instant('JUNK.UNCOMMON') + ' X2';
+        return this.translate.instant('JUNK.COMMON') + ' X4, ' + this.translate.instant('JUNK.UNCOMMON') + ' X2' + suffix;
       case 4:
-        return this.translate.instant('JUNK.COMMON') + ' X5, ' + this.translate.instant('JUNK.UNCOMMON') + ' X3';
+        return this.translate.instant('JUNK.COMMON') + ' X5, ' + this.translate.instant('JUNK.UNCOMMON') + ' X3' + suffix;
       case 5:
-        return this.translate.instant('JUNK.COMMON') + ' X6, ' + this.translate.instant('JUNK.UNCOMMON') + ' X4, ' + this.translate.instant('JUNK.RARE') + ' X2';
+        return this.translate.instant('JUNK.COMMON') + ' X6, ' + this.translate.instant('JUNK.UNCOMMON') + ' X4, ' + this.translate.instant('JUNK.RARE') + ' X2' + suffix;
       case 6:
-        return this.translate.instant('JUNK.COMMON') + ' X7, ' + this.translate.instant('JUNK.UNCOMMON') + ' X5, ' + this.translate.instant('JUNK.RARE') + ' X3';
+        return this.translate.instant('JUNK.COMMON') + ' X7, ' + this.translate.instant('JUNK.UNCOMMON') + ' X5, ' + this.translate.instant('JUNK.RARE') + ' X3' + suffix;
       case 7:
-        return this.translate.instant('JUNK.COMMON') + ' X8, ' + this.translate.instant('JUNK.UNCOMMON') + ' X6, ' + this.translate.instant('JUNK.RARE') + ' X4';
+        return this.translate.instant('JUNK.COMMON') + ' X8, ' + this.translate.instant('JUNK.UNCOMMON') + ' X6, ' + this.translate.instant('JUNK.RARE') + ' X4' + suffix;
     }
   }
 }
