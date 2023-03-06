@@ -73,7 +73,7 @@ export const RECIPE_CHEMISTRY_STATION_FR = [
   },
   {
     "Name": "Mentats",
-    "Components": "Nettoyant Abraxo x1, Fausse Morille x2, Matériaux peu fréquents x1",
+    "Components": "Matériaux peu fréquents x3, Matériaux rares X2, Fausse Morille X2",
     "Complexity": 3,
     "Perk": "–",
     "Skill": "Science",
@@ -281,10 +281,10 @@ export const RECIPE_CHEMISTRY_STATION_FR = [
   },
   {
     "Name": "Embrumaze",
-    "Components": "Nettoyant Abraxo x1, Amiante x2, Matériaux peu fréquents x1",
-    "Complexity": "Eau purifiée x1",
-    "Perk": 4,
-    "Skill": "–",
+    "Components": "Matériaux peu fréquents x2, Matériaux rares X3, Eau purifiée X1",
+    "Complexity": "4",
+    "Perk": "-",
+    "Skill": "Science",
     "Rarity": "Science"
   },
   {

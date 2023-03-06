@@ -470,7 +470,7 @@ export const MOD_LIGHT_WEAPON_DATA_FR = {
       "Effect4": "",
       "Effect5": "",
       "Weight": "+ 0,5 kg",
-      "Cost": "+ 3 Caps",
+      "Cost": "+ 8 Caps",
       "Skills": "Fana d'armes 2"
     },
     {
@@ -936,26 +936,26 @@ export const MOD_LIGHT_WEAPON_DATA_FR = {
     {
       "Name": "Condensateurs intégraux",
       "Type": "Condensateur",
-      "Effect1": "???",
+      "Effect1": "Gagne Brutal",
       "Effect2": "",
       "Effect3": "",
       "Effect4": "",
       "Effect5": "",
       "Weight": "0",
-      "Cost": "0",
-      "Skills": "-"
+      "Cost": "+ 37 caps",
+      "Skills": "Fana d'armes 3, Science 2"
     },
     {
       "Name": "Bobine de suppression de condensateur",
       "Type": "Condensateur",
-      "Effect1": "???",
-      "Effect2": "",
+      "Effect1": "+1 $CD$ de dégâts",
+      "Effect2": "Gagne Brutal",
       "Effect3": "",
       "Effect4": "",
       "Effect5": "",
-      "Weight": "0",
-      "Cost": "0",
-      "Skills": "-"
+      "Weight": "+2",
+      "Cost": "+ 82 caps",
+      "Skills": "Fana d'Armes 4, Science 3"
     },
     {
       "Name": "Viseur laser",
@@ -1044,16 +1044,16 @@ export const MOD_LIGHT_WEAPON_DATA_FR = {
   ],
   "Fusil de chasse": [
     {
-      "Name": "Culasse optimisée",
+      "Name": "Culasse haute sensibilité",
       "Type": "Culasse",
-      "Effect1": "???",
+      "Effect1": "+1 cadence de tir",
       "Effect2": "",
       "Effect3": "",
       "Effect4": "",
       "Effect5": "",
       "Weight": "0",
-      "Cost": "0",
-      "Skills": "-"
+      "Cost": "+ 20 caps",
+      "Skills": "Fana d'armes 2"
     },
     {
       "Name": "Culasse calibrée",
@@ -1310,18 +1310,6 @@ export const MOD_LIGHT_WEAPON_DATA_FR = {
   ],
   "Mitraillette": [
     {
-      "Name": "Culasse perforante",
-      "Type": "Culasse",
-      "Effect1": "???",
-      "Effect2": "",
-      "Effect3": "",
-      "Effect4": "",
-      "Effect5": "",
-      "Weight": "0",
-      "Cost": "0",
-      "Skills": "-"
-    },
-    {
       "Name": "Culasse renforcée",
       "Type": "Culasse",
       "Effect1": "+1 $CD$ de dégâts",
@@ -1334,16 +1322,16 @@ export const MOD_LIGHT_WEAPON_DATA_FR = {
       "Skills": "-"
     },
     {
-      "Name": "Culasse rapide",
+      "Name": "Culasse haute sensibilité",
       "Type": "Culasse",
-      "Effect1": "???",
+      "Effect1": "+1 cadence de tir",
       "Effect2": "",
       "Effect3": "",
       "Effect4": "",
       "Effect5": "",
       "Weight": "0",
-      "Cost": "0",
-      "Skills": "-"
+      "Cost": "+ 20 caps",
+      "Skills": "Fana d'armes 2"
     },
     {
       "Name": "Culasse puissante",
@@ -1356,18 +1344,6 @@ export const MOD_LIGHT_WEAPON_DATA_FR = {
       "Weight": "+ 0,5 kg",
       "Cost": "+ 25 caps",
       "Skills": "Fana d'armes 1"
-    },
-    {
-      "Name": "Canon court",
-      "Type": "Canon",
-      "Effect1": "???",
-      "Effect2": "",
-      "Effect3": "",
-      "Effect4": "",
-      "Effect5": "",
-      "Weight": "0",
-      "Cost": "0",
-      "Skills": "-"
     },
     {
       "Name": "Crosse complète",
@@ -1938,18 +1914,6 @@ export const MOD_LIGHT_WEAPON_DATA_FR = {
       "Weight": "+ 2 kg",
       "Cost": "+ 75 caps",
       "Skills": "Fana d'armes 4"
-    },
-    {
-      "Name": "Canon raccourci",
-      "Type": "Canon",
-      "Effect1": "???",
-      "Effect2": "",
-      "Effect3": "",
-      "Effect4": "",
-      "Effect5": "",
-      "Weight": "0",
-      "Cost": "0",
-      "Skills": "-"
     },
     {
       "Name": "Canon long",
@@ -2859,18 +2823,6 @@ export const MOD_LIGHT_WEAPON_DATA_FR = {
     }
   ],
   "Pistolet à seringues": [
-    {
-      "Name": "Canon raccourci",
-      "Type": "Canon",
-      "Effect1": "???",
-      "Effect2": "",
-      "Effect3": "",
-      "Effect4": "",
-      "Effect5": "",
-      "Weight": "0",
-      "Cost": "0",
-      "Skills": "-"
-    },
     {
       "Name": "Canon long",
       "Type": "Canon",

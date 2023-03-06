@@ -27,7 +27,7 @@ export const TOOLS_LOOT_DATA_FR = [
   },
   {
     "Name": "Brahmine de bât",
-    "Effect": "Une vache mutante qui transporte de lourdes charges et produit du lait et de l'engrais",
+    "Effect": "Une vache mutante qui transporte de lourdes charges et produit du lait et de l'engrais (Matériau peu fréquent)",
     "Weight": "–",
     "Cost": 200,
     "Rarity": 3

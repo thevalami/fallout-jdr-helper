@@ -49,7 +49,7 @@ export const LOOT_FOODS_FR = [
   },
   {
     "Dice": 14,
-    "Loot": "Carotte"
+    "Loot": "Bouchées d'écureuil"
   },
   {
     "Dice": 15,

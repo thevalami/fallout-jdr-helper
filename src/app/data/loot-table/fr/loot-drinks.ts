@@ -53,7 +53,7 @@ export const LOOT_DRINKS_FR = [
   },
   {
     "Dice": 15,
-    "Loot": "Bière"
+    "Loot": "Poche de sang"
   },
   {
     "Dice": 16,
@@ -101,7 +101,7 @@ export const LOOT_DRINKS_FR = [
   },
   {
     "Dice": 27,
-    "Loot": "Eau purifiée"
+    "Loot": "Poche de sang"
   },
   {
     "Dice": 28,

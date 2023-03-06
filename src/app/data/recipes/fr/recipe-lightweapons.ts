@@ -155,14 +155,14 @@ export const RECIPE_LIGHTWEAPONS_STATION_FR = [
     "Name": "Grand chargeur",
     "Components": "Normaux",
     "Complexity": 4,
-    "Perk": "Fana d'armes 2",
+    "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"
   },
   {
     "Name": "Chargeur à éjection rapide",
     "Components": "Normaux",
-    "Complexity": 4,
+    "Complexity": 5,
     "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
     "Rarity": "Peu fréquente"

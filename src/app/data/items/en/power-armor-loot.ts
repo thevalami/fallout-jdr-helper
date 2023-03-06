@@ -182,7 +182,7 @@ export const POWERARMOR_LOOT_DATA_EN = [
     "PV": 10,
     "Bodyparts": "Tête",
     "Weight": 6,
-    "Cost": 120,
+    "Cost": 130,
     "Rarity": 4
   },
   {
@@ -193,7 +193,7 @@ export const POWERARMOR_LOOT_DATA_EN = [
     "PV": 21,
     "Bodyparts": "Buste",
     "Weight": 10,
-    "Cost": 200,
+    "Cost": 250,
     "Rarity": 4
   },
   {
@@ -204,7 +204,7 @@ export const POWERARMOR_LOOT_DATA_EN = [
     "PV": 10,
     "Bodyparts": "Bras",
     "Weight": "7,5",
-    "Cost": 160,
+    "Cost": 170,
     "Rarity": 4
   },
   {
@@ -215,7 +215,7 @@ export const POWERARMOR_LOOT_DATA_EN = [
     "PV": 10,
     "Bodyparts": "Jambe",
     "Weight": "7,5",
-    "Cost": 160,
+    "Cost": 170,
     "Rarity": 4
   },
   {

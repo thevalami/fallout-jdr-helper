@@ -1,7 +1,11 @@
 export const LOOT_CUEILLETTE_FR = [
   {
-    "Dice": "1-2",
+    "Dice": "1",
     "Loot": "Fausse morille"
+  },
+  {
+    "Dice": "2",
+    "Loot": "Champignon Luminescent"
   },
   {
     "Dice": "3-4",
@@ -20,19 +24,27 @@ export const LOOT_CUEILLETTE_FR = [
     "Loot": "Melon"
   },
   {
-    "Dice": "11-13",
+    "Dice": "11-12",
     "Loot": "Fruit mutant"
   },
   {
-    "Dice": "14-15",
+    "Dice": "13-14",
     "Loot": "Blé surin"
   },
   {
-    "Dice": "16-17",
+    "Dice": "15-16",
     "Loot": "Haricot envasé"
   },
   {
-    "Dice": "18-20",
+    "Dice": "17-18",
     "Loot": "Pomate"
-  }
+  },
+  {
+    "Dice": "19",
+    "Loot": "Axidée"
+  },
+  {
+    "Dice": "20",
+    "Loot": "Sanguine"
+  },
 ];
