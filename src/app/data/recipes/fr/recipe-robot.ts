@@ -73,7 +73,7 @@ export const RECIPE_ROBOT_STATION_FR = [
   },
   {
     "Name": "Bobines de radiation",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Expert en robotique 1",
     "Skill": "Science",
@@ -81,7 +81,7 @@ export const RECIPE_ROBOT_STATION_FR = [
   },
   {
     "Name": "Bobines Tesla",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Expert en robotique 2, Scientifique 1",
     "Skill": "Science",
@@ -89,7 +89,7 @@ export const RECIPE_ROBOT_STATION_FR = [
   },
   {
     "Name": "Capteurs de reconnaissance",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Expert en robotique 1",
     "Skill": "Science",
@@ -97,7 +97,7 @@ export const RECIPE_ROBOT_STATION_FR = [
   },
   {
     "Name": "Détecteur",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Expert en robotique 1",
     "Skill": "Science",
@@ -105,7 +105,7 @@ export const RECIPE_ROBOT_STATION_FR = [
   },
   {
     "Name": "Module de crochetage",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "–",
     "Skill": "Science",
@@ -113,7 +113,7 @@ export const RECIPE_ROBOT_STATION_FR = [
   },
   {
     "Name": "Module de furtivité",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Expert en robotique 1",
     "Skill": "Science",
@@ -121,7 +121,7 @@ export const RECIPE_ROBOT_STATION_FR = [
   },
   {
     "Name": "Module de piratage informatique",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "–",
     "Skill": "Science",
@@ -129,7 +129,7 @@ export const RECIPE_ROBOT_STATION_FR = [
   },
   {
     "Name": "Module de régénération",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Expert en robotique 2, Scientifique 2",
     "Skill": "Science",
@@ -137,7 +137,7 @@ export const RECIPE_ROBOT_STATION_FR = [
   },
   {
     "Name": "Champ de résistance",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Expert en robotique 1, Science 1",
     "Skill": "Science",

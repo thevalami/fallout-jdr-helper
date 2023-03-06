@@ -1,7 +1,7 @@
 export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   {
     "Name": "Lance Flammes - Réservoir à napalm",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
@@ -9,7 +9,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Lance Flammes - Canon long",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
@@ -17,7 +17,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Lance Flammes - Grand réservoir",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
@@ -25,7 +25,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Lance Flammes - Réservoir géant",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
@@ -33,7 +33,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Lance Flammes - Buse de compression",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
@@ -41,7 +41,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Lance Flammes - Buse de vaporisation",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
@@ -49,7 +49,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Pistolet gamma - Parabole à renforcement",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Scientifique 4",
     "Skill": "Science",
@@ -57,7 +57,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Pistolet gamma - Antenne de transmission électrique",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Scientifique 3",
     "Skill": "Science",
@@ -65,7 +65,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Pistolet gamma - Répéteur de signal",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Scientifique 4",
     "Skill": "Science",
@@ -73,7 +73,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Gatling laser - Stimulateur de photons",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Scientifique 3",
     "Skill": "Science",
@@ -81,7 +81,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Gatling laser - Amplificateur d'ondes bêta",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "–",
     "Skill": "Science",
@@ -89,7 +89,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Gatling laser - Condensateur amélioré",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "–",
     "Skill": "Science",
@@ -97,7 +97,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Gatling laser - Agitateur de photons",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Scientifique 3",
     "Skill": "Science",
@@ -105,7 +105,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Gatling laser - Canons à chargement",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 7,
     "Perk": "Scientifique 4",
     "Skill": "Science",
@@ -113,7 +113,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Gatling laser - Viseur laser",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 7,
     "Perk": "Scientifique",
     "Skill": 4,
@@ -121,7 +121,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Gatling laser - Concentrateur de faisceau",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "–",
     "Skill": "Science",
@@ -129,7 +129,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Junk Jet - Canon long",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
@@ -137,7 +137,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Junk Jet - Crosse à compensateur de recul",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -145,7 +145,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Junk Jet - Viseur d'artilleur",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -153,7 +153,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Junk Jet - Module d'électrification",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Fana d'armes 2, scientifique 1",
     "Skill": "Réparation",
@@ -161,7 +161,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Junk Jet - Module de combustion",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 7,
     "Perk": "Fana d'armes 3, Scientifique 1",
     "Skill": "Réparation",
@@ -169,7 +169,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Minigun - Canon grande vitesse",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Fana d'armes 3",
     "Skill": "Réparation",
@@ -177,7 +177,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Minigun - Triple canon",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Fana d'armes 4",
     "Skill": "Réparation",
@@ -185,7 +185,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Viseur d'artilleur",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -193,7 +193,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Minigun - Broyeur",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
@@ -201,7 +201,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Lance-missiles - Triple Canon",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
@@ -209,7 +209,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Lance-missiles - Quadruple canon",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Fana d'armes 3",
     "Skill": "Réparation",
@@ -217,7 +217,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Lance-missiles - Lunette",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
@@ -225,7 +225,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Lance-missiles - Lunette de vision nocturne",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Fana d'armes 4, Scientifique 1",
     "Skill": "Réparation",
@@ -233,7 +233,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Lance-missiles - Ordinateur de visée",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Fana d'armes 2, Scientifique 2",
     "Skill": "Réparation",
@@ -241,7 +241,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Lance-missiles - Baïonnette",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -249,7 +249,7 @@ export const RECIPE_HEAVYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Lance-missiles - Stabilisateur",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Fana d'armes 2",
     "Skill": "Réparation",

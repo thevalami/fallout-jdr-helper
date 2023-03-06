@@ -106,5 +106,10 @@
     "HELPBUY": "Pour calculer le prix d'achat total, cliquez sur les objets désirés",
     "NOTRICHENOUGHT": "Ce marchand n'est pas assez riche pour cette transaction",
     "TOTAL": "Total"
+  },
+  "JUNK": {
+    "COMMON": "Fréquents",
+    "UNCOMMON": "Peu fréquents",
+    "RARE": "Rares"
   }
 }

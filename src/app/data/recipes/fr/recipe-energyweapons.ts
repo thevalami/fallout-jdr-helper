@@ -1,7 +1,7 @@
 export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   {
     "Name": "Amplificateur ondes bêta",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Science",
@@ -9,7 +9,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Condensateur amélioré",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Science",
@@ -17,7 +17,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Stimulateur de photons",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Scientifique 1",
     "Skill": "Science",
@@ -25,7 +25,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Agitateur de photons",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Scientifique 2",
     "Skill": "Science",
@@ -33,7 +33,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Condensateur à Trois Charges",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Science",
@@ -41,7 +41,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Condensateur à Quatre Charges",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Scientifique 1",
     "Skill": "Science",
@@ -49,7 +49,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Condensateur à Cinq Charges",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Scientifique 2",
     "Skill": "Science",
@@ -57,7 +57,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Condensateur à Six Charges",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Scientifique 3",
     "Skill": "Science",
@@ -65,7 +65,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Canon court à fixation",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "–",
     "Skill": "Science",
@@ -73,7 +73,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Canon long",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "–",
     "Skill": "Science",
@@ -81,7 +81,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Canon Diviseur",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "–",
     "Skill": "Science",
@@ -89,7 +89,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Canon automatique",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Scientifique 1",
     "Skill": "Science",
@@ -97,7 +97,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Canon long à fixation",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Scientifique 1",
     "Skill": "Science",
@@ -105,7 +105,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Canon Amélioré",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Scientifique 1",
     "Skill": "Science",
@@ -113,7 +113,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Canon de précision",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Scientifique 1",
     "Skill": "Science",
@@ -121,7 +121,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Canon Lance-Flammes",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Scientifique 2",
     "Skill": "Science",
@@ -129,7 +129,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Poignée de Tireur d'élite",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
@@ -137,7 +137,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Crosse standard",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -145,7 +145,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Crosse complète",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -153,7 +153,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Crosse de tireur d'élite",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
@@ -161,7 +161,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Crosse à compensateur de recul",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Fana d'armes 3",
     "Skill": "Réparation",
@@ -169,7 +169,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Viseur laser",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -177,7 +177,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Lunette courte",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -185,7 +185,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Lunette longue",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Scientifique 2",
     "Skill": "Réparation",
@@ -193,7 +193,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Lunette de vision nocturne courte",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Scientifique 2",
     "Skill": "Réparation",
@@ -201,7 +201,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Lunette de vision nocturne longue",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Scientifique 3",
     "Skill": "Réparation",
@@ -209,7 +209,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Lunette de reconnaissance",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Scientifique 3",
     "Skill": "Réparation",
@@ -217,7 +217,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Diviseur de rayon",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Scientifique 1",
     "Skill": "Science",
@@ -225,7 +225,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Concentrateur de faisceau",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Scientifique 1",
     "Skill": "Science",
@@ -233,7 +233,7 @@ export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   },
   {
     "Name": "Lentille à gyrocompensation",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Scientifique 1",
     "Skill": "Science",

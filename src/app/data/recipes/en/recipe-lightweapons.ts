@@ -1,7 +1,7 @@
 export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   {
     "Name": "Culasse Renforcée",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -9,7 +9,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Culasse Puissante",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Fana d'armes",
     "Skill": "Réparation",
@@ -17,7 +17,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Culasse Avancée",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
@@ -25,7 +25,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Culasse Calibrée",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -33,7 +33,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Culasse Automatique",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
@@ -41,7 +41,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Culasse Haute sensibilité",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
@@ -49,7 +49,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Culasse .38",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Fana d'armes 4",
     "Skill": "Réparation",
@@ -57,7 +57,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Culasse .308",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Fana d'armes 4",
     "Skill": "Réparation",
@@ -65,7 +65,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Culasse .45",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
@@ -73,7 +73,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Culasse .50",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Fana d'armes 4",
     "Skill": "Réparation",
@@ -81,7 +81,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Culasse Automatique à Piston",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
@@ -89,7 +89,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Canon Compact",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -97,7 +97,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Canon Extra-lourd",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Fana d'armes 3",
     "Skill": "Réparation",
@@ -105,7 +105,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Canon Long",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
@@ -113,7 +113,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Canon Ventilé",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Fana d'armes 4",
     "Skill": "Réparation",
@@ -121,7 +121,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Canon à ouvertures",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Fana d'armes 4",
     "Skill": "Réparation",
@@ -129,7 +129,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Canon Scié",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -137,7 +137,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Canon Protégé",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Fana d'armes 3",
     "Skill": "Réparation",
@@ -145,7 +145,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Canon à ailettes",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
@@ -153,7 +153,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Grand chargeur",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
@@ -161,7 +161,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Chargeur à éjection rapide",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
@@ -169,7 +169,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Grand chargeur à éjection rapide",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
@@ -177,7 +177,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Poignée Confort",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -185,7 +185,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Poignée de tireur d'élite",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
@@ -193,7 +193,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Crosse Complète",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -201,7 +201,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Crosse  de tireur d'élite",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Fana d'armes 2",
     "Skill": "Réparation",
@@ -209,7 +209,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Crosse à compensateur de recul",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Fana d'armes 3",
     "Skill": "Réparation",
@@ -217,7 +217,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Viseur Laser",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -225,7 +225,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Lunette courte",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -233,7 +233,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Lunette longue",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Scientifique 2",
     "Skill": "Réparation",
@@ -241,7 +241,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Lunette de vision nocturne courte",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Scientifique 2",
     "Skill": "Réparation",
@@ -249,7 +249,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Lunette de vision nocturne longue",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Scientifique 3",
     "Skill": "Réparation",
@@ -257,7 +257,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Lunette de reconnaissance",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Scientifique 3",
     "Skill": "Réparation",
@@ -265,7 +265,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Baïonnette",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -273,7 +273,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Compensateur",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
@@ -281,7 +281,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Frein de bouche",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Fana d'armes 1",
     "Skill": "Réparation",
@@ -289,7 +289,7 @@ export const RECIPE_LIGHTWEAPONS_STATION_EN = [
   },
   {
     "Name": "Silencieux",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Fana d'armes 2",
     "Skill": "Réparation",

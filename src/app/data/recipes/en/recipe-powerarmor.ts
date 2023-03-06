@@ -169,7 +169,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Épurateur de radiations",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Scientifique 2",
     "Skill": "Science",
@@ -177,7 +177,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Détecteur",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Scientifique 3",
     "Skill": "Science",
@@ -185,7 +185,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "ATH de visée",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Scientifique 3",
     "Skill": "Science",
@@ -193,7 +193,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Base de données interne",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Scientifique 3",
     "Skill": "Science",
@@ -201,7 +201,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Barre d'armature soudée (Pillard Uniquement)",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -209,7 +209,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Noyau de réacteur",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Scientifique 3",
     "Skill": "Science",
@@ -217,7 +217,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Purificateur sanguin",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Scientifique 1",
     "Skill": "Science",
@@ -225,7 +225,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Protocoles d'urgence",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Scientifique 4",
     "Skill": "Science",
@@ -233,7 +233,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Servomoteurs de déplacement assistés",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Scientifique 3",
     "Skill": "Science Peu",
@@ -241,7 +241,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Dynamo cinétique",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Scientifique 4",
     "Skill": "Science",
@@ -249,7 +249,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Pompe médicale",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Scientifique 4",
     "Skill": "Science",
@@ -257,7 +257,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Plaques réactives",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Armurier 4",
     "Skill": "Réparation",
@@ -265,7 +265,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Bobines Tesla",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Scientifique 3",
     "Skill": "Science",
@@ -273,7 +273,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Stealth Boy",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Scientifique 4",
     "Skill": "Science",
@@ -281,7 +281,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Jetpack",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 7,
     "Perk": "Armurier 4, Scientifique 4",
     "Skill": "Réparation",
@@ -289,7 +289,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Poing rouillé",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "Forgeron 1",
     "Skill": "Réparation",
@@ -297,7 +297,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Bracelets hydrauliques",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Forgeron 3",
     "Skill": "Réparation",
@@ -305,7 +305,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Bracelets optimisés",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "Forgeron 1",
     "Skill": "Réparation",
@@ -313,7 +313,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Bracelets Tesla",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Forgeron 3, Scientifique 1",
     "Skill": "Réparation",
@@ -321,7 +321,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Amortisseurs calibrés",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Scientifique 2",
     "Skill": "Science",
@@ -329,7 +329,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Évent d'explosion",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Scientifique 3",
     "Skill": "Science",
@@ -337,7 +337,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Servomoteurs à vitesse surmultipliée",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Scientifique 3",
     "Skill": "Science",
@@ -345,7 +345,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Blindage en titane",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Armurier 3",
     "Skill": "Réparation",
@@ -353,7 +353,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Blindage en plomb",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -361,7 +361,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Revêtement photovoltaïque",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Scientifique 3",
     "Skill": "Science",
@@ -369,7 +369,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Revêtement antigel (sauf X-01)",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -377,7 +377,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Blindage prismatique",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Scientifique 2",
     "Skill": "Science",
@@ -385,7 +385,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Blindage anti-explosion",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Scientifique 1",
     "Skill": "Science",
@@ -393,7 +393,7 @@ export const RECIPE_POWERARMOR_STATION_EN = [
   },
   {
     "Name": "Protection IEM (uniquement X-01)",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Armurier 1",
     "Skill": "Réparation",

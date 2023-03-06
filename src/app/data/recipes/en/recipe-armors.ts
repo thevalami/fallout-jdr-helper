@@ -1,7 +1,7 @@
 export const RECIPE_ARMOR_STATION_EN = [
   {
     "Name": "Tissu balistique",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "–",
     "Skill": "Réparation",
@@ -9,7 +9,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Tissu balistique Mk II",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -17,7 +17,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Tissu balistique Mk III",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Armurier 2",
     "Skill": "Réparation",
@@ -25,7 +25,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Tissu balistique Mk IV",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Armurier 3",
     "Skill": "Réparation",
@@ -33,7 +33,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Tissu balistique Mk V",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Armurier 4",
     "Skill": "Réparation",
@@ -41,7 +41,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Abri - Revêtement isolant",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -49,7 +49,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Abri - Revêtement traité",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Armurier 2",
     "Skill": "Réparation",
@@ -57,7 +57,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Abri - Revêtement résistant",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Armurier 3",
     "Skill": "Réparation",
@@ -65,7 +65,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Abri - Revêtement protecteur",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Armurier 4, Scientifique 2",
     "Skill": "Réparation",
@@ -73,7 +73,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Abri - Revêtement blindé",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Armurier 4, Scientifique 4",
     "Skill": "Réparation",
@@ -81,7 +81,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Pillard - Soudé",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -89,7 +89,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Pillard -Trempé",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "–",
     "Skill": "Réparation",
@@ -97,7 +97,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Pillard -Renforcé",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -105,7 +105,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Pillard - Étayé",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -113,7 +113,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Cuir - Bouilli",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -121,7 +121,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Cuir - Armé",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "–",
     "Skill": "Réparation",
@@ -129,7 +129,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Cuir - Traité",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -137,7 +137,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Cuir - Ombré",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -145,7 +145,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Cuir - Clouté",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -153,7 +153,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Métal - Peint",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -161,7 +161,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Métal - Émaillé",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Armurier 1",
     "Skill": "Réparation Fréquente",
@@ -169,7 +169,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Métal - Ombré",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -177,7 +177,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Métal - Allié",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -185,7 +185,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Métal - Poli",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Armurier 2",
     "Skill": "Réparation",
@@ -193,7 +193,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Combat - Renforcé",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "–",
     "Skill": "Réparation",
@@ -201,7 +201,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Combat - Ombré",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -209,7 +209,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Combat - Fibre de verre",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -217,7 +217,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Combat - Polymère",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -225,7 +225,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Synthétique - Stratifié",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "–",
     "Skill": "Réparation",
@@ -233,7 +233,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Synthétique - Résineux",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Armurier 1",
     "Skill": "Réparation Peu",
@@ -241,7 +241,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Synthétique - Microfibre de carbone",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -249,7 +249,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Synthétique - Nanofilament",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 7,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -257,7 +257,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Mod - Structure légère",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -265,7 +265,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Mod - Poches",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -273,7 +273,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Mod - Larges poches",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Armurier 2",
     "Skill": "Réparation",
@@ -281,7 +281,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Mod - Revêtement en plomb",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Armurier 2, Scientifique 1",
     "Skill": "Réparation",
@@ -289,7 +289,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Mod - Structure ultra légère",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Armurier 3",
     "Skill": "Réparation",
@@ -297,7 +297,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Mod - Rembourrage (uniquement sur torse)",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "–",
     "Skill": "Réparation",
@@ -305,7 +305,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Mod - Revêtement amianté (uniquement sur torse)",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -313,7 +313,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Mod - Densifié (uniquement sur torse)",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Armurier 3",
     "Skill": "Réparation",
@@ -321,7 +321,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Mod - BioCommMesh (uniquement sur torse)",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 7,
     "Perk": "Armurier 4, Scientifique 2",
     "Skill": "Réparation",
@@ -329,7 +329,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Mod - Pneumatique (uniquement sur torse)",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Armurier 4",
     "Skill": "Réparation",
@@ -337,7 +337,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Mod - Bagarreur (uniquement sur bras)",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -345,7 +345,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Mod - Renforcé (uniquement sur bras)",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -353,7 +353,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Mod - Stabilisé (uniquement sur bras)",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Armurier 2",
     "Skill": "Réparation",
@@ -361,7 +361,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Mod - Aérodynamique (uniquement sur bras)",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Armurier 3",
     "Skill": "Réparation",
@@ -369,7 +369,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Mod - Alourdie (uniquement sur bras)",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 6,
     "Perk": "Armurier",
     "Skill": "4 Réparation",
@@ -377,7 +377,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Mod - Amorti (uniquement sur jambes)",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Armurier 1",
     "Skill": "Réparation",
@@ -385,7 +385,7 @@ export const RECIPE_ARMOR_STATION_EN = [
   },
   {
     "Name": "Mod - Silencieux (uniquement sur jambes)",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Armurier 2",
     "Skill": "Réparation",

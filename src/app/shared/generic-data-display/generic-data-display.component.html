@@ -8,7 +8,11 @@
       </h1>
       <p *ngIf="i>0 && data[column.column] && !isOptional(column, data[column.column])">
         <strong>{{column.label}}</strong> :
-        <app-rich-text-display [propertyText]="('' + data[column.column])"></app-rich-text-display>
+        <app-rich-text-display *ngIf="column.column !== 'Components'"
+                               [propertyText]="('' + data[column.column])"></app-rich-text-display>
+        <ng-container *ngIf="column.column === 'Components'">
+          <span *ngIf="data[column.column] === '$DEFAULT$'">{{getComponents(data['Complexity'])}}</span>
+        </ng-container>
       </p>
     </ng-container>
   </ion-label>

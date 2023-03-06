@@ -1,7 +1,7 @@
 export const RECIPE_MELEEWEAPONS_STATION_EN = [
   {
     "Name": "Epée - Lame dentelée",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Forgeron 2",
     "Skill": "Réparation",
@@ -9,7 +9,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Epée - Lame Électrifiée",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Forgeron 2, Scientifique 1",
     "Skill": "Réparation Peu",
@@ -17,7 +17,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Epée - Lame dentelée électrifiée",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Forgeron 3, Scientifique 1",
     "Skill": "Réparation",
@@ -25,7 +25,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Epée - Module d'étourdissement",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Forgeron 3, Scientifique 1",
     "Skill": "Réparation",
@@ -33,7 +33,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Couteau de combat - Lame dentelée",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Forgeron 1",
     "Skill": "Réparation",
@@ -41,7 +41,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Couteau de combat - Lame furtive",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Forgeron 2",
     "Skill": "Réparation",
@@ -49,7 +49,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Machette - Lame dentelée",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Forgeron 1",
     "Skill": "Réparation",
@@ -57,7 +57,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Eventreur - Lame courbe",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -65,7 +65,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Eventreur - Lame rallongée",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Forgeron 3",
     "Skill": "Réparation",
@@ -73,7 +73,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Flambeur - Jets de flammes supplémentaires",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Forgeron 3",
     "Skill": "Réparation",
@@ -81,7 +81,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Cran d'arrêt - Lame dentelée",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Forgeron 1",
     "Skill": "Réparation",
@@ -89,7 +89,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Batte de baseball barbelée",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 1,
     "Perk": "–",
     "Skill": "Réparation",
@@ -97,7 +97,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Batte de baseball à pointes",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -105,7 +105,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Batte de baseball Affûtée",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
     "Skill": "Réparation",
@@ -113,7 +113,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Batte de baseball à chaînes",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Forgeron 1",
     "Skill": "Réparation",
@@ -121,7 +121,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Batte de baseball - à lames",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Forgeron 2",
     "Skill": "Réparation",
@@ -129,7 +129,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Planche à pointes",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 1,
     "Perk": "–",
     "Skill": "Réparation",
@@ -137,7 +137,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Planche Perforante",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "Forgeron 1",
     "Skill": "Réparation",
@@ -153,7 +153,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Tuyau de plomb à pointes",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 1,
     "Perk": "–",
     "Skill": "Réparation",
@@ -161,7 +161,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Tuyau de plomb Lourd",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Forgeron 2",
     "Skill": "Réparation",
@@ -169,7 +169,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Clé serre-tube - Crochet",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 1,
     "Perk": "–",
     "Skill": "Réparation",
@@ -177,7 +177,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Clé serre-tube - Lourde",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "Forgeron 1",
     "Skill": "Réparation",
@@ -185,7 +185,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Clé serre-tube - Perforante",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "Forgeron 1",
     "Skill": "Réparation",
@@ -193,7 +193,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Clé serre-tube - Extralourde",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Forgeron 2",
     "Skill": "Réparation",
@@ -201,7 +201,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Queue de billard Barbelé",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 1,
     "Perk": "–",
     "Skill": "Réparation",
@@ -209,7 +209,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Queue de billard Affûté",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 1,
     "Perk": "–",
     "Skill": "Réparation",
@@ -217,7 +217,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Rouleau à pâtisserie à pointes",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 1,
     "Perk": "–",
     "Skill": "Réparation",
@@ -225,7 +225,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Rouleau à pâtisserie Affûté",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 1,
     "Perk": "–",
     "Skill": "Réparation",
@@ -233,7 +233,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Matraque Électrifiée",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Forgeron 2, Scientifique 1",
     "Skill": "Réparation",
@@ -241,7 +241,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Matraque - Module d'étourdissement",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Forgeron 2, Scientifique 1",
     "Skill": "Réparation",
@@ -249,7 +249,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Masse Perforante",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Forgeron 2",
     "Skill": "Réparation",
@@ -257,7 +257,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Masse Lourde",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Forgeron 2",
     "Skill": "Réparation",
@@ -265,7 +265,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Super Masse - Bobine thermique",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Forgeron 2",
     "Skill": "Réparation",
@@ -273,7 +273,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Super Masse - Module d'étourdissement",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 5,
     "Perk": "Forgeron 3, Scientifique 1",
     "Skill": "Réparation",
@@ -281,7 +281,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Démonte-pneu à lames",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Forgeron 3",
     "Skill": "Réparation",
@@ -289,7 +289,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Canne Barbelée",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 1,
     "Perk": "–",
     "Skill": "Réparation",
@@ -297,7 +297,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Canne à Pointes",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 1,
     "Perk": "–",
     "Skill": "Réparation",
@@ -305,7 +305,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Gant de boxe à pointes",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 1,
     "Perk": "–",
     "Skill": "Réparation",
@@ -313,7 +313,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Gant de boxe Perforant",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "Forgeron 1",
     "Skill": "Réparation",
@@ -321,7 +321,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Gant de boxe - Revêtement en plomb",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "Forgeron 1",
     "Skill": "Réparation",
@@ -329,7 +329,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Gantelet d'écorcheur - Griffe supplémentaire",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 1,
     "Perk": "–",
     "Skill": "Réparation",
@@ -337,7 +337,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Point américain Affûté",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 1,
     "Perk": "–",
     "Skill": "Réparation",
@@ -345,7 +345,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Point américain à pointes",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 1,
     "Perk": "–",
     "Skill": "Réparation",
@@ -353,7 +353,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Point américain Perforant",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "Forgeron 1",
     "Skill": "Réparation",
@@ -361,7 +361,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Point américain à lames",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "Forgeron 1",
     "Skill": "Réparation",
@@ -369,7 +369,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Poing assisté Perforant",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 3,
     "Perk": "Forgeron 2",
     "Skill": "Réparation",
@@ -377,7 +377,7 @@ export const RECIPE_MELEEWEAPONS_STATION_EN = [
   },
   {
     "Name": "Poing assisté - Bobine thermique",
-    "Components": "Normaux",
+    "Components": "$DEFAULT$",
     "Complexity": 4,
     "Perk": "Forgeron 3",
     "Skill": "Réparation",
