@@ -3,6 +3,8 @@ import {ModalController} from "@ionic/angular";
 import {ModsDisplayModalComponent} from "../mods-display-modal/mods-display-modal.component";
 import {DataId, DataTableDefinition} from "../../data/generic-data-lang";
 import {TranslateService} from "@ngx-translate/core";
+import {RECIPE_DEF, RECIPES} from "../../data/recipes/recipes-lang";
+import {LanguageService} from "../language.service";
 
 @Component({
   selector: 'app-generic-data-display',
@@ -11,14 +13,28 @@ import {TranslateService} from "@ngx-translate/core";
 })
 export class GenericDataDisplayComponent implements OnInit {
 
-  constructor(private modalCtrl: ModalController, private translate: TranslateService) {
+  constructor(private modalCtrl: ModalController, private translate: TranslateService, private languageService: LanguageService) {
   }
 
   ngOnInit() {
+    if (this.displayRecipe) {
+      this.genericItems.forEach(value => {
+        const itemName = value['Name'];
+        const matchingRecipe = this.findMatchingRecipe(itemName);
+        if (matchingRecipe != null) {
+          this.matchingRecipes[itemName] = [matchingRecipe];
+        }
+      });
+    }
   }
 
   @Input() genericItems: any[];
+
   @Input() dataId: DataId;
+  @Input() displayRecipe: boolean = false;
+  @Input() displayTitle: boolean = true;
+
+  matchingRecipes: { [key: string]: any[] } = {};
 
   async openModModal(itemName) {
     const modal = await this.modalCtrl.create({
@@ -51,5 +67,31 @@ export class GenericDataDisplayComponent implements OnInit {
       case 7:
         return this.translate.instant('JUNK.COMMON') + ' X8, ' + this.translate.instant('JUNK.UNCOMMON') + ' X6, ' + this.translate.instant('JUNK.RARE') + ' X4' + suffix;
     }
+  }
+
+  private findMatchingRecipe(itemName: any) {
+    let matchingRecipe: any = null;
+    RECIPES.forEach(recipeType => {
+      const candidatesRecipes = recipeType[this.languageService.getCurrentLanguage()];
+      for (let candidatesRecipe of candidatesRecipes) {
+        if (candidatesRecipe['Name'].toLowerCase() === itemName.toLowerCase()) {
+          matchingRecipe = candidatesRecipe;
+          break;
+        }
+      }
+    });
+    return matchingRecipe;
+  }
+
+  getRecipeDataId(): DataId {
+    return {
+      definition: RECIPE_DEF[this.languageService.getCurrentLanguage()],
+      moddable: false,
+      data: [],
+      type: 'Recipe',
+      icon: '',
+      label: '',
+      generic: true
+    };
   }
 }

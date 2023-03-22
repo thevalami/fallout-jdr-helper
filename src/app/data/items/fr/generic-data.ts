@@ -273,7 +273,7 @@ export const REGISTERED_DATA_SECTIONS_FR: Section[] = [
     label: "Recettes",
     data: [
       {
-        type: 'recipe-food-stattion',
+        type: 'recipe-food-station',
         label: 'Atelier de cuisine',
         img: 'food.png',
         definition: RECIPE_DEF_FR,

@@ -23,7 +23,8 @@
 <ion-content>
   <ion-list>
     <app-generic-data-display [genericItems]="dataId.data | genericDataSearch:searchText | sortBy: sortType"
-                              [dataId]="dataId"></app-generic-data-display>
+                              [dataId]="dataId"
+                              [displayRecipe]="!dataId.type.startsWith('recipe-')"></app-generic-data-display>
   </ion-list>
   <ion-fab vertical="bottom" horizontal="end" slot="fixed">
     <ion-fab-button [routerLink]="'/quick-search'">

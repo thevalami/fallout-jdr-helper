@@ -20,6 +20,9 @@ import {SharedModule} from "../../shared/shared.module";
     QuickSearchPageModule,
     SharedModule
   ],
+  exports: [
+    GenericDataPage
+  ],
   declarations: [GenericDataPage, CleanDataPipe]
 })
 export class GenericDataPageModule {

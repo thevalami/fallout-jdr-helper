@@ -122,9 +122,7 @@ export const MODIFIERS_EN = [
   },
   {
     "Name": "Vision nocturne",
-    "Description": "Le viseur d’une arme à Vision noc-\n" +
-      "turne est conçu pour vous permettre de voir plus clai-\n" +
-      "rement dans l’obscurité. Quand vous visez avec une\n" +
+    "Description": "Le viseur d’une arme à Vision nocturne est conçu pour vous permettre de voir plus clairement dans l’obscurité. Quand vous visez avec une\n" +
       "arme à Vision nocturne, votre attaque ignore toute\n" +
       "augmentation de difficulté causée par l’obscurité",
   },

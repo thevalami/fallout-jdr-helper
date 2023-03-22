@@ -13,7 +13,7 @@ export class GenericDataSearchPipe implements PipeTransform {
       for (let candidateData of data) {
         let match = false;
         for (let key of Object.keys(candidateData)) {
-          if (String(candidateData[key]).toLowerCase().includes(searchtext.toLowerCase())) {
+          if (String(candidateData[key]).toLowerCase().includes(searchtext.trim().toLowerCase())) {
             match = true;
           }
         }

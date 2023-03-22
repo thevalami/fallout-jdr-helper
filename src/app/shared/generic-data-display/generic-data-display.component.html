@@ -3,7 +3,7 @@
             (click)="openModModal(data[dataId.definition[0].column])"></ion-icon>
   <ion-label text-wrap>
     <ng-container *ngFor="let column of dataId.definition; let i = index">
-      <h1 *ngIf="i==0">
+      <h1 *ngIf="i==0 && displayTitle">
         {{data[column.column]}}
       </h1>
       <p *ngIf="i>0 && data[column.column] && !isOptional(column, data[column.column])">
@@ -14,8 +14,15 @@
           <span *ngIf="data[column.column] === '$DEFAULT$' || data[column.column] === '$DEFAULTTORSO$'">
             {{getComponents(data['Complexity'], data[column.column] === '$DEFAULTTORSO$')}}
           </span>
+          <span *ngIf="data[column.column] !== '$DEFAULT$' && data[column.column] !== '$DEFAULTTORSO$'">
+            {{data[column.column]}}
+          </span>
         </ng-container>
       </p>
+    </ng-container>
+    <ng-container *ngIf="displayRecipe && matchingRecipes[data['Name']] !== null">
+      <app-generic-data-display [dataId]="getRecipeDataId()" [displayRecipe]="false" [displayTitle]="false"
+                                [genericItems]="matchingRecipes[data['Name']]"></app-generic-data-display>
     </ng-container>
   </ion-label>
 </ion-item>

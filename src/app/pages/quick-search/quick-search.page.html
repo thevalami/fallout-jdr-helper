@@ -17,7 +17,8 @@
   <ion-list>
     <ng-container *ngFor="let dataId of definitions; let idx = index">
       <ion-list-header><h1>{{dataId.label}}</h1></ion-list-header>
-      <app-generic-data-display [genericItems]="itemTypes[idx]" [dataId]="dataId"></app-generic-data-display>
+      <app-generic-data-display [genericItems]="itemTypes[idx]" [dataId]="dataId"
+                                [displayRecipe]="true"></app-generic-data-display>
     </ng-container>
   </ion-list>
 

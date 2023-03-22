@@ -14,5 +14,5 @@
     <ion-label>{{"MODDISPLAY.MODSOF" | translate}}</ion-label>
   </ion-item>
   <app-generic-data-display *ngIf="dataId" [genericItems]="mods | genericTitleSearch:searchText"
-                            [dataId]="dataId"></app-generic-data-display>
+                            [dataId]="dataId" [displayRecipe]="true"></app-generic-data-display>
 </ion-content>
