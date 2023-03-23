@@ -1,6 +1,6 @@
 export const RECIPE_ENERGYWEAPONS_STATION_FR = [
   {
-    "Name": "Amplificateur ondes bêta",
+    "Name": "Amplificateur d'ondes bêta",
     "Components": "$DEFAULT$",
     "Complexity": 2,
     "Perk": "–",
