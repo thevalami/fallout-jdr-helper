@@ -73,7 +73,7 @@
       <ion-fab-button (click)="generateQRCode()" color="tertiary">
         <ion-icon name="qr-code"></ion-icon>
       </ion-fab-button>
-      <ion-fab-button (click)="startScan()" color="tertiary" *ngIf="isWebDevice()">
+      <ion-fab-button (click)="startScan()" color="tertiary" *ngIf="!isWebDevice()">
         <ion-icon name="camera"></ion-icon>
       </ion-fab-button>
     </ion-fab-list>
@@ -89,6 +89,11 @@
         </ion-toolbar>
       </ion-header>
       <ion-content class="ion-padding">
+        Scannez ce QRCode pour afficher le marchand sur un autre dispositif
+        <ul>
+          <li><strong>Android uniquement</strong></li>
+          <li><strong style="color: red">EN COURS DE DEVELOPPEMENT</strong></li>
+        </ul>
         <qrcode [qrdata]="qrCodeValue" [width]="382" [errorCorrectionLevel]="'M'"></qrcode>
       </ion-content>
     </ng-template>
