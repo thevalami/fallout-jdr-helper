@@ -26,7 +26,7 @@ export const VAULTSEC_LOOT_DEF_FR: DataTableDefinition[] = [{
   label: 'Rareté'
 }]
 
-export const VAULTSECARMOR_LOOT_DATA_FR = [
+export const VAULTSEC_ARMOR_LOOT_DATA_FR = [
   {
     "Name": "Casque de sécurité Vault-Tec",
     "PhysicalRes": 2,
@@ -35,7 +35,8 @@ export const VAULTSECARMOR_LOOT_DATA_FR = [
     "BodyParts": "Tête",
     "Weight": 1,
     "Cost": 20,
-    "Rarity": 1
+    "Rarity": 1,
+    "id": 1
   },
   {
     "Name": "Armure de sécurité Vault-Tec",
@@ -45,6 +46,7 @@ export const VAULTSECARMOR_LOOT_DATA_FR = [
     "BodyParts": "Buste, Jambes, Bras",
     "Weight": 4,
     "Cost": 16,
-    "Rarity": 1
+    "Rarity": 1,
+    "id": 2
   }
 ]

@@ -62,9 +62,35 @@
   </ion-content>
 
   <ion-fab vertical="bottom" horizontal="end" slot="fixed" *ngIf="merchantReady">
-    <ion-fab-button (click)="openCheckoutModal()">
-      <ion-icon name="bag-outline" *ngIf="boughtItems == 0"></ion-icon>
-      <ion-icon name="bag-check-outline" *ngIf="boughtItems > 0"></ion-icon>
+    <ion-fab-button>
+      <ion-icon name="apps"></ion-icon>
     </ion-fab-button>
+    <ion-fab-list side="top">
+      <ion-fab-button (click)="openCheckoutModal()" color="tertiary">
+        <ion-icon name="bag" *ngIf="boughtItems == 0"></ion-icon>
+        <ion-icon name="bag-check" *ngIf="boughtItems > 0"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button (click)="generateQRCode()" color="tertiary">
+        <ion-icon name="qr-code"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button (click)="startScan()" color="tertiary">
+        <ion-icon name="camera"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
   </ion-fab>
+
+  <ion-modal [isOpen]="showQRCode">
+    <ng-template>
+      <ion-header>
+        <ion-toolbar>
+          <ion-buttons slot="end">
+            <ion-button (click)="showQRCode = false">X</ion-button>
+          </ion-buttons>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content class="ion-padding">
+        <qrcode [qrdata]="qrCodeValue" [width]="382" [errorCorrectionLevel]="'M'"></qrcode>
+      </ion-content>
+    </ng-template>
+  </ion-modal>
 </ion-app>

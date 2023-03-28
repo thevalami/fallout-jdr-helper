@@ -34,3 +34,8 @@
 .sc-ion-label-md-h {
   white-space: normal !important;
 }
+
+body.scanner-active {
+  --background: transparent;
+  --ion-background-color: transparent;
+}

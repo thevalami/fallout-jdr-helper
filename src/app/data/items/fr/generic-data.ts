@@ -14,7 +14,7 @@ import {OUTFITS_LOOT_DATA_FR, OUTFITS_LOOT_DEF_FR} from "./outfits-loot";
 import {HATS_LOOT_DATA_FR, HATS_LOOT_DEF_FR} from "./hats-loot";
 import {LEATHERARMOR_LOOT_DATA_FR, LEATHERARMOR_LOOT_DEF_FR} from "./leatherarmor-loot";
 import {SYNTHARMOR_LOOT_DATA_FR, SYNTHARMOR_LOOT_DEF_FR} from "./syntharmor-loot";
-import {VAULTSEC_LOOT_DEF_FR, VAULTSECARMOR_LOOT_DATA_FR} from "./vaultsecurity-armor-loot";
+import {VAULTSEC_ARMOR_LOOT_DATA_FR, VAULTSEC_LOOT_DEF_FR} from "./vaultsecurity-armor-loot";
 import {RAIDERARMOR_LOOT_DATA_FR, RAIDERARMOR_LOOT_DEF_FR} from "./looterarmor-loot";
 import {METALARMOR_LOOT_DATA_FR, METALARMOR_LOOT_DEF_FR} from "./metal-armor-loot";
 import {COMBATARMOR_LOOT_DATA_FR, COMBATARMOR_LOOT_DEF_FR} from "./combat-armor-loot";
@@ -209,7 +209,7 @@ export const REGISTERED_DATA_SECTIONS_FR: Section[] = [
         label: 'Armures de securité Vault-Tec',
         img: 'security.png',
         definition: VAULTSEC_LOOT_DEF_FR,
-        data: VAULTSECARMOR_LOOT_DATA_FR,
+        data: VAULTSEC_ARMOR_LOOT_DATA_FR,
         generic: true,
         moddable: false
       },

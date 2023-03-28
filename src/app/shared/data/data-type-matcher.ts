@@ -18,7 +18,8 @@ import {
   RAIDERARMOR_LOOT_DATA,
   SYNTHARMOR_LOOT_DATA,
   SYRINGE_LOOT_DATA,
-  TOOLS_LOOT_DATA
+  TOOLS_LOOT_DATA,
+  VAULTSECARMOR_LOOT_DATA
 } from "../../data/generic-data-lang";
 
 export const findDataMatching = (lang: string, lootType: string): any[] => {
@@ -58,7 +59,7 @@ export const findDataMatching = (lang: string, lootType: string): any[] => {
       return [...DRINK_LOOT_DATA[lang]];
     case 'Armures':
     case 'Armors':
-      return [...COMBATARMOR_LOOT_DATA[lang], ...METALARMOR_LOOT_DATA[lang], ...LEATHERARMOR_LOOT_DATA[lang], ...RAIDERARMOR_LOOT_DATA[lang], ...SYNTHARMOR_LOOT_DATA[lang]];
+      return [...COMBATARMOR_LOOT_DATA[lang], ...METALARMOR_LOOT_DATA[lang], ...LEATHERARMOR_LOOT_DATA[lang], ...RAIDERARMOR_LOOT_DATA[lang], ...SYNTHARMOR_LOOT_DATA[lang], ...VAULTSECARMOR_LOOT_DATA[lang]];
     default:
       return [];
   }

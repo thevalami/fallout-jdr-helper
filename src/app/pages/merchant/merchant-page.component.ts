@@ -6,6 +6,8 @@ import {AlertController, ModalController} from "@ionic/angular";
 import {CheckoutModal} from "./checkout-modal/checkout-modal.component";
 import {MerchantItem} from "./merchant-item.model";
 import {TranslateService} from "@ngx-translate/core";
+import * as LZUTF8 from "lzutf8";
+import {BarcodeScanner} from "@capacitor-community/barcode-scanner";
 
 const WEALTH_QUANTITY_MULTIPLIER = 3;
 
@@ -20,8 +22,10 @@ export class MerchantPage implements OnInit {
   generatedItems: { [key: string]: MerchantItem[] } = {};
   capsules = 0;
   merchantReady = false;
-
   boughtItems = 0;
+
+  qrCodeValue: string = null;
+  showQRCode = false;
 
   constructor(private languageService: LanguageService, private modalCtrl: ModalController, private alertController: AlertController,
               private translateService: TranslateService) {
@@ -41,8 +45,11 @@ export class MerchantPage implements OnInit {
   }
 
   generateMerchant(): void {
+    this.showQRCode = false;
+    this.qrCodeValue = null;
     this.merchantReady = false;
     this.capsules = this.randomIntFromInterval((this.wealth - 1) * 100, this.wealth * 100);
+
     this.lootTypes.sort((a, b) => a.localeCompare(b)).forEach(lootType => {
       const data = findDataMatching(this.languageService.getCurrentLanguage(), lootType);
 
@@ -57,6 +64,7 @@ export class MerchantPage implements OnInit {
       const finalData = this.randomizeElements(candidateData, subsetSize);
       this.generatedItems[lootType] = finalData.sort((a, b) => a.Cost - b.Cost);
     });
+
     this.merchantReady = true;
   }
 
@@ -185,4 +193,50 @@ export class MerchantPage implements OnInit {
 
     await alert.present();
   }
+
+  generateQRCode() {
+    const dataExport = {
+      'wealth': this.wealth,
+      'capsules': this.capsules,
+      'items': {}
+    };
+
+    for (let lootType in this.generatedItems) {
+      if (!dataExport.items[lootType]) {
+        dataExport.items[lootType] = [];
+      }
+      this.generatedItems[lootType].forEach(value => {
+        dataExport.items[lootType].push({
+          'i': value.item.id,
+          'q': value.quantity
+        })
+      });
+    }
+    const compressedData = LZUTF8.compress(JSON.stringify(dataExport), {"outputEncoding": "StorageBinaryString"});
+    console.log(JSON.stringify(dataExport), JSON.stringify(dataExport).length, compressedData, compressedData.length);
+
+    this.qrCodeValue = compressedData;
+    this.showQRCode = true;
+  }
+
+  async startScan() {
+    document.querySelector('body').classList.add('scanner-active');
+
+    // Check camera permission
+    // This is just a simple example, check out the better checks below
+    await BarcodeScanner.checkPermission({force: true});
+
+    // make background of WebView transparent
+    // note: if you are using ionic this might not be enough, check below
+    BarcodeScanner.hideBackground();
+
+    const result = await BarcodeScanner.startScan(); // start scanning and wait for a result
+
+    // if the result has content
+    if (result.hasContent) {
+      console.log(result.content); // log the raw scanned content
+    }
+
+    document.querySelector('body').classList.remove('scanner-active');
+  };
 }

@@ -42,6 +42,8 @@ import {DOGARMOR_LOOT_DATA_FR} from "./items/fr/dogarmor-loot";
 import {DOGARMOR_LOOT_DATA_EN} from "./items/en/dogarmor-loot";
 import {ROBOTARMOR_LOOT_DATA_FR} from "./items/fr/robot-armor-loot";
 import {ROBOTARMOR_LOOT_DATA_EN} from "./items/en/robot-armor-loot";
+import {VAULTSEC_ARMOR_LOOT_DATA_FR} from "./items/fr/vaultsecurity-armor-loot";
+import {VAULTSEC_ARMOR_LOOT_DATA_EN} from "./items/en/vaultsecurity-armor-loot";
 
 export interface DataTableDefinition {
   column: string,
@@ -174,5 +176,7 @@ export const ROBOTARMOR_LOOT_DATA = {
   'en': ROBOTARMOR_LOOT_DATA_EN
 }
 
-
-
+export const VAULTSECARMOR_LOOT_DATA = {
+  'fr': VAULTSEC_ARMOR_LOOT_DATA_FR,
+  'en': VAULTSEC_ARMOR_LOOT_DATA_EN
+}

@@ -7,6 +7,7 @@ import {SharedModule} from '../../shared/shared.module';
 import {MerchantRoutingModule} from "./merchant-routing.module";
 import {CheckoutModal} from "./checkout-modal/checkout-modal.component";
 import {TradePipe} from './trade.pipe';
+import {QRCodeModule} from "angularx-qrcode";
 
 @NgModule({
   imports: [
@@ -14,7 +15,8 @@ import {TradePipe} from './trade.pipe';
     FormsModule,
     IonicModule,
     MerchantRoutingModule,
-    SharedModule
+    SharedModule,
+    QRCodeModule
   ],
   declarations: [MerchantPage, CheckoutModal, TradePipe]
 })
