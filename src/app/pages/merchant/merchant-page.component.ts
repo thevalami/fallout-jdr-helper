@@ -8,6 +8,7 @@ import {MerchantItem} from "./merchant-item.model";
 import {TranslateService} from "@ngx-translate/core";
 import * as LZUTF8 from "lzutf8";
 import {BarcodeScanner} from "@capacitor-community/barcode-scanner";
+import {isWebContext} from "../../shared/context-utils";
 
 const WEALTH_QUANTITY_MULTIPLIER = 3;
 
@@ -234,9 +235,14 @@ export class MerchantPage implements OnInit {
 
     // if the result has content
     if (result.hasContent) {
-      console.log(result.content); // log the raw scanned content
+      const plainData = LZUTF8.decompress(result.hasContent, {"inputEncoding": "StorageBinaryString"});
+      alert(plainData); // log the raw scanned content
     }
 
     document.querySelector('body').classList.remove('scanner-active');
   };
+
+  isWebDevice(): boolean {
+    return isWebContext();
+  }
 }

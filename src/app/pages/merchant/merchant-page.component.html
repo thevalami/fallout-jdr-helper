@@ -73,7 +73,7 @@
       <ion-fab-button (click)="generateQRCode()" color="tertiary">
         <ion-icon name="qr-code"></ion-icon>
       </ion-fab-button>
-      <ion-fab-button (click)="startScan()" color="tertiary">
+      <ion-fab-button (click)="startScan()" color="tertiary" *ngIf="isWebDevice()">
         <ion-icon name="camera"></ion-icon>
       </ion-fab-button>
     </ion-fab-list>
