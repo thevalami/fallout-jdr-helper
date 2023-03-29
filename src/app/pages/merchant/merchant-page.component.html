@@ -61,16 +61,16 @@
     </ion-accordion-group>
   </ion-content>
 
-  <ion-fab vertical="bottom" horizontal="end" slot="fixed" *ngIf="merchantReady">
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
     <ion-fab-button>
       <ion-icon name="apps"></ion-icon>
     </ion-fab-button>
     <ion-fab-list side="top">
-      <ion-fab-button (click)="openCheckoutModal()" color="tertiary">
+      <ion-fab-button (click)="openCheckoutModal()" color="tertiary" *ngIf="merchantReady">
         <ion-icon name="bag" *ngIf="boughtItems == 0"></ion-icon>
         <ion-icon name="bag-check" *ngIf="boughtItems > 0"></ion-icon>
       </ion-fab-button>
-      <ion-fab-button (click)="generateQRCode()" color="tertiary">
+      <ion-fab-button (click)="generateQRCode()" color="tertiary" *ngIf="merchantReady">
         <ion-icon name="qr-code"></ion-icon>
       </ion-fab-button>
       <ion-fab-button (click)="startScan()" color="tertiary" *ngIf="!isWebDevice()">

@@ -36,7 +36,7 @@ export const SYNTHARMOR_LOOT_DATA_FR = [
     Weight: '1,5',
     Cost: 33,
     Rarity: 3,
-    id: 1
+    id: 's-1'
   },
   {
     Name: 'Plastron de synthétique',
@@ -47,7 +47,7 @@ export const SYNTHARMOR_LOOT_DATA_FR = [
     Weight: '3,5',
     Cost: 75,
     Rarity: 3,
-    id: 2
+    id: 's-2'
   },
   {
     Name: 'Jambière de synthétique',
@@ -58,7 +58,7 @@ export const SYNTHARMOR_LOOT_DATA_FR = [
     Weight: '1,5',
     Cost: 30,
     Rarity: 3,
-    id: 3
+    id: 's-3'
   },
   {
     Name: 'Brassard de synthétique',
@@ -69,7 +69,7 @@ export const SYNTHARMOR_LOOT_DATA_FR = [
     Weight: '1,5',
     Cost: 30,
     Rarity: 3,
-    id: 4
+    id: 's-4'
   },
   {
     Name: 'Casque de synthétique solide',
@@ -80,7 +80,7 @@ export const SYNTHARMOR_LOOT_DATA_FR = [
     Weight: '3,5',
     Cost: 70,
     Rarity: 4,
-    id: 5
+    id: 's-5'
   },
   {
     Name: 'Plastron de synthétique solide',
@@ -91,7 +91,7 @@ export const SYNTHARMOR_LOOT_DATA_FR = [
     Weight: 6,
     Cost: 125,
     Rarity: 4,
-    id: 6
+    id: 's-6'
   },
   {
     Name: 'Jambière de synthétique solide',
@@ -102,7 +102,7 @@ export const SYNTHARMOR_LOOT_DATA_FR = [
     Weight: '3,5',
     Cost: 80,
     Rarity: 4,
-    id: 7
+    id: 's-7'
   },
   {
     Name: 'Brassard de synthétique solide',
@@ -113,7 +113,7 @@ export const SYNTHARMOR_LOOT_DATA_FR = [
     Weight: '3,5',
     Cost: 70,
     Rarity: 4,
-    id: 8
+    id: 's-8'
   },
   {
     Name: 'Casque de synthétique lourd',
@@ -124,7 +124,7 @@ export const SYNTHARMOR_LOOT_DATA_FR = [
     Weight: 5,
     Cost: 110,
     Rarity: 5,
-    id: 9
+    id: 's-9'
   },
   {
     Name: 'Plastron de synthétique lourd',
@@ -135,7 +135,7 @@ export const SYNTHARMOR_LOOT_DATA_FR = [
     Weight: '8,5',
     Cost: 175,
     Rarity: 5,
-    id: 10
+    id: 's-10'
   },
   {
     Name: 'Jambière de synthétique lourde',
@@ -146,7 +146,7 @@ export const SYNTHARMOR_LOOT_DATA_FR = [
     Weight: 5,
     Cost: 130,
     Rarity: 5,
-    id: 11
+    id: 's-11'
   },
   {
     Name: 'Brassard de synthétique lourd',
@@ -157,7 +157,8 @@ export const SYNTHARMOR_LOOT_DATA_FR = [
     Weight: 5,
     Cost: 110,
     Rarity: 5,
-    id: 12
+    id: 's-12'
   }
 ]
+
 

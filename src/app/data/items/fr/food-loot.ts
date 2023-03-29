@@ -35,7 +35,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 18,
       Rarity: '0',
-      id: 1
+      id: 'f-1'
     },
     {
       Name: 'Blé surin',
@@ -45,7 +45,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 5,
       Rarity: 1,
-      id: 2
+      id: 'f-2'
     },
     {
       Name: 'Bol de nouilles',
@@ -55,7 +55,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 20,
       Rarity: 2,
-      id: 3
+      id: 'f-3'
     },
     {
       Name: 'Bombes sucrées',
@@ -65,7 +65,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 11,
       Rarity: '0',
-      id: 4
+      id: 'f-4'
     },
     {
       Name: "Bouchées d'écureuil",
@@ -75,7 +75,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 4,
       Rarity: 1,
-      id: 5
+      id: 'f-5'
     },
     {
       Name: "Bouchées d'écureuil croustillantes",
@@ -85,7 +85,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 6,
       Rarity: 2,
-      id: 6
+      id: 'f-6'
     },
     {
       Name: 'Boules de gomme',
@@ -95,7 +95,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 5,
       Rarity: '0',
-      id: 7
+      id: 'f-7'
     },
     {
       Name: "Brochette d'écureuil",
@@ -105,7 +105,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 15,
       Rarity: 2,
-      id: 8
+      id: 'f-8'
     },
     {
       Name: "Brochette d'iguane",
@@ -115,7 +115,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 33,
       Rarity: 2,
-      id: 9
+      id: 'f-9'
     },
     {
       Name: 'Carotte',
@@ -125,7 +125,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 3,
       Rarity: 1,
-      id: 10
+      id: 'f-10'
     },
     {
       Name: 'Chair de radcafard',
@@ -135,7 +135,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 3,
       Rarity: '0',
-      id: 11
+      id: 'f-11'
     },
     {
       Name: 'Chips',
@@ -145,7 +145,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 7,
       Rarity: '0',
-      id: 12
+      id: 'f-12'
     },
     {
       Name: 'Côtelettes de yao guai',
@@ -155,7 +155,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 90,
       Rarity: 4,
-      id: 13
+      id: 'f-13'
     },
     {
       Name: 'Côtes de chien',
@@ -165,7 +165,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 12,
       Rarity: 1,
-      id: 14
+      id: 'f-14'
     },
     {
       Name: 'Côtes de molosse mutant',
@@ -175,7 +175,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 12,
       Rarity: 3,
-      id: 15
+      id: 'f-15'
     },
     {
       Name: 'Courge',
@@ -185,7 +185,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 6,
       Rarity: 1,
-      id: 16
+      id: 'f-16'
     },
     {
       Name: 'Cram',
@@ -195,7 +195,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 25,
       Rarity: 1,
-      id: 17
+      id: 'f-17'
     },
     {
       Name: 'Épi de maïs',
@@ -205,7 +205,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 6,
       Rarity: 1,
-      id: 18
+      id: 'f-18'
     },
     {
       Name: 'Fausse morille',
@@ -215,7 +215,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 6,
       Rarity: 1,
-      id: 19
+      id: 'f-19'
     },
     {
       Name: 'Faux-filet',
@@ -225,7 +225,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 40,
       Rarity: 2,
-      id: 20
+      id: 'f-20'
     },
     {
       Name: 'Filet de darillon',
@@ -235,7 +235,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 35,
       Rarity: 2,
-      id: 21
+      id: 'f-21'
     },
     {
       Name: 'Fruit mutant',
@@ -245,7 +245,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 8,
       Rarity: '0',
-      id: 22
+      id: 'f-22'
     },
     {
       Name: 'Goudrelle',
@@ -255,7 +255,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 5,
       Rarity: 3,
-      id: 23
+      id: 'f-23'
     },
     {
       Name: 'Haricot envasé',
@@ -265,7 +265,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 6,
       Rarity: 1,
-      id: 24
+      id: 'f-24'
     },
     {
       Name: 'Macaronis Blamco',
@@ -275,7 +275,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 10,
       Rarity: 1,
-      id: 25
+      id: 'f-25'
     },
     {
       Name: 'Melon',
@@ -285,7 +285,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 6,
       Rarity: 1,
-      id: 26
+      id: 'f-26'
     },
     {
       Name: 'Mouche bouffie grillée',
@@ -295,7 +295,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 15,
       Rarity: 1,
-      id: 27
+      id: 'f-27'
     },
     {
       Name: "Œuf d'écorcheur",
@@ -305,7 +305,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 69,
       Rarity: 3,
-      id: 28
+      id: 'f-28'
     },
     {
       Name: 'Œuf de fangeux',
@@ -315,7 +315,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 0,
       Rarity: 2,
-      id: 29
+      id: 'f-29'
     },
     {
       Name: 'Œuf de radscorpion',
@@ -325,7 +325,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 48,
       Rarity: 3,
-      id: 30
+      id: 'f-30'
     },
     {
       Name: 'Œufs mimosas Miam-Miam',
@@ -335,7 +335,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 20,
       Rarity: '0',
-      id: 31
+      id: 'f-31'
     },
     {
       Name: "Omelette d'œufs d'écorcheur",
@@ -345,7 +345,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 80,
       Rarity: 4,
-      id: 32
+      id: 'f-32'
     },
     {
       Name: "Omelette d'œufs de fangeux",
@@ -355,7 +355,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 30,
       Rarity: 3,
-      id: 33
+      id: 'f-33'
     },
     {
       Name: "Omelette d'œufs de radscorpion",
@@ -365,7 +365,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 65,
       Rarity: 4,
-      id: 34
+      id: 'f-34'
     },
     {
       Name: "Pack de nourriture de l'Institut",
@@ -375,7 +375,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 10,
       Rarity: 2,
-      id: 35
+      id: 'f-35'
     },
     {
       Name: 'Pain brioché',
@@ -385,7 +385,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 9,
       Rarity: 1,
-      id: 36
+      id: 'f-36'
     },
     {
       Name: 'Pâte comestible',
@@ -395,7 +395,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 0,
       Rarity: 2,
-      id: 37
+      id: 'f-37'
     },
     {
       Name: 'Pâté de fangeux',
@@ -405,7 +405,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 35,
       Rarity: 3,
-      id: 38
+      id: 'f-38'
     },
     {
       Name: 'Pâtée pour chien',
@@ -415,7 +415,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 6,
       Rarity: '0',
-      id: 39
+      id: 'f-39'
     },
     {
       Name: 'Pomate',
@@ -425,7 +425,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 7,
       Rarity: 1,
-      id: 40
+      id: 'f-40'
     },
     {
       Name: 'Pommes Dandy Boy',
@@ -435,7 +435,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 7,
       Rarity: '0',
-      id: 41
+      id: 'f-41'
     },
     {
       Name: 'Porc aux haricots',
@@ -445,7 +445,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 10,
       Rarity: '0',
-      id: 42
+      id: 'f-42'
     },
     {
       Name: 'Purée-minute',
@@ -455,7 +455,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 20,
       Rarity: '0',
-      id: 43
+      id: 'f-43'
     },
     {
       Name: 'Radcafard grillé',
@@ -465,7 +465,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 7,
       Rarity: 1,
-      id: 44
+      id: 'f-44'
     },
     {
       Name: 'Radcerf grillé',
@@ -475,7 +475,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 60,
       Rarity: 2,
-      id: 45
+      id: 'f-45'
     },
     {
       Name: "Ragoût d'écureuil",
@@ -485,7 +485,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 24,
       Rarity: 2,
-      id: 46
+      id: 'f-46'
     },
     {
       Name: 'Ragoût de radcerf',
@@ -495,7 +495,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 60,
       Rarity: 3,
-      id: 47
+      id: 'f-47'
     },
     {
       Name: "Ragoût d'iguane",
@@ -505,7 +505,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 8,
       Rarity: 1,
-      id: 48
+      id: 'f-48'
     },
     {
       Name: 'Rôti de yao guai',
@@ -515,7 +515,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 110,
       Rarity: 4,
-      id: 49
+      id: 'f-49'
     },
     {
       Name: 'Soupe de légumes',
@@ -525,7 +525,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 13,
       Rarity: 2,
-      id: 50
+      id: 'f-50'
     },
     {
       Name: "Soupe d'iguane",
@@ -535,7 +535,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 21,
       Rarity: 3,
-      id: 51
+      id: 'f-51'
     },
     {
       Name: "Steak d'écorcheur",
@@ -545,7 +545,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 130,
       Rarity: 4,
-      id: 52
+      id: 'f-52'
     },
     {
       Name: 'Steak de radscorpion',
@@ -555,7 +555,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 65,
       Rarity: 3,
-      id: 53
+      id: 'f-53'
     },
     {
       Name: 'Steak de rataupe',
@@ -565,7 +565,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 8,
       Rarity: 1,
-      id: 54
+      id: 'f-54'
     },
     {
       Name: 'Steak de reine des fangeux',
@@ -575,7 +575,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 130,
       Rarity: 5,
-      id: 55
+      id: 'f-55'
     },
     {
       Name: 'Steak de tique',
@@ -585,7 +585,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 18,
       Rarity: 2,
-      id: 56
+      id: 'f-56'
     },
     {
       Name: 'Steak Salisbury',
@@ -595,7 +595,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 20,
       Rarity: '0',
-      id: 57
+      id: 'f-57'
     },
     {
       Name: 'Tarte parfaitement conservée',
@@ -605,7 +605,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 20,
       Rarity: 3,
-      id: 58
+      id: 'f-58'
     },
     {
       Name: 'Viande de brahmine',
@@ -615,7 +615,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 28,
       Rarity: 1,
-      id: 59
+      id: 'f-59'
     },
     {
       Name: 'Viande de chien errant',
@@ -625,7 +625,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 8,
       Rarity: '0',
-      id: 60
+      id: 'f-60'
     },
     {
       Name: 'Viande de darillon',
@@ -635,7 +635,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 30,
       Rarity: 1,
-      id: 61
+      id: 'f-61'
     },
     {
       Name: "Viande d'écorcheur",
@@ -645,7 +645,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 110,
       Rarity: 3,
-      id: 62
+      id: 'f-62'
     },
     {
       Name: 'Viande de fangeux',
@@ -655,7 +655,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 18,
       Rarity: 1,
-      id: 63
+      id: 'f-63'
     },
     {
       Name: 'Viande de fangeux à carapace molle',
@@ -665,7 +665,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 22,
       Rarity: 2,
-      id: 64
+      id: 'f-64'
     },
     {
       Name: 'Viande de fangeux grillée',
@@ -675,7 +675,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 40,
       Rarity: 3,
-      id: 65
+      id: 'f-65'
     },
     {
       Name: 'Viande de fangeux rôtie',
@@ -685,7 +685,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 40,
       Rarity: 2,
-      id: 66
+      id: 'f-66'
     },
     {
       Name: 'Viande de molosse mutant',
@@ -695,7 +695,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 8,
       Rarity: 2,
-      id: 67
+      id: 'f-67'
     },
     {
       Name: 'Viande de mouche bouffie',
@@ -705,7 +705,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 8,
       Rarity: '0',
-      id: 68
+      id: 'f-68'
     },
     {
       Name: 'Viande de radcerf',
@@ -715,7 +715,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 50,
       Rarity: 1,
-      id: 69
+      id: 'f-69'
     },
     {
       Name: 'Viande de radscorpion',
@@ -725,7 +725,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 55,
       Rarity: 2,
-      id: 70
+      id: 'f-70'
     },
     {
       Name: 'Viande de rataupe',
@@ -735,7 +735,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 5,
       Rarity: '0',
-      id: 71
+      id: 'f-71'
     },
     {
       Name: 'Viande de reine des fangeux',
@@ -745,7 +745,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 22,
       Rarity: 4,
-      id: 72
+      id: 'f-72'
     },
     {
       Name: 'Viande de tique',
@@ -755,7 +755,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 8,
       Rarity: 1,
-      id: 73
+      id: 'f-73'
     },
     {
       Name: 'Viande de yao guai',
@@ -765,7 +765,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 85,
       Rarity: 3,
-      id: 74
+      id: 'f-74'
     },
     {
       Name: 'Viande en boîte',
@@ -775,6 +775,7 @@ export const FOOD_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 25,
       Rarity: '0',
-      id: 75
+      id: 'f-75'
     }
   ]
+

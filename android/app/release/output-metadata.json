@@ -4,15 +4,15 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "io.ionic.starter",
+  "applicationId": "org.kyne.falloutjdrhelper",
   "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 1,
-      "versionName": "1.0",
+      "versionCode": 10,
+      "versionName": "1.3.5",
       "outputFile": "app-release.apk"
     }
   ],

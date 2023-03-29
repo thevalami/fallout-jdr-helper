@@ -36,7 +36,7 @@ export const COMBATARMOR_LOOT_DATA_FR = [
     Weight: 2,
     Cost: 25,
     Rarity: 2,
-    id: 1
+    id: 'c-1'
   },
   {
     Name: "Plastron d'armure de combat",
@@ -47,7 +47,7 @@ export const COMBATARMOR_LOOT_DATA_FR = [
     Weight: 4,
     Cost: 60,
     Rarity: 2,
-    id: 2
+    id: 'c-2'
   },
   {
     Name: "Jambière d'armure de combat",
@@ -58,7 +58,7 @@ export const COMBATARMOR_LOOT_DATA_FR = [
     Weight: 1,
     Cost: 25,
     Rarity: 2,
-    id: 3
+    id: 'c-3'
   },
   {
     Name: "Brassard d'armure de combat",
@@ -69,7 +69,7 @@ export const COMBATARMOR_LOOT_DATA_FR = [
     Weight: 1,
     Cost: 25,
     Rarity: 2,
-    id: 4
+    id: 'c-4'
   },
   {
     Name: "Casque d'armure de combat solide",
@@ -80,7 +80,7 @@ export const COMBATARMOR_LOOT_DATA_FR = [
     Weight: '2,5',
     Cost: 105,
     Rarity: 3,
-    id: 5
+    id: 'c-5'
   },
   {
     Name: "Plastron d'armure de combat solide",
@@ -91,7 +91,7 @@ export const COMBATARMOR_LOOT_DATA_FR = [
     Weight: 6,
     Cost: 140,
     Rarity: 3,
-    id: 6
+    id: 'c-6'
   },
   {
     Name: "Jambière d'armure de combat solide",
@@ -102,7 +102,7 @@ export const COMBATARMOR_LOOT_DATA_FR = [
     Weight: '2,5',
     Cost: 105,
     Rarity: 3,
-    id: 7
+    id: 'c-7'
   },
   {
     Name: "Brassard d'armure de combat solide",
@@ -113,7 +113,7 @@ export const COMBATARMOR_LOOT_DATA_FR = [
     Weight: '2,5',
     Cost: 105,
     Rarity: 3,
-    id: 8
+    id: 'c-8'
   },
   {
     Name: "Casque d'armure de combat lourd",
@@ -124,7 +124,7 @@ export const COMBATARMOR_LOOT_DATA_FR = [
     Weight: '3,5',
     Cost: 185,
     Rarity: 4,
-    id: 9
+    id: 'c-9'
   },
   {
     Name: "Plastron d'armure de combat lourd",
@@ -135,7 +135,7 @@ export const COMBATARMOR_LOOT_DATA_FR = [
     Weight: 8,
     Cost: 220,
     Rarity: 4,
-    id: 10
+    id: 'c-10'
   },
   {
     Name: "Jambière d'armure de combat lourde",
@@ -146,7 +146,7 @@ export const COMBATARMOR_LOOT_DATA_FR = [
     Weight: '3,5',
     Cost: 185,
     Rarity: 4,
-    id: 11
+    id: 'c-11'
   },
   {
     Name: "Brassard d'armure de combat lourd",
@@ -157,7 +157,8 @@ export const COMBATARMOR_LOOT_DATA_FR = [
     Weight: '3,5',
     Cost: 145,
     Rarity: 4,
-    id: 12
+    id: 'c-12'
   }
 ]
+
 

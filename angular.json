@@ -32,7 +32,9 @@
               "src/manifest.webmanifest"
             ],
             "allowedCommonJsDependencies": [
-              "dice-typescript"
+              "dice-typescript",
+              "@cordobo/qrcode",
+              "lzutf8"
             ],
             "styles": [
               "src/theme/variables.scss",

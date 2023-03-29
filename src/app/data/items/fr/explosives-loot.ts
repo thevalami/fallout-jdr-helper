@@ -36,7 +36,7 @@ export const EXPLOSIVES_LOOT_DATA_FR = [
     Weight: '0,5',
     Cost: 20,
     Rarity: 1,
-    id: 1
+    id: 'e-1'
   },
   {
     Name: 'Grenade à fragmentation',
@@ -47,7 +47,7 @@ export const EXPLOSIVES_LOOT_DATA_FR = [
     Weight: '< 0,5',
     Cost: 50,
     Rarity: 2,
-    id: 2
+    id: 'e-2'
   },
   {
     Name: 'Grenade à impulsion',
@@ -58,7 +58,7 @@ export const EXPLOSIVES_LOOT_DATA_FR = [
     Weight: '< 0,5',
     Cost: 100,
     Rarity: 3,
-    id: 3
+    id: 'e-3'
   },
   {
     Name: 'Grenade à plasma',
@@ -69,7 +69,7 @@ export const EXPLOSIVES_LOOT_DATA_FR = [
     Weight: '< 0,5',
     Cost: 135,
     Rarity: 3,
-    id: 4
+    id: 'e-4'
   },
   {
     Name: 'Grenade Nuka',
@@ -80,7 +80,7 @@ export const EXPLOSIVES_LOOT_DATA_FR = [
     Weight: '0,5',
     Cost: 100,
     Rarity: 4,
-    id: 5
+    id: 'e-5'
   },
   {
     Name: 'Grenade ronde',
@@ -91,7 +91,7 @@ export const EXPLOSIVES_LOOT_DATA_FR = [
     Weight: '0,5',
     Cost: 40,
     Rarity: 1,
-    id: 6
+    id: 'e-6'
   },
   {
     Name: 'Mine à capsules',
@@ -102,7 +102,7 @@ export const EXPLOSIVES_LOOT_DATA_FR = [
     Weight: '0,5',
     Cost: 75,
     Rarity: 2,
-    id: 7
+    id: 'e-7'
   },
   {
     Name: 'Mine à fragmentation',
@@ -113,7 +113,7 @@ export const EXPLOSIVES_LOOT_DATA_FR = [
     Weight: '0,5',
     Cost: 50,
     Rarity: 2,
-    id: 8
+    id: 'e-8'
   },
   {
     Name: 'Mine à impulsion',
@@ -124,7 +124,7 @@ export const EXPLOSIVES_LOOT_DATA_FR = [
     Weight: '< 0,5',
     Cost: 135,
     Rarity: 3,
-    id: 9
+    id: 'e-9'
   },
   {
     Name: 'Mine à plasma',
@@ -135,7 +135,7 @@ export const EXPLOSIVES_LOOT_DATA_FR = [
     Weight: '< 0,5',
     Cost: 135,
     Rarity: 3,
-    id: 10
+    id: 'e-10'
   },
   {
     Name: 'Mine nucléaire',
@@ -146,6 +146,7 @@ export const EXPLOSIVES_LOOT_DATA_FR = [
     Weight: '< 0,5',
     Cost: 100,
     Rarity: 4,
-    id: 11
+    id: 'e-11'
   }
 ]
+

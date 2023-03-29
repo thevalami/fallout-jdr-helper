@@ -40,7 +40,7 @@ export const HATS_LOOT_DATA_FR = [
     Cost: 15,
     Rarity: 1,
     Special: "Permet d'ignorer toute augmentation de difficulté liée causée par une lumière extrèmement vive",
-    id: 1
+    id: 'h-1'
   },
   {
     Name: 'Casque militaire',
@@ -52,7 +52,7 @@ export const HATS_LOOT_DATA_FR = [
     Cost: 20,
     Rarity: 1,
     Special: '',
-    id: 2
+    id: 'h-2'
   },
   {
     Name: 'Chapeau de scribe de la Confrérie',
@@ -64,7 +64,7 @@ export const HATS_LOOT_DATA_FR = [
     Cost: 8,
     Rarity: 2,
     Special: '',
-    id: 3
+    id: 'h-3'
   },
   {
     Name: "Cagoule de la Confrérie de l'Acier",
@@ -76,7 +76,7 @@ export const HATS_LOOT_DATA_FR = [
     Cost: 12,
     Rarity: 2,
     Special: '',
-    id: 4
+    id: 'h-4'
   },
   {
     Name: 'Sac cagoule',
@@ -88,7 +88,7 @@ export const HATS_LOOT_DATA_FR = [
     Cost: 5,
     Rarity: '0',
     Special: '',
-    id: 5
+    id: 'h-5'
   },
   {
     Name: 'Cagoule ou Capuche',
@@ -100,7 +100,7 @@ export const HATS_LOOT_DATA_FR = [
     Cost: 5,
     Rarity: 1,
     Special: '',
-    id: 6
+    id: 'h-6'
   },
   {
     Name: 'Casque de chantier',
@@ -112,7 +112,7 @@ export const HATS_LOOT_DATA_FR = [
     Cost: 15,
     Rarity: 1,
     Special: '',
-    id: 7
+    id: 'h-7'
   },
   {
     Name: 'Masque de soudure',
@@ -124,7 +124,7 @@ export const HATS_LOOT_DATA_FR = [
     Cost: 20,
     Rarity: 2,
     Special: '',
-    id: 8
+    id: 'h-8'
   },
   {
     Name: 'Chapeau élégant',
@@ -136,7 +136,7 @@ export const HATS_LOOT_DATA_FR = [
     Cost: 15,
     Rarity: 2,
     Special: 'Permet de relancer une fois par scène un seul D20 sur un test de compétence basé sur le CHR car il aide à faire bonne impression',
-    id: 9
+    id: 'h-9'
   },
   {
     Name: 'Masque à gaz',
@@ -148,7 +148,8 @@ export const HATS_LOOT_DATA_FR = [
     Cost: 10,
     Rarity: 2,
     Special: "Fournit +3 résistance dégâts de poison contre tous les poisons présents dans l'atmosphère ou gazeux. Immunise aux effets liés au gaz et à la poussière. Augmente de 1 la difficulté de tous les tests de Discours car le masque étouffe la voix du porteur,",
-    id: 10
+    id: 'h-10'
   }
 ]
+
 

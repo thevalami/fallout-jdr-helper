@@ -40,7 +40,7 @@ export const POWERARMOR_LOOT_DATA_FR = [
     Weight: 75,
     Cost: 4500,
     Rarity: 4,
-    id: 1
+    id: 'p-1'
   },
   {
     Name: 'Casque A.A. de pillard',
@@ -52,7 +52,7 @@ export const POWERARMOR_LOOT_DATA_FR = [
     Weight: 7,
     Cost: 50,
     Rarity: 2,
-    id: 2
+    id: 'p-2'
   },
   {
     Name: 'Plastron A.A. de pillard',
@@ -64,7 +64,7 @@ export const POWERARMOR_LOOT_DATA_FR = [
     Weight: 11,
     Cost: 100,
     Rarity: 2,
-    id: 3
+    id: 'p-3'
   },
   {
     Name: 'Brassard A.A. de pillard',
@@ -76,7 +76,7 @@ export const POWERARMOR_LOOT_DATA_FR = [
     Weight: 8,
     Cost: 75,
     Rarity: 2,
-    id: 4
+    id: 'p-4'
   },
   {
     Name: 'Jambière A.A. de pillard',
@@ -88,7 +88,7 @@ export const POWERARMOR_LOOT_DATA_FR = [
     Weight: '8,5',
     Cost: 75,
     Rarity: 2,
-    id: 5
+    id: 'p-5'
   },
   {
     Name: 'Casque T-45',
@@ -100,7 +100,7 @@ export const POWERARMOR_LOOT_DATA_FR = [
     Weight: 6,
     Cost: 60,
     Rarity: 2,
-    id: 6
+    id: 'p-6'
   },
   {
     Name: 'Plastron T-45',
@@ -112,7 +112,7 @@ export const POWERARMOR_LOOT_DATA_FR = [
     Weight: 10,
     Cost: 140,
     Rarity: 2,
-    id: 7
+    id: 'p-7'
   },
   {
     Name: 'Brassard T-45',
@@ -124,7 +124,7 @@ export const POWERARMOR_LOOT_DATA_FR = [
     Weight: '7,5',
     Cost: 100,
     Rarity: 2,
-    id: 8
+    id: 'p-8'
   },
   {
     Name: 'Jambière T-45',
@@ -136,7 +136,7 @@ export const POWERARMOR_LOOT_DATA_FR = [
     Weight: '7,5',
     Cost: 100,
     Rarity: 2,
-    id: 9
+    id: 'p-9'
   },
   {
     Name: 'Casque T-51',
@@ -148,7 +148,7 @@ export const POWERARMOR_LOOT_DATA_FR = [
     Weight: 6,
     Cost: 80,
     Rarity: 3,
-    id: 10
+    id: 'p-10'
   },
   {
     Name: 'Plastron T-51',
@@ -160,7 +160,7 @@ export const POWERARMOR_LOOT_DATA_FR = [
     Weight: 10,
     Cost: 180,
     Rarity: 3,
-    id: 11
+    id: 'p-11'
   },
   {
     Name: 'Brassard T-51',
@@ -172,7 +172,7 @@ export const POWERARMOR_LOOT_DATA_FR = [
     Weight: '7,5',
     Cost: 130,
     Rarity: 3,
-    id: 12
+    id: 'p-12'
   },
   {
     Name: 'Jambière T-51',
@@ -184,7 +184,7 @@ export const POWERARMOR_LOOT_DATA_FR = [
     Weight: '7,5',
     Cost: 130,
     Rarity: 3,
-    id: 13
+    id: 'p-13'
   },
   {
     Name: 'Casque T-60',
@@ -196,7 +196,7 @@ export const POWERARMOR_LOOT_DATA_FR = [
     Weight: 6,
     Cost: 120,
     Rarity: 4,
-    id: 14
+    id: 'p-14'
   },
   {
     Name: 'Plastron T-60',
@@ -208,7 +208,7 @@ export const POWERARMOR_LOOT_DATA_FR = [
     Weight: 10,
     Cost: 200,
     Rarity: 4,
-    id: 15
+    id: 'p-15'
   },
   {
     Name: 'Brassard T-60',
@@ -220,7 +220,7 @@ export const POWERARMOR_LOOT_DATA_FR = [
     Weight: '7,5',
     Cost: 160,
     Rarity: 4,
-    id: 16
+    id: 'p-16'
   },
   {
     Name: 'Jambière T-60',
@@ -232,7 +232,7 @@ export const POWERARMOR_LOOT_DATA_FR = [
     Weight: '7,5',
     Cost: 160,
     Rarity: 4,
-    id: 17
+    id: 'p-17'
   },
   {
     Name: 'Casque X-01',
@@ -244,7 +244,7 @@ export const POWERARMOR_LOOT_DATA_FR = [
     Weight: 6,
     Cost: 140,
     Rarity: 5,
-    id: 18
+    id: 'p-18'
   },
   {
     Name: 'Plastron X-01',
@@ -256,7 +256,7 @@ export const POWERARMOR_LOOT_DATA_FR = [
     Weight: 10,
     Cost: 280,
     Rarity: 5,
-    id: 19
+    id: 'p-19'
   },
   {
     Name: 'Brassard X-01',
@@ -268,7 +268,7 @@ export const POWERARMOR_LOOT_DATA_FR = [
     Weight: '7,5',
     Cost: 200,
     Rarity: 5,
-    id: 20
+    id: 'p-20'
   },
   {
     Name: 'Jambière X-01',
@@ -280,7 +280,8 @@ export const POWERARMOR_LOOT_DATA_FR = [
     Weight: '7,5',
     Cost: 200,
     Rarity: 5,
-    id: 21
+    id: 'p-21'
   }
 ]
+
 

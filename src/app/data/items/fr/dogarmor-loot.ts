@@ -36,7 +36,7 @@ export const DOGARMOR_LOOT_DATA_FR = [
     Weight: '0,5',
     Cost: 7,
     Rarity: 2,
-    id: 1
+    id: 'd-1'
   },
   {
     Name: 'Armure de chien légère',
@@ -47,7 +47,7 @@ export const DOGARMOR_LOOT_DATA_FR = [
     Weight: '0,5',
     Cost: 10,
     Rarity: 1,
-    id: 2
+    id: 'd-2'
   },
   {
     Name: 'Armure de chien moyenne',
@@ -58,7 +58,7 @@ export const DOGARMOR_LOOT_DATA_FR = [
     Weight: 1,
     Cost: 15,
     Rarity: 2,
-    id: 3
+    id: 'd-3'
   },
   {
     Name: 'Armure de chien lourde',
@@ -69,7 +69,8 @@ export const DOGARMOR_LOOT_DATA_FR = [
     Weight: 1,
     Cost: 20,
     Rarity: 3,
-    id: 4
+    id: 'd-4'
   }
 ]
+
 

@@ -36,7 +36,7 @@ export const LEATHERARMOR_LOOT_DATA_FR = [
     Weight: '2,5',
     Cost: 25,
     Rarity: 1,
-    id: 1
+    id: 'l-1'
   },
   {
     Name: 'Jambière en cuir',
@@ -47,7 +47,7 @@ export const LEATHERARMOR_LOOT_DATA_FR = [
     Weight: 1,
     Cost: 10,
     Rarity: 1,
-    id: 2
+    id: 'l-2'
   },
   {
     Name: 'Brassard en cuir',
@@ -58,7 +58,7 @@ export const LEATHERARMOR_LOOT_DATA_FR = [
     Weight: 1,
     Cost: 8,
     Rarity: 1,
-    id: 3
+    id: 'l-3'
   },
   {
     Name: 'Plastron en cuir solide',
@@ -69,7 +69,7 @@ export const LEATHERARMOR_LOOT_DATA_FR = [
     Weight: 5,
     Cost: 50,
     Rarity: 2,
-    id: 4
+    id: 'l-4'
   },
   {
     Name: 'Jambière en cuir solide',
@@ -80,7 +80,7 @@ export const LEATHERARMOR_LOOT_DATA_FR = [
     Weight: '2,5',
     Cost: 20,
     Rarity: 2,
-    id: 5
+    id: 'l-5'
   },
   {
     Name: 'Brassard en cuir solide',
@@ -91,7 +91,7 @@ export const LEATHERARMOR_LOOT_DATA_FR = [
     Weight: '2,5',
     Cost: 18,
     Rarity: 2,
-    id: 6
+    id: 'l-6'
   },
   {
     Name: 'Plastron en cuir lourd',
@@ -102,7 +102,7 @@ export const LEATHERARMOR_LOOT_DATA_FR = [
     Weight: '7,5',
     Cost: 75,
     Rarity: 3,
-    id: 7
+    id: 'l-7'
   },
   {
     Name: 'Jambière en cuir lourde',
@@ -113,7 +113,7 @@ export const LEATHERARMOR_LOOT_DATA_FR = [
     Weight: '3,5',
     Cost: 30,
     Rarity: 3,
-    id: 8
+    id: 'l-8'
   },
   {
     Name: 'Brassard en cuir lourde',
@@ -124,7 +124,8 @@ export const LEATHERARMOR_LOOT_DATA_FR = [
     Weight: '3,5',
     Cost: 28,
     Rarity: 3,
-    id: 9
+    id: 'l-9'
   }
 ]
+
 

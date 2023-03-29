@@ -36,7 +36,7 @@ export const METALARMOR_LOOT_DATA_FR = [
     Weight: '1,5',
     Cost: 15,
     Rarity: 1,
-    id: 1
+    id: 'm-1'
   },
   {
     Name: 'Plastron en métal',
@@ -47,7 +47,7 @@ export const METALARMOR_LOOT_DATA_FR = [
     Weight: 3,
     Cost: 40,
     Rarity: 1,
-    id: 2
+    id: 'm-2'
   },
   {
     Name: 'Jambière en métal',
@@ -58,7 +58,7 @@ export const METALARMOR_LOOT_DATA_FR = [
     Weight: '1,5',
     Cost: 15,
     Rarity: 1,
-    id: 3
+    id: 'm-3'
   },
   {
     Name: 'Brassard en métal',
@@ -69,7 +69,7 @@ export const METALARMOR_LOOT_DATA_FR = [
     Weight: '1,5',
     Cost: 15,
     Rarity: 1,
-    id: 4
+    id: 'm-4'
   },
   {
     Name: 'Casque en métal solide',
@@ -80,7 +80,7 @@ export const METALARMOR_LOOT_DATA_FR = [
     Weight: 4,
     Cost: 65,
     Rarity: 2,
-    id: 5
+    id: 'm-5'
   },
   {
     Name: 'Plastron en métal solide',
@@ -91,7 +91,7 @@ export const METALARMOR_LOOT_DATA_FR = [
     Weight: 8,
     Cost: 115,
     Rarity: 2,
-    id: 6
+    id: 'm-6'
   },
   {
     Name: 'Jambière en métal solide',
@@ -102,7 +102,7 @@ export const METALARMOR_LOOT_DATA_FR = [
     Weight: 4,
     Cost: 65,
     Rarity: 2,
-    id: 7
+    id: 'm-7'
   },
   {
     Name: 'Brassard en métal solide',
@@ -113,7 +113,7 @@ export const METALARMOR_LOOT_DATA_FR = [
     Weight: 4,
     Cost: 65,
     Rarity: 2,
-    id: 8
+    id: 'm-8'
   },
   {
     Name: 'Casque en métal lourd',
@@ -124,7 +124,7 @@ export const METALARMOR_LOOT_DATA_FR = [
     Weight: 6,
     Cost: 115,
     Rarity: 3,
-    id: 9
+    id: 'm-9'
   },
   {
     Name: 'Plastron en métal lourd',
@@ -135,7 +135,7 @@ export const METALARMOR_LOOT_DATA_FR = [
     Weight: '11,5',
     Cost: 190,
     Rarity: 3,
-    id: 10
+    id: 'm-10'
   },
   {
     Name: 'Jambière en métal lourde',
@@ -146,7 +146,7 @@ export const METALARMOR_LOOT_DATA_FR = [
     Weight: 6,
     Cost: 115,
     Rarity: 3,
-    id: 11
+    id: 'm-11'
   },
   {
     Name: 'Brassard en métal lourd',
@@ -157,7 +157,7 @@ export const METALARMOR_LOOT_DATA_FR = [
     Weight: 6,
     Cost: 115,
     Rarity: 3,
-    id: 12
+    id: 'm-12'
   }
 ]
 

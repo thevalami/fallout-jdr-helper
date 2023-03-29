@@ -48,7 +48,7 @@ export const LIGHTWEAPONS_LOOT_DATA_FR = [
     Cost: 99,
     Rarity: 2,
     Munitions: 'Cartouches .44',
-    id: 1
+    id: 'l-1'
   },
   {
     Name: 'Pistolet 10mm',
@@ -62,7 +62,7 @@ export const LIGHTWEAPONS_LOOT_DATA_FR = [
     Cost: 50,
     Rarity: 1,
     Munitions: 'Cartouches 10mm',
-    id: 2
+    id: 'l-2'
   },
   {
     Name: 'Pistolet lance-fusées',
@@ -76,7 +76,7 @@ export const LIGHTWEAPONS_LOOT_DATA_FR = [
     Cost: 50,
     Rarity: 1,
     Munitions: 'Fusées éclairantes',
-    id: 3
+    id: 'l-3'
   },
   {
     Name: "Fusil d'assaut",
@@ -90,7 +90,7 @@ export const LIGHTWEAPONS_LOOT_DATA_FR = [
     Cost: 144,
     Rarity: 2,
     Munitions: 'Cartouches 5,56mm',
-    id: 4
+    id: 'l-4'
   },
   {
     Name: 'Carabine de combat',
@@ -104,7 +104,7 @@ export const LIGHTWEAPONS_LOOT_DATA_FR = [
     Cost: 117,
     Rarity: 2,
     Munitions: 'Cartouches .45',
-    id: 5
+    id: 'l-5'
   },
   {
     Name: 'Fusil de Gauss',
@@ -118,7 +118,7 @@ export const LIGHTWEAPONS_LOOT_DATA_FR = [
     Cost: 228,
     Rarity: 4,
     Munitions: 'CE 2mm',
-    id: 6
+    id: 'l-6'
   },
   {
     Name: 'Fusil de chasse',
@@ -132,7 +132,7 @@ export const LIGHTWEAPONS_LOOT_DATA_FR = [
     Cost: 55,
     Rarity: 2,
     Munitions: 'Cartouches .308',
-    id: 7
+    id: 'l-7'
   },
   {
     Name: 'Mitraillette',
@@ -146,7 +146,7 @@ export const LIGHTWEAPONS_LOOT_DATA_FR = [
     Cost: 109,
     Rarity: 1,
     Munitions: 'Cartouches .45',
-    id: 8
+    id: 'l-8'
   },
   {
     Name: 'Fusil de combat',
@@ -160,7 +160,7 @@ export const LIGHTWEAPONS_LOOT_DATA_FR = [
     Cost: 87,
     Rarity: 2,
     Munitions: 'Calibre 12',
-    id: 9
+    id: 'l-9'
   },
   {
     Name: 'Fusil à double canon',
@@ -174,7 +174,7 @@ export const LIGHTWEAPONS_LOOT_DATA_FR = [
     Cost: 39,
     Rarity: 1,
     Munitions: 'Calibre 12',
-    id: 10
+    id: 'l-10'
   },
   {
     Name: 'Arme à verrou de fortune',
@@ -188,7 +188,7 @@ export const LIGHTWEAPONS_LOOT_DATA_FR = [
     Cost: 30,
     Rarity: '0',
     Munitions: 'Cartouches .308',
-    id: 11
+    id: 'l-11'
   },
   {
     Name: 'Arme de fortune',
@@ -202,7 +202,7 @@ export const LIGHTWEAPONS_LOOT_DATA_FR = [
     Cost: 30,
     Rarity: '0',
     Munitions: 'Cartouches .38',
-    id: 12
+    id: 'l-12'
   },
   {
     Name: 'Revolver de fortune',
@@ -216,7 +216,7 @@ export const LIGHTWEAPONS_LOOT_DATA_FR = [
     Cost: 25,
     Rarity: '0',
     Munitions: 'Cartouches .45',
-    id: 13
+    id: 'l-13'
   },
   {
     Name: 'Fusil à clous',
@@ -230,7 +230,7 @@ export const LIGHTWEAPONS_LOOT_DATA_FR = [
     Cost: 290,
     Rarity: 4,
     Munitions: 'Clous de rail',
-    id: 14
+    id: 'l-14'
   },
   {
     Name: 'Pistolet à seringues',
@@ -244,7 +244,8 @@ export const LIGHTWEAPONS_LOOT_DATA_FR = [
     Cost: 132,
     Rarity: 2,
     Munitions: 'Seringues',
-    id: 15
+    id: 'l-15'
   }
 ]
+
 

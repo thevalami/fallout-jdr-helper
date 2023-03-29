@@ -40,7 +40,7 @@ export const OUTFITS_LOOT_DATA_FR = [
     Cost: 5,
     Rarity: '0',
     Special: 'Vêtement',
-    id: 1
+    id: 'o-1'
   },
   {
     Name: "Uniforme de la Confrérie de l'Acier",
@@ -52,7 +52,7 @@ export const OUTFITS_LOOT_DATA_FR = [
     Cost: 20,
     Rarity: 2,
     Special: 'Vêtement',
-    id: 2
+    id: 'o-2'
   },
   {
     Name: 'Vêtements décontractés',
@@ -64,7 +64,7 @@ export const OUTFITS_LOOT_DATA_FR = [
     Cost: 20,
     Rarity: 1,
     Special: "Vêtement. Permet de relancer une fois par scène un seul D20 sur un test de compétence basé sur la FOR ou l'AGI. Peut être renforcée avec du Tissu Balistique",
-    id: 3
+    id: 'o-3'
   },
   {
     Name: 'Vêtements de cuir',
@@ -76,7 +76,7 @@ export const OUTFITS_LOOT_DATA_FR = [
     Cost: 5,
     Rarity: 1,
     Special: 'Vêtement',
-    id: 4
+    id: 'o-4'
   },
   {
     Name: 'Vêtements résistants',
@@ -88,7 +88,7 @@ export const OUTFITS_LOOT_DATA_FR = [
     Cost: 20,
     Rarity: 1,
     Special: 'Vêtement',
-    id: 5
+    id: 'o-5'
   },
   {
     Name: 'Treillis militaire',
@@ -100,7 +100,7 @@ export const OUTFITS_LOOT_DATA_FR = [
     Cost: 12,
     Rarity: 1,
     Special: "Vêtement. Permet de relancer une fois par scène un seul D20 sur un test de compétence basé sur la FOR ou l'AGI. Peut être renforcée avec du Tissu Balistique",
-    id: 6
+    id: 'o-6'
   },
   {
     Name: "Combinaison d'abri",
@@ -112,7 +112,7 @@ export const OUTFITS_LOOT_DATA_FR = [
     Cost: 20,
     Rarity: 2,
     Special: "Vêtement. Peut être renforcée avec un revêtement de protection supplémentaire, recevant un des mods de la table spécifique des mods de combinaison d'abri.",
-    id: 7
+    id: 'o-7'
   },
   {
     Name: 'Tenue de nomade',
@@ -124,7 +124,7 @@ export const OUTFITS_LOOT_DATA_FR = [
     Cost: 35,
     Rarity: 1,
     Special: 'Tenue',
-    id: 8
+    id: 'o-8'
   },
   {
     Name: 'Peaux',
@@ -136,7 +136,7 @@ export const OUTFITS_LOOT_DATA_FR = [
     Cost: 13,
     Rarity: '0',
     Special: 'Tenue',
-    id: 9
+    id: 'o-9'
   },
   {
     Name: 'Armure cage',
@@ -148,7 +148,7 @@ export const OUTFITS_LOOT_DATA_FR = [
     Cost: 110,
     Rarity: 3,
     Special: 'Tenue',
-    id: 10
+    id: 'o-10'
   },
   {
     Name: "Armure d'ingénieur",
@@ -160,7 +160,7 @@ export const OUTFITS_LOOT_DATA_FR = [
     Cost: 15,
     Rarity: 1,
     Special: 'Tenue',
-    id: 11
+    id: 'o-11'
   },
   {
     Name: 'Manteau lourd',
@@ -172,7 +172,7 @@ export const OUTFITS_LOOT_DATA_FR = [
     Cost: 20,
     Rarity: 1,
     Special: "Tenue. Permet de relancer une fois par scène un seul D20 sur un test de compétence basé sur l'END. Peut être renforcée avec du Tissu Balistique",
-    id: 12
+    id: 'o-12'
   },
   {
     Name: 'Blouse',
@@ -184,7 +184,7 @@ export const OUTFITS_LOOT_DATA_FR = [
     Cost: 10,
     Rarity: 1,
     Special: "Tenue. Permet de relancer une fois par scène un seul D20 sur un test de compétence basé sur l'INT. Peut être renforcée avec du Tissu Balistique",
-    id: 13
+    id: 'o-13'
   },
   {
     Name: 'Bleu de travail',
@@ -196,7 +196,7 @@ export const OUTFITS_LOOT_DATA_FR = [
     Cost: 12,
     Rarity: 1,
     Special: 'Tenue. Donne +5 à la charge maximale du porteur',
-    id: 14
+    id: 'o-14'
   },
   {
     Name: 'Vêtements élégants',
@@ -208,7 +208,7 @@ export const OUTFITS_LOOT_DATA_FR = [
     Cost: 30,
     Rarity: 2,
     Special: 'Tenue. Permet de relancer une fois par scène un seul D20 sur un test de compétence basé sur le CHR. Peut être renforcée avec du Tissu Balistique',
-    id: 15
+    id: 'o-15'
   },
   {
     Name: "Armure de scribe de la Confrérie de l'Acier",
@@ -220,7 +220,7 @@ export const OUTFITS_LOOT_DATA_FR = [
     Cost: 20,
     Rarity: 2,
     Special: 'Tenue',
-    id: 16
+    id: 'o-16'
   },
   {
     Name: "Treillis de la Confrérie de l'Acier",
@@ -232,7 +232,7 @@ export const OUTFITS_LOOT_DATA_FR = [
     Cost: 20,
     Rarity: 3,
     Special: 'Tenue',
-    id: 17
+    id: 'o-17'
   },
   {
     Name: 'Combinaison étanche',
@@ -244,7 +244,7 @@ export const OUTFITS_LOOT_DATA_FR = [
     Cost: 85,
     Rarity: 3,
     Special: 'Tenue',
-    id: 18
+    id: 'o-18'
   },
   {
     Name: 'Armure à pointes',
@@ -256,7 +256,8 @@ export const OUTFITS_LOOT_DATA_FR = [
     Cost: 65,
     Rarity: 2,
     Special: 'Tenue',
-    id: 19
+    id: 'o-19'
   }
 ]
+
 

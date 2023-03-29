@@ -2,13 +2,14 @@ import {Component, OnInit} from '@angular/core';
 import {LanguageService} from "../../shared/language.service";
 import {MERCHANT_LOOT_TYPES} from "../../data/loot-table/loot-table-lang";
 import {findDataMatching} from "../../shared/data/data-type-matcher";
-import {AlertController, ModalController} from "@ionic/angular";
+import {AlertController, ModalController, ToastController} from "@ionic/angular";
 import {CheckoutModal} from "./checkout-modal/checkout-modal.component";
 import {MerchantItem} from "./merchant-item.model";
 import {TranslateService} from "@ngx-translate/core";
 import * as LZUTF8 from "lzutf8";
-import {BarcodeScanner} from "@capacitor-community/barcode-scanner";
+import {MerchantExport} from "./merchand-export.model";
 import {isWebContext} from "../../shared/context-utils";
+import {CapacitorQRScanner} from "@johnbraum/capacitor-qrscanner";
 
 const WEALTH_QUANTITY_MULTIPLIER = 3;
 
@@ -29,7 +30,7 @@ export class MerchantPage implements OnInit {
   showQRCode = false;
 
   constructor(private languageService: LanguageService, private modalCtrl: ModalController, private alertController: AlertController,
-              private translateService: TranslateService) {
+              private translateService: TranslateService, private toastController: ToastController) {
   }
 
   ngOnInit() {
@@ -42,7 +43,7 @@ export class MerchantPage implements OnInit {
   initScreen(lang: string): void {
     this.generatedItems = {};
     this.merchantReady = false;
-    this.lootTypes = MERCHANT_LOOT_TYPES[lang];
+    this.lootTypes = MERCHANT_LOOT_TYPES[lang].sort((a, b) => a.localeCompare(b));
   }
 
   generateMerchant(): void {
@@ -51,7 +52,7 @@ export class MerchantPage implements OnInit {
     this.merchantReady = false;
     this.capsules = this.randomIntFromInterval((this.wealth - 1) * 100, this.wealth * 100);
 
-    this.lootTypes.sort((a, b) => a.localeCompare(b)).forEach(lootType => {
+    this.lootTypes.forEach(lootType => {
       const data = findDataMatching(this.languageService.getCurrentLanguage(), lootType);
 
       const candidateData: MerchantItem[] = data.filter(value => {
@@ -196,7 +197,7 @@ export class MerchantPage implements OnInit {
   }
 
   generateQRCode() {
-    const dataExport = {
+    const dataExport: MerchantExport = {
       'wealth': this.wealth,
       'capsules': this.capsules,
       'items': {}
@@ -213,36 +214,62 @@ export class MerchantPage implements OnInit {
         })
       });
     }
-    const compressedData = LZUTF8.compress(JSON.stringify(dataExport), {"outputEncoding": "StorageBinaryString"});
-    console.log(JSON.stringify(dataExport), JSON.stringify(dataExport).length, compressedData, compressedData.length);
-
-    this.qrCodeValue = compressedData;
+    this.qrCodeValue = LZUTF8.compress(JSON.stringify(dataExport), {"outputEncoding": "StorageBinaryString"});
     this.showQRCode = true;
   }
 
   async startScan() {
-    document.querySelector('body').classList.add('scanner-active');
+    if (!this.isWebDevice()) {
+      let result = await CapacitorQRScanner.scan();
 
-    // Check camera permission
-    // This is just a simple example, check out the better checks below
-    await BarcodeScanner.checkPermission({force: true});
-
-    // make background of WebView transparent
-    // note: if you are using ionic this might not be enough, check below
-    BarcodeScanner.hideBackground();
-
-    const result = await BarcodeScanner.startScan(); // start scanning and wait for a result
-
-    // if the result has content
-    if (result.hasContent) {
-      const plainData = LZUTF8.decompress(result.hasContent, {"inputEncoding": "StorageBinaryString"});
-      alert(plainData); // log the raw scanned content
+      if (result.code) {
+        const plainData = LZUTF8.decompress(result.code, {"inputEncoding": "StorageBinaryString"});
+        this.importMerchant(this.checkAndParse(plainData));
+      }
     }
 
-    document.querySelector('body').classList.remove('scanner-active');
   };
 
   isWebDevice(): boolean {
     return isWebContext();
+  }
+
+  private checkAndParse(plainData: any): MerchantExport {
+    try {
+      return JSON.parse(plainData) as MerchantExport;
+    } catch (e) {
+      this.toastController.create({
+        message: this.translateService.instant('MERCHANT.QRCODE-ERROR'),
+        duration: 5000,
+        position: 'bottom'
+      }).then(toast => toast.present());
+      return null;
+    }
+  }
+
+  private importMerchant(importedData: MerchantExport): void {
+    this.merchantReady = false;
+    this.wealth = importedData.wealth;
+    this.capsules = importedData.capsules;
+    this.generatedItems = {};
+
+
+    let sortedLootTypes = Object.keys(importedData.items).sort((a, b) => a.localeCompare(b));
+    for (const lootType of sortedLootTypes) {
+      this.generatedItems[lootType] = [];
+      importedData.items[lootType].forEach(item => {
+        this.generatedItems[lootType].push({
+          item: this.findItemMatchingId(lootType, item.i),
+          quantity: item.q,
+          boughtQuantity: 0
+        });
+      });
+    }
+    this.merchantReady = true;
+  }
+
+  private findItemMatchingId(lootType: string, id: string): MerchantItem {
+    const data = findDataMatching(this.languageService.getCurrentLanguage(), lootType);
+    return data.filter(value => value.id === id)[0];
   }
 }

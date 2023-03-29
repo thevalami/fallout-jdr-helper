@@ -24,7 +24,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: 10,
     Cost: 150,
     Rarity: 3,
-    id: 1
+    id: 't-1'
   },
   {
     Name: 'Brahmine de bât',
@@ -32,7 +32,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: '–',
     Cost: 200,
     Rarity: 3,
-    id: 2
+    id: 't-2'
   },
   {
     Name: 'Compteur Geiger',
@@ -40,7 +40,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: 4,
     Cost: 325,
     Rarity: 3,
-    id: 3
+    id: 't-3'
   },
   {
     Name: 'Épingle à cheveux',
@@ -48,7 +48,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 1,
     Rarity: '0',
-    id: 4
+    id: 't-4'
   },
   {
     Name: 'Fusée de détresse',
@@ -56,7 +56,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 10,
     Rarity: 1,
-    id: 5
+    id: 't-5'
   },
   {
     Name: 'Holoplaques',
@@ -64,7 +64,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 5,
     Rarity: 2,
-    id: 6
+    id: 't-6'
   },
   {
     Name: 'Kit de serrurier',
@@ -72,7 +72,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: 1,
     Cost: 150,
     Rarity: 2,
-    id: 7
+    id: 't-7'
   },
   {
     Name: 'Lampe de poche',
@@ -80,7 +80,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: 1,
     Cost: 100,
     Rarity: 3,
-    id: 8
+    id: 't-8'
   },
   {
     Name: 'Lanterne',
@@ -88,7 +88,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: '1,5',
     Cost: 15,
     Rarity: 2,
-    id: 9
+    id: 't-9'
   },
   {
     Name: "Lecteur d'holobande",
@@ -96,7 +96,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: '1,5',
     Cost: 250,
     Rarity: 2,
-    id: 10
+    id: 't-10'
   },
   {
     Name: 'Multioutil',
@@ -104,7 +104,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: '0,5',
     Cost: 100,
     Rarity: 2,
-    id: 11
+    id: 't-11'
   },
   {
     Name: 'Outil de crochetage électronique',
@@ -112,7 +112,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: 2,
     Cost: 375,
     Rarity: 4,
-    id: 12
+    id: 't-12'
   },
   {
     Name: 'Pip-Boy',
@@ -120,7 +120,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: '–',
     Cost: '–',
     Rarity: '–',
-    id: 13
+    id: 't-13'
   },
   {
     Name: 'Radio',
@@ -128,7 +128,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: 1,
     Cost: 75,
     Rarity: 2,
-    id: 14
+    id: 't-14'
   },
   {
     Name: 'Sac à dos, grand',
@@ -136,7 +136,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: '–',
     Cost: 60,
     Rarity: 2,
-    id: 15
+    id: 't-15'
   },
   {
     Name: 'Sac à dos, petit',
@@ -144,7 +144,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: '–',
     Cost: 30,
     Rarity: 1,
-    id: 16
+    id: 't-16'
   },
   {
     Name: 'Torche',
@@ -152,7 +152,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: '0,5',
     Cost: 10,
     Rarity: 1,
-    id: 17
+    id: 't-17'
   },
   {
     Name: 'Trousse de médecin',
@@ -160,7 +160,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: 5,
     Cost: 300,
     Rarity: 3,
-    id: 18
+    id: 't-18'
   },
   {
     Name: 'Trousse de premiers secours',
@@ -168,7 +168,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: 2,
     Cost: 200,
     Rarity: 2,
-    id: 19
+    id: 't-19'
   },
   {
     Name: 'Stealth Boy',
@@ -176,7 +176,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: '0.5',
     Cost: 100,
     Rarity: 3,
-    id: 20
+    id: 't-20'
   },
   {
     Name: 'Kit de réparation de robots',
@@ -184,7 +184,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: '<0.5>',
     Cost: 48,
     Rarity: 2,
-    id: 21
+    id: 't-21'
   },
   {
     Name: 'Diffuseur de stimpak',
@@ -192,7 +192,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: '0.5',
     Cost: 100,
     Rarity: 5,
-    id: 22
+    id: 't-22'
   },
   {
     Name: 'Livres et magazines',
@@ -200,6 +200,7 @@ export const TOOLS_LOOT_DATA_FR = [
     Weight: '<0.5',
     Cost: 100,
     Rarity: 3,
-    id: 23
+    id: 't-23'
   }
 ]
+

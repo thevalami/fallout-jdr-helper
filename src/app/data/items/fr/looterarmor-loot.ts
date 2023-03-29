@@ -36,7 +36,7 @@ export const RAIDERARMOR_LOOT_DATA_FR = [
     Weight: '3,5',
     Cost: 18,
     Rarity: '0',
-    id: 1
+    id: 'r-1'
   },
   {
     Name: 'Jambière de pillard',
@@ -47,7 +47,7 @@ export const RAIDERARMOR_LOOT_DATA_FR = [
     Weight: '1,5',
     Cost: 8,
     Rarity: '0',
-    id: 2
+    id: 'r-2'
   },
   {
     Name: 'Brassard de pillard',
@@ -58,7 +58,7 @@ export const RAIDERARMOR_LOOT_DATA_FR = [
     Weight: '1,5',
     Cost: 6,
     Rarity: '0',
-    id: 3
+    id: 'r-3'
   },
   {
     Name: 'Plastron de pillard solide',
@@ -69,7 +69,7 @@ export const RAIDERARMOR_LOOT_DATA_FR = [
     Weight: 6,
     Cost: 33,
     Rarity: 1,
-    id: 4
+    id: 'r-4'
   },
   {
     Name: 'Jambière de pillard solide',
@@ -80,7 +80,7 @@ export const RAIDERARMOR_LOOT_DATA_FR = [
     Weight: '3,5',
     Cost: 13,
     Rarity: 1,
-    id: 5
+    id: 'r-5'
   },
   {
     Name: 'Brassard de pillard solide',
@@ -91,7 +91,7 @@ export const RAIDERARMOR_LOOT_DATA_FR = [
     Weight: '3,5',
     Cost: 8,
     Rarity: 1,
-    id: 6
+    id: 'r-6'
   },
   {
     Name: 'Plastron de pillard lourd',
@@ -102,7 +102,7 @@ export const RAIDERARMOR_LOOT_DATA_FR = [
     Weight: '8,5',
     Cost: 48,
     Rarity: 2,
-    id: 7
+    id: 'r-7'
   },
   {
     Name: 'Jambière de pillard lourde',
@@ -113,7 +113,7 @@ export const RAIDERARMOR_LOOT_DATA_FR = [
     Weight: 5,
     Cost: 18,
     Rarity: 2,
-    id: 8
+    id: 'r-8'
   },
   {
     Name: 'Brassard de pillard lourd',
@@ -124,7 +124,8 @@ export const RAIDERARMOR_LOOT_DATA_FR = [
     Weight: 5,
     Cost: 15,
     Rarity: 2,
-    id: 9
+    id: 'r-9'
   }
 ]
+
 

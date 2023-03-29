@@ -36,7 +36,7 @@ export const VAULTSEC_ARMOR_LOOT_DATA_FR = [
     "Weight": 1,
     "Cost": 20,
     "Rarity": 1,
-    "id": 1
+    "id": "v-1",
   },
   {
     "Name": "Armure de sécurité Vault-Tec",
@@ -47,6 +47,6 @@ export const VAULTSEC_ARMOR_LOOT_DATA_FR = [
     "Weight": 4,
     "Cost": 16,
     "Rarity": 1,
-    "id": 2
+    "id": "v-2"
   }
 ]

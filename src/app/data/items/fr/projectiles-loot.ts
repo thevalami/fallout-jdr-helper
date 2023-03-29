@@ -36,7 +36,7 @@ export const PROJECTILES_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 10,
     Rarity: 1,
-    id: 1
+    id: 'p-1'
   },
   {
     Name: 'Tomahawk',
@@ -47,7 +47,7 @@ export const PROJECTILES_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 15,
     Rarity: 2,
-    id: 2
+    id: 'p-2'
   },
   {
     Name: 'Javelot',
@@ -58,6 +58,7 @@ export const PROJECTILES_LOOT_DATA_FR = [
     Weight: 2,
     Cost: 10,
     Rarity: 1,
-    id: 3
+    id: 'p-3'
   }
 ]
+

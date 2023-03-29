@@ -35,7 +35,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 5,
       Rarity: 1,
-      id: 1
+      id: 'd-1'
     },
     {
       Name: 'Boisson rafraîchissante',
@@ -45,7 +45,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 110,
       Rarity: 5,
-      id: 2
+      id: 'd-2'
     },
     {
       Name: 'Bourbon',
@@ -55,7 +55,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 7,
       Rarity: 2,
-      id: 3
+      id: 'd-3'
     },
     {
       Name: 'Eau-de-vie',
@@ -65,7 +65,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 30,
       Rarity: 3,
-      id: 4
+      id: 'd-4'
     },
     {
       Name: 'Eau purifiée',
@@ -75,7 +75,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 20,
       Rarity: 1,
-      id: 5
+      id: 'd-5'
     },
     {
       Name: 'Eau sale',
@@ -85,7 +85,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 5,
       Rarity: '0',
-      id: 6
+      id: 'd-6'
     },
     {
       Name: 'Gnôle des Terres désolées',
@@ -95,7 +95,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 10,
       Rarity: 3,
-      id: 7
+      id: 'd-7'
     },
     {
       Name: 'Jus de fruit mutant',
@@ -105,7 +105,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 8,
       Rarity: 2,
-      id: 8
+      id: 'd-8'
     },
     {
       Name: 'Jus de goudrelle',
@@ -115,7 +115,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 5,
       Rarity: 4,
-      id: 9
+      id: 'd-9'
     },
     {
       Name: 'Jus de melon',
@@ -125,7 +125,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 6,
       Rarity: 2,
-      id: 10
+      id: 'd-10'
     },
     {
       Name: 'Jus de pomate',
@@ -135,7 +135,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 7,
       Rarity: 3,
-      id: 11
+      id: 'd-11'
     },
     {
       Name: 'Lait de brahmine',
@@ -145,7 +145,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 15,
       Rarity: 2,
-      id: 12
+      id: 'd-12'
     },
     {
       Name: 'Nuka Cherry',
@@ -155,7 +155,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 40,
       Rarity: 3,
-      id: 13
+      id: 'd-13'
     },
     {
       Name: 'Nuka Cola',
@@ -165,7 +165,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 20,
       Rarity: 2,
-      id: 14
+      id: 'd-14'
     },
     {
       Name: 'Nuka Cola Quantum',
@@ -175,7 +175,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 50,
       Rarity: 5,
-      id: 15
+      id: 'd-15'
     },
     {
       Name: 'Poche de sang',
@@ -185,7 +185,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 10,
       Rarity: 2,
-      id: 16
+      id: 'd-16'
     },
     {
       Name: 'Poche de sang luminescent',
@@ -195,7 +195,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 30,
       Rarity: 3,
-      id: 17
+      id: 'd-17'
     },
     {
       Name: 'Rhum',
@@ -205,7 +205,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 8,
       Rarity: 2,
-      id: 18
+      id: 'd-18'
     },
     {
       Name: 'Sang irradié',
@@ -215,7 +215,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '<0,5',
       Cost: 50,
       Rarity: 2,
-      id: 19
+      id: 'd-19'
     },
     {
       Name: 'Vin',
@@ -225,7 +225,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 5,
       Rarity: 3,
-      id: 20
+      id: 'd-20'
     },
     {
       Name: 'Vodka',
@@ -235,7 +235,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 5,
       Rarity: 3,
-      id: 21
+      id: 'd-21'
     },
     {
       Name: 'Whisky',
@@ -245,6 +245,7 @@ export const DRINK_LOOT_DATA_FR =
       Weight: '0,5',
       Cost: 5,
       Rarity: 3,
-      id: 22
+      id: 'd-22'
     }
-  ];
+  ]
+;

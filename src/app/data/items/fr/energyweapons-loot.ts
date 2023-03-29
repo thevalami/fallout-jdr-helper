@@ -48,7 +48,7 @@ export const ENERGYWEAPONS_LOOT_DATA_FR = [
     Cost: 50,
     Rarity: 2,
     Munitions: 'Cellules à fusion',
-    id: 1
+    id: 'e-1'
   },
   {
     Name: 'Mousquet laser',
@@ -62,7 +62,7 @@ export const ENERGYWEAPONS_LOOT_DATA_FR = [
     Cost: 57,
     Rarity: 1,
     Munitions: 'Cellules à fusion',
-    id: 2
+    id: 'e-2'
   },
   {
     Name: 'Arme laser',
@@ -76,7 +76,7 @@ export const ENERGYWEAPONS_LOOT_DATA_FR = [
     Cost: 69,
     Rarity: 2,
     Munitions: 'Cellules à fusion',
-    id: 3
+    id: 'e-3'
   },
   {
     Name: 'Arme plasma',
@@ -90,7 +90,7 @@ export const ENERGYWEAPONS_LOOT_DATA_FR = [
     Cost: 123,
     Rarity: 3,
     Munitions: 'Cartouches au plasma',
-    id: 4
+    id: 'e-4'
   },
   {
     Name: 'Pistolet Gamma',
@@ -104,7 +104,8 @@ export const ENERGYWEAPONS_LOOT_DATA_FR = [
     Cost: 156,
     Rarity: 5,
     Munitions: 'Cartouches au plasma',
-    id: 5
+    id: 'e-5'
   }
 ]
+
 

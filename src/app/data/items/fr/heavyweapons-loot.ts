@@ -51,7 +51,7 @@ export const HEAVYWEAPONS_LOOT_DATA_FR = [
     Cost: 512,
     Rarity: 4,
     Munitions: 'Mini-bombes nucléaires',
-    id: 1
+    id: 'h-1'
   },
   {
     Name: 'Incinérateur Lourd',
@@ -65,7 +65,7 @@ export const HEAVYWEAPONS_LOOT_DATA_FR = [
     Cost: 350,
     Rarity: 4,
     Munitions: 'Carburant de lance-flammes',
-    id: 2
+    id: 'h-2'
   },
   {
     Name: 'Junk Jet',
@@ -81,7 +81,7 @@ export const HEAVYWEAPONS_LOOT_DATA_FR = [
     Cost: 285,
     Rarity: 3,
     Munitions: "N'importe quoi",
-    id: 3
+    id: 'h-3'
   },
   {
     Name: 'Lance Flammes',
@@ -95,7 +95,7 @@ export const HEAVYWEAPONS_LOOT_DATA_FR = [
     Cost: 137,
     Rarity: 3,
     Munitions: 'Carburant de lance-flammes',
-    id: 4
+    id: 'h-4'
   },
   {
     Name: 'Lance Missile',
@@ -109,7 +109,7 @@ export const HEAVYWEAPONS_LOOT_DATA_FR = [
     Cost: 314,
     Rarity: 4,
     Munitions: 'Missiles',
-    id: 5
+    id: 'h-5'
   },
   {
     Name: 'Gatling Laser',
@@ -123,7 +123,7 @@ export const HEAVYWEAPONS_LOOT_DATA_FR = [
     Cost: 804,
     Rarity: 3,
     Munitions: 'Cellules à fusion ou Réacteur à fusion',
-    id: 6
+    id: 'h-6'
   },
   {
     Name: 'Minigun',
@@ -137,7 +137,8 @@ export const HEAVYWEAPONS_LOOT_DATA_FR = [
     Cost: 382,
     Rarity: 2,
     Munitions: 'Cartouches 5 mm',
-    id: 7
+    id: 'h-7'
   }
 ]
+
 

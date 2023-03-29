@@ -40,7 +40,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: '0',
     Cost: '0',
     Rarity: '0',
-    id: 1
+    id: 'm-1'
   },
   {
     Name: 'Pierre',
@@ -52,7 +52,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: '0,5',
     Cost: '0',
     Rarity: '0',
-    id: 2
+    id: 'm-2'
   },
   {
     Name: 'Coup de Crosse (1 main)',
@@ -64,7 +64,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: "Même que l'arme",
     Cost: "Même que l'arme",
     Rarity: "Même que l'arme",
-    id: 3
+    id: 'm-3'
   },
   {
     Name: 'Coup de Crosse',
@@ -76,7 +76,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: "Même que l'arme à distance à Deux mains",
     Cost: "Même que l'arme à distance à Deux mains",
     Rarity: "Même que l'arme à distance à Deux mains",
-    id: 4
+    id: 'm-4'
   },
   {
     Name: 'Epée',
@@ -88,7 +88,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: '1,5',
     Cost: 50,
     Rarity: 2,
-    id: 5
+    id: 'm-5'
   },
   {
     Name: 'Couteau de Combat',
@@ -100,7 +100,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: '0,5',
     Cost: 25,
     Rarity: 1,
-    id: 6
+    id: 'm-6'
   },
   {
     Name: 'Machette',
@@ -112,7 +112,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: 1,
     Cost: 25,
     Rarity: 1,
-    id: 7
+    id: 'm-7'
   },
   {
     Name: 'Eventreur',
@@ -124,7 +124,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: 3,
     Cost: 50,
     Rarity: 2,
-    id: 8
+    id: 'm-8'
   },
   {
     Name: 'Flambeur',
@@ -136,7 +136,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: '1,5',
     Cost: 200,
     Rarity: 3,
-    id: 9
+    id: 'm-9'
   },
   {
     Name: "Cran d'Arrêt",
@@ -148,7 +148,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: '0,5',
     Cost: 20,
     Rarity: '0',
-    id: 10
+    id: 'm-10'
   },
   {
     Name: 'Batte de baseball',
@@ -160,7 +160,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: '1,5',
     Cost: 25,
     Rarity: 1,
-    id: 11
+    id: 'm-11'
   },
   {
     Name: 'Batte de baseball en aluminium',
@@ -172,7 +172,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: 1,
     Cost: 32,
     Rarity: 2,
-    id: 12
+    id: 'm-12'
   },
   {
     Name: 'Planche',
@@ -184,7 +184,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: '1,5',
     Cost: 20,
     Rarity: '0',
-    id: 13
+    id: 'm-13'
   },
   {
     Name: 'Tuyau de plomb',
@@ -196,7 +196,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: '1,5',
     Cost: 15,
     Rarity: '0',
-    id: 14
+    id: 'm-14'
   },
   {
     Name: 'Clé Serre-Tube',
@@ -208,7 +208,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: 1,
     Cost: 30,
     Rarity: 1,
-    id: 15
+    id: 'm-15'
   },
   {
     Name: 'Queue de billard',
@@ -220,7 +220,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: '0,5',
     Cost: 10,
     Rarity: '0',
-    id: 16
+    id: 'm-16'
   },
   {
     Name: 'Rouleau à pâtisserie',
@@ -232,7 +232,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: '0,5',
     Cost: 10,
     Rarity: '0',
-    id: 17
+    id: 'm-17'
   },
   {
     Name: 'Matraque',
@@ -244,7 +244,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: '0,5',
     Cost: 10,
     Rarity: '0',
-    id: 18
+    id: 'm-18'
   },
   {
     Name: 'Masse',
@@ -256,7 +256,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: 6,
     Cost: 40,
     Rarity: 2,
-    id: 19
+    id: 'm-19'
   },
   {
     Name: 'Super Masse',
@@ -268,7 +268,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: 10,
     Cost: 180,
     Rarity: 3,
-    id: 20
+    id: 'm-20'
   },
   {
     Name: 'Démonte-pneu',
@@ -280,7 +280,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: 1,
     Cost: 25,
     Rarity: 1,
-    id: 21
+    id: 'm-21'
   },
   {
     Name: 'Canne',
@@ -292,7 +292,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: 1,
     Cost: 10,
     Rarity: '0',
-    id: 22
+    id: 'm-22'
   },
   {
     Name: 'Gant de boxe',
@@ -304,7 +304,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: '0,5',
     Cost: 10,
     Rarity: 1,
-    id: 23
+    id: 'm-23'
   },
   {
     Name: "Gantelet d'écorcheur",
@@ -316,7 +316,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: 5,
     Cost: 75,
     Rarity: 3,
-    id: 24
+    id: 'm-24'
   },
   {
     Name: 'Poing américain',
@@ -328,7 +328,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 10,
     Rarity: 1,
-    id: 25
+    id: 'm-25'
   },
   {
     Name: 'Poing assisté',
@@ -340,6 +340,7 @@ export const MELEEWEAPONS_LOOT_DATA_FR = [
     Weight: 2,
     Cost: 100,
     Rarity: 2,
-    id: 26
+    id: 'm-26'
   }
 ]
+

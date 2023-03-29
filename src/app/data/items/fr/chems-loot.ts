@@ -32,7 +32,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 125,
     Rarity: 3,
-    id: 1
+    id: 'c-1'
   },
   {
     Name: 'Antibiotiques',
@@ -42,7 +42,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 75,
     Rarity: 3,
-    id: 2
+    id: 'c-2'
   },
   {
     Name: 'Baume de soin',
@@ -52,7 +52,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 20,
     Rarity: 1,
-    id: 3
+    id: 'c-3'
   },
   {
     Name: 'Bave de scrito',
@@ -62,7 +62,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 40,
     Rarity: 2,
-    id: 4
+    id: 'c-4'
   },
   {
     Name: 'Buffjet',
@@ -72,7 +72,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 75,
     Rarity: 4,
-    id: 5
+    id: 'c-5'
   },
   {
     Name: 'Buffout',
@@ -82,7 +82,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 45,
     Rarity: 2,
-    id: 6
+    id: 'c-6'
   },
   {
     Name: 'Bufftats',
@@ -92,7 +92,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 75,
     Rarity: 4,
-    id: 7
+    id: 'c-7'
   },
   {
     Name: 'Calmex',
@@ -102,7 +102,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 100,
     Rarity: 4,
-    id: 8
+    id: 'c-8'
   },
   {
     Name: 'Daddy-O',
@@ -112,7 +112,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 50,
     Rarity: 2,
-    id: 9
+    id: 'c-9'
   },
   {
     Name: 'Daytripper',
@@ -122,7 +122,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 40,
     Rarity: 3,
-    id: 10
+    id: 'c-10'
   },
   {
     Name: 'Fureur',
@@ -132,7 +132,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 30,
     Rarity: 4,
-    id: 11
+    id: 'c-11'
   },
   {
     Name: 'Jet',
@@ -142,7 +142,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 50,
     Rarity: 2,
-    id: 12
+    id: 'c-12'
   },
   {
     Name: 'Jet Fuel',
@@ -152,7 +152,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 60,
     Rarity: 3,
-    id: 13
+    id: 'c-13'
   },
   {
     Name: 'Med-X',
@@ -162,7 +162,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 50,
     Rarity: 2,
-    id: 14
+    id: 'c-14'
   },
   {
     Name: 'Mentats',
@@ -172,7 +172,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 50,
     Rarity: 2,
-    id: 15
+    id: 'c-15'
   },
   {
     Name: 'Mentats fruits rouges',
@@ -182,7 +182,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 60,
     Rarity: 3,
-    id: 16
+    id: 'c-16'
   },
   {
     Name: 'Mentats orange',
@@ -192,7 +192,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 60,
     Rarity: 3,
-    id: 17
+    id: 'c-17'
   },
   {
     Name: 'Mentats raisin',
@@ -202,7 +202,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 60,
     Rarity: 3,
-    id: 18
+    id: 'c-18'
   },
   {
     Name: 'Overdrive',
@@ -212,7 +212,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 55,
     Rarity: 3,
-    id: 19
+    id: 'c-19'
   },
   {
     Name: 'Psycho',
@@ -222,7 +222,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 50,
     Rarity: 2,
-    id: 20
+    id: 'c-20'
   },
   {
     Name: 'Psychobuff',
@@ -232,7 +232,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 70,
     Rarity: 4,
-    id: 21
+    id: 'c-21'
   },
   {
     Name: 'Psycho Jet',
@@ -242,7 +242,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 70,
     Rarity: 4,
-    id: 22
+    id: 'c-22'
   },
   {
     Name: 'Psychotats',
@@ -252,7 +252,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 70,
     Rarity: 4,
-    id: 23
+    id: 'c-23'
   },
   {
     Name: 'RadAway',
@@ -262,7 +262,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 80,
     Rarity: 2,
-    id: 24
+    id: 'c-24'
   },
   {
     Name: 'RadAway (dilué)',
@@ -272,7 +272,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 50,
     Rarity: 1,
-    id: 25
+    id: 'c-25'
   },
   {
     Name: 'Rad-X',
@@ -282,7 +282,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 40,
     Rarity: 2,
-    id: 26
+    id: 'c-26'
   },
   {
     Name: 'Rad-X (dilué)',
@@ -292,7 +292,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 25,
     Rarity: 1,
-    id: 27
+    id: 'c-27'
   },
   {
     Name: 'Stimpak',
@@ -302,7 +302,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 50,
     Rarity: 2,
-    id: 28
+    id: 'c-28'
   },
   {
     Name: 'Stimpak (dilué)',
@@ -312,7 +312,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 30,
     Rarity: 1,
-    id: 29
+    id: 'c-29'
   },
   {
     Name: 'Super Stimpak',
@@ -322,7 +322,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 90,
     Rarity: 4,
-    id: 30
+    id: 'c-30'
   },
   {
     Name: 'Ultra Jet',
@@ -332,7 +332,7 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 67,
     Rarity: 2,
-    id: 31
+    id: 'c-31'
   },
   {
     Name: 'X-Cell',
@@ -342,7 +342,8 @@ export const CHEMS_LOOT_DATA_FR = [
     Weight: '<0,5',
     Cost: 60,
     Rarity: 4,
-    id: 32
+    id: 'c-32'
   }
 ]
+
 
