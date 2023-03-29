@@ -62,7 +62,7 @@
   </ion-content>
 
   <ion-fab vertical="bottom" horizontal="end" slot="fixed">
-    <ion-fab-button>
+    <ion-fab-button *ngIf="merchantReady || !isWebDevice()">
       <ion-icon name="apps"></ion-icon>
     </ion-fab-button>
     <ion-fab-list side="top">
@@ -89,11 +89,7 @@
         </ion-toolbar>
       </ion-header>
       <ion-content class="ion-padding">
-        Scannez ce QRCode pour afficher le marchand sur un autre dispositif
-        <ul>
-          <li><strong>Android uniquement</strong></li>
-          <li><strong style="color: red">EN COURS DE DEVELOPPEMENT</strong></li>
-        </ul>
+        <ion-note>{{'MERCHANT.QRCODE-HELP' | translate}}</ion-note>
         <qrcode [qrdata]="qrCodeValue" [width]="382" [errorCorrectionLevel]="'M'"></qrcode>
       </ion-content>
     </ng-template>

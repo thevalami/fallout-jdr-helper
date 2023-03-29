@@ -106,7 +106,8 @@
     "HELPBUY": "Pour calculer le prix d'achat total, cliquez sur les objets désirés",
     "NOTRICHENOUGHT": "Ce marchand n'est pas assez riche pour cette transaction",
     "TOTAL": "Total",
-    "QRCODE-ERROR": "Ce QRCode n'est pas valide, veuillez ressayer"
+    "QRCODE-ERROR": "Ce QRCode n'est pas valide, veuillez ressayer",
+    "QRCODE-HELP": "Scannez ce QRCode via l'application pour importer le marchand (Android uniquement)"
   },
   "JUNK": {
     "COMMON": "Fréquents",
