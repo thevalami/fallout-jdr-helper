@@ -15,8 +15,8 @@
 
         <ion-list>
           <ion-item>
-            <ion-label>{{'APP.LANGUAGEPICKER' | translate }}</ion-label>
-            <ion-select interface="action-sheet" (ionChange)="changeLanguage($event)" [(ngModel)]="currentLanguage">
+            <ion-select interface="action-sheet" [label]="'APP.LANGUAGEPICKER' | translate"
+                        (ionChange)="changeLanguage($event)" [(ngModel)]="currentLanguage">
               <ion-select-option value="fr">Français</ion-select-option>
             </ion-select>
           </ion-item>

@@ -1,6 +1,5 @@
 <ion-item>
-  <ion-label>{{"DICES.DICECOUNT" | translate }}</ion-label>
-  <ion-input type="number" name="combatDiceCount" [(ngModel)]="d20DiceCount">
+  <ion-input type="number" [label]="'DICES.DICECOUNT' | translate" name="combatDiceCount" [(ngModel)]="d20DiceCount">
   </ion-input>
 </ion-item>
 

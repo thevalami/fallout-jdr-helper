@@ -65,9 +65,10 @@ export class AppComponent implements OnInit {
         this.buildMenu('QUICKSEARCH', 'quick-search', 'search'),
         this.buildMenu('RANDOMBOOKS', 'books', 'book'),
         this.buildMenu('RANDOMLOOT', 'random-loot', 'shuffle'),
-        this.buildMenu('AUTOLOOT', 'auto-loot', 'bag-handle-outline'),
-        this.buildMenu('MERCHANT', 'merchant', 'cash-outline'),
-        this.buildMenu('DISEASES', 'diseases', 'medical-outline')
+        this.buildMenu('AUTOLOOT', 'auto-loot', 'bag-handle'),
+        this.buildMenu('MERCHANT', 'merchant', 'cash'),
+        this.buildMenu('DISEASES', 'diseases', 'medical'),
+        this.buildMenu('MOBLEVELING', 'mob-leveling', 'ribbon')
       ]
     });
     this.sections = [...this.sections, ...REGISTERED_DATA_SECTIONS[this.currentLanguage]];

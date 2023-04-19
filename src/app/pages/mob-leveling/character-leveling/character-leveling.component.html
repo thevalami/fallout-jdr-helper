@@ -1,0 +1,118 @@
+<form class="mob" novalidate>
+  <br/>
+  <ion-row>
+    <ion-col>
+      <ion-input type="number" [label]="'MOBLEVELING.CURRENTLEVEL' | translate" aria-label='CURRENTLEVEL'
+                 name="baseLevel"
+                 label-placement="floating" fill="outline" [(ngModel)]="baseLevel"></ion-input>
+    </ion-col>
+    <ion-col>
+      <ion-input type="number" [label]="'MOBLEVELING.BONUSLEVEL' | translate" aria-label='MIND' name="mind"
+                 label-placement="floating" fill="outline" [(ngModel)]="bonusLevel"></ion-input>
+    </ion-col>
+  </ion-row>
+
+  <br/>
+  <ion-input type="number" [label]="'MOBLEVELING.STRENGTH' | translate" aria-label='STRENGTH' name="strength"
+             label-placement="floating" fill="outline" [(ngModel)]="strength"></ion-input>
+  <br/>
+  <ion-input type="number" [label]="'MOBLEVELING.PERCEPTION' | translate" aria-label='PERCEPTION' name="perception"
+             label-placement="floating" fill="outline" [(ngModel)]="perception"></ion-input>
+  <br/>
+  <ion-input type="number" [label]="'MOBLEVELING.ENDURANCE' | translate" aria-label='ENDURANCE' name="endurance"
+             label-placement="floating" fill="outline" [(ngModel)]="endurance"></ion-input>
+  <br/>
+  <ion-input type="number" [label]="'MOBLEVELING.CHARISMA' | translate" aria-label='CHARISMA' name="charisma"
+             label-placement="floating" fill="outline" [(ngModel)]="charisma"></ion-input>
+  <br/>
+  <ion-input type="number" [label]="'MOBLEVELING.INTELLIGENCE' | translate" aria-label='INTELLIGENCE'
+             name="intelligence"
+             label-placement="floating" fill="outline" [(ngModel)]="intelligence"></ion-input>
+  <br/>
+  <ion-input type="number" [label]="'MOBLEVELING.AGILITY' | translate" aria-label='AGILITY' name="agility"
+             label-placement="floating" fill="outline" [(ngModel)]="agility"></ion-input>
+  <br/>
+  <ion-input type="number" [label]="'MOBLEVELING.LUCK' | translate" aria-label='LUCK' name="luck"
+             label-placement="floating" fill="outline" [(ngModel)]="luck"></ion-input>
+  <br/>
+
+  <ion-item fill="outline">
+    <ion-radio-group [(ngModel)]="mobModifier" name="mobModifier">
+      <ion-radio aria-label='NORMAL' value="NORMAL">{{'MOBLEVELING.NORMAL' | translate}}</ion-radio>
+      <br/>
+      <ion-radio aria-label='NOTABLE' value="NOTABLE">{{'MOBLEVELING.NOTABLE' | translate}}</ion-radio>
+      <br/>
+      <ion-radio aria-label='MAJOR' value="MAJOR">{{'MOBLEVELING.MAJOR' | translate}}</ion-radio>
+      <br/>
+    </ion-radio-group>
+  </ion-item>
+
+  <ion-button expand="full" (click)="upgradeCreature()"
+              [disabled]="perception == null || agility == null || bonusLevel == null || baseLevel == null">
+    {{'MOBLEVELING.UPGRADE' | translate}}
+  </ion-button>
+
+  <ion-list *ngIf="upgradedHP > 0" class="updated-mob">
+    <ion-item-divider>
+      <ion-label>
+        {{'MOBLEVELING.MAINSTATS' | translate}}
+      </ion-label>
+    </ion-item-divider>
+    <ion-item>
+      <ion-badge slot="start"> {{upgradedHP}}</ion-badge>
+      <ion-label>{{'MOBLEVELING.HP' | translate}}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-badge slot="start"> {{initiative}}</ion-badge>
+      <ion-label>{{'MOBLEVELING.INITIATIVE' | translate}}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-badge slot="start">{{upgradedStrength}}</ion-badge>
+      <ion-label>{{'MOBLEVELING.STRENGTH' | translate}}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-badge slot="start">{{upgradedPerception}}</ion-badge>
+      <ion-label>{{'MOBLEVELING.PERCEPTION' | translate}}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-badge slot="start">{{upgradedEndurance}}</ion-badge>
+      <ion-label>{{'MOBLEVELING.ENDURANCE' | translate}}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-badge slot="start">{{upgradedCharisma}}</ion-badge>
+      <ion-label>{{'MOBLEVELING.CHARISMA' | translate}}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-badge slot="start">{{upgradedIntelligence}}</ion-badge>
+      <ion-label>{{'MOBLEVELING.INTELLIGENCE' | translate}}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-badge slot="start">{{upgradedAgility}}</ion-badge>
+      <ion-label>{{'MOBLEVELING.AGILITY' | translate}}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-badge slot="start">{{upgradedLuck}}</ion-badge>
+      <ion-label>{{'MOBLEVELING.LUCK' | translate}}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-note>{{'MOBLEVELING.RANDOM-ATTR-HELP_CHARACTER' | translate}}</ion-note>
+    </ion-item>
+    <ion-item-divider>
+      <ion-label>
+        {{'MOBLEVELING.BONUSES' | translate}}
+      </ion-label>
+    </ion-item-divider>
+    <ion-item>
+      + {{weaponModifiers}}&nbsp; {{'MOBLEVELING.WEAPONMODIFIERS' | translate}}
+    </ion-item>
+    <ion-item>
+      + {{armorModifiers}} {{'MOBLEVELING.ARMORMODIFIERS' | translate}}
+    </ion-item>
+    <ion-item>
+      + {{tagSkillsBonus}} {{'MOBLEVELING.TAGSKILLS' | translate}}
+    </ion-item>
+    <ion-item>
+      + {{skillPointsBonus}} {{'MOBLEVELING.SKILLPOINTS' | translate}}
+    </ion-item>
+  </ion-list>
+</form>

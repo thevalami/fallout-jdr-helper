@@ -15,9 +15,8 @@
       <ion-row>
         <ion-col size="12" class="ion-no-padding">
           <ion-item>
-            <ion-label>{{"AUTOLOOT.PLACE" | translate }} :</ion-label>
             <ion-select placeholder="..." [(ngModel)]="selectedPlace" interface="popover"
-                        (ionChange)="fetchLootTables()">
+                        (ionChange)="fetchLootTables()" [label]="'AUTOLOOT.PLACE' | translate">
               <ion-select-option [value]="place" *ngFor="let place of places">{{place}}</ion-select-option>
             </ion-select>
           </ion-item>

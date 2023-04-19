@@ -361,7 +361,7 @@ export const REGISTERED_DATA_SECTIONS_FR: Section[] = [
       {
         type: 'effects',
         label: 'Effets',
-        icon: 'sparkles-outline',
+        icon: 'sparkles',
         definition: EFFECT_TYPE_FR,
         data: EFFECTS_FR,
         generic: true,
@@ -370,7 +370,7 @@ export const REGISTERED_DATA_SECTIONS_FR: Section[] = [
       {
         type: 'modifiers',
         label: 'Qualités',
-        icon: 'star-outline',
+        icon: 'star',
         definition: MODIFIERS_TYPE_FR,
         data: MODIFIERS_FR,
         generic: true,

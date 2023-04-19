@@ -1,0 +1,26 @@
+<ion-app>
+
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title class="ion-text-capitalize">{{"APP.MENU.MOBLEVELING" | translate}}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="ion-padding">
+    <ion-segment value="CREATURE" (ionChange)="segmentChanged($event)">
+      <ion-segment-button value="CREATURE">
+        <ion-label>{{'MOBLEVELING.CREATURE' | translate}}</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="CHARACTER">
+        <ion-label>{{'MOBLEVELING.CHARACTER' | translate}}</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+
+    <app-creature-leveling *ngIf="mobType === 'CREATURE'"></app-creature-leveling>
+    <app-character-leveling *ngIf="mobType === 'CHARACTER'"></app-character-leveling>
+
+  </ion-content>
+</ion-app>

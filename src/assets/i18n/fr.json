@@ -16,7 +16,8 @@
       "AUTOLOOT": "Loot Automatique",
       "ANDROIDVERSION": "Version Android",
       "DISEASES": "Maladies",
-      "MERCHANT": "Marchand Automatique"
+      "MERCHANT": "Marchand Automatique",
+      "MOBLEVELING": "Amélioration ennemis"
     }
   },
   "HOME": {
@@ -114,5 +115,40 @@
     "UNCOMMON": "Peu fréquents",
     "RARE": "Rares",
     "TORSO": "sur Torse"
+  },
+  "MOBLEVELING": {
+    "CREATURE": "Créature",
+    "CHARACTER": "Personnage",
+    "CURRENTLEVEL": "Niveau (base)",
+    "BONUSLEVEL": "Niveau(x) bonus",
+    "BODY": "Corps",
+    "HP": "Points de vie",
+    "INITIATIVE": "Initiative",
+    "MIND": "Esprit",
+    "NORMAL": "Normal",
+    "MIGHTY": "Redoutable",
+    "LEGENDARY": "Légendaire",
+    "NOTABLE": "Notable",
+    "MAJOR": "Majeur",
+    "UPGRADE": "Améliorer",
+    "DAMAGEBONUS": "de dégâts",
+    "DAMAGERESIST": "Résistance dégâts",
+    "RANDOM-ATTR-HELP_CREATURE": "Les points bonus ont été automatiquement répartis entre Corps et Esprit (générez-en un nouveau pour obtenir d'autres valeurs)",
+    "RANDOM-ATTR-HELP_CHARACTER": "Les points bonus ont été automatiquement répartis entre les attributs S.P.E.C.I.A.L (générez-en un nouveau pour obtenir d'autres valeurs)",
+    "STRENGTH": "Force",
+    "PERCEPTION": "Perception",
+    "ENDURANCE": "Endurance",
+    "CHARISMA": "Charisme",
+    "INTELLIGENCE": "Intelligence",
+    "AGILITY": "Agilité",
+    "LUCK": "Chance",
+    "WEALTH": "Richesse",
+    "WEAPONMODIFIERS": "Armes supérieures ou mods d'armes",
+    "ARMORMODIFIERS": "Armures supérieures ou mods d'armures",
+    "SKILLPOINTS": "Points de compétences",
+    "TAGSKILLS": "Atouts",
+    "ATTRIBUTEPOINTS": "Points S.P.E.C.I.A.L",
+    "MAINSTATS": "Statistiques principales",
+    "BONUSES": "Autres bonus"
   }
 }

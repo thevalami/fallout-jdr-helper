@@ -42,6 +42,10 @@ const routes: Routes = [
   {
     path: 'merchant',
     loadChildren: () => import('./pages/merchant/merchant.module').then(m => m.MerchantModule)
+  },
+  {
+    path: 'mob-leveling',
+    loadChildren: () => import('./pages/mob-leveling/mob-leveling.module').then(m => m.MobLevelingModule)
   }
 ];
 
