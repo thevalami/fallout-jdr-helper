@@ -12,11 +12,12 @@ import {MOD_DEF, MODS_DATA_TABLE} from "../../data/mods/mod-lang";
 })
 export class QuickSearchPage implements OnInit {
 
-  searchText: string;
   definitions: DataId[];
   itemTypes: any[][];
+  searching = false;
 
   @ViewChild('searchBar', {static: false}) searchInput: IonSearchbar;
+  searchText: string;
 
   constructor(private searchPipe: GenericDataSearchPipe, private languageService: LanguageService) {
   }
@@ -27,45 +28,52 @@ export class QuickSearchPage implements OnInit {
     }, 100);
   }
 
-  searchItems() {
+  searchItems(event: any) {
+    this.searchText = event.target.value;
+    this.searching = true;
+    this.definitions = [];
+    this.itemTypes = [];
     if (this.searchText?.length >= 3) {
-      this.definitions = [];
-      this.itemTypes = [];
-      for (let section of REGISTERED_DATA_SECTIONS[this.languageService.getCurrentLanguage()]) {
-        for (let candidatedata of section.data) {
-          console.log(candidatedata);
-          if (!candidatedata.type.startsWith('recipe-')) {
-            const items = this.searchPipe.transform(candidatedata.data, this.searchText);
-            if (items.length > 0) {
-              this.definitions.push(candidatedata);
-              this.itemTypes.push(items);
-            }
-          }
-        }
-      }
-      let translatedItems = MODS_DATA_TABLE[this.languageService.getCurrentLanguage()];
-      for (let modType of Object.keys(translatedItems)) {
-        const modEntries = translatedItems[modType];
-        for (let moddedItem of Object.keys(modEntries.mods)) {
-          let candidateMods = modEntries.mods[moddedItem];
-          const matchingMods = this.searchPipe.transform(candidateMods, this.searchText);
-          if (matchingMods.length > 0) {
-            this.definitions.push({
-              definition: MOD_DEF[this.languageService.getCurrentLanguage()],
-              type: modType,
-              label: modEntries.label + ' : ' + moddedItem,
-              img: '',
-              moddable: false,
-              generic: true,
-              data: []
-            });
-            this.itemTypes.push(matchingMods);
-          }
-        }
-      }
-    } else {
-      this.definitions = [];
-      this.itemTypes = [];
+      this.searchNow(this.searchText);
     }
+    this.searching = false;
+  }
+
+  private searchNow(searchText: string) {
+    const newDefinitions = [];
+    const newItemTypes = [];
+    for (let section of REGISTERED_DATA_SECTIONS[this.languageService.getCurrentLanguage()]) {
+      for (let candidatedata of section.data) {
+        if (!candidatedata.type.startsWith('recipe-')) {
+          const items = this.searchPipe.transform(candidatedata.data, searchText);
+          if (items.length > 0) {
+            newDefinitions.push(candidatedata);
+            newItemTypes.push(items);
+          }
+        }
+      }
+    }
+    let translatedItems = MODS_DATA_TABLE[this.languageService.getCurrentLanguage()];
+    for (let modType of Object.keys(translatedItems)) {
+      const modEntries = translatedItems[modType];
+      for (let moddedItem of Object.keys(modEntries.mods)) {
+        let candidateMods = modEntries.mods[moddedItem];
+        const matchingMods = this.searchPipe.transform(candidateMods, searchText);
+        if (matchingMods.length > 0) {
+          newDefinitions.push({
+            definition: MOD_DEF[this.languageService.getCurrentLanguage()],
+            type: modType,
+            label: modEntries.label + ' : ' + moddedItem,
+            img: '',
+            moddable: false,
+            generic: true,
+            data: []
+          });
+          newItemTypes.push(matchingMods);
+        }
+      }
+    }
+    this.definitions = [...newDefinitions];
+    this.itemTypes = [...newItemTypes];
   }
 }

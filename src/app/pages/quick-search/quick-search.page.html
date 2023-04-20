@@ -11,9 +11,8 @@
 <ion-content class="ion-padding">
   <ion-note>{{"QUICKSEARCH.HELP" | translate}}</ion-note>
 
-  <ion-searchbar #searchBar [(ngModel)]="searchText" [placeholder]="'QUICKSEARCH.PLACEHOLDER' | translate"
-                 debounce="200"
-                 (ionChange)="searchItems()"></ion-searchbar>
+  <ion-searchbar #searchBar [placeholder]="'QUICKSEARCH.PLACEHOLDER' | translate" show-clear-button="focus"
+                 debounce="200" (ionInput)="searchItems($event)"></ion-searchbar>
   <ion-list>
     <ng-container *ngFor="let dataId of definitions; let idx = index">
       <ion-list-header><h1>{{dataId.label}}</h1></ion-list-header>
@@ -22,5 +21,11 @@
     </ng-container>
   </ion-list>
 
+  <ion-item *ngIf="searching">
+    <ion-spinner></ion-spinner>
+  </ion-item>
+  <ion-item *ngIf="!searching && definitions?.length == 0 && searchText.length > 0">
+    {{'QUICKSEARCH.NOITEMS' | translate }}
+  </ion-item>
 </ion-content>
 

@@ -79,7 +79,8 @@
   "QUICKSEARCH": {
     "TITLE": "Recherche rapide",
     "HELP": "Cherchez parmis tous les objets connus du jeu en indiquant leur nom",
-    "PLACEHOLDER": "Recherche rapide..."
+    "PLACEHOLDER": "Recherche rapide...",
+    "NOITEMS": "Aucun élément trouvé"
   },
   "LOOT-DISPLAY": {
     "DICERESULT": "Résultat dès",
