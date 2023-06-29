@@ -41,7 +41,6 @@
               "src/global.scss"
             ],
             "scripts": [],
-            "aot": false,
             "vendorChunk": true,
             "extractLicenses": false,
             "buildOptimizer": false,
