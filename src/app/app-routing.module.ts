@@ -46,7 +46,12 @@ const routes: Routes = [
   {
     path: 'mob-leveling',
     loadChildren: () => import('./pages/mob-leveling/mob-leveling.module').then(m => m.MobLevelingModule)
+  },
+  {
+    path: 'authentication',
+    loadChildren: () => import('./pages/authentication/authentication.module').then( m => m.AuthenticationPageModule)
   }
+
 ];
 
 @NgModule({

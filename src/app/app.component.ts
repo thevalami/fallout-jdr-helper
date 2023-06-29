@@ -60,6 +60,7 @@ export class AppComponent implements OnInit {
     this.sections.push({
       label: this.translate.instant('APP.SECTIONS.MAIN'),
       data: [
+        this.buildMenu('DISCORD', 'authentication', 'discord'),
         this.buildMenu('HOME', 'home', 'home'),
         this.buildMenu('DICE', 'dices', 'dice'),
         this.buildMenu('QUICKSEARCH', 'quick-search', 'search'),
