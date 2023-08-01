@@ -49,7 +49,10 @@
     "HELP": "Lancez les dès pour calculer automatiquement le(s) loots que vous trouvez dans la catégorie choisie",
     "LOOTTYPE": "Type de loot",
     "LOOTCOUNT": "Nombre de loots",
-    "THROWDICE": "Lancer les dès"
+    "THROWDICE": "Lancer les dès",
+    "OR": "OU",
+    "FINDLOOT": "Générer loot",
+    "DICENR": "Dès #"
   },
   "AUTOLOOT": {
     "HELP": "Choisissez le type de zone, la taille, et éventuellement la limite de rareté, pour obtenir un ensemble de loots aléatoires.",

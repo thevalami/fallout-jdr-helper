@@ -28,18 +28,32 @@
         <ion-col size="12" class="ion-no-padding">
           <ion-item>
             <ion-label>{{"RANDOMLOOT.LOOTCOUNT" | translate}}</ion-label>
-            <ion-input type="number" [(ngModel)]="diceCount"></ion-input>
+            <ion-input type="number" [(ngModel)]="diceCount" (ionInput)="updateDiceCount()"></ion-input>
           </ion-item>
         </ion-col>
       </ion-row>
-      <ion-row>
-        <ion-col size="12" class="ion-no-padding">
+      <ion-row class="ion-align-items-center">
+        <ion-col size="12" size-sm class="ion-no-padding">
           <ion-button color="primary" expand="block" (click)="generateRandomLoot()">
             {{"RANDOMLOOT.THROWDICE" | translate}} ({{diceDefinition}})
           </ion-button>
         </ion-col>
+        <ion-col size="2" size-sm class="ion-no-padding ion-text-center" style="align-items: center">
+          <ion-text><h1>{{"RANDOMLOOT.OR" | translate}}</h1></ion-text>
+        </ion-col>
+        <ion-col size="12" size-sm class="ion-no-padding">
+          <ion-item *ngFor="let dice of manualDices">
+            <ion-input type="number" [(ngModel)]="dice.value" [placeholder]="diceDefinition">
+              <div slot="label">
+                <ion-text>{{'RANDOMLOOT.DICENR' | translate}}{{dice.index}}&nbsp;&nbsp;</ion-text>
+              </div>
+            </ion-input>
+          </ion-item>
+          <ion-button color="primary" expand="block" (click)="generateManualLoot()">
+            {{"RANDOMLOOT.FINDLOOT" | translate}} ({{diceDefinition}})
+          </ion-button>
+        </ion-col>
       </ion-row>
-
       <app-loots-display [lootDiceResult]="lootDiceResult" [loots]="loots" [lootType]="lootType"></app-loots-display>
     </ion-grid>
   </ion-content>

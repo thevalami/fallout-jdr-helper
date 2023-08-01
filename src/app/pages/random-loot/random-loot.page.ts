@@ -17,6 +17,7 @@ export class RandomLootPage implements OnInit {
   lootTypes: LootDef[] = [];
   lootDiceResult: number[] = [];
   loots: Loot[];
+  manualDices: any[] = [];
 
   constructor(private languageService: LanguageService) {
   }
@@ -32,6 +33,7 @@ export class RandomLootPage implements OnInit {
     this.diceDefinition = LOOT_TABLE_INDEX[lang][0].dices;
     this.lootType = LOOT_TABLE_INDEX[lang][0].label;
     this.lootTypes = LOOT_TABLE_INDEX[lang];
+    this.updateDiceCount();
   }
 
   generateRandomLoot() {
@@ -49,6 +51,19 @@ export class RandomLootPage implements OnInit {
     }
   }
 
+  generateManualLoot() {
+    this.loots = [];
+    this.lootDiceResult = [];
+    let matchingLootDef: LootDef = findMatchingDefinition(this.lootType, this.languageService.getCurrentLanguage());
+    if (matchingLootDef != null) {
+      this.manualDices.forEach(dice => {
+        let loot = findMatchingLoot(dice.value, matchingLootDef);
+        this.loots.push(loot);
+        this.lootDiceResult.push(dice.value);
+      });
+    }
+  }
+
   lootTypeChanged($event: any) {
     this.loots = [];
     this.lootDiceResult = [];
@@ -56,6 +71,13 @@ export class RandomLootPage implements OnInit {
     const definition = findMatchingDefinition(this.lootType, this.languageService.getCurrentLanguage());
     if (definition != null) {
       this.diceDefinition = definition.dices;
+    }
+  }
+
+  updateDiceCount() {
+    this.manualDices = [];
+    for (let i = 0; i < this.diceCount; i++) {
+      this.manualDices.push({index: i, value: undefined});
     }
   }
 }
