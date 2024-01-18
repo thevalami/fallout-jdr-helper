@@ -31,7 +31,7 @@ export const ROBOTARMOR_LOOT_DATA_FR = [
   {
     "Name": "Blindage Mister Gutsy",
     "PhysicalRes": 2,
-    "EnergyRes": 0,
+    "EnergyRes": 2,
     "BodyParts": "Toutes",
     "MaxCarry": "- 10 kg",
     "id": "r-2"
