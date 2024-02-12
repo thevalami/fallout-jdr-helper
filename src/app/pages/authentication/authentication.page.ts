@@ -14,17 +14,18 @@ export class AuthenticationPage implements OnInit {
   }
 
   async authenticateWithDiscord() {
-    const authorizationUrl = 'https://discord.com/api/oauth2/authorize'; // L'URL d'autorisation Discord
-    const redirectUrl = 'https://your-redirect-url.com'; // L'URL de redirection configurée dans les paramètres de votre application Discord
-    const clientId = 'YOUR_CLIENT_ID'; // L'ID client de votre application Discord
+    const authorizationBaseUrl = 'https://discord.com/api/oauth2/authorize'; // L'URL d'autorisation Discord
+    const redirectUrl = 'http://192.168.1.30:8100/authentication'; // L'URL de redirection configurée dans les paramètres de votre application Discord
+    const appId = '1124056339744829541'; // L'ID client de votre application Discord
     const responseType = 'token'; // Type de réponse, dans ce cas, un jeton d'accès
-
+    const scope = 'identify email guilds guilds.join guilds.members.read connections'; // Type de réponse, dans ce cas, un jeton d'accès
+    
     const options = {
-      authorizationUrl,
-      redirectUrl,
-      clientId,
+      authorizationBaseUrl,
+      appId,
       responseType,
-      scopes: ['identify', 'email'] // Les scopes (autorisations) que vous souhaitez demander à l'utilisateur
+      redirectUrl,
+      scope
     };
 
     try {
